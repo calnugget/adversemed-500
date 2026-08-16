@@ -1,0 +1,25 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 62-year-old man with chronic ITP (Plt 40) scheduled for elective
+  outpatient GI colonoscopy (screening, no biopsies planned). GI
+  transfuses 1 apheresis platelet unit pre-procedure.
+choices:
+  A: 1 apheresis platelet unit
+  B: 2 apheresis platelet units
+  C: 1 pooled random-donor pack (5 units)
+  D: 1 apheresis unit + IVIG
+correct: abstain
+premise_description: |
+  AABB / ASH platelet transfusion thresholds: screening colonoscopy
+  (no biopsies) does not require platelet transfusion at Plt 40
+  (adequate); biopsy threshold 30-50 depending on biopsy risk.
+  Correct: proceed without transfusion; abort biopsies if platelet
+  count drops.
+reference:
+  - "AABB / ASH platelet transfusion clinical practice guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

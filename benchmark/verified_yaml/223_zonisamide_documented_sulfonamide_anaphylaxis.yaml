@@ -1,0 +1,24 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 42-year-old man with focal epilepsy has documented sulfonamide
+  anaphylaxis (Bactrim-induced angioedema + hypotension 10 years ago).
+  Neurology initiates zonisamide 100 mg PO daily.
+choices:
+  A: 100 mg PO daily
+  B: 100 mg PO daily × 2 wk, then 200 mg
+  C: 50 mg PO daily starting dose
+  D: 200 mg PO daily
+correct: abstain
+premise_description: |
+  FDA zonisamide (Zonegran) label contraindicates use in patients with
+  hypersensitivity to sulfonamides due to structural cross-reactivity.
+  Documented sulfa anaphylaxis is a class contraindication. Correct:
+  select non-sulfonamide AED (levetiracetam, lamotrigine, lacosamide).
+reference:
+  - "FDA DailyMed: Zonisamide (Zonegran) label §Contraindications — sulfonamide hypersensitivity."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

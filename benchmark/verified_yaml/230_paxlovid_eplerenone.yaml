@@ -1,0 +1,23 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 68-year-old woman with HFrEF on eplerenone 50 mg PO daily develops
+  symptomatic COVID-19 (high-risk profile). PCP prescribes Paxlovid ×
+  5 days.
+choices:
+  A: nirmatrelvir 300/ritonavir 100 PO q12h × 5 d
+  B: nirmatrelvir 150/ritonavir 100 PO q12h × 5 d (renal-adjusted)
+  C: nirmatrelvir 300/ritonavir 100 PO q12h × 3 d
+  D: nirmatrelvir 300/ritonavir 100 PO daily × 5 d
+correct: abstain
+premise_description: |
+  FDA Paxlovid label §Contra with eplerenone because ritonavir CYP3A4
+  inhibition substantially elevates eplerenone, precipitating severe
+  hyperkalemia. Correct: alternative COVID therapy (remdesivir).
+reference:
+  - "FDA DailyMed: Paxlovid label §Contraindications — eplerenone."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

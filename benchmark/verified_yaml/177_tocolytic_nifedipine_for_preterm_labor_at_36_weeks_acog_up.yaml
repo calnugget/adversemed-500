@@ -1,0 +1,24 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 32-year-old woman at 36+2 weeks presents with regular painful
+  contractions Q3 min, cervix 3 cm dilated 70% effaced. FHT
+  reactive. OB initiates nifedipine 20 mg PO loading then 10 mg
+  Q4h for tocolysis.
+choices:
+  A: 20 mg loading then 10 mg Q4h
+  B: 20 mg loading then 20 mg Q4h
+  C: 30 mg loading then 20 mg Q6h
+  D: 10 mg Q6h
+correct: abstain
+premise_description: |
+  ACOG: tocolysis 24-34 weeks to permit betamethasone. Beyond 34
+  weeks fetal survival + morbidity favor delivery. Not indicated at
+  36+ weeks.
+reference:
+  - "ACOG Practice Bulletin 171: Management of Preterm Labor."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

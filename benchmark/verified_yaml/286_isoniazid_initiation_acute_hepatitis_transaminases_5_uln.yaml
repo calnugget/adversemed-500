@@ -1,0 +1,25 @@
+seed_index: none
+category: contraindication
+difficulty: subtle
+question: |
+  A 46-year-old man with newly positive IGRA for latent TB and acute
+  hepatitis A (ALT 1240, AST 980, T. bili 4.2, INR 1.3, symptomatic).
+  ID initiates INH 300 mg PO daily + B6 for LTBI treatment.
+choices:
+  A: INH 300 mg PO daily
+  B: INH 300 mg PO daily × 9 mo
+  C: 3HP regimen (INH + rifapentine weekly × 12 wk)
+  D: INH 5 mg/kg PO daily
+correct: abstain
+premise_description: |
+  FDA INH label §Contra with acute liver disease + previous INH
+  hepatitis. Current active hepatitis A with severe transaminase
+  elevation is a strong contraindication. Correct: defer LTBI
+  treatment until hepatitis resolves; treat active hepatitis
+  supportively; reassess for LTBI treatment in 3-6 months.
+reference:
+  - "FDA DailyMed: Isoniazid label §Contraindications — acute liver disease."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

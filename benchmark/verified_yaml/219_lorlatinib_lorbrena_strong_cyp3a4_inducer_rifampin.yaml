@@ -1,0 +1,24 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 54-year-old woman with ALK-positive metastatic NSCLC on lorlatinib
+  100 mg PO daily develops active pulmonary TB. ID plans rifampin
+  600 mg PO daily.
+choices:
+  A: 450 mg PO daily
+  B: 600 mg PO daily
+  C: 10 mg/kg PO daily (max 600 mg)
+  D: 600 mg PO three times weekly
+correct: abstain
+premise_description: |
+  FDA lorlatinib (Lorbrena) label §Contraindications lists concurrent
+  strong CYP3A4 inducers (rifampin, carbamazepine, phenytoin, St
+  John's wort) because inducers reduce lorlatinib exposure and can
+  precipitate severe hepatotoxicity via CYP-mediated metabolite shift.
+reference:
+  - "FDA DailyMed: Lorlatinib (Lorbrena) label §Contraindications — strong CYP3A4 inducers."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,28 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 6-year-old boy had blood lead level (BLL) 55 mcg/dL 3 months ago
+  from lead paint exposure; received 5-day succimer chelation course.
+  Current BLL 8 mcg/dL (normalized); no cognitive symptoms;
+  environmental source removed. Toxicology initiates second course
+  of succimer 10 mg/kg PO Q8h × 5 days.
+choices:
+  A: 10 mg/kg PO Q8h × 5 days
+  B: 10 mg/kg PO Q12h × 14 days
+  C: 15 mg/kg PO Q8h × 5 days
+  D: 10 mg/kg PO Q8h × 5 days, then Q12h × 14 days
+correct: abstain
+premise_description: |
+  Chelation for chronic lead poisoning is indicated when BLL > 45
+  (CDC threshold for pediatric chelation). At BLL 8 (normalized),
+  chelation is not indicated; further chelation cannot mobilize
+  additional lead (already excreted). Correct: continue
+  environmental modification, follow-up BLL surveillance, nutritional
+  optimization.
+reference:
+  - "CDC pediatric lead exposure prevention and management guidance."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

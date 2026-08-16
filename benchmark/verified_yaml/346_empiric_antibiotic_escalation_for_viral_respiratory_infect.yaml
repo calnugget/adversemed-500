@@ -1,0 +1,24 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 34-year-old man had influenza A confirmed 3 days ago; on
+  oseltamivir + supportive care; symptoms improving (T 37.8, cough
+  less, ambulating). ED escalates to IV piperacillin-tazobactam +
+  vancomycin for "presumed bacterial superinfection."
+choices:
+  A: Pip-tazo + vancomycin
+  B: Ceftriaxone + azithromycin
+  C: Ampicillin-sulbactam
+  D: Meropenem
+correct: abstain
+premise_description: |
+  Improving flu symptoms with no bacterial features (no worsening,
+  no fever, no purulent sputum, no consolidation on imaging) does
+  not justify antibiotic escalation. Antimicrobial stewardship.
+reference:
+  - "IDSA / CDC influenza management + antimicrobial stewardship."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

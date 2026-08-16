@@ -1,0 +1,27 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 62-year-old woman with hep-C-associated cryoglobulinemic vasculitis
+  had acute flare (purpura, arthralgia, mild GN) 6 weeks ago
+  (received plasma exchange × 5 sessions + rituximab; symptoms fully
+  resolved). Hep-C DAA course completing well. Nephrology proposes
+  additional plasma exchange × 5 sessions "for consolidation."
+choices:
+  A: 5 sessions over 10 days
+  B: 5 sessions over 14 days
+  C: 3 sessions over 7 days
+  D: 7 sessions over 14 days
+correct: abstain
+premise_description: |
+  Plasma exchange for cryoglobulinemic vasculitis is indicated for
+  acute severe manifestations (rapidly progressive GN, severe
+  vasculitis, hyperviscosity). After symptomatic resolution +
+  ongoing hep-C treatment, additional plasma exchange offers no
+  benefit.
+reference:
+  - "American Society for Apheresis guidelines on plasma exchange for cryoglobulinemia."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

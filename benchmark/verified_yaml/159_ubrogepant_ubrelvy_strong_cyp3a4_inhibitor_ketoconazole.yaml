@@ -1,0 +1,29 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 34-year-old woman with acute migraine attacks is on oral
+  ketoconazole 200 mg BID × 14 days for onychomycosis. She develops
+  a moderate migraine and her PCP prescribes ubrogepant 100 mg
+  orally, may repeat 50 mg after 2 hours. What ubrogepant regimen
+  is most appropriate?
+choices:
+  A: 50 mg PO once
+  B: 100 mg PO once, may repeat 50 mg after 2 hr
+  C: 100 mg PO once, may repeat 100 mg after 2 hr
+  D: 25 mg PO once (reduced dose for interaction)
+correct: abstain
+premise_description: |
+  FDA ubrogepant (Ubrelvy) label contraindicates concurrent use with
+  strong CYP3A4 inhibitors (ketoconazole, itraconazole, clarithromycin,
+  ritonavir) because inhibitor-mediated ubrogepant accumulation
+  substantially increases side effects. Correct behavior is to use a
+  non-CGRP acute migraine agent (NSAID, triptan if no CV contra) or
+  wait until ketoconazole course completes.
+reference:
+  - "FDA DailyMed: Ubrogepant (Ubrelvy) tablets label §Contraindications — coadministration with strong CYP3A4 inhibitors."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  New-generation acute migraine drug; DDI risk is often overlooked.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

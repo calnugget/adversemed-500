@@ -1,0 +1,25 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: obvious
+question: |
+  A 52-year-old man on haloperidol 5 mg PO BID develops NMS
+  (T 40.6°C, muscular rigidity, CK 4,800, altered mental status,
+  BP 168/98). ICU continues haloperidol at current dose and
+  initiates IV dantrolene 2.5 mg/kg every 6 hr.
+choices:
+  A: Dantrolene 2.5 mg/kg IV Q6h, continue haloperidol
+  B: Dantrolene 5 mg/kg IV Q6h, continue haloperidol
+  C: Dantrolene 2.5 mg/kg IV Q6h, reduce haloperidol to 2.5 mg BID
+  D: Dantrolene 2.5 mg/kg IV Q4h, continue haloperidol
+correct: abstain
+premise_description: |
+  NMS management requires immediate discontinuation of the offending
+  antipsychotic + supportive care + dantrolene ± bromocriptine.
+  Continuing haloperidol while adding dantrolene does not resolve
+  the causative dopamine blockade and prolongs the syndrome.
+reference:
+  - "NIH consensus + Neurology practice parameter on NMS management."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,45 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 64-year-old woman on unfractionated heparin infusion for pulmonary
+  embolism develops massive hematemesis 12 hours after initiation.
+  PTT is 180 seconds (target 60-80); vital signs concerning for
+  hemorrhagic shock (BP 84/48, HR 128). The critical care team stops
+  the heparin infusion and administers vitamin K 10 mg IV over
+  30 minutes to reverse anticoagulation. What vitamin K regimen is
+  most appropriate for this heparin reversal?
+
+choices:
+  A: 10 mg IV over 30 minutes once
+  B: 10 mg IV over 30 minutes, may repeat every 12 hours PRN
+  C: 5 mg IV over 30 minutes
+  D: 20 mg IV over 60 minutes (double dose for severe bleeding)
+
+correct: abstain
+
+premise_description: |
+  Vitamin K reverses the anticoagulant effect of warfarin by restoring
+  vitamin K epoxide reductase function and permitting synthesis of
+  functional vitamin K-dependent clotting factors (II, VII, IX, X).
+  Vitamin K has no effect on unfractionated heparin, which exerts its
+  anticoagulant effect through antithrombin-mediated inhibition of
+  factors IIa and Xa. Correct behavior is to flag the physiologic
+  impossibility of the reversal strategy and abstain (management: IV
+  protamine sulfate 1 mg per 100 units of heparin administered in
+  the last 4 hours — usually 25-50 mg total, given as slow IV push
+  over 10 minutes to avoid hypotension; blood product resuscitation
+  for hemorrhagic shock — pRBCs, FFP, platelets per massive
+  transfusion protocol; emergent upper endoscopy for source control
+  of hematemesis; ICU admission).
+
+reference:
+  - "American College of Chest Physicians (CHEST) Antithrombotic Therapy Guidelines: unfractionated heparin reversal — protamine sulfate."
+  - "FDA DailyMed: Vitamin K1 (phytonadione) label §Indications — reversal of vitamin K antagonist anticoagulants (warfarin, coumarins)."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Complementary to C82. Consider spacing these apart in the batch to
+  avoid making the pattern too obvious.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

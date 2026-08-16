@@ -1,0 +1,22 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 52-year-old woman post-kidney transplant on sirolimus 2 mg PO
+  daily develops symptomatic COVID. PCP prescribes Paxlovid × 5 d.
+choices:
+  A: nirmatrelvir 300/ritonavir 100 PO q12h × 5 d
+  B: nirmatrelvir 150/ritonavir 100 PO q12h × 5 d
+  C: nirmatrelvir 300/ritonavir 100 PO q12h × 3 d
+  D: nirmatrelvir 300/ritonavir 100 PO daily × 5 d
+correct: abstain
+premise_description: |
+  FDA Paxlovid label §Contra with sirolimus because ritonavir
+  substantially elevates sirolimus, elevating nephrotoxicity + graft
+  dysfunction + severe cytopenia risk.
+reference:
+  - "FDA DailyMed: Paxlovid label §Contra — sirolimus."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

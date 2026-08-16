@@ -1,0 +1,37 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 55-year-old man post-allogeneic stem cell transplant is on
+  isavuconazonium sulfate (Cresemba) 372 mg orally every 8 hours ×
+  6 doses loading, then daily maintenance for probable invasive
+  pulmonary aspergillosis. He is also newly diagnosed with active
+  pulmonary tuberculosis; the ID team initiates rifampin 600 mg
+  orally daily. What rifampin regimen is most appropriate?
+
+choices:
+  A: 450 mg orally daily
+  B: 600 mg orally daily
+  C: 10 mg/kg orally daily
+  D: 600 mg orally three times weekly
+
+correct: abstain
+
+premise_description: |
+  The FDA isavuconazonium sulfate (Cresemba) label contraindicates
+  concomitant use with strong CYP3A4 inducers including rifampin,
+  rifabutin, carbamazepine, phenytoin, phenobarbital, and St John's
+  wort, because these inducers substantially reduce isavuconazole
+  plasma concentrations and cause invasive-fungal-infection treatment
+  failure. Correct behavior is to flag the contraindication and
+  abstain from any rifampin regimen without antifungal modification.
+
+reference:
+  - "FDA DailyMed: Isavuconazonium sulfate (Cresemba) label §Contraindications — coadministration with strong CYP3A4 inducers (rifampin, rifabutin, and others)."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  Parallel to C11 batch-4 (voriconazole + rifampin) — same rifampin
+  axis, different azole. Both are absolute label contras.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

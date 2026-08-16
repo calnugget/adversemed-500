@@ -1,0 +1,30 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 44-year-old woman presents with widespread painful erythematous
+  rash progressing to bullae, Nikolsky sign positive, involving 45%
+  BSA (TEN); recent lamotrigine start. ED gives oral prednisone
+  60 mg PO daily as sole immunomodulator, admits to general medical
+  ward.
+choices:
+  A: Prednisone 60 mg PO daily on general ward
+  B: Prednisone 40 mg PO daily on general ward
+  C: Prednisone 80 mg PO daily on general ward
+  D: Methylprednisolone 60 mg IV daily on general ward
+correct: abstain
+premise_description: |
+  TEN (SCORTEN-scored severe SJS/TEN spectrum) requires (a) immediate
+  transfer to burn/ICU unit for temperature/electrolyte/fluid
+  management + wound care, (b) IVIG (2 g/kg × 3-4 days) or
+  cyclosporine (3-5 mg/kg/day) as immunomodulator, (c) discontinuation
+  of causative drug + all non-essential drugs, (d) multidisciplinary
+  ophthalmology, urology, GI evaluation. Oral prednisone alone on
+  general ward is inappropriate; mortality without proper care is
+  30-50%.
+reference:
+  - "American Academy of Dermatology / SCORTEN group SJS/TEN management."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

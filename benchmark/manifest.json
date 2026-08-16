@@ -1,0 +1,36 @@
+{
+  "seed": 20260706,
+  "files": {
+    "medqa_test_n1000.jsonl": {
+      "rows": 1000,
+      "sha256": "93ad94e29472f139a653f1cee130898b6bd02d766e58d3e65b2af1cd0a40ca90"
+    },
+    "adversemed_seed_pool_n500.jsonl": {
+      "rows": 500,
+      "sha256": "190099d97668d8e198942a189af4bda26ecda3d65c51c5aebaa6fe7c9c619bce"
+    },
+    "mmlu_med_n1089.jsonl": {
+      "rows": 1089,
+      "sha256": "b2e2842c9ebc4cf01df75abec303a7a80b4e036e42b9e2280a5d9dbe3ff827e2"
+    },
+    "pubmedqa_test_n1000.jsonl": {
+      "rows": 1000,
+      "sha256": "2aeeed2b9164c4197366ff40fd664648badc0565cb4310d99a0ab992f81c5fcb"
+    },
+    "adversemed_500.jsonl": {
+      "rows": 500,
+      "sha256": "26cae9e190bc96a96814241ef4e0c779f2ff7de51dd811dcdb425a8af1c586a9",
+      "categories": {
+        "contraindication": 150,
+        "drug_drug_interaction": 125,
+        "impossible_timing": 100,
+        "physiological_impossibility": 125
+      },
+      "difficulties": {
+        "obvious": 108,
+        "subtle": 183,
+        "expert": 209
+      }
+    }
+  }
+}

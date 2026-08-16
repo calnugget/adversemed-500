@@ -1,0 +1,24 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 32-year-old anesthesia trainee is found unresponsive with
+  propofol IV infusion running (self-administered). Bystanders
+  give naloxone 4 mg IN.
+choices:
+  A: Naloxone 4 mg IN
+  B: Naloxone 0.4 mg IV
+  C: Naloxone 2 mg IN + 0.4 mg IV
+  D: Naloxone 8 mg IN + naloxone infusion
+correct: abstain
+premise_description: |
+  Propofol overdose has no specific antidote. Naloxone is opioid
+  receptor antagonist with no effect on propofol (GABA-A agonist).
+  Management is supportive: airway/ventilation, hemodynamic support,
+  removal of causative agent.
+reference:
+  - "ASA/APSF Propofol Safety Guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

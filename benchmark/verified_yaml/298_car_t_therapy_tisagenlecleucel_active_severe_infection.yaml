@@ -1,0 +1,26 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 22-year-old man with relapsed B-ALL is planned for CAR-T
+  (tisagenlecleucel). He has active febrile neutropenia (ANC 200,
+  T 39.4, cultures pending). Oncology proceeds with lymphodepletion
+  and CAR-T infusion 0.2-5.0 × 10⁶ cells/kg IV.
+choices:
+  A: 0.2-5.0 × 10⁶ cells/kg IV per protocol
+  B: Half dose 0.1-2.5 × 10⁶ cells/kg IV
+  C: Full dose after 24-hr antibiotic response
+  D: 0.5 × 10⁶ cells/kg IV as reduced dose
+correct: abstain
+premise_description: |
+  FDA tisagenlecleucel (Kymriah) label §Warnings + §Contra with active
+  severe uncontrolled infection. CAR-T CRS + ICANS + severe cytopenia
+  will render active infection unmanageable. Correct: control
+  infection with antibiotic + monitor recovery, then CAR-T when
+  infection cleared.
+reference:
+  - "FDA DailyMed: Tisagenlecleucel (Kymriah) label §Warnings — active infection."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

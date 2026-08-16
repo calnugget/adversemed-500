@@ -1,0 +1,30 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 74-year-old man with advanced Parkinson disease and severe motor
+  fluctuations is initiated on subcutaneous apomorphine 2 mg for
+  rescue therapy during OFF periods. He develops nausea and vomiting
+  as an expected apomorphine side effect. The neurologist prescribes
+  ondansetron 8 mg orally 30 min before each apomorphine dose. What
+  ondansetron regimen is most appropriate?
+choices:
+  A: 4 mg orally 30 min before apomorphine
+  B: 8 mg orally 30 min before apomorphine
+  C: 8 mg IV 30 min before apomorphine
+  D: 4 mg IV 30 min before apomorphine
+correct: abstain
+premise_description: |
+  The FDA apomorphine label carries an absolute contraindication for
+  concurrent use with 5-HT3 antagonists (ondansetron, granisetron,
+  dolasetron, palonosetron) because the combination has caused
+  profound hypotension and loss of consciousness in multiple
+  reported cases. Trimethobenzamide is the recommended alternative
+  antiemetic for apomorphine-induced nausea.
+reference:
+  - "FDA DailyMed: Apomorphine hydrochloride injection (Apokyn) label §Contraindications — concurrent use with 5-HT3 antagonists."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  All 4 ondansetron variants (PO/IV, 4/8 mg) are contraindicated.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

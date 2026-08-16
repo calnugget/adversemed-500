@@ -1,0 +1,23 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: obvious
+question: |
+  A 54-year-old man on phenelzine 60 mg PO daily for treatment-
+  resistant depression continues symptomatic. Psychiatry adds
+  amitriptyline 25 mg PO nightly for augmentation.
+choices:
+  A: 25 mg PO nightly
+  B: 50 mg PO nightly
+  C: 10 mg PO nightly (reduced)
+  D: 25 mg PO BID
+correct: abstain
+premise_description: |
+  FDA phenelzine + TCA labels §Contra — combination precipitates
+  serotonin syndrome, hyperpyretic crisis, hypertensive events.
+  Correct: switch MAOI, use bupropion or CBT augmentation instead.
+reference:
+  - "FDA DailyMed: Phenelzine label §Contra — TCAs."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

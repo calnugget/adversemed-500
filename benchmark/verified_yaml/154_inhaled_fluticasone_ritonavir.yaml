@@ -1,0 +1,29 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 41-year-old HIV-positive man on ritonavir-boosted darunavir also
+  has moderate persistent asthma. His pulmonologist initiates inhaled
+  fluticasone/salmeterol (Advair Diskus 500/50) 1 inhalation BID.
+  What fluticasone/salmeterol regimen is most appropriate?
+choices:
+  A: 100/50 1 inh BID
+  B: 250/50 1 inh BID
+  C: 500/50 1 inh BID
+  D: 100/50 2 inh BID
+correct: abstain
+premise_description: |
+  The FDA fluticasone label carries a warning against concurrent use
+  with ritonavir because ritonavir (a potent CYP3A4 inhibitor)
+  substantially increases systemic fluticasone exposure, causing
+  iatrogenic Cushing syndrome and adrenal suppression, even with
+  inhaled dosing. Beclomethasone or budesonide (less CYP3A4-dependent
+  inhaled steroids) are preferred alternatives.
+reference:
+  - "FDA DailyMed: Fluticasone propionate/salmeterol (Advair) label §Warnings — coadministration with strong CYP3A4 inhibitors including ritonavir may increase systemic exposure."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  Label wording is §Warnings not §Contra — verify current label
+  strength; may weaken to REJECT per batch-5 rule.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

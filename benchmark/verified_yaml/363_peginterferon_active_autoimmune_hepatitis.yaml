@@ -1,0 +1,26 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 44-year-old woman with active autoimmune hepatitis (ANA 1:640,
+  smooth muscle Ab positive, ALT 620, on prednisone 40 mg PO daily)
+  and chronic HCV is planned for interferon therapy. Hepatology
+  starts peginterferon 180 mcg SC weekly.
+choices:
+  A: 180 mcg SC weekly
+  B: 90 mcg SC weekly
+  C: 135 mcg SC weekly
+  D: 180 mcg SC every 2 wk
+correct: abstain
+premise_description: |
+  FDA peginterferon label §Contra with autoimmune hepatitis because
+  interferon has immunomodulatory effects that can markedly worsen
+  autoimmune hepatitis, precipitating fulminant hepatic failure.
+  Correct: DAA regimen (interferon-free) for HCV; continue AIH
+  management (steroid + azathioprine).
+reference:
+  - "FDA DailyMed: Peginterferon alfa-2a label §Contra — autoimmune hepatitis."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

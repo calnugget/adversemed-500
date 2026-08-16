@@ -1,0 +1,27 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 58-year-old woman on chronic sotalol develops torsades de
+  pointes (polymorphic VT with visible QT prolongation on preceding
+  ECG). She is pulseless. Code team gives IV amiodarone 300 mg push
+  as first-line antiarrhythmic per ACLS pulseless VT/VF algorithm.
+choices:
+  A: Amiodarone 300 mg IV push
+  B: Amiodarone 150 mg IV push
+  C: Amiodarone 300 mg IV over 10 min
+  D: Amiodarone 450 mg IV push
+correct: abstain
+premise_description: |
+  Torsades de pointes is a distinct polymorphic VT triggered by QT
+  prolongation. Standard ACLS pulseless VT/VF algorithm applies
+  DEFIBRILLATION first, then IV MAGNESIUM sulfate 2 g bolus as
+  antiarrhythmic. Amiodarone prolongs QT and can worsen TdP;
+  avoided in TdP. Alternative: overdrive pacing, correct
+  hypokalemia/hypomagnesemia, isoproterenol for congenital LQTS.
+reference:
+  - "AHA 2020 Guidelines: torsades de pointes management."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

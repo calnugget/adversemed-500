@@ -1,0 +1,24 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 51-year-old woman is scheduled for splenectomy in 3 d for symptomatic
+  splenic marginal zone lymphoma. Surgeon gives PCV20, MenACWY, MenB,
+  and Hib vaccines on the day of surgery in pre-op holding.
+choices:
+  A: PCV20 + MenACWY + MenB + Hib in pre-op holding
+  B: Postpone all vaccines to 3 d post-splenectomy
+  C: Give only PCV20 in pre-op holding, others 7 d post-op
+  D: Give all IM in the OR under anesthesia
+correct: abstain
+premise_description: |
+  CDC ACIP: pre-splenectomy vaccination should occur ≥ 14 d before
+  elective splenectomy for optimal immune response. Day-of dosing yields
+  suboptimal response due to imminent asplenic state; if missed, defer
+  to ≥ 14 d post-splenectomy.
+reference:
+  - "CDC/ACIP altered immunocompetence/asplenia guidance — elective splenectomy vaccines ideally at least 14 days before surgery; if missed, give after surgery when stable."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

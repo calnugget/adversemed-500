@@ -1,0 +1,23 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 51-year-old woman with CTEPH on riociguat 2.5 mg PO TID
+  develops acute chest pain. ED gives SL nitroglycerin 0.4 mg
+  once.
+choices:
+  A: SL NTG 0.4 mg once
+  B: SL NTG 0.3 mg once
+  C: IV NTG 5 mcg/min infusion
+  D: Isosorbide dinitrate 5 mg SL once
+correct: abstain
+premise_description: |
+  FDA riociguat (Adempas) label §Contra with any nitrate. Same
+  mechanism as batch-4 C21 (riociguat + PDE-5 covered separately;
+  here nitrate axis).
+reference:
+  - "FDA DailyMed: Riociguat (Adempas) label §Contra — nitrates."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

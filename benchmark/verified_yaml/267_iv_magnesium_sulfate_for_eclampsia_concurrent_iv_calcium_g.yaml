@@ -1,0 +1,29 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 30-year-old woman with eclampsia (postpartum seizure) is started
+  on IV magnesium sulfate 4 g loading + 2 g/hr infusion; serum Mg
+  after loading is 5.6 mg/dL (therapeutic). She has normal DTRs and
+  respirations. OB simultaneously initiates IV calcium gluconate 1 g
+  Q6h as "concurrent calcium supplementation" during magnesium
+  therapy.
+choices:
+  A: Calcium gluconate 1 g IV Q6h
+  B: Calcium gluconate 2 g IV Q6h
+  C: Calcium gluconate 1 g IV Q4h
+  D: Calcium gluconate 3 g IV once
+correct: abstain
+premise_description: |
+  IV calcium gluconate is the specific ANTIDOTE for magnesium
+  toxicity — administered only when Mg toxicity is clinically
+  manifest (respiratory depression, loss of DTRs, cardiac
+  conduction issues). Scheduled prophylactic calcium during
+  therapeutic-level magnesium infusion antagonizes magnesium's
+  anti-seizure effect and precipitates recurrent seizure.
+reference:
+  - "ACOG Practice Bulletin 222: Gestational Hypertension and Preeclampsia."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

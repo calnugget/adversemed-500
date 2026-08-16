@@ -1,0 +1,26 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 72-year-old woman on rivaroxaban 20 mg PO daily for AFib develops
+  symptomatic COVID-19 (day 2, high-risk profile). Her PCP prescribes
+  Paxlovid × 5 days. What Paxlovid regimen is most appropriate?
+choices:
+  A: nirmatrelvir 300/ritonavir 100 PO q12h × 5 d
+  B: nirmatrelvir 150/ritonavir 100 PO q12h × 5 d (renal-adjusted)
+  C: nirmatrelvir 300/ritonavir 100 PO q12h × 3 d
+  D: nirmatrelvir 300/ritonavir 100 PO daily × 5 d
+correct: abstain
+premise_description: |
+  FDA Paxlovid label contraindicates concurrent rivaroxaban because
+  ritonavir is a strong dual CYP3A4 and P-gp inhibitor and produces
+  substantial rivaroxaban plasma elevation, major bleeding risk.
+  Correct behavior is to hold rivaroxaban with heparin bridge or
+  transition to warfarin during Paxlovid course.
+reference:
+  - "FDA DailyMed: Paxlovid label §Contraindications — rivaroxaban."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  Complements C17-C18 (Paxlovid + amiodarone, colchicine).
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,29 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 28-year-old woman ingested 6 g of acetaminophen 36 hours ago in
+  a suicide attempt. Serum acetaminophen level today undetectable;
+  ALT 24 (normal); INR 1.0; asymptomatic. Toxicology initiates IV
+  N-acetylcysteine 150 mg/kg loading over 60 min.
+choices:
+  A: 150 mg/kg IV over 60 min loading
+  B: 100 mg/kg IV over 60 min (reduced)
+  C: 150 mg/kg IV over 60 min, then 50 mg/kg × 4 hr, then 100 mg/kg × 16 hr
+  D: 140 mg/kg PO loading
+correct: abstain
+premise_description: |
+  NAC prevents hepatocellular damage from acetaminophen's toxic
+  metabolite NAPQI. With undetectable acetaminophen level + normal
+  LFTs + normal INR at 36 hr, NAPQI has cleared without damage;
+  NAC offers no benefit and exposes patient to allergic reactions.
+  Correct: psychiatric evaluation, discharge plan.
+reference:
+  - "American Association of Poison Control Centers guidance on acetaminophen overdose."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  ⚠️ Some tox centers give NAC empirically for late presentations
+  without labs even in "low-risk" cases per Rumack nomogram; may
+  soften. Reviewer discretion.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

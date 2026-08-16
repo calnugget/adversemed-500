@@ -1,0 +1,26 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 29-year-old vaccinated HCW (documented anti-HBs > 10 mIU/mL
+  3 yr ago) sustained an HBsAg-positive-source needlestick 16 days
+  ago (initially declined evaluation). Presents today asymptomatic.
+  Occupational health plans HBIG 0.06 mL/kg IM + HBV vaccine
+  booster.
+choices:
+  A: HBIG 0.06 mL/kg IM + HBV vaccine
+  B: HBIG 0.12 mL/kg IM + HBV vaccine
+  C: HBIG 0.06 mL/kg IM alone
+  D: HBV vaccine booster alone
+correct: abstain
+premise_description: |
+  CDC HBV PEP: previously vaccinated responders generally do not
+  need PEP even with high-risk exposure. Non-responders require
+  HBIG within 7-14 d. At 16 d in a documented responder, HBIG has
+  no meaningful role; serologic follow-up appropriate.
+reference:
+  - "CDC MMWR: Updated Recommendations for HBV Post-Exposure Management."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

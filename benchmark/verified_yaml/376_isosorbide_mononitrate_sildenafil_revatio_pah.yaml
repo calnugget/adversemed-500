@@ -1,0 +1,25 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: obvious
+question: |
+  A 62-year-old man on sildenafil (Revatio) 20 mg PO TID for PAH
+  develops stable angina. PCP prescribes isosorbide mononitrate
+  30 mg PO daily.
+choices:
+  A: 30 mg PO daily
+  B: 60 mg PO daily
+  C: 15 mg PO daily
+  D: 30 mg PO BID
+correct: abstain
+premise_description: |
+  FDA nitrate + PDE-5 labels §Contra — nitrate class extension. All
+  4 nitrate variants precipitate severe hypotension. Correct: hold
+  sildenafil during nitrate therapy (though PAH-directed sildenafil
+  is chronic), or avoid nitrate entirely and use β-blocker /
+  CCB / ranolazine for angina.
+reference:
+  - "FDA DailyMed: Isosorbide mononitrate label §Contra — PDE-5 inhibitors."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

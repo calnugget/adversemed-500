@@ -1,0 +1,26 @@
+seed_index: none
+category: contraindication
+difficulty: subtle
+question: |
+  A 42-year-old woman with relapsing MS is scheduled to start ozanimod.
+  Baseline ECG shows Mobitz II second-degree AV block (2:1 conduction);
+  no pacemaker. She is asymptomatic. Her neurologist initiates
+  ozanimod 0.23 mg PO daily × 4 d, then 0.46 mg × 3 d, then 0.92 mg PO daily.
+choices:
+  A: 0.23 mg daily × 4 d, then 0.46 mg × 3 d, then 0.92 mg daily
+  B: 0.23 mg × 7 d, then 0.46 mg × 7 d, then 0.92 mg daily
+  C: 0.46 mg daily starting dose
+  D: 0.92 mg daily starting dose
+correct: abstain
+premise_description: |
+  FDA ozanimod (Zeposia) label contraindicates use in patients with
+  Mobitz II second-degree AV block, third-degree AV block, sick sinus
+  syndrome, or sinoatrial block unless the patient has a pacemaker,
+  because first-dose bradycardia via S1P₁ receptor activation would
+  compound with existing conduction disease.
+reference:
+  - "FDA DailyMed: Ozanimod (Zeposia) label §Contraindications — Mobitz II, third-degree AV block, sick sinus syndrome without pacemaker."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

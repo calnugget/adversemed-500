@@ -1,0 +1,25 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 54-year-old man with RET-fusion NSCLC on selpercatinib 160 mg PO
+  BID develops active pulmonary TB. ID initiates rifampin 600 mg
+  PO daily.
+choices:
+  A: 450 mg PO daily
+  B: 600 mg PO daily
+  C: 10 mg/kg PO daily
+  D: 600 mg PO three times weekly
+correct: abstain
+premise_description: |
+  FDA selpercatinib (Retevmo) label §Contra with strong CYP3A4
+  inducers because inducer reduces selpercatinib exposure and
+  precipitates cancer progression. Correct: substitute rifabutin
+  (weaker CYP3A4 inducer) with selpercatinib dose intensification per
+  label.
+reference:
+  - "FDA DailyMed: Selpercatinib (Retevmo) label §Contraindications/§Drug Interactions — strong CYP3A4 inducers."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

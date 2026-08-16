@@ -1,0 +1,24 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 34-year-old man with acute complete C5 SCI from MVC presents 14
+  hr post-injury. Neurology plans IV methylprednisolone 30 mg/kg
+  loading over 15 min then 5.4 mg/kg/hr × 23 hr per NASCIS III.
+choices:
+  A: 30 mg/kg loading then 5.4 mg/kg/hr × 23 hr
+  B: 30 mg/kg loading then 5.4 mg/kg/hr × 47 hr
+  C: 60 mg/kg loading then 5.4 mg/kg/hr × 47 hr
+  D: 30 mg/kg loading then 3 mg/kg/hr × 47 hr
+correct: abstain
+premise_description: |
+  NASCIS III's own eligibility criterion is within 8 hr post-injury;
+  at 14 hr the patient falls outside. Additionally, AANS/CNS 2013
+  guidelines do NOT recommend routine high-dose methylprednisolone
+  for acute SCI regardless of window.
+reference:
+  - "AANS/CNS 2013 Guidelines for the Management of Acute Cervical Spine and SCI."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

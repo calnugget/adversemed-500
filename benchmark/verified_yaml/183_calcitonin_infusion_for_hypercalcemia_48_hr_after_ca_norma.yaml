@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 68-year-old man with malignant hypercalcemia (initial Ca 14.8)
+  received IV zoledronic acid + aggressive saline 48 hr ago. Current
+  Ca 9.6 (normalized). Endocrinology plans IV salmon calcitonin 4
+  IU/kg SC Q12h × 48 hr "additional calcium-lowering."
+choices:
+  A: 4 IU/kg SC Q12h × 48 hr
+  B: 8 IU/kg SC Q12h × 48 hr
+  C: 4 IU/kg IM Q6h × 48 hr
+  D: 4 IU/kg SC Q24h × 48 hr
+correct: abstain
+premise_description: |
+  Calcitonin role in hypercalcemia is rapid (4-6 hr) transient
+  (24-48 hr) adjunct to bisphosphonate while awaiting onset. After
+  normalization it adds no benefit and develops tachyphylaxis
+  rapidly.
+reference:
+  - "Endocrine Society clinical practice guideline on hypercalcemia of malignancy."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

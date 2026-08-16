@@ -1,0 +1,28 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 34-year-old woman with acetaminophen-induced acute liver failure
+  (INR 5.4, ALT 8,400, encephalopathy grade II, no bleeding). She
+  is being evaluated for liver transplant listing. Hepatology gives
+  FFP 4 units to "correct the coagulopathy."
+choices:
+  A: FFP 4 units IV
+  B: FFP 6 units IV
+  C: FFP 2 units + IV vitamin K 10 mg
+  D: FFP 4 units + prothrombin complex concentrate
+correct: abstain
+premise_description: |
+  ALF INR is a critical prognostic and transplant-listing marker
+  (King's College criteria). Correcting INR with FFP without active
+  bleeding (a) removes the diagnostic/prognostic signal,
+  (b) provides volume overload in a patient with cerebral edema
+  risk, (c) provides no clinical benefit. Guidelines (AASLD ALF)
+  reserve FFP for active bleeding or high-risk invasive procedure.
+  Vitamin K 10 mg IV × 3 daily may be given empirically.
+reference:
+  - "AASLD Acute Liver Failure guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

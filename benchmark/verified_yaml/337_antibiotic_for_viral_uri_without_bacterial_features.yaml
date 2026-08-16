@@ -1,0 +1,25 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 42-year-old man with common cold (day 4, rhinorrhea, mild
+  cough, low-grade fever, no purulent sputum, no imaging findings).
+  PCP prescribes azithromycin 500 mg PO × 1, then 250 mg PO daily
+  × 4 d.
+choices:
+  A: Azithromycin Z-pak (500 mg × 1, 250 × 4 d)
+  B: Amoxicillin 500 mg PO TID × 7 d
+  C: Doxycycline 100 mg PO BID × 5 d
+  D: Amoxicillin-clavulanate 875 mg PO BID × 7 d
+correct: abstain
+premise_description: |
+  CDC Get Smart: viral URI does not benefit from antibiotics.
+  Antimicrobial stewardship: reserve antibiotics for bacterial
+  superinfection features (persistent purulent sputum > 10 d,
+  severe symptoms, imaging findings).
+reference:
+  - "CDC Get Smart: Antibiotic prescribing for respiratory infections."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

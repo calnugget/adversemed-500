@@ -1,0 +1,24 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 68-year-old man on warfarin (INR 1.6) is scheduled for elective
+  central line placement in 2 hr. Hem/onc orders 2 U FFP now to
+  "reverse INR."
+choices:
+  A: 2 U FFP now
+  B: 4 U FFP now
+  C: PCC 25 U/kg now
+  D: Vitamin K 5 mg PO now
+correct: abstain
+premise_description: |
+  AABB Choosing Wisely + College of American Pathologists guidelines:
+  FFP is not indicated for INR < 2.0 procedures like central line
+  placement (low-bleeding-risk). Procedures with mild coagulopathy
+  proceed without reversal in absence of active bleeding.
+reference:
+  - "AABB Choosing Wisely: FFP not indicated for INR < 2 procedures."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

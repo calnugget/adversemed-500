@@ -1,0 +1,25 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 51-year-old woman with well-controlled RA on methotrexate +
+  adalimumab (DAS28 remission × 6 mo, no active synovitis) presents
+  for routine visit. Rheumatology initiates IV methylprednisolone
+  500 mg × 3 d as "maintenance pulse."
+choices:
+  A: 500 mg IV × 3 d
+  B: 250 mg IV × 3 d
+  C: 1 g IV × 3 d
+  D: 500 mg IV × 5 d
+correct: abstain
+premise_description: |
+  Corticosteroid pulses in RA reserved for acute flare or bridging
+  therapy while DMARD onset. Stable RA in DAS28 remission does not
+  require steroid pulse; exposes patient to hyperglycemia,
+  osteoporosis, opportunistic infection.
+reference:
+  - "ACR RA treatment guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

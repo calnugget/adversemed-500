@@ -1,0 +1,20 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 68-year-old man on apomorphine SC develops nausea. Neurology
+  gives granisetron 1 mg PO 30 min pre-apomorphine.
+choices:
+  A: 1 mg PO 30 min pre-apomorphine
+  B: 2 mg PO 30 min pre-apomorphine
+  C: 1 mg IV 30 min pre-apomorphine
+  D: 3.1 mg transdermal patch
+correct: abstain
+premise_description: |
+  FDA apomorphine label §Contra with all 5-HT3 antagonists.
+reference:
+  - "FDA DailyMed: Apomorphine label §Contra — 5-HT3 antagonists."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

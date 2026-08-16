@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use AdverseMed-500 or the generator code, please cite both the paper and this repository."
+title: "AdverseMed-500: A Physician-Verified False-Premise Benchmark for Measuring Miscalibration in Medical Language Models"
+authors:
+  - family-names: Vallamsetty
+    given-names: Dyuthi
+    email: 28dyuthiv@students.harker.org
+    orcid: "https://orcid.org/0009-0006-4108-3959"
+    affiliation: "The Harker School, San Jose, CA, USA"
+version: "1.0.0"
+date-released: "2026-08-15"
+license: MIT
+repository-code: "https://github.com/calnugget/adversemed-500"
+url: "https://osf.io/mehu4"
+keywords:
+  - medical LLM
+  - benchmark
+  - calibration
+  - false premise
+  - clinical safety
+  - hallucination
+  - abstention
+preferred-citation:
+  type: article
+  title: "AdverseMed-500: A Physician-Verified False-Premise Benchmark for Measuring Miscalibration in Medical Language Models"
+  authors:
+    - family-names: Vallamsetty
+      given-names: Dyuthi
+      email: 28dyuthiv@students.harker.org
+      orcid: "https://orcid.org/0009-0006-4108-3959"
+      affiliation: "The Harker School, San Jose, CA, USA"
+  year: 2026

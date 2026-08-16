@@ -1,0 +1,25 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 34-year-old man arrives 3 hr after methanol ingestion (self-
+  reported, sample confirmed methanol 65 mg/dL, HAGMA + osmolar
+  gap). ED gives activated charcoal 50 g NG as decontamination.
+choices:
+  A: Activated charcoal 50 g NG
+  B: Activated charcoal 25 g NG
+  C: Whole-bowel irrigation with PEG
+  D: Activated charcoal 100 g NG + whole-bowel irrigation
+correct: abstain
+premise_description: |
+  Small molecular weight, high-polarity toxins (methanol, ethylene
+  glycol, lithium, iron) are poorly adsorbed by activated charcoal.
+  Methanol treatment is fomepizole (ADH inhibitor) ± hemodialysis
+  ± folate/folinic acid (cofactor to accelerate elimination of toxic
+  formate metabolite).
+reference:
+  - "AAPCC + American College of Medical Toxicology guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

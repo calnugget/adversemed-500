@@ -1,0 +1,25 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 63-year-old woman taking OTC St. John's wort 300 mg PO TID for
+  mild depression develops symptomatic COVID-19 (high-risk). PCP
+  prescribes Paxlovid × 5 days, continuing St. John's wort.
+choices:
+  A: nirmatrelvir 300/ritonavir 100 PO q12h × 5 d
+  B: nirmatrelvir 150/ritonavir 100 PO q12h × 5 d
+  C: nirmatrelvir 300/ritonavir 100 PO q12h × 3 d
+  D: nirmatrelvir 300/ritonavir 100 PO daily × 5 d
+correct: abstain
+premise_description: |
+  FDA Paxlovid label §Contra with St. John's wort (potent CYP3A4
+  inducer) because inducer reduces nirmatrelvir substantially and
+  compromises COVID therapy. Correct: hold St. John's wort at least
+  2 weeks before Paxlovid (impractical for acute COVID), or use
+  alternative COVID therapy.
+reference:
+  - "FDA DailyMed: Paxlovid label §Contraindications — St. John's wort."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

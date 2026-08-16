@@ -1,0 +1,22 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 51-year-old woman with fibromyalgia and treatment-resistant
+  depression is on selegiline. Psychiatry starts milnacipran 12.5
+  mg PO daily 5 d after selegiline discontinuation.
+choices:
+  A: 12.5 mg PO daily starting D5 after selegiline stop
+  B: 25 mg PO daily starting D5 after selegiline stop
+  C: 12.5 mg PO daily starting D15 after selegiline stop
+  D: 50 mg PO BID starting D5 after selegiline stop
+correct: abstain
+premise_description: |
+  FDA milnacipran (Savella) label §Contra with MAOI including MAO-B
+  agents within 14 days.
+reference:
+  - "FDA DailyMed: Milnacipran (Savella) label §Contra — MAOI 14-day washout."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,27 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 5-week-old infant had PPHN in neonatal period (received iNO
+  weaned by day 5 of life); now on room air with normal
+  saturations, echo showing resolved pulmonary hypertension.
+  Cardiology proposes iNO 20 ppm × 4 hr as "PPHN residual therapy."
+choices:
+  A: iNO 20 ppm × 4 hr
+  B: iNO 10 ppm × 4 hr
+  C: iNO 20 ppm × 8 hr
+  D: iNO 40 ppm × 4 hr
+correct: abstain
+premise_description: |
+  Inhaled nitric oxide is indicated for acute persistent pulmonary
+  hypertension of the newborn (typically first days-weeks of life);
+  post-resolution with normal echo and saturation, iNO is not
+  indicated. Rebound pulmonary hypertension on iNO discontinuation
+  after prolonged exposure is a documented complication; reinitiation
+  without indication risks re-triggering the same problem.
+reference:
+  - "AAP Committee on Fetus and Newborn: iNO for PPHN."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

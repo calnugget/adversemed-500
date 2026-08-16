@@ -1,0 +1,25 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: obvious
+question: |
+  A 32-year-old man on dapsone develops methemoglobinemia (MetHb
+  38%, cyanosis, SpO2 read 85% despite adequate ventilation). ED
+  transfers to hyperbaric chamber for HBO 2.5 ATA × 90 min as
+  sole therapy.
+choices:
+  A: HBO 2.5 ATA × 90 min alone
+  B: HBO 2.0 ATA × 60 min alone
+  C: HBO + ascorbic acid 2 g IV
+  D: HBO 2.5 ATA × 90 min + high-flow oxygen only
+correct: abstain
+premise_description: |
+  Methemoglobinemia antidote is methylene blue 1-2 mg/kg IV (reduces
+  Fe³⁺ → Fe²⁺ via NADPH-dependent reductase). HBO alone does not
+  reverse methemoglobin; oxygen dissolved in plasma helps with
+  oxygen delivery but doesn't fix the pathology. Wrong therapy.
+reference:
+  - "Wolfson Clinical Toxicology + American College of Medical Toxicology."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

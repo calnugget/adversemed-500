@@ -1,0 +1,22 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 68-year-old man on alfuzosin 10 mg XL PO daily for BPH develops
+  invasive candidiasis. ID initiates ketoconazole 400 mg PO daily.
+choices:
+  A: Alfuzosin 10 mg XL + ketoconazole 400 mg daily
+  B: Alfuzosin 5 mg XL + ketoconazole 400 mg daily
+  C: Alfuzosin 2.5 mg XL + ketoconazole 400 mg daily
+  D: Alfuzosin 10 mg every other day + ketoconazole 400 mg daily
+correct: abstain
+premise_description: |
+  FDA alfuzosin (Uroxatral) label §Contra concurrent strong CYP3A4
+  inhibitors due to significantly elevated alfuzosin exposure with
+  severe orthostatic hypotension + syncope.
+reference:
+  - "FDA DailyMed: Alfuzosin label §Contra — strong CYP3A4 inhibitors."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

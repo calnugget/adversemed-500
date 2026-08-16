@@ -1,0 +1,23 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 44-year-old man on cabotegravir/rilpivirine (Cabenuva) LA IM
+  monthly for HIV maintenance has new-onset epilepsy. Neurology
+  starts carbamazepine 200 mg PO BID.
+choices:
+  A: Continue Cabenuva IM monthly + carbamazepine
+  B: Continue Cabenuva IM every 2 mo + carbamazepine
+  C: Continue Cabenuva IM monthly + carbamazepine after oral lead-in
+  D: Continue Cabenuva monthly + carbamazepine with monthly viral load
+correct: abstain
+premise_description: |
+  FDA Cabenuva label §Contra concurrent strong CYP3A4/UGT1A1 inducers
+  (carbamazepine, phenobarbital, phenytoin, rifampin, rifapentine,
+  St. John's wort) — treatment failure.
+reference:
+  - "FDA DailyMed: Cabenuva label §Contra — CYP3A4/UGT1A1 inducers."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

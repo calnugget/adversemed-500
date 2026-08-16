@@ -1,0 +1,26 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 47-year-old woman with immune TTP has 12 days of daily plasma
+  exchange with no platelet improvement (18-22k), persistent LDH
+  elevation, schistocytes, ADAMTS13 < 5%. Hematology plans another
+  14 days of daily plasma exchange.
+choices:
+  A: Continue daily plasma exchange × 14 more days
+  B: Every-other-day plasma exchange × 14 days
+  C: Continue daily plasma exchange × 21 more days
+  D: Twice-daily plasma exchange × 7 days
+correct: abstain
+premise_description: |
+  ISTH/ASH TTP guidelines: refractory TTP (no response after 5-7 d
+  daily plasma exchange) warrants escalation to rituximab and/or
+  caplacizumab, not continued unmodified plasma exchange. Prolonged
+  ineffective plasma exchange exposes patient to catheter and
+  allergic complications.
+reference:
+  - "ISTH/ASH 2020 immune TTP guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

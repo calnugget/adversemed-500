@@ -1,0 +1,23 @@
+seed_index: none
+category: contraindication
+difficulty: subtle
+question: |
+  A 66-year-old man with prior TIA 3 yr ago (on aspirin 81 mg daily)
+  is post-MI × 6 mo. Cardiology adds vorapaxar (Zontivity) 2.08 mg PO
+  daily for secondary prevention.
+choices:
+  A: 2.08 mg PO daily
+  B: 1.04 mg PO daily (reduced)
+  C: 2.08 mg PO every other day
+  D: 2.08 mg PO daily × 12 mo then stop
+correct: abstain
+premise_description: |
+  FDA Zontivity label boxed §Contra with prior stroke, TIA, or
+  intracranial hemorrhage due to substantially increased ICH risk
+  demonstrated in TRACER trial.
+reference:
+  - "FDA DailyMed: Vorapaxar (Zontivity) label boxed §Contra — prior stroke/TIA/ICH."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,23 @@
+seed_index: none
+category: contraindication
+difficulty: subtle
+question: |
+  A 52-year-old man with adult-onset Still disease on anakinra 100 mg
+  SC daily develops necrotizing pneumonia (multilobar consolidation,
+  cavitation). Team continues anakinra unchanged during antibiotics.
+choices:
+  A: Anakinra 100 mg SC daily
+  B: Anakinra 200 mg SC daily
+  C: Anakinra 50 mg SC daily (reduced)
+  D: Anakinra 100 mg SC every other day
+correct: abstain
+premise_description: |
+  FDA anakinra (Kineret) label §Warnings + §Contra with active severe
+  infection. IL-1 receptor antagonist compromises innate immune
+  response. Correct: hold anakinra, treat infection.
+reference:
+  - "FDA DailyMed: Anakinra (Kineret) label §Contraindications — active severe infection."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

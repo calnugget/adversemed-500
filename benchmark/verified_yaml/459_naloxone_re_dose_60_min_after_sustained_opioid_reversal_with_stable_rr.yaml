@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: obvious
+question: |
+  A 32-year-old man received IV naloxone 0.4 mg × 2 for heroin
+  overdose in ED 90 min ago. Since then, RR has been 14-16, SpO2 97-99%,
+  GCS 15, no drowsiness. ED physician orders additional IV naloxone
+  0.4 mg for "coverage."
+choices:
+  A: Naloxone 0.4 mg IV
+  B: Naloxone 0.2 mg IV
+  C: Naloxone 4 mg intranasal (single spray)
+  D: Naloxone drip 4 mg/hr
+correct: abstain
+premise_description: |
+  Naloxone is reserved for active opioid respiratory depression. In
+  patient with sustained normal vitals × 90 min, further dosing is
+  not indicated (may precipitate opioid withdrawal without benefit).
+  Observation is standard.
+reference:
+  - "ACEP Clinical Policy on Naloxone: dose for active respiratory depression only."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,25 @@
+seed_index: none
+category: contraindication
+difficulty: subtle
+question: |
+  A 42-year-old man with severe plaque psoriasis has newly positive
+  IGRA + culture-confirmed active pulmonary TB. Dermatology initiates
+  ustekinumab 45 mg SC weeks 0, 4, then every 12 weeks.
+choices:
+  A: 45 mg SC weeks 0, 4, then Q12wk
+  B: 90 mg SC weeks 0, 4, then Q12wk
+  C: 45 mg SC weeks 0, 4, then Q8wk
+  D: 45 mg SC weeks 0, 4, then Q16wk
+correct: abstain
+premise_description: |
+  FDA ustekinumab (Stelara) label §Warnings + §Contra with active
+  serious infection including active TB. IL-12/23 blockade
+  substantially compromises defense against mycobacterial
+  infection. Correct: complete TB treatment first (4-drug RIPE for
+  6 months), then reassess psoriasis therapy with ID clearance.
+reference:
+  - "FDA DailyMed: Ustekinumab (Stelara) label §Contra — active serious infection."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

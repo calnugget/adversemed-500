@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 34-year-old woman completed a 6-week prednisone course for
+  polymyalgia rheumatica 14 months ago; ACTH stim test 3 months
+  ago showed normal adrenal function. She is asymptomatic.
+  Rheumatology proposes new prednisone taper 10 mg PO daily × 4
+  wk taper to zero over 8 weeks for "HPA axis maintenance."
+choices:
+  A: Prednisone 10 mg PO daily, taper over 8 wk
+  B: Prednisone 5 mg PO daily, taper over 4 wk
+  C: Hydrocortisone 20 mg PO daily, taper over 8 wk
+  D: Prednisolone 10 mg PO daily, taper over 8 wk
+correct: abstain
+premise_description: |
+  Prophylactic steroids after recovery of HPA function are not
+  indicated. Correct: monitor for symptomatic disease recurrence;
+  no maintenance steroid needed.
+reference:
+  - "Endocrine Society clinical practice guideline on adrenal insufficiency."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

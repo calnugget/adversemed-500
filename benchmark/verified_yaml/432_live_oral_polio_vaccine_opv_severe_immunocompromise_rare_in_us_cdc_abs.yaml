@@ -1,0 +1,25 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 6-month-old infant with SCID (T-cell 80/µL) presents to a
+  developing-country clinic for OPV birth-dose (US now uses IPV
+  exclusively but OPV still administered globally). Clinic staff give
+  OPV 2 drops orally.
+choices:
+  A: OPV 2 drops PO
+  B: OPV 3 drops PO
+  C: OPV + IPV combined
+  D: OPV 2 drops PO after 2-week delay
+correct: abstain
+premise_description: |
+  CDC ACIP + WHO: live oral polio vaccine §Contra with severe
+  immunodeficiency due to vaccine-associated paralytic polio (VAPP)
+  risk from vaccine-strain virus in immunocompromised host. Correct:
+  IPV (inactivated).
+reference:
+  - "CDC ACIP: Poliomyelitis Prevention — OPV §Contra with immunocompromise."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

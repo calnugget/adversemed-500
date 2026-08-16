@@ -1,0 +1,36 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 68-year-old woman with chronic stable angina on ranolazine 1000 mg
+  orally twice daily (added 6 months ago for refractory symptoms despite
+  β-blocker and long-acting nitrate) develops onychomycosis and her
+  dermatologist prescribes itraconazole 200 mg orally daily for 12 weeks.
+  What itraconazole regimen is most appropriate?
+
+choices:
+  A: 100 mg orally daily for 12 weeks
+  B: 200 mg orally daily for 12 weeks
+  C: 200 mg orally twice daily pulse-dosing for 1 week per month, 3 months
+  D: 400 mg orally daily for 6 weeks
+
+correct: abstain
+
+premise_description: |
+  The FDA ranolazine (Ranexa) label contraindicates concomitant use with
+  strong CYP3A4 inhibitors (ketoconazole, itraconazole, clarithromycin,
+  ritonavir, and others) because such inhibitors substantially increase
+  ranolazine plasma concentrations and elevate the risk of QT
+  prolongation and torsades de pointes. Correct behavior is to flag the
+  contraindication and abstain (alternatives: topical antifungal for
+  onychomycosis, or terbinafine — which is not a strong CYP3A4 inhibitor
+  and does not carry this DDI; but check liver function first per C16).
+
+reference:
+  - "FDA DailyMed: Ranolazine (Ranexa) extended-release tablets label §Contraindications — concomitant use with strong CYP3A4 inhibitors."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Terbinafine alternative note cross-references C16 hepatic caveat.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

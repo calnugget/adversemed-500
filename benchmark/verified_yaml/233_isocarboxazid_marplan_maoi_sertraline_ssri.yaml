@@ -1,0 +1,25 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 44-year-old man on isocarboxazid 20 mg PO BID for treatment-
+  resistant depression continues to have depressive symptoms.
+  Psychiatry adds sertraline 25 mg PO daily to augment.
+choices:
+  A: 25 mg PO daily × 1 wk, uptitrate to 100 mg
+  B: 50 mg PO daily
+  C: 100 mg PO daily
+  D: 25 mg PO daily indefinitely
+correct: abstain
+premise_description: |
+  FDA isocarboxazid label §Contra with SSRIs (fluoxetine, sertraline,
+  paroxetine, citalopram, escitalopram) — serotonin syndrome
+  potentially fatal. Correct: switch MAOI to different antidepressant
+  class (bupropion, tricyclic) or switch to newer augmentation
+  (aripiprazole).
+reference:
+  - "FDA DailyMed: Isocarboxazid (Marplan) label §Contraindications — SSRIs."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

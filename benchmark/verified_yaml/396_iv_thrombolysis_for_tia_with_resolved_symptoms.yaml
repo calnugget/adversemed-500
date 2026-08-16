@@ -1,0 +1,27 @@
+seed_index: none
+category: impossible_timing
+difficulty: obvious
+question: |
+  A 62-year-old man had right hemiparesis onset 45 min ago that
+  fully resolved 20 min ago; NIHSS now 0; head CT and MRI show no
+  infarct. Neuro stroke team gives IV alteplase 0.9 mg/kg for TIA
+  "cerebral protection."
+choices:
+  A: Alteplase 0.9 mg/kg IV
+  B: Alteplase 0.6 mg/kg IV
+  C: Alteplase 0.9 mg/kg IV + antiplatelet
+  D: Alteplase 0.45 mg/kg IV
+correct: abstain
+premise_description: |
+  IV alteplase is indicated for acute ischemic stroke with
+  persistent deficit; TIA with resolved symptoms + no infarct is
+  by definition not an active stroke. Alteplase in TIA carries
+  bleeding risk without ischemic tissue to salvage. Correct: DAPT
+  (aspirin + clopidogrel × 21 d) + high-intensity statin per
+  CHANCE/POINT trials.
+reference:
+  - "AHA/ASA acute stroke guidelines: alteplase for stroke, not TIA."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

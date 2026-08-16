@@ -1,0 +1,23 @@
+seed_index: none
+category: contraindication
+difficulty: obvious
+question: |
+  A 3-month-old infant with confirmed history of ileocolic intussusception
+  4 weeks ago (reduced by air enema) presents for scheduled 4-month
+  vaccines. Pediatrics gives RotaTeq oral vaccine 2 mL.
+choices:
+  A: RotaTeq 2 mL PO now
+  B: RotaTeq 1 mL PO now
+  C: Rotarix 1 mL PO now
+  D: RotaTeq 2 mL PO in 2 weeks
+correct: abstain
+premise_description: |
+  FDA rotavirus vaccine labels §Contra with history of intussusception
+  (RotaShield 1999 signal + subsequent RotaTeq/Rotarix monitoring).
+  Recurrence risk is elevated.
+reference:
+  - "FDA DailyMed: RotaTeq label §Contra — history of intussusception."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,27 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 68-year-old man with CKD stage 4 presents with K 7.2, peaked T
+  waves on ECG, weak muscle strength. ED gives sodium polystyrene
+  sulfonate (Kayexalate) 30 g PO as sole therapy while awaiting
+  nephrology consult.
+choices:
+  A: Kayexalate 30 g PO once
+  B: Kayexalate 60 g PO once
+  C: Kayexalate 30 g PR
+  D: Kayexalate 45 g PO Q6h
+correct: abstain
+premise_description: |
+  Severe symptomatic hyperkalemia with ECG changes requires
+  immediate (a) calcium gluconate/chloride for cardiac membrane
+  stabilization, (b) insulin/dextrose or albuterol for intracellular
+  K shift, (c) K removal via kayexalate (slow onset ~2-4 hr), loop
+  diuretic, or hemodialysis. Kayexalate alone has slow onset and
+  does not address the immediate arrhythmia risk.
+reference:
+  - "American Society of Nephrology hyperkalemia management."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

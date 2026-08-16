@@ -1,0 +1,25 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 62-year-old man is post-op day 3 from clean elective
+  hemi-arthroplasty (uncomplicated, wound clean and dry). Surgery
+  continues IV cefazolin 1 g IV Q8h through post-op day 5 as
+  extended prophylaxis.
+choices:
+  A: Cefazolin 1 g IV Q8h × 5 d post-op
+  B: Cefazolin 2 g IV Q8h × 5 d
+  C: Cefazolin 1 g IV Q12h × 5 d
+  D: Cefazolin 1 g IV Q6h × 5 d
+correct: abstain
+premise_description: |
+  SCIP + IDSA: surgical antibiotic prophylaxis discontinue within
+  24 hr post-incision (48 hr for cardiac surgery). Extended
+  prophylaxis increases C. diff, MDR-organism selection, adverse
+  events without reducing SSI.
+reference:
+  - "IDSA / SCIP surgical antibiotic prophylaxis guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

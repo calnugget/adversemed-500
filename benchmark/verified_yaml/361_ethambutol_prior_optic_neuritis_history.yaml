@@ -1,0 +1,26 @@
+seed_index: none
+category: contraindication
+difficulty: subtle
+question: |
+  A 44-year-old woman with newly diagnosed pulmonary TB and history
+  of MS-related optic neuritis 3 years ago (visual acuity now 20/25
+  in affected eye, off DMT × 2 years, stable). ID starts standard
+  RIPE including ethambutol 15 mg/kg PO daily.
+choices:
+  A: Ethambutol 15 mg/kg PO daily
+  B: Ethambutol 25 mg/kg PO daily × 8 wk
+  C: Ethambutol 10 mg/kg PO daily (reduced)
+  D: Ethambutol 20 mg/kg PO daily × 4 wk, then 15 mg/kg
+correct: abstain
+premise_description: |
+  FDA ethambutol label §Contra with pre-existing optic neuritis
+  because ethambutol causes dose-dependent optic neuropathy that
+  amplifies in patients with prior optic nerve injury. Correct:
+  omit ethambutol from RIPE regimen; use RIP + moxifloxacin or
+  streptomycin.
+reference:
+  - "FDA DailyMed: Ethambutol label §Contra — pre-existing optic neuritis."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

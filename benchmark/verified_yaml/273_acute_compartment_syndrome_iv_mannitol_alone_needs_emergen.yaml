@@ -1,0 +1,28 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 28-year-old man with tibial fracture develops acute compartment
+  syndrome of the anterior leg 8 hours post-injury (pain out of
+  proportion, paresthesias, compartment pressure 65 mmHg).
+  Orthopedics gives IV mannitol 1 g/kg over 30 min as sole therapy,
+  planning to reassess in 4 hours.
+choices:
+  A: Mannitol 1 g/kg IV over 30 min, reassess in 4 hr
+  B: Mannitol 0.5 g/kg IV over 30 min, reassess in 4 hr
+  C: Mannitol 1.5 g/kg IV over 30 min, reassess in 4 hr
+  D: Mannitol 1 g/kg IV over 15 min, reassess in 4 hr
+correct: abstain
+premise_description: |
+  Acute compartment syndrome (compartment pressure > 30 mmHg or
+  ΔP < 30) requires emergent fasciotomy within hours to prevent
+  irreversible muscle necrosis and neurologic injury. Mannitol
+  (once proposed as adjunct) is not standard of care; delaying
+  fasciotomy for medical therapy causes limb loss. All 4 mannitol
+  regimens delay definitive management.
+reference:
+  - "AAOS clinical position on acute compartment syndrome — emergent fasciotomy."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

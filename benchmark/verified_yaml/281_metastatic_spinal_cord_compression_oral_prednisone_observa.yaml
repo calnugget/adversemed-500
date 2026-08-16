@@ -1,0 +1,30 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 64-year-old man with metastatic prostate cancer presents with
+  severe mid-back pain × 3 d, bilateral lower extremity weakness
+  (4/5), urinary hesitancy. MRI: T7 metastatic epidural compression
+  with 60% canal narrowing. Oncology starts oral prednisone 60 mg
+  PO daily, plans outpatient radiation oncology consult in 3 days.
+choices:
+  A: Prednisone 60 mg PO daily + outpatient RT consult
+  B: Prednisone 40 mg PO daily + outpatient RT consult
+  C: Prednisone 80 mg PO daily + outpatient RT consult
+  D: Methylprednisolone 60 mg IV daily + outpatient RT consult
+correct: abstain
+premise_description: |
+  Metastatic spinal cord compression is an oncologic emergency
+  requiring immediate IV dexamethasone (10 mg IV loading, then 4 mg
+  IV Q6h; higher doses in some protocols) + emergent radiation
+  oncology consultation for radiation therapy within 24-48 hours
+  ± neurosurgery consultation for decompression. Preservation of
+  ambulation depends on rapid intervention. Oral steroids +
+  outpatient consult delay treatment beyond the neurologic salvage
+  window.
+reference:
+  - "NCCN Guidelines: Central Nervous System Metastases including MSCC."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

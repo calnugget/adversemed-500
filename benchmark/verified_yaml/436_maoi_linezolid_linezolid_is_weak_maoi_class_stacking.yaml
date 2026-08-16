@@ -1,0 +1,23 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: obvious
+question: |
+  A 34-year-old woman on phenelzine 45 mg PO daily for treatment-
+  resistant depression develops MRSA soft-tissue infection. ID
+  initiates linezolid 600 mg PO BID.
+choices:
+  A: Linezolid 600 mg PO BID + continue phenelzine
+  B: Linezolid 400 mg PO BID + continue phenelzine
+  C: Linezolid 600 mg PO daily + continue phenelzine
+  D: Linezolid 600 mg IV BID + continue phenelzine
+correct: abstain
+premise_description: |
+  FDA linezolid label §Contra concurrent MAOI (linezolid is reversible
+  MAOI) due to serotonin syndrome + hypertensive crisis risk. Requires
+  MAOI washout 14 d before initiation.
+reference:
+  - "FDA DailyMed: Linezolid label §Contra — concurrent or recent (< 14 d) MAOI."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

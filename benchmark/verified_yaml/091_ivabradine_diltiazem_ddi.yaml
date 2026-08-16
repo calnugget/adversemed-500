@@ -1,0 +1,39 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 63-year-old woman with HFrEF (EF 32%, on GDMT — sacubitril/valsartan,
+  metoprolol succinate 200 mg daily, dapagliflozin, spironolactone) and
+  resting HR 82 despite maximal β-blocker is started on ivabradine 5 mg
+  orally twice daily. She also has co-existing paroxysmal atrial
+  fibrillation for which her electrophysiologist adds diltiazem CD 240 mg
+  orally daily. What diltiazem regimen is most appropriate?
+
+choices:
+  A: 120 mg CD orally daily
+  B: 240 mg CD orally daily
+  C: 360 mg CD orally daily
+  D: 180 mg CD orally daily
+
+correct: abstain
+
+premise_description: |
+  The FDA ivabradine (Corlanor) label contraindicates concomitant use
+  with non-dihydropyridine calcium channel blockers (verapamil, diltiazem)
+  because these agents both slow heart rate and inhibit CYP3A4 (which
+  metabolizes ivabradine), producing excessive bradycardia and elevated
+  ivabradine exposure. Correct behavior is to flag the contraindication
+  and abstain (options: use amiodarone or dofetilide for rhythm control
+  in AFib — no ivabradine interaction; or discontinue ivabradine if
+  diltiazem is needed for rate control).
+
+reference:
+  - "FDA DailyMed: Ivabradine (Corlanor) tablets label §Contraindications — concomitant use of strong CYP3A4 inhibitors including verapamil and diltiazem."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Corlanor label lists verapamil AND diltiazem as CYP3A4 inhibitors under
+  §Contraindications, along with ketoconazole, itraconazole,
+  clarithromycin, ritonavir.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

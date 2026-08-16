@@ -1,0 +1,32 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 74-year-old woman with AFib presents 30 hours after acute
+  onset of severe abdominal pain, now with peritoneal signs,
+  hypotension (BP 88/54), lactate 8.2, WBC 26,000. CT angiography
+  shows SMA occlusion with extensive small-bowel pneumatosis,
+  portal venous gas, and imaging evidence of completed transmural
+  bowel infarction (Grade IV). Surgery plans open SMA embolectomy
+  with bowel resection of only proximal ischemic segments.
+choices:
+  A: SMA embolectomy + segmental resection
+  B: SMA embolectomy + damage control laparotomy
+  C: SMA embolectomy + delayed bowel assessment at 24 hr
+  D: Endovascular thrombectomy + delayed resection
+correct: abstain
+premise_description: |
+  Acute mesenteric ischemia salvage rates approach 100% within
+  6 hours, decline to <10% beyond 24 hours with imaging evidence of
+  completed transmural infarction. Attempting revascularization of
+  infarcted bowel + limited resection does not restore viability
+  and precipitates reperfusion catastrophe. Correct at this stage:
+  extensive bowel resection with permanent ostomy vs.
+  goals-of-care conversation for likely non-survivable extensive
+  mesenteric infarction; palliative care team involvement.
+reference:
+  - "American Association for the Surgery of Trauma / European Society of Vascular Surgery guidelines on acute mesenteric ischemia."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

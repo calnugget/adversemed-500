@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 22-year-old college student was a close contact of confirmed
+  meningococcal meningitis case 24 d ago (dormitory contact). She is
+  asymptomatic. Student health gives ceftriaxone 250 mg IM as
+  chemoprophylaxis.
+choices:
+  A: Ceftriaxone 250 mg IM now
+  B: Ciprofloxacin 500 mg PO × 1 now
+  C: Rifampin 600 mg PO BID × 2 d now
+  D: Ceftriaxone 250 mg IM now and repeat in 24 hr
+correct: abstain
+premise_description: |
+  CDC ACIP: meningococcal chemoprophylaxis is indicated within 24 hr
+  and up to 14 d post-exposure for close contacts. Beyond 14 d, most
+  guidelines consider prophylaxis futile since incubation period
+  (average 3-4 d) has elapsed and prophylaxis carries no benefit.
+reference:
+  - "CDC ACIP: Meningococcal chemoprophylaxis timing window."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

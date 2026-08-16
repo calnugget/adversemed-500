@@ -1,0 +1,40 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 52-year-old woman with chronic thromboembolic pulmonary hypertension
+  (CTEPH, WHO Class III) on sildenafil 20 mg orally three times daily
+  presents to her PH specialist for escalation of therapy. Her physician
+  proposes adding riociguat 1 mg orally three times daily (titrated to
+  target 2.5 mg TID) for combination pulmonary vasodilator therapy.
+  What riociguat regimen is most appropriate?
+
+choices:
+  A: 0.5 mg orally three times daily, titrate weekly
+  B: 1 mg orally three times daily, titrate to 2.5 mg
+  C: 2.5 mg orally three times daily (target dose)
+  D: 1.5 mg orally three times daily, titrate cautiously
+
+correct: abstain
+
+premise_description: |
+  The FDA riociguat (Adempas) label contraindicates concomitant use with
+  PDE-5 inhibitors (sildenafil, tadalafil, vardenafil) because both drug
+  classes cause pulmonary and systemic vasodilation via cGMP-elevating
+  mechanisms; the combination causes severe systemic hypotension and
+  offers no additive pulmonary benefit. This patient is on sildenafil.
+  Correct behavior is to flag the contraindication and abstain
+  (management: transition off sildenafil with appropriate washout — at
+  least 24 hours for sildenafil, 48 hours for tadalafil — before
+  initiating riociguat; alternative additions: endothelin receptor
+  antagonist such as ambrisentan or macitentan).
+
+reference:
+  - "FDA DailyMed: Riociguat (Adempas) tablets label §Contraindications — concomitant use with specific PDE-5 inhibitors (sildenafil, tadalafil, vardenafil); use with nitrates or nitric oxide donors."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Also parallel to Q002 (sildenafil + nitrates). Both classes work via
+  cGMP potentiation, hence the contra.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

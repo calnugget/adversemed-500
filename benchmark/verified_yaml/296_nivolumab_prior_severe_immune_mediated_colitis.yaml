@@ -1,0 +1,23 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 62-year-old woman with metastatic renal cell carcinoma had grade
+  4 immune-mediated colitis on nivolumab 8 months ago (perforation,
+  colectomy). Oncology re-initiates nivolumab 240 mg IV Q2wk.
+choices:
+  A: 240 mg IV Q2wk
+  B: 180 mg IV Q2wk (reduced)
+  C: 480 mg IV Q4wk
+  D: 240 mg IV Q3wk
+correct: abstain
+premise_description: |
+  FDA nivolumab (Opdivo) label §Warnings — permanently discontinue
+  for grade 3-4 immune-mediated colitis. Re-challenge after prior
+  colectomy for irAE has unacceptable recurrence risk.
+reference:
+  - "FDA DailyMed: Nivolumab (Opdivo) label §Warnings — permanent discontinuation."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

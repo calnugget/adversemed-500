@@ -1,0 +1,32 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: obvious
+question: |
+  A 46-year-old man with treatment-resistant depression on phenelzine
+  60 mg daily is diagnosed with adult ADHD by his psychiatrist. The
+  psychiatrist starts dextroamphetamine/amphetamine ER 20 mg orally
+  each morning for ADHD symptoms, continuing phenelzine. What
+  dextroamphetamine regimen is most appropriate?
+choices:
+  A: 10 mg ER PO daily
+  B: 20 mg ER PO daily
+  C: 30 mg ER PO daily
+  D: 10 mg IR PO twice daily
+correct: abstain
+premise_description: |
+  Amphetamine is an indirect sympathomimetic that releases stored
+  norepinephrine and dopamine. Concurrent use with a MAOI produces
+  massive catecholamine release that MAOI cannot metabolize,
+  precipitating malignant hypertensive crisis (SBP > 200), stroke, or
+  fatal MI. FDA phenelzine label and amphetamine label both
+  contraindicate concurrent use and mandate 14-day MAOI washout
+  before amphetamine initiation.
+reference:
+  - "FDA DailyMed: Phenelzine sulfate label §Contraindications — sympathomimetics including amphetamines."
+  - "FDA DailyMed: Dextroamphetamine/amphetamine (Adderall XR) label §Contraindications — concurrent or recent MAOI use."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  Same MAOI-syndrome axis as batch 4 C31 (MAOI + dextromethorphan),
+  Q033 (MAOI + meperidine), Q047 (MAOI + tramadol), Q006 (MAOI + SSRI).
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

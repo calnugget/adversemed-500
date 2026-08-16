@@ -1,0 +1,26 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 34-year-old woman with hereditary angioedema type I is planned
+  for danazol prophylaxis. She has known acute intermittent
+  porphyria (documented ALA synthase mutation, several attacks in
+  past). Endo starts danazol 200 mg PO BID.
+choices:
+  A: 200 mg PO BID
+  B: 100 mg PO BID
+  C: 400 mg PO BID
+  D: 200 mg PO TID
+correct: abstain
+premise_description: |
+  FDA danazol label §Contra with porphyria because danazol
+  precipitates acute porphyric attacks (severe pain, neuropathy,
+  psychosis). Correct: alternative HAE prophylaxis (C1-esterase
+  inhibitor concentrate, lanadelumab, berotralstat) — none of which
+  induce porphyria.
+reference:
+  - "FDA DailyMed: Danazol label §Contra — porphyria."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

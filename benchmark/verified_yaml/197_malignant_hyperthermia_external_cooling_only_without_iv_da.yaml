@@ -1,0 +1,29 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 22-year-old woman undergoing appendectomy under general
+  anesthesia with succinylcholine + sevoflurane develops MH (T
+  40.4°C, HR 148, ETCO2 rising, muscle rigidity). Anesthesia
+  discontinues sevoflurane, hyperventilates with 100% O2, and
+  initiates external cooling with ice packs; no IV dantrolene.
+choices:
+  A: External cooling with ice packs
+  B: External cooling + cold saline gastric lavage
+  C: External cooling + bladder irrigation
+  D: External cooling + evaporative cooling
+correct: abstain
+premise_description: |
+  MH is a life-threatening pharmacogenetic emergency; IV dantrolene
+  2.5 mg/kg bolus (may repeat to 10 mg/kg total) is the ONLY
+  specific pharmacologic therapy that interrupts uncontrolled
+  calcium release from sarcoplasmic reticulum. External cooling +
+  anesthetic discontinuation are essential adjuncts but cannot
+  substitute for dantrolene. Delayed dantrolene is associated with
+  90%+ mortality.
+reference:
+  - "Malignant Hyperthermia Association of the United States (MHAUS) protocols."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

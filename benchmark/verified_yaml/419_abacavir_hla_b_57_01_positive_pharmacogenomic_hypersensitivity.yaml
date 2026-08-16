@@ -1,0 +1,23 @@
+seed_index: none
+category: contraindication
+difficulty: obvious
+question: |
+  A 34-year-old newly diagnosed HIV+ man has HLA-B*57:01 positive on
+  pre-treatment screening. ID initiates abacavir/lamivudine/dolutegravir
+  (Triumeq) 1 tablet PO daily.
+choices:
+  A: Triumeq 1 tab PO daily
+  B: Triumeq 1 tab PO daily with allergy pre-medication
+  C: Triumeq half-dose for 2 weeks then titrate
+  D: Abacavir 300 mg PO BID + dolutegravir
+correct: abstain
+premise_description: |
+  FDA abacavir label boxed §Contra with HLA-B*57:01 positive due to
+  potentially fatal hypersensitivity reaction. Universal pre-treatment
+  HLA-B*57:01 screening mandatory.
+reference:
+  - "FDA DailyMed: Abacavir label boxed §Contra — HLA-B*57:01 positive."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

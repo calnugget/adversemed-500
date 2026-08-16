@@ -1,0 +1,26 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 68-year-old woman had malignant MCA infarct 5 d ago. Initial
+  presentation NIHSS 22, midline shift 8 mm on CT. Family declined
+  hemicraniectomy at admission; now she has fixed dilated pupils,
+  no brainstem reflexes, GCS 3. Neurosurgery proposes decompressive
+  hemicraniectomy.
+choices:
+  A: Emergent hemicraniectomy now
+  B: Hemicraniectomy after ICP monitor placement
+  C: External ventricular drain only
+  D: Bilateral decompressive craniectomy now
+correct: abstain
+premise_description: |
+  DECIMAL/DESTINY/HAMLET trials: hemicraniectomy for malignant MCA
+  infarct requires intervention ≤ 48 hr of symptom onset. Beyond 96 hr,
+  benefit is lost. In patient with brainstem herniation signs, further
+  intervention is futile.
+reference:
+  - "Cochrane review of DECIMAL/DESTINY/HAMLET: hemicraniectomy timing ≤ 48 hr."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

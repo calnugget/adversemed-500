@@ -1,0 +1,21 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 41-year-old woman on rilpivirine 25 mg PO daily as part of ART
+  develops epilepsy. Neurology initiates phenobarbital 90 mg PO daily.
+choices:
+  A: Rilpivirine 25 mg daily + phenobarbital 90 mg daily
+  B: Rilpivirine 50 mg daily + phenobarbital 90 mg daily
+  C: Rilpivirine 25 mg BID + phenobarbital 90 mg daily
+  D: Rilpivirine 25 mg daily + phenobarbital with monthly viral load
+correct: abstain
+premise_description: |
+  FDA rilpivirine (Edurant) label §Contra concurrent long-acting
+  barbiturates (phenobarbital) — markedly reduced exposure.
+reference:
+  - "FDA DailyMed: Rilpivirine (Edurant) label §Contra — phenobarbital."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

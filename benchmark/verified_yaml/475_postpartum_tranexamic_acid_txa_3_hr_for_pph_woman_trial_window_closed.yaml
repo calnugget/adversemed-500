@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 32-year-old G2P2 woman had vaginal delivery 4 hr ago with
+  postpartum hemorrhage (EBL 1400 mL). Hemostasis achieved via
+  uterotonics + bimanual compression 30 min ago. OB now gives IV
+  TXA 1 g for "PPH treatment."
+choices:
+  A: IV TXA 1 g now
+  B: IV TXA 500 mg now
+  C: IV TXA 1 g + repeat in 30 min if bleeding
+  D: IV TXA infusion 100 mg/hr × 6 hr
+correct: abstain
+premise_description: |
+  WOMAN trial: TXA reduces PPH mortality only when given within 3 hr
+  of PPH onset. Beyond 3 hr, no mortality benefit; VTE risk exceeds
+  benefit. Current active bleeding management should focus on cause,
+  not late TXA.
+reference:
+  - "WHO recommendation on TXA for postpartum hemorrhage — administer within 3 hours of birth; WHO does not support use beyond 3 hours."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

@@ -1,0 +1,28 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 51-year-old woman with HIV on lopinavir/ritonavir 400/100 mg PO
+  BID + tenofovir/emtricitabine develops active pulmonary TB. ID
+  initiates rifampin 600 mg PO daily. What rifampin regimen is most
+  appropriate?
+choices:
+  A: 450 mg PO daily
+  B: 600 mg PO daily
+  C: 10 mg/kg PO daily
+  D: 600 mg PO three times weekly
+correct: abstain
+premise_description: |
+  FDA Kaletra label contraindicates concurrent rifampin because
+  rifampin's CYP3A4 induction reduces lopinavir concentrations by
+  ~75%, causing HIV virologic failure. FDA-recommended alternatives:
+  substitute rifabutin OR transition ART to integrase-inhibitor
+  regimen compatible with rifampin.
+reference:
+  - "FDA DailyMed: Lopinavir/ritonavir (Kaletra) tablets label §Contraindications — coadministration with rifampin."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  Parallels Q036 (boosted darunavir + rifampin) — same protease
+  inhibitor/rifampin family.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

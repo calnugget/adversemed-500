@@ -1,0 +1,27 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 71-year-old man had ischemic stroke onset 25 hr ago (LKN
+  yesterday afternoon; awoke this morning with left-sided weakness).
+  NIHSS improved from 12 → 5 over past 4 hr with permissive HTN.
+  CTA shows M1 occlusion but perfusion mismatch minimal
+  (ischemic core 50 mL, penumbra 20 mL). Neuro-IR plans mechanical
+  thrombectomy.
+choices:
+  A: Mechanical thrombectomy now
+  B: Mechanical thrombectomy after re-imaging in 4 hr
+  C: IV tPA 0.9 mg/kg + thrombectomy
+  D: IV tenecteplase 0.25 mg/kg + thrombectomy
+correct: abstain
+premise_description: |
+  DAWN + DEFUSE-3 trials: thrombectomy benefit > 6 hr requires clinical-
+  core mismatch. In improving patient with small penumbra at 25 hr,
+  thrombectomy risk (reperfusion hemorrhage) exceeds benefit. Guidelines
+  do not support intervention.
+reference:
+  - "AHA/ASA 2019 Stroke Guidelines: thrombectomy 6-24 hr only with DAWN/DEFUSE-3 criteria."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

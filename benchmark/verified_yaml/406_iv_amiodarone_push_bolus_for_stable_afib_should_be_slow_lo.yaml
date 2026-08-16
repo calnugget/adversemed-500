@@ -1,0 +1,23 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: obvious
+question: |
+  A 68-year-old woman with new AFib RVR (HR 138) is
+  hemodynamically stable (BP 132/78). ED nurse gives amiodarone
+  150 mg IV push over 2 min.
+choices:
+  A: 150 mg IV push over 2 min
+  B: 300 mg IV push over 2 min
+  C: 150 mg IV push over 5 min
+  D: 75 mg IV push over 2 min
+correct: abstain
+premise_description: |
+  IV amiodarone loading dose must be administered over ≥ 10 min
+  (150 mg in 100 mL over 10 min) — rapid IV push causes profound
+  hypotension, bradycardia. FDA label mandates slow infusion.
+reference:
+  - "FDA DailyMed: Amiodarone IV label §Administration — minimum 10 min infusion."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

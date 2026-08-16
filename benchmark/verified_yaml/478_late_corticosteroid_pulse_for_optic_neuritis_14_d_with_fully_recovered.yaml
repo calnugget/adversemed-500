@@ -1,0 +1,26 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 32-year-old woman had unilateral optic neuritis (Snellen 20/200 at
+  onset). At 16 d post-onset, vision has recovered to 20/25 without
+  treatment. Neurology now orders IV methylprednisolone 1 g daily × 3 d
+  followed by prednisone taper.
+choices:
+  A: IV methylprednisolone 1 g × 3 d + taper
+  B: IV methylprednisolone 500 mg × 3 d + taper
+  C: PO prednisone 60 mg × 11 d + taper
+  D: PO prednisone 60 mg × 11 d + taper
+correct: abstain
+premise_description: |
+  ONTT (Optic Neuritis Treatment Trial): IV methylprednisolone
+  accelerates visual recovery but does not affect final outcome. In
+  patient with spontaneous recovery to near-baseline at 16 d, steroid
+  pulse provides no benefit and carries risk (immunosuppression,
+  psychiatric effects, glucose intolerance).
+reference:
+  - "ONTT trial + AAN Practice Guideline on optic neuritis."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

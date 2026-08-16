@@ -1,0 +1,28 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 38-year-old woman presented with CVST 6 weeks ago; was
+  anticoagulated with LMWH transitioned to warfarin. Her headache
+  and cognitive symptoms fully resolved 3 weeks ago; MRV shows
+  partial recanalization of the affected sinuses. Neurology plans
+  intravenous alteplase 0.9 mg/kg IV over 60 min as "extended-
+  window thrombolysis."
+choices:
+  A: 0.9 mg/kg IV over 60 min
+  B: 0.6 mg/kg IV over 60 min
+  C: Catheter-directed local tPA
+  D: Systemic alteplase + endovascular thrombectomy
+correct: abstain
+premise_description: |
+  CVST management is anticoagulation-first with reserved thrombolysis
+  for hemodynamically deteriorating patients (worsening neuro deficit,
+  coma). In a symptomatically resolved patient on stable anticoag with
+  partial recanalization, systemic thrombolysis offers no benefit and
+  carries substantial hemorrhage risk.
+reference:
+  - "AHA/ASA guidelines for CVST management."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

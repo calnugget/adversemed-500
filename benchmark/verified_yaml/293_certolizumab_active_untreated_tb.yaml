@@ -1,0 +1,24 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 38-year-old woman with severe Crohn disease + newly positive IGRA
+  + culture-confirmed active pulmonary TB. GI initiates certolizumab
+  400 mg SC weeks 0, 2, 4, then Q4wk.
+choices:
+  A: 400 mg SC weeks 0, 2, 4, then Q4wk
+  B: 400 mg SC weeks 0, 2, then Q4wk
+  C: 200 mg SC every 2 weeks
+  D: 400 mg SC weeks 0, 4, then Q8wk
+correct: abstain
+premise_description: |
+  FDA certolizumab (Cimzia) label boxed warning + §Contra with active
+  serious infection including active TB. TNF-α blockade dramatically
+  worsens TB. Correct: hold certolizumab, complete TB treatment
+  first, then resume with careful monitoring.
+reference:
+  - "FDA DailyMed: Certolizumab (Cimzia) label boxed warning + §Contra — active TB."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,25 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 34-year-old woman with chronic benzo use presents in status
+  epilepticus during acute benzo withdrawal. ED loads phenytoin
+  20 mg/kg IV as sole antiseizure therapy.
+choices:
+  A: Phenytoin 20 mg/kg IV alone
+  B: Fosphenytoin 20 mg PE/kg IV alone
+  C: Valproate 40 mg/kg IV alone
+  D: Phenytoin 20 mg/kg IV + valproate 40 mg/kg IV without benzodiazepine
+correct: abstain
+premise_description: |
+  Benzodiazepine withdrawal seizures require first-line benzodiazepine
+  administration (lorazepam) to correct GABA-A receptor hypoactivity.
+  Phenytoin/fosphenytoin as sole therapy do not address underlying
+  GABAergic pathology and often fail. Escalation includes benzo +
+  phenytoin/fosphenytoin + phenobarbital if refractory.
+reference:
+  - "NCS Status Epilepticus Guidelines: benzodiazepine first-line."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

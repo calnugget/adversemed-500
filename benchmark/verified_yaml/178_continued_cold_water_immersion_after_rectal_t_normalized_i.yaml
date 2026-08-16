@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 24-year-old marathon runner had exertional heat stroke 2 hr ago
+  (T at presentation 41.4°C). Cold-water immersion normalized rectal
+  T to 37.8°C after 20 min. She is now awake, alert, hemodynamically
+  stable. EM plans additional 30-min cold-water immersion for
+  "protective cooling."
+choices:
+  A: 30-min cold-water immersion
+  B: 45-min cold-water immersion
+  C: 60-min cold-water immersion + ice packs
+  D: 30-min cold-water immersion + cold IV fluids
+correct: abstain
+premise_description: |
+  ACSM: cold-water immersion until rectal T < 38.5°C, then
+  discontinue. Continuing immersion in a normothermic patient risks
+  iatrogenic hypothermia without benefit.
+reference:
+  - "American College of Sports Medicine consensus on exertional heat stroke."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

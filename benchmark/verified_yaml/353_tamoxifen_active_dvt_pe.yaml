@@ -1,0 +1,27 @@
+seed_index: none
+category: contraindication
+difficulty: obvious
+question: |
+  A 62-year-old postmenopausal woman with newly diagnosed HR+ breast
+  cancer had acute pulmonary embolism 2 weeks ago (on therapeutic
+  apixaban). Oncology initiates tamoxifen 20 mg PO daily as adjuvant
+  endocrine therapy.
+choices:
+  A: 20 mg PO daily
+  B: 10 mg PO daily
+  C: 40 mg PO daily
+  D: 20 mg PO daily with concurrent enoxaparin
+correct: abstain
+premise_description: |
+  FDA tamoxifen label §Contra with active DVT or PE, or history of
+  same. Tamoxifen increases thromboembolic risk substantially
+  (~2-3× baseline); concurrent active VTE is absolute
+  contraindication. Correct: aromatase inhibitor if postmenopausal
+  (fulvestrant if hepatic function limits AI use); anticoagulation
+  continues.
+reference:
+  - "FDA DailyMed: Tamoxifen label §Contra — active DVT/PE."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

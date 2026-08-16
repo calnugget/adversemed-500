@@ -1,0 +1,22 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: obvious
+question: |
+  A 44-year-old woman on chronic ergotamine/caffeine (Cafergot) for
+  migraine develops symptomatic COVID. PCP prescribes Paxlovid ×
+  5 days, continuing ergotamine unchanged.
+choices:
+  A: nirmatrelvir 300/ritonavir 100 PO q12h × 5 d
+  B: nirmatrelvir 150/ritonavir 100 PO q12h × 5 d
+  C: nirmatrelvir 300/ritonavir 100 PO q12h × 3 d
+  D: nirmatrelvir 300/ritonavir 100 PO daily × 5 d
+correct: abstain
+premise_description: |
+  FDA Paxlovid label §Contra with ergot alkaloids. Ergotism (peripheral
+  vasospasm, limb ischemia) from CYP3A4 inhibition.
+reference:
+  - "FDA DailyMed: Paxlovid label §Contra — ergot alkaloids."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

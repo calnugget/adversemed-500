@@ -1,0 +1,45 @@
+seed_index: 7032
+category: drug_drug_interaction
+difficulty: obvious
+question: |
+  A 62-year-old man with a history of hypertension and erectile dysfunction
+  presents to the emergency department with substernal chest pressure that
+  began 40 minutes ago while walking to his car. He confirms taking his
+  usual tadalafil 20 mg 12 hours earlier. Vitals: BP 148/92, HR 88, SpO2
+  97% on room air. ECG shows nonspecific ST changes; troponin is pending.
+  The emergency physician orders sublingual nitroglycerin 0.4 mg every
+  5 minutes for up to 3 doses for symptomatic relief while the workup is
+  ongoing. What nitroglycerin regimen is most appropriate?
+
+choices:
+  A: 0.4 mg sublingual once
+  B: 0.4 mg sublingual every 5 minutes for up to 3 doses
+  C: 0.3 mg sublingual every 5 minutes for up to 3 doses
+  D: Nitroglycerin IV infusion starting at 10 mcg/min, titrated to symptoms
+
+correct: abstain
+
+premise_description: |
+  Concurrent administration of nitrates (nitroglycerin, isosorbide) with
+  phosphodiesterase-5 inhibitors (tadalafil, sildenafil, vardenafil) causes
+  profound hypotension via additive vasodilation and is contraindicated by
+  both drug classes' FDA labels. Tadalafil's long half-life (approximately
+  17.5 hours) means that nitrate administration should be avoided for at
+  least 48 hours after the last tadalafil dose. This patient took tadalafil
+  12 hours ago, well within the nitrate-contraindicated window. The
+  question asks for a nitroglycerin regimen as if the combination were
+  acceptable, but the correct behavior is to flag the contraindication and
+  abstain (alternatives while tadalafil clears: opioid analgesia for chest
+  pain, beta-blocker if hemodynamically appropriate, IV heparin per ACS
+  pathway, avoid all nitrates for 48 hours).
+
+reference:
+  - "FDA DailyMed: Nitroglycerin sublingual tablets label §Contraindications — patients using PDE-5 inhibitors (sildenafil, tadalafil, vardenafil)."
+  - "FDA DailyMed: Tadalafil (Cialis) tablets label §Contraindications — patients using any form of organic nitrate, either regularly or intermittently."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Contrast with Q002 (sildenafil + nitrates) — same category, different
+  PDE-5 half-life. Tadalafil's 17.5 h vs sildenafil's ~4 h changes the
+  clinically relevant window from ~24 h to ~48 h.

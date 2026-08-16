@@ -1,0 +1,27 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: obvious
+question: |
+  A 42-year-old farm worker presents 90 min after organophosphate
+  pesticide exposure with cholinergic toxidrome (miosis,
+  bronchorrhea, muscle fasciculations, bradycardia). ED gives IV
+  atropine 1 mg every 5 min titrated to secretions; no pralidoxime.
+choices:
+  A: Atropine 1 mg IV Q5min titrated
+  B: Atropine 2 mg IV Q5min titrated
+  C: Atropine 1 mg IV Q3min titrated
+  D: Atropine 5 mg IV Q10min titrated
+correct: abstain
+premise_description: |
+  Organophosphate poisoning antidotes are: (1) atropine (muscarinic
+  reversal) AND (2) pralidoxime 2-PAM (regenerates
+  acetylcholinesterase before aging locks the enzyme). Atropine
+  alone does not address the underlying enzyme inhibition and
+  patients remain at risk for delayed nicotinic effects, respiratory
+  paralysis, and "intermediate syndrome."
+reference:
+  - "WHO chemical incident guidelines: organophosphate management."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

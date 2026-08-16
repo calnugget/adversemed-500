@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 66-year-old man with asymptomatic infrarenal AAA 4.6 cm on
+  surveillance (growth < 0.5 cm/yr over 2 years) is planned for
+  EVAR by vascular surgery.
+choices:
+  A: EVAR now
+  B: Open AAA repair now
+  C: EVAR at next scheduled clinic visit
+  D: EVAR after preoperative optimization
+correct: abstain
+premise_description: |
+  SVS AAA management guidelines: intervention (EVAR or open) is
+  recommended at diameter ≥ 5.5 cm in males (5.0 cm in females) OR
+  rapid growth > 0.5 cm/6 mo OR symptomatic. Below these thresholds,
+  surveillance ± best medical therapy. Elective EVAR at 4.6 cm is
+  not indicated; perioperative morbidity/mortality outweighs benefit.
+reference:
+  - "SVS 2018 Practice Guidelines: Care of Patients with an AAA."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,23 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 62-year-old man with AFib on verapamil 240 mg PO daily and
+  Child-Pugh B alcoholic cirrhosis develops acute gout. PCP
+  prescribes colchicine 1.2 mg PO stat then 0.6 mg 1 h later.
+choices:
+  A: 1.2 mg stat then 0.6 mg 1 h later
+  B: 0.6 mg stat then 0.6 mg 1 h later
+  C: 0.6 mg PO Q1h × 6 doses
+  D: 1.2 mg PO once only
+correct: abstain
+premise_description: |
+  FDA colchicine label boxed §Contra with moderate CYP3A4 inhibitor
+  (verapamil) in hepatic OR renal impairment — life-threatening
+  toxicity. Correct: NSAID or corticosteroid for acute gout.
+reference:
+  - "FDA DailyMed: Colchicine label boxed §Contra — moderate CYP3A4 inhibitor + hepatic/renal impairment."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

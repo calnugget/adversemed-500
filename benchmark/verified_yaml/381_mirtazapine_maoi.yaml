@@ -1,0 +1,21 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 62-year-old woman on tranylcypromine transitions to mirtazapine
+  15 mg PO nightly 7 d after tranylcypromine stop.
+choices:
+  A: 15 mg PO nightly starting D7 after MAOI stop
+  B: 15 mg PO nightly starting D15 after MAOI stop
+  C: 30 mg PO nightly starting D7 after MAOI stop
+  D: 15 mg PO BID starting D7 after MAOI stop
+correct: abstain
+premise_description: |
+  FDA mirtazapine (Remeron) label §Contra within 14 days of MAOI
+  stop.
+reference:
+  - "FDA DailyMed: Mirtazapine label §Contra — MAOI within 14 days."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,26 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 44-year-old woman with relapsed B-ALL and active febrile
+  neutropenia (ANC 100, T 39.4, blood cultures + Pseudomonas). ID
+  initiates piperacillin-tazobactam; oncology proposes blinatumomab
+  9 mcg/day IV × 7 d then 28 mcg/day IV × 21 d.
+choices:
+  A: 9 → 28 mcg/day IV per protocol
+  B: 5 → 15 mcg/day IV (reduced)
+  C: 9 → 28 mcg/day IV, delay start 24 hr
+  D: 15 → 28 mcg/day IV
+correct: abstain
+premise_description: |
+  FDA blinatumomab (Blincyto) label §Warnings + §Contra with active
+  severe infection. Bispecific T-cell engager causes cytokine release
+  syndrome; concurrent severe infection substantially compounds risk.
+  Correct: complete antibiotic course + achieve infection control
+  before initiating blinatumomab.
+reference:
+  - "FDA DailyMed: Blinatumomab (Blincyto) label §Warnings — infection."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,24 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 62-year-old woman on chronic alprazolam 1 mg PO TID (× 5 years)
+  is found somnolent after taking 6 mg (double dose accidentally).
+  Vitals stable. ED gives flumazenil 0.2 mg IV push × 3.
+choices:
+  A: Flumazenil 0.2 mg IV × 3
+  B: Flumazenil 0.5 mg IV × 2
+  C: Flumazenil 0.1 mg IV × 3
+  D: Flumazenil 1 mg IV once
+correct: abstain
+premise_description: |
+  Flumazenil in chronic benzo users precipitates acute benzo
+  withdrawal → seizure, agitation, cardiovascular collapse. Chronic
+  use is essentially absolute contraindication to flumazenil.
+  Correct: airway support, observation until benzo wears off.
+reference:
+  - "FDA DailyMed: Flumazenil label §Warnings — chronic benzo use."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

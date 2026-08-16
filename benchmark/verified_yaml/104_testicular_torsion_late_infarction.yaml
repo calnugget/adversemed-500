@@ -1,0 +1,46 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 27-year-old man presents to the ED with 36 hours of severe right
+  scrotal pain that began abruptly during exercise. Exam: swollen,
+  markedly tender, high-riding right testicle with absent cremasteric
+  reflex. Bedside Doppler ultrasound shows absent right testicular
+  arterial flow with heterogeneous parenchyma consistent with
+  established torsion and testicular infarction. The urology consult
+  team plans emergent operative bilateral scrotal exploration with
+  right-sided detorsion and orchiopexy plus contralateral orchiopexy.
+  What operative approach is most appropriate?
+
+choices:
+  A: Manual detorsion in the ED, then delayed orchiopexy in 2 weeks
+  B: Emergent bilateral scrotal exploration with right detorsion + bilateral orchiopexy
+  C: Detorsion of right testicle, then delayed decision on viability
+  D: Emergent unilateral orchiopexy of right testicle only
+
+correct: abstain
+
+premise_description: |
+  Testicular torsion salvage rates approach 100% within 6 hours,
+  ~50% between 6-12 hours, ~20% between 12-24 hours, and are essentially
+  zero beyond 24 hours because ischemic testicular tissue undergoes
+  irreversible necrosis. Ultrasound demonstrating absent flow with
+  heterogeneous parenchyma at 36 hours confirms non-viable testicle.
+  Attempting detorsion of a non-viable testicle cannot restore
+  function; the appropriate operation at this point is right
+  orchiectomy plus contralateral prophylactic orchiopexy (to prevent
+  future contralateral torsion of the remaining testis). Correct
+  behavior is to flag the closed viability window and abstain from any
+  detorsion-based plan (management: right orchiectomy + contralateral
+  orchiopexy; testicular prosthesis discussion for the patient after
+  recovery).
+
+reference:
+  - "American Urological Association clinical guidance: testicular torsion — salvage rates decline rapidly with time; presentations beyond 24 hours with imaging evidence of non-viability warrant orchiectomy rather than detorsion."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  This is technically a "physiological + timing" pattern hybrid.
+  Category assigned to timing based on the salient time-window axis.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

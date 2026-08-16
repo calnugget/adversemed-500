@@ -1,0 +1,25 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 51-year-old woman with intentional diazepam overdose (self-report
+  120 mg 2 hr ago; obtunded, RR 10, SpO2 92%). EMS administers
+  naloxone 4 mg IN.
+choices:
+  A: Naloxone 4 mg IN
+  B: Naloxone 0.4 mg IV
+  C: Naloxone 2 mg IV + 4 mg IN
+  D: Naloxone infusion 0.4 mg/hr
+correct: abstain
+premise_description: |
+  Naloxone is an opioid receptor antagonist with no activity at the
+  benzodiazepine binding site of GABA-A. Wrong drug for wrong receptor.
+  Management is supportive; flumazenil may be considered in isolated
+  benzodiazepine overdose but has seizure risk in chronic users or
+  co-ingestions.
+reference:
+  - "ACMT + Wolfson Clinical Toxicology."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

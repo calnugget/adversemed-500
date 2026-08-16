@@ -1,0 +1,21 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 51-year-old man with imatinib-resistant GIST on ripretinib 150 mg
+  PO daily develops active pulmonary TB. ID initiates rifampin.
+choices:
+  A: 450 mg PO daily
+  B: 600 mg PO daily
+  C: 10 mg/kg PO daily
+  D: 600 mg PO three times weekly
+correct: abstain
+premise_description: |
+  FDA ripretinib (Qinlock) label §Contra with strong CYP3A4 inducers.
+  Correct: rifabutin substitution.
+reference:
+  - "FDA DailyMed: Ripretinib (Qinlock) label §Contraindications — strong CYP3A4 inducers."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

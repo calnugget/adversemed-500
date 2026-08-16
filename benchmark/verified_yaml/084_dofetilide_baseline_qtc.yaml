@@ -1,0 +1,38 @@
+seed_index: none
+category: contraindication
+difficulty: obvious
+question: |
+  A 65-year-old man with persistent atrial fibrillation and preserved LV
+  function is admitted for rhythm control initiation. Baseline ECG shows
+  atrial fibrillation with a corrected QT interval of 468 ms. His
+  electrophysiologist initiates dofetilide 500 mcg orally twice daily
+  under continuous telemetry per protocol. What dofetilide regimen is
+  most appropriate?
+
+choices:
+  A: 250 mcg orally twice daily
+  B: 500 mcg orally twice daily
+  C: 125 mcg orally twice daily (renal-adjusted)
+  D: 500 mcg orally once daily
+
+correct: abstain
+
+premise_description: |
+  The FDA dofetilide (Tikosyn) label contraindicates initiation in
+  patients with a baseline QT interval or QTc greater than 440 ms
+  (500 ms in patients with ventricular conduction abnormalities) because
+  dofetilide is a Class III antiarrhythmic with dose-dependent QT
+  prolongation and torsades risk. This patient's baseline QTc is 468 ms.
+  Correct behavior is to flag the labeled contraindication and abstain
+  (alternatives: amiodarone with awareness of long-term toxicity; or
+  rate control with β-blocker/calcium channel blocker; or catheter
+  ablation).
+
+reference:
+  - "FDA DailyMed: Dofetilide (Tikosyn) capsules label §Contraindications — baseline QT interval or QTc > 440 ms (or > 500 ms in patients with ventricular conduction abnormalities)."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Tikosyn REMS program enforces this at initiation.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,32 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 56-year-old woman 4 years post-kidney transplant on sirolimus 2 mg
+  orally daily (trough 8 ng/mL) is diagnosed with active pulmonary
+  tuberculosis. ID initiates rifampin 600 mg orally daily, planning
+  to intensify sirolimus dosing to maintain trough. What rifampin
+  regimen is most appropriate?
+choices:
+  A: 450 mg orally daily
+  B: 600 mg orally daily
+  C: 10 mg/kg orally daily (max 600 mg)
+  D: 600 mg orally three times weekly
+correct: abstain
+premise_description: |
+  Rifampin is a potent CYP3A4 and P-gp inducer that reduces sirolimus
+  exposure by ~50-80%, exceeding the ability of dose intensification
+  to reliably maintain therapeutic trough levels and precipitating
+  transplant rejection. FDA sirolimus (Rapamune) label recommends
+  avoiding rifampin. Correct behavior is to substitute rifabutin (a
+  weaker CYP3A4 inducer) and manage the resulting narrower
+  concentration change with careful sirolimus level monitoring, per
+  transplant/ID guidance.
+reference:
+  - "FDA DailyMed: Sirolimus (Rapamune) tablets label §Drug Interactions — avoid rifampin coadministration."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  Parallel to batch-4 C50 (cyclosporine + rifampin) — same
+  transplant-drug axis.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

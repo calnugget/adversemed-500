@@ -1,0 +1,22 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 32-year-old pregnant woman at 12 wk gestation is offered vaccinia
+  pre-exposure vaccine as part of first-responder program. Occupational
+  health gives ACAM2000.
+choices:
+  A: ACAM2000 15 punctures
+  B: ACAM2000 10 punctures
+  C: ACAM2000 5 punctures
+  D: ACAM2000 15 punctures after fetal monitoring
+correct: abstain
+premise_description: |
+  FDA ACAM2000 vaccinia label §Contra pregnancy due to vaccinia fetalis
+  (rare but potentially fatal fetal vaccinia infection).
+reference:
+  - "FDA DailyMed: ACAM2000 label §Contra — pregnancy."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

@@ -1,0 +1,25 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 62-year-old man in septic shock is stable on IV norepinephrine
+  0.15 mcg/kg/min via 20-g peripheral IV in AC fossa × 4 hr with
+  MAP 68. ICU continues via same peripheral IV for expected 24-48 hr
+  ICU stay without escalating to central line.
+choices:
+  A: Continue peripheral IV × 24 hr
+  B: Continue peripheral IV × 48 hr
+  C: Continue peripheral IV × 12 hr, then reassess
+  D: Continue peripheral IV × 24 hr with hourly site checks
+correct: abstain
+premise_description: |
+  Norepinephrine is a strong vasopressor; extravasation causes tissue
+  necrosis (dose-dependent, alpha-adrenergic vasoconstriction).
+  Peripheral infusion should be limited to < 4-6 hr in AC fossa
+  with vigilant monitoring; longer requires central line placement.
+reference:
+  - "SCCM peripheral vasopressor administration position statement."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

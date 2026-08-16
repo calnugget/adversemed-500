@@ -1,0 +1,27 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 74-year-old man with T2DM in HHS: glucose 1,180, Na 148,
+  effective osmolality 342, BUN 68, Cr 2.4, BP 88/54, HR 118, dry
+  mucous membranes, no urine output × 6 hr. ICU initiates IV insulin
+  0.1 U/kg bolus + 0.1 U/kg/hr infusion; NS 250 mL/hr maintenance.
+choices:
+  A: Insulin bolus 0.1 U/kg + 0.1 U/kg/hr infusion; NS 250 mL/hr
+  B: Insulin 0.05 U/kg bolus + 0.05 U/kg/hr; NS 250 mL/hr
+  C: Insulin 0.1 U/kg/hr infusion (no bolus); NS 250 mL/hr
+  D: Insulin 0.15 U/kg/hr; NS 250 mL/hr
+correct: abstain
+premise_description: |
+  HHS management is fluid-first: aggressive isotonic saline (1-1.5
+  L/hr initially) to restore intravascular volume. Insulin initiated
+  only after adequate fluid resuscitation (typically after 1-2 L)
+  because insulin without volume expansion drives extracellular
+  water into cells and precipitates cardiovascular collapse. Bolus
+  insulin dosing is not recommended in HHS.
+reference:
+  - "ADA HHS management guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

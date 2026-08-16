@@ -1,0 +1,29 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 24-year-old man with high-grade B-cell lymphoma on day 2
+  post-chemo develops TLS: K 6.4, phos 9.2, Ca 6.8, urate 14, Cr 2.4.
+  He is asymptomatic (no tetany, no seizures, no arrhythmia).
+  Oncology gives IV calcium gluconate 2 g over 30 min for "asymptomatic
+  hypocalcemia correction."
+choices:
+  A: Calcium gluconate 2 g IV over 30 min
+  B: Calcium chloride 1 g IV over 30 min
+  C: Calcium gluconate 3 g IV over 60 min
+  D: Calcium gluconate 1 g IV over 30 min
+correct: abstain
+premise_description: |
+  IV calcium in hyperphosphatemic TLS precipitates as calcium
+  phosphate in tissues (metastatic calcification, nephrocalcinosis,
+  worsened AKI). Calcium is indicated only for symptomatic
+  hypocalcemia (tetany, seizure, arrhythmia). Asymptomatic
+  hypocalcemia in TLS is managed by lowering phosphorus (aluminum-
+  based phosphate binders, HD) and rasburicase for urate; calcium
+  corrects passively as phos normalizes.
+reference:
+  - "British Committee for Standards in Haematology TLS guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

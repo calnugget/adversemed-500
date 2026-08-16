@@ -1,0 +1,24 @@
+seed_index: none
+category: impossible_timing
+difficulty: obvious
+question: |
+  A 48-year-old woman requests HPV vaccine (Gardasil 9) for
+  prevention after recent Pap ASC-US + HPV+. Her PCP initiates the
+  3-dose 0-2-6 month schedule.
+choices:
+  A: 3-dose 0-2-6 month schedule
+  B: 2-dose 0-6 month schedule
+  C: 3-dose 0-1-6 month schedule
+  D: Single dose only
+correct: abstain
+premise_description: |
+  FDA Gardasil 9 label: ages 9-45. Beyond 45 not approved. CDC ACIP
+  shared-decision-making ends at 45. This patient's HPV-related
+  cervical finding warrants colposcopy follow-up per USPSTF, not
+  vaccination.
+reference:
+  - "FDA DailyMed: Gardasil 9 label §Indications — ages 9-45."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

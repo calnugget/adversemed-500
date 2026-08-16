@@ -1,0 +1,24 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 62-year-old woman with EGFR-mutated NSCLC on osimertinib 80 mg PO
+  daily develops focal seizures from brain metastasis. Neurology
+  initiates phenytoin 300 mg PO daily.
+choices:
+  A: 200 mg PO daily
+  B: 300 mg PO daily
+  C: 400 mg PO daily
+  D: 100 mg PO TID
+correct: abstain
+premise_description: |
+  FDA osimertinib (Tagrisso) label §Drug Interactions — avoid strong
+  CYP3A4 inducers because inducer reduces osimertinib exposure and
+  precipitates cancer progression. Correct: levetiracetam or lacosamide
+  (non-inducing AEDs).
+reference:
+  - "FDA DailyMed: Osimertinib (Tagrisso) label §Drug Interactions — avoid strong CYP3A4 inducers."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

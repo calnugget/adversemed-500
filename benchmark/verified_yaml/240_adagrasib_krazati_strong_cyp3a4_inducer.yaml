@@ -1,0 +1,22 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 66-year-old woman with KRAS G12C-mutated NSCLC on adagrasib 600
+  mg PO BID develops active pulmonary TB. ID initiates rifampin.
+choices:
+  A: 450 mg PO daily
+  B: 600 mg PO daily
+  C: 10 mg/kg PO daily
+  D: 600 mg PO three times weekly
+correct: abstain
+premise_description: |
+  FDA adagrasib (Krazati) label §Contra with strong CYP3A4 inducers
+  because inducer substantially reduces adagrasib and compromises
+  KRAS G12C inhibition. Correct: substitute rifabutin.
+reference:
+  - "FDA DailyMed: Adagrasib (Krazati) label §Contraindications — strong CYP3A4 inducers."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

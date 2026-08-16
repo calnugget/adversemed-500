@@ -1,0 +1,23 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 51-year-old woman on doravirine 100 mg PO daily + tenofovir/
+  emtricitabine (Delstrigo) for HIV starts OTC St. John's wort
+  300 mg PO TID.
+choices:
+  A: Continue Delstrigo + St. John's wort
+  B: Increase Delstrigo (doravirine 200 mg) + St. John's wort
+  C: Continue Delstrigo + St. John's wort with monthly VL
+  D: Continue Delstrigo + St. John’s wort with monthly viral load
+correct: abstain
+premise_description: |
+  FDA doravirine (Pifeltro / Delstrigo) label §Contra concurrent
+  strong CYP3A4 inducers (St. John's wort, rifampin, carbamazepine,
+  phenobarbital, phenytoin) — markedly reduced doravirine exposure.
+reference:
+  - "FDA DailyMed: Doravirine label §Contra — strong CYP3A4 inducers."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

@@ -1,0 +1,33 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 62-year-old woman on chronic fluoxetine 60 mg daily for major
+  depression develops post-cardiac-bypass vasoplegic syndrome
+  refractory to norepinephrine and vasopressin. Cardiac anesthesia
+  plans to administer IV methylene blue 2 mg/kg over 30 minutes as
+  rescue therapy for vasoplegia. What methylene blue regimen is most
+  appropriate?
+choices:
+  A: 1 mg/kg IV over 30 minutes
+  B: 2 mg/kg IV over 30 minutes
+  C: 3 mg/kg IV over 30 minutes
+  D: 2 mg/kg IV over 60 minutes
+correct: abstain
+premise_description: |
+  Methylene blue is a potent MAO-A inhibitor at doses used clinically
+  (both for methemoglobinemia and for vasoplegia). Concurrent use with
+  serotonergic drugs (SSRIs, SNRIs, TCAs, MAOIs, tramadol) precipitates
+  serotonin syndrome. FDA safety communication (2011) specifically
+  warned against IV methylene blue in patients on serotonergic
+  psychiatric drugs. Fluoxetine's 5-week active-metabolite half-life
+  means "recent SSRI use" persists well beyond simple discontinuation.
+reference:
+  - "FDA Drug Safety Communication (July 2011): serious CNS reactions possible when methylene blue is given to patients taking certain psychiatric medications."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  Vasoplegia alternatives: hydroxocobalamin, angiotensin II
+  (Giapreza), ICU-titrated pressor combinations. All 4 methylene
+  blue dose variants precipitate serotonin syndrome.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

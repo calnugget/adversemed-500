@@ -1,0 +1,22 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 45-year-old woman on rasagiline (MAO-B for Parkinson) is
+  transitioned to levomilnacipran 20 mg PO daily × 2 d then 40 mg,
+  starting 10 d after rasagiline discontinuation.
+choices:
+  A: 20 mg × 2 d → 40 mg starting D10 after rasagiline stop
+  B: 40 mg daily starting D10 after rasagiline stop
+  C: 20 mg × 2 d → 40 mg starting D15 after rasagiline stop
+  D: 20 mg × 2 d → 40 mg concurrent with rasagiline
+correct: abstain
+premise_description: |
+  FDA levomilnacipran (Fetzima) label §Contra with MAOI including
+  MAO-B selective agents (selegiline, rasagiline) within 14 days.
+reference:
+  - "FDA DailyMed: Levomilnacipran (Fetzima) label §Contra — MAOI within 14 days."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,15 @@
+{
+  "run_id": "20260802T005143Z",
+  "model_id": "Claude Opus 4.7",
+  "method": "temperature_0",
+  "benchmark": "adversemed_500.jsonl",
+  "rows_written_this_run": 500,
+  "rows_previously_completed": 0,
+  "rows_total": 500,
+  "n_errors": 0,
+  "n_parse_failures": 1,
+  "n_not_applicable": 0,
+  "grand_cost_usd": 3.752910000000002,
+  "grand_wall_seconds": 661.535,
+  "run_ended_at": "2026-08-02T01:02:45.069843+00:00"
+}

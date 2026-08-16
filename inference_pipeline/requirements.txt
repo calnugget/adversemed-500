@@ -1,0 +1,10 @@
+datasets>=2.20
+huggingface_hub>=0.25
+openai>=1.40         # also used for DeepSeek (OpenAI-compatible API)
+anthropic>=0.35      # will be added in Phase 2
+google-generativeai>=0.8  # will be added in Phase 2 (Gemini)
+google-cloud-secret-manager>=2.20
+pyyaml>=6.0                # for AdverseMed-500 verified question files
+numpy>=2.0                 # analysis metrics
+scipy>=1.18                # statistical tests / bootstrap helpers
+matplotlib>=3.11           # reliability + coverage-risk figures

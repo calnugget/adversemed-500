@@ -1,0 +1,21 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 38-year-old man on isocarboxazid transitions to vilazodone
+  10 mg PO daily × 7 d then 20 mg daily, starting 8 days after
+  MAOI stop.
+choices:
+  A: 10 mg × 7 d → 20 mg starting D8 after MAOI stop
+  B: 20 mg daily starting D8 after MAOI stop
+  C: 10 mg × 7 d → 20 mg starting D15 after MAOI stop
+  D: 40 mg daily starting D8 after MAOI stop
+correct: abstain
+premise_description: |
+  FDA vilazodone label §Contra within 14 days of MAOI stop.
+reference:
+  - "FDA DailyMed: Vilazodone (Viibryd) label §Contra — MAOI 14-day washout."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

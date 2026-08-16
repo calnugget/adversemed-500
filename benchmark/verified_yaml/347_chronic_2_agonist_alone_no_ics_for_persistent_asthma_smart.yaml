@@ -1,0 +1,24 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 28-year-old man with mild-persistent asthma (symptoms 3-4×/wk).
+  PCP prescribes chronic salmeterol 50 mcg 1 inh BID as sole
+  controller (no ICS).
+choices:
+  A: Salmeterol 50 mcg 1 inh BID (LABA only)
+  B: Formoterol 12 mcg 1 inh BID (LABA only)
+  C: Salmeterol 100 mcg 1 inh BID (LABA only)
+  D: Salmeterol 50 mcg 1 inh TID
+correct: abstain
+premise_description: |
+  NHLBI / GINA: LABA monotherapy without ICS in asthma is
+  contraindicated per FDA boxed warning (increased asthma-related
+  death). Correct: ICS + LABA combination inhaler (fluticasone/
+  salmeterol, budesonide/formoterol) as SMART or MART regimen.
+reference:
+  - "NHLBI Expert Panel Report 4: Asthma Management."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

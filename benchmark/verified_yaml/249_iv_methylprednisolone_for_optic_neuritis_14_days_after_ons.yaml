@@ -1,0 +1,27 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 32-year-old woman had unilateral optic neuritis 3 weeks ago;
+  she received observation only. Her vision has fully recovered to
+  20/20 with normal color vision and fields. She now presents for
+  neuro-immunology follow-up. Neurology initiates IV methylprednisolone
+  1 g daily × 3 days for "retrospective steroid course."
+choices:
+  A: 1 g IV daily × 3 days
+  B: 500 mg IV daily × 3 days
+  C: 1 g IV daily × 5 days
+  D: 1 g IV once, then oral prednisone taper
+correct: abstain
+premise_description: |
+  IV methylprednisolone for optic neuritis accelerates visual
+  recovery in the acute phase; ONTT and follow-up trials showed
+  no long-term benefit and possible increased future MS conversion
+  when given late. After complete visual recovery, IV steroid
+  offers no benefit and exposes patient to steroid complications.
+reference:
+  - "Optic Neuritis Treatment Trial (ONTT); AAN practice parameter for optic neuritis."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

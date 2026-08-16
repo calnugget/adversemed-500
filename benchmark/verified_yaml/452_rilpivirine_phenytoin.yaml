@@ -1,0 +1,22 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 38-year-old man on rilpivirine 25 mg PO daily has status
+  epilepticus. Neurology loads phenytoin 20 mg/kg IV then 300 mg
+  PO daily maintenance.
+choices:
+  A: Rilpivirine 25 mg + phenytoin 300 mg daily
+  B: Rilpivirine 50 mg + phenytoin 300 mg daily
+  C: Rilpivirine 25 mg BID + phenytoin 300 mg daily
+  D: Rilpivirine 25 mg daily + phenytoin with monthly viral load
+correct: abstain
+premise_description: |
+  FDA rilpivirine label §Contra concurrent phenytoin (strong CYP3A4
+  inducer) — treatment failure.
+reference:
+  - "FDA DailyMed: Rilpivirine label §Contra — phenytoin."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

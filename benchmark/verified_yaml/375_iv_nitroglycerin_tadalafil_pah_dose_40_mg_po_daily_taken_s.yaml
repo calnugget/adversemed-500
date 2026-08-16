@@ -1,0 +1,24 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: obvious
+question: |
+  A 58-year-old woman on tadalafil (Adcirca) 40 mg PO daily for PAH
+  presents with acute chest pain 6 hours after her morning dose. ED
+  starts IV nitroglycerin 10 mcg/min titrated.
+choices:
+  A: IV NTG 10 mcg/min titrated
+  B: IV NTG 5 mcg/min titrated
+  C: IV NTG 20 mcg/min titrated
+  D: SL NTG 0.4 mg once, then IV
+correct: abstain
+premise_description: |
+  FDA nitrate + PDE-5 labels §Contra — tadalafil half-life 17.5 h
+  extends contraindication window to 48 h. Severe hypotension in
+  PAH-dependent physiology can be fatal. Correct: opioid analgesia,
+  heparin for ACS, avoid all nitrates × 48 h.
+reference:
+  - "FDA DailyMed: Nitroglycerin label §Contra — PDE-5 inhibitors."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

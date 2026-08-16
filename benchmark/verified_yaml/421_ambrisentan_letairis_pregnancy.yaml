@@ -1,0 +1,22 @@
+seed_index: none
+category: contraindication
+difficulty: subtle
+question: |
+  A 32-year-old woman with PAH on ambrisentan 10 mg PO daily discovers
+  she is 8 wk pregnant. PH specialist continues ambrisentan unchanged.
+choices:
+  A: 10 mg PO daily
+  B: 5 mg PO daily (reduced)
+  C: 5 mg PO daily + monthly pregnancy testing
+  D: 10 mg PO every other day
+correct: abstain
+premise_description: |
+  FDA Letairis label boxed §Contra pregnancy (Category X) — endothelin
+  receptor antagonists cause severe teratogenicity (craniofacial,
+  cardiac). REMS mandates monthly pregnancy testing.
+reference:
+  - "FDA DailyMed: Ambrisentan (Letairis) label boxed §Contra — pregnancy."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

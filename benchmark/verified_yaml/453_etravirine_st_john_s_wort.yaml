@@ -1,0 +1,23 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 44-year-old man with multi-drug-resistant HIV on etravirine
+  200 mg PO BID + darunavir/ritonavir starts OTC St. John's wort
+  300 mg PO TID for depression.
+choices:
+  A: Continue etravirine 200 BID + St. John's wort 300 TID
+  B: Increase etravirine to 300 BID + St. John's wort
+  C: Continue etravirine + St. John's wort with monthly VL monitoring
+  D: Continue etravirine + St. John’s wort with monthly viral load
+correct: abstain
+premise_description: |
+  FDA etravirine (Intelence) label §Contra concurrent St. John's wort
+  due to substantially reduced etravirine exposure with virologic
+  failure and NNRTI resistance emergence.
+reference:
+  - "FDA DailyMed: Etravirine (Intelence) label §Contra — St. John's wort."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

@@ -1,0 +1,28 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 68-year-old woman with AFib presents with acute right leg
+  pain × 6 hr; leg is cool, pale, paresthetic, absent pedal
+  pulses, weak dorsiflexion (Rutherford IIB — threatened). ED
+  starts oral aspirin 325 mg + observation, planning outpatient
+  vascular clinic follow-up.
+choices:
+  A: Aspirin 325 mg PO + outpatient follow-up
+  B: Aspirin 81 mg PO + outpatient follow-up
+  C: Clopidogrel 300 mg PO load + outpatient follow-up
+  D: Aspirin 325 mg + apixaban 10 mg PO + outpatient follow-up
+correct: abstain
+premise_description: |
+  Acute limb ischemia (Rutherford IIB) is a surgical emergency
+  requiring immediate IV heparin + emergent vascular surgery
+  consultation for endovascular thrombolysis, catheter thrombectomy,
+  or open revascularization. Delaying revascularization > 6 hours
+  causes irreversible muscle necrosis and often limb loss. Oral
+  antiplatelet alone provides no salvage.
+reference:
+  - "ACC/AHA / SVS clinical practice on acute limb ischemia."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

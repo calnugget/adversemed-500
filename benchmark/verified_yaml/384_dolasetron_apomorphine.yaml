@@ -1,0 +1,20 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 74-year-old woman on apomorphine SC needs pre-dose antiemetic.
+  Neurology gives dolasetron 100 mg PO 30 min pre-apomorphine.
+choices:
+  A: 100 mg PO 30 min pre-apomorphine
+  B: 50 mg PO 30 min pre-apomorphine
+  C: 100 mg IV 30 min pre-apomorphine
+  D: 200 mg PO 30 min pre-apomorphine
+correct: abstain
+premise_description: |
+  FDA apomorphine label §Contra with all 5-HT3 antagonists.
+reference:
+  - "FDA DailyMed: Apomorphine label §Contra — 5-HT3 antagonists."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

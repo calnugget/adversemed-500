@@ -1,0 +1,26 @@
+seed_index: none
+category: impossible_timing
+difficulty: obvious
+question: |
+  A 32-year-old Rh-negative primigravida at 28 wk gestation has
+  positive anti-D antibody titer (1:32) on antenatal screening —
+  confirming existing sensitization from a prior transfusion 6 years
+  ago. OB orders anti-D IG 300 mcg IM as routine antenatal
+  prophylaxis.
+choices:
+  A: 300 mcg IM once
+  B: 300 mcg IM + repeat at 34 wk
+  C: 600 mcg IM (double dose)
+  D: 150 mcg IM
+correct: abstain
+premise_description: |
+  Anti-D IG prevents alloimmunization; in an already-sensitized
+  patient (positive anti-D antibody), IG cannot reverse existing
+  immunity. Correct: MFM referral for fetal anemia surveillance
+  (MCA Doppler), possible IUT.
+reference:
+  - "ACOG PB 181: Rh D Alloimmunization Prevention."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

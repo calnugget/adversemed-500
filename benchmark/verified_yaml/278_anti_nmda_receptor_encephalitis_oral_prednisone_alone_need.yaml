@@ -1,0 +1,28 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 22-year-old woman presents with subacute behavioral changes,
+  seizures, dyskinesia, autonomic instability; CSF anti-NMDA
+  receptor antibody positive. Neurology gives oral prednisone
+  60 mg PO daily as sole immunotherapy.
+choices:
+  A: Prednisone 60 mg PO daily
+  B: Prednisone 80 mg PO daily
+  C: Methylprednisolone 500 mg IV daily × 5 d
+  D: Prednisone 60 mg PO daily + gabapentin
+correct: abstain
+premise_description: |
+  Anti-NMDA receptor encephalitis first-line treatment: high-dose
+  IV methylprednisolone (1 g × 5 days) + IVIG (2 g/kg over 5 days)
+  OR plasma exchange. Second-line (if no response): rituximab +
+  cyclophosphamide. Tumor evaluation (teratoma removal) essential.
+  Oral prednisone alone is inadequate for this severe
+  antibody-mediated encephalitis; delayed proper treatment
+  associated with permanent cognitive/psychiatric sequelae.
+reference:
+  - "Titulaer MJ et al., Anti-NMDA receptor encephalitis treatment algorithm."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

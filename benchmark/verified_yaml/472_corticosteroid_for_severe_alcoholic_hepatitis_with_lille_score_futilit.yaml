@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 44-year-old man with severe alcoholic hepatitis (MELD 32,
+  Maddrey DF 55) started prednisolone 40 mg PO daily 7 d ago. Lille
+  score at day 7 is 0.65 (non-responder cutoff 0.45). Hepatology
+  continues prednisolone at full dose × 4 more wk.
+choices:
+  A: Prednisolone 40 mg × 4 wk more
+  B: Prednisolone 30 mg × 4 wk more
+  C: Prednisolone 40 mg × 2 wk more
+  D: Prednisolone 20 mg × 4 wk taper
+correct: abstain
+premise_description: |
+  Lille score at day 7 identifies non-responders (score > 0.45) who
+  do not benefit from continued corticosteroids and have increased
+  infection risk. STOPAH + STOPAH-2 trials: discontinue steroids in
+  non-responders. Transplant evaluation + supportive care indicated.
+reference:
+  - "AASLD/EASL Alcoholic Liver Disease Guidelines + Lille score."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

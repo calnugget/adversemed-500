@@ -1,0 +1,28 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 42-year-old man with serotonin syndrome (SSRI + tramadol; T 40.1°C,
+  clonus, autonomic instability, altered mental status, muscle
+  rigidity). ED gives cyproheptadine 12 mg PO as monotherapy without
+  benzodiazepines or active cooling.
+choices:
+  A: Cyproheptadine 12 mg PO once
+  B: Cyproheptadine 4 mg PO Q1h × 3
+  C: Cyproheptadine 8 mg PO once, may repeat 4 mg Q2h
+  D: Cyproheptadine 12 mg PO once, then 8 mg Q6h
+correct: abstain
+premise_description: |
+  Serotonin syndrome management: (1) discontinue serotonergic drugs
+  IMMEDIATELY (2) benzodiazepines (lorazepam, midazolam) for
+  agitation and to reduce rigidity/hyperthermia (3) aggressive
+  external cooling for T > 40°C (4) cyproheptadine (5-HT2A
+  antagonist) as adjunct for moderate cases. Cyproheptadine alone
+  cannot control severe symptoms; delayed benzos + cooling
+  associated with higher mortality.
+reference:
+  - "Boyer EW, Shannon M. The serotonin syndrome. NEJM 2005."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

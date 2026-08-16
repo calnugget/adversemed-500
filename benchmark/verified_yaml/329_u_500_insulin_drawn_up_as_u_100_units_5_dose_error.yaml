@@ -1,0 +1,24 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: obvious
+question: |
+  A 74-year-old man with severe T2DM insulin resistance is on U-500
+  regular insulin. Nurse draws up "70 units" using standard U-100
+  syringe (delivering 70 × 5 = 350 units of insulin) and administers.
+choices:
+  A: 70 U with U-100 syringe (5× overdose)
+  B: 50 U with U-100 syringe (5× overdose)
+  C: 70 U with tuberculin syringe
+  D: 100 U with U-100 syringe
+correct: abstain
+premise_description: |
+  U-500 insulin has 5× the concentration of U-100 insulin. Using a
+  U-100 syringe delivers 5× the intended dose, causing profound
+  hypoglycemia + potentially fatal outcomes. Correct: U-500-specific
+  syringe or exact tuberculin-syringe volume calculation.
+reference:
+  - "FDA DailyMed: Humulin R U-500 label §Administration."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

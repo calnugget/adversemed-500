@@ -1,0 +1,27 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 22-year-old woman in DKA (glucose 620, K 4.2, pH 7.15, anion gap
+  26). Hospital day 0 hr 1: IV insulin 0.1 U/kg/hr + IV NS 250 mL/hr
+  initiated. Hr 2: glucose 550. Team switches IV fluid to D5-1/2 NS
+  at 200 mL/hr to prevent hypoglycemia.
+choices:
+  A: D5-1/2 NS 200 mL/hr immediately
+  B: D5-1/2 NS 150 mL/hr immediately
+  C: D5-NS 200 mL/hr immediately
+  D: D5W 250 mL/hr immediately
+correct: abstain
+premise_description: |
+  ADA DKA management: transition IV fluid to include dextrose (D5-
+  1/2 NS) when glucose falls to 200-250 mg/dL — NOT before. Adding
+  dextrose too early prolongs the time to close the anion gap
+  (which is the goal, not just glucose normalization) and prolongs
+  the DKA state. At glucose 550, insulin infusion should continue
+  without dextrose supplementation until glucose reaches 200-250.
+reference:
+  - "ADA Standards of Medical Care in Diabetes: DKA management protocol."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

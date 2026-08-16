@@ -1,0 +1,30 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 68-year-old woman with SIADH presents with generalized tonic-
+  clonic seizure that self-terminated 20 min ago; Na 118. ED
+  initiates IV 0.45% NS at 75 mL/hr aiming for slow correction
+  1-2 mEq/L per 24 hr.
+choices:
+  A: 0.45% NS 75 mL/hr
+  B: 0.45% NS 50 mL/hr
+  C: 0.45% NS 100 mL/hr
+  D: 0.9% NS 100 mL/hr
+correct: abstain
+premise_description: |
+  Severe symptomatic hyponatremia (Na < 120 with seizure, coma,
+  respiratory arrest) requires IMMEDIATE 3% hypertonic saline bolus
+  (100-150 mL over 10 min, may repeat) to acutely raise serum
+  sodium by 4-6 mEq/L until symptoms resolve. Slow correction with
+  hypotonic (0.45%) or even isotonic (0.9%) fluid cannot address
+  cerebral edema and permits ongoing seizure/herniation risk.
+  0.45% NS actually WORSENS hyponatremia in SIADH ("desalination").
+reference:
+  - "ESE/ERA hyponatremia clinical practice guideline."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  Parallels batch-4 C99 (SIADH + isotonic saline) — this version
+  emphasizes the acute symptomatic severity + hypotonic fluid choice.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

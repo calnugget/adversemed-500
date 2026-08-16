@@ -1,0 +1,24 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 68-year-old woman with metastatic urothelial carcinoma had prior
+  SJS from allopurinol (2 years ago, resolved). Oncology initiates
+  enfortumab vedotin 1.25 mg/kg IV days 1, 8, 15 of 28-day cycles.
+choices:
+  A: 1.25 mg/kg IV D1/8/15 of 28-day cycle
+  B: 1.0 mg/kg IV D1/8/15 of 28-day cycle
+  C: 1.25 mg/kg IV D1/15 of 28-day cycle
+  D: 0.75 mg/kg IV D1/8/15 of 28-day cycle (reduced)
+correct: abstain
+premise_description: |
+  FDA enfortumab vedotin (Padcev) label boxed warning documents
+  severe cutaneous adverse reactions including SJS/TEN, some fatal.
+  Prior SJS/TEN history is a strong contraindication regardless of
+  causative drug (dermatologic risk stacking).
+reference:
+  - "FDA DailyMed: Enfortumab vedotin (Padcev) label boxed warning — severe cutaneous adverse reactions."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

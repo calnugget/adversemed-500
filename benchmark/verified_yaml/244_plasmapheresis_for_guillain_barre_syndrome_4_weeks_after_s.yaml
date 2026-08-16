@@ -1,0 +1,27 @@
+seed_index: none
+category: impossible_timing
+difficulty: obvious
+question: |
+  A 46-year-old man with GBS had symptom onset 5 weeks ago. He is
+  on hospital day 10, has plateaued at moderate weakness (MRC grade
+  3 in lower extremities, ambulating with walker; no respiratory
+  compromise). Neurology initiates plasma exchange 5 sessions over
+  10 days.
+choices:
+  A: 5 sessions over 10 days
+  B: 5 sessions over 14 days
+  C: 3 sessions over 7 days
+  D: 7 sessions over 14 days
+correct: abstain
+premise_description: |
+  Plasma exchange (or IVIG) for GBS is efficacious when administered
+  within 4 weeks of symptom onset (ideally within 2 weeks). Beyond
+  4 weeks, the immune-mediated antibody-driven demyelination has
+  plateaued or is resolving; plasma exchange offers no benefit.
+  Management shifts to rehabilitation and supportive care.
+reference:
+  - "Cochrane review + AAN practice parameter: plasma exchange for GBS within 4 weeks."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

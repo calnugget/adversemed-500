@@ -1,0 +1,27 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 64-year-old man had anterior STEMI 6 weeks ago (EF 32%,
+  apical LV thrombus 1.2 cm on echo, started on warfarin, INR
+  therapeutic 2.5). Follow-up echo shows LV thrombus stable at
+  1.2 cm, no embolic events. Cardiology proposes IV alteplase
+  50 mg IV push for LV thrombus lysis.
+choices:
+  A: Alteplase 50 mg IV push
+  B: Alteplase 100 mg IV over 60 min
+  C: Alteplase 25 mg IV push
+  D: Reteplase 10 U × 2
+correct: abstain
+premise_description: |
+  Standard management of post-MI LV thrombus is anticoagulation with
+  warfarin (or DOAC in some protocols) for 3-6 months with serial
+  echo monitoring. Systemic thrombolysis for stable LV thrombus is
+  NOT standard practice; risks include intracerebral hemorrhage,
+  embolic complications from partial lysis.
+reference:
+  - "AHA/ACC post-MI management guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

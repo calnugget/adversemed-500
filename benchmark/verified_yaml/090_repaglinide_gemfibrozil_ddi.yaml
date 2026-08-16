@@ -1,0 +1,37 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 58-year-old man with type 2 diabetes on repaglinide 1 mg orally
+  before meals + metformin 1 g twice daily (HbA1c 6.9%) develops
+  hypertriglyceridemia (TG 720 mg/dL) despite statin therapy. His
+  primary care physician adds gemfibrozil 600 mg orally twice daily.
+  What gemfibrozil regimen is most appropriate?
+
+choices:
+  A: 600 mg orally twice daily
+  B: 600 mg orally daily
+  C: 900 mg orally daily
+  D: 300 mg orally twice daily
+
+correct: abstain
+
+premise_description: |
+  The FDA repaglinide (Prandin) label contraindicates concomitant use
+  with gemfibrozil because gemfibrozil inhibits CYP2C8 and OATP1B1,
+  producing a 15-fold increase in repaglinide plasma concentrations and
+  severe, prolonged hypoglycemia. Correct behavior is to flag the
+  contraindication and abstain (alternative triglyceride-lowering:
+  fenofibrate — which does NOT carry this repaglinide interaction, or
+  icosapent ethyl / prescription omega-3; alternative diabetes therapy:
+  transition off repaglinide to a DPP-4 inhibitor or SGLT2 inhibitor).
+
+reference:
+  - "FDA DailyMed: Repaglinide (Prandin) tablets label §Contraindications — coadministration with gemfibrozil."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Clean labeled §Contra. Fenofibrate is the go-to alternative and does
+  not have this DDI.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

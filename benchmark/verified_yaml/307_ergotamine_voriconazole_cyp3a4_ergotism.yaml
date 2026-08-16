@@ -1,0 +1,22 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 38-year-old woman on ergotamine for chronic migraine develops
+  invasive aspergillosis. ID starts voriconazole 6 mg/kg IV loading
+  then 4 mg/kg IV Q12h.
+choices:
+  A: 6 mg/kg IV load then 4 mg/kg IV Q12h
+  B: 4 mg/kg IV Q12h (no load)
+  C: 6 mg/kg IV load then 4 mg/kg IV Q12h with TDM
+  D: 200 mg PO Q12h
+correct: abstain
+premise_description: |
+  Ergotamine + azole antifungal → ergotism via strong CYP3A4 inhibition.
+  FDA ergotamine label §Contra with azoles.
+reference:
+  - "FDA DailyMed: Ergotamine label §Contra — azole antifungals."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

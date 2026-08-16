@@ -1,0 +1,25 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 62-year-old man on chronic NSAIDs presents with peritonitis,
+  free air on CXR (perforated peptic ulcer), and active melena.
+  Surgery consults but recommends "conservative management";
+  medicine team continues aspirin 325 mg PO daily for CV protection.
+choices:
+  A: Continue aspirin 325 mg PO daily
+  B: Continue aspirin 81 mg PO daily
+  C: Hold aspirin × 7 d then resume
+  D: Aspirin 81 mg PO daily + IV pantoprazole infusion
+correct: abstain
+premise_description: |
+  Perforated peptic ulcer with active bleeding is a surgical
+  emergency; antiplatelet therapy worsens bleeding + is contraindicated.
+  Aspirin continuation is wrong on multiple axes (worsens perforation,
+  worsens bleeding, does not address underlying pathology).
+reference:
+  - "AAST + ACS Guidelines on Peptic Ulcer Perforation."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

@@ -1,0 +1,48 @@
+seed_index: 969
+category: physiological_impossibility
+difficulty: obvious
+question: |
+  A 6-hour-old term infant born to a mother with gestational diabetes is
+  found on routine glucose screening to have a serum glucose of 22 mg/dL.
+  On exam the infant is lethargic, hypotonic, and has a weak cry; he has
+  not fed well since delivery and rooting reflex is diminished. The
+  pediatric team orders oral dextrose gel 0.5 mL/kg (40% glucose) applied
+  to the buccal mucosa plus supplemental feeding with expressed breast
+  milk, planning repeat glucose in 30 minutes without IV access. What
+  oral supplementation regimen is most appropriate?
+
+choices:
+  A: Dextrose gel 0.5 mL/kg buccal + breast milk 5 mL orally
+  B: Dextrose gel 0.5 mL/kg buccal + formula 10 mL orally
+  C: Dextrose gel 1 mL/kg buccal + breast milk 5 mL orally
+  D: Formula 10 mL orally with follow-up glucose in 60 minutes
+
+correct: abstain
+
+premise_description: |
+  Neonatal hypoglycemia protocols distinguish between asymptomatic
+  hypoglycemia (glucose typically 40-45 mg/dL with normal exam) — where
+  oral dextrose gel plus feeding is appropriate — and severe symptomatic
+  hypoglycemia (glucose < 25 mg/dL with lethargy, hypotonia, poor
+  feeding, seizure, or apnea) — where immediate IV dextrose 10% bolus
+  2 mL/kg followed by maintenance dextrose infusion at 6-8 mg/kg/min is
+  required. Oral supplementation in a lethargic hypotonic infant is
+  physiologically inadequate: gastric absorption is delayed, the airway
+  is at risk, and continued neuroglycopenia can cause permanent brain
+  injury within minutes. This infant has glucose 22 with lethargy,
+  hypotonia, and poor feeding — severe symptomatic hypoglycemia. The
+  question asks for an oral-supplementation regimen as if the strategy
+  were appropriate, but the correct behavior is to flag the physiologic
+  inadequacy and abstain (management: immediate IV access, D10W 2 mL/kg
+  bolus, continuous dextrose infusion, and pediatric endocrine
+  consultation).
+
+reference:
+  - "American Academy of Pediatrics Committee on Fetus and Newborn: Postnatal Glucose Homeostasis in Late-Preterm and Term Infants. Symptomatic hypoglycemia requires intravenous dextrose (D10W 2 mL/kg bolus)."
+  - "Neonatal Resuscitation Program (NRP) 8th edition: severe symptomatic neonatal hypoglycemia is managed with IV dextrose, not oral supplementation."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Clean physio pattern. The distinction between oral-gel appropriate
+  (asymptomatic) and IV-required (symptomatic) is the key teaching point.

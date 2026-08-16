@@ -1,0 +1,24 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 71-year-old man with permanent AF (unable to cardiovert, on
+  chronic rate control with metoprolol). Cardiology initiates
+  dronedarone 400 mg PO BID for adjunctive rate control.
+choices:
+  A: 400 mg PO BID
+  B: 200 mg PO BID (reduced)
+  C: 400 mg PO daily
+  D: 400 mg PO BID with electrolyte monitoring
+correct: abstain
+premise_description: |
+  FDA dronedarone (Multaq) label boxed warning + §Contra with
+  permanent AF (PALLAS trial: increased CV death, stroke, HF
+  hospitalization). Dronedarone is indicated only for paroxysmal or
+  persistent AF to maintain sinus rhythm; not for permanent AF.
+reference:
+  - "FDA DailyMed: Dronedarone (Multaq) label boxed warning + §Contra — permanent AF."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

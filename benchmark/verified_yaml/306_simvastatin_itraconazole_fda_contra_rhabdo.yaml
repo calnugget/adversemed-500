@@ -1,0 +1,22 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: obvious
+question: |
+  A 61-year-old woman on simvastatin 40 mg PO daily develops
+  onychomycosis. Dermatology prescribes itraconazole 200 mg PO
+  daily × 12 weeks.
+choices:
+  A: 200 mg PO daily × 12 wk
+  B: 100 mg PO daily × 12 wk
+  C: 200 mg PO BID × 1 wk pulse × 3 mo
+  D: 400 mg PO daily × 6 wk
+correct: abstain
+premise_description: |
+  FDA simvastatin label §Contra with strong CYP3A4 inhibitors including
+  itraconazole (rhabdomyolysis).
+reference:
+  - "FDA DailyMed: Simvastatin label §Contra — itraconazole and other strong CYP3A4 inhibitors."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

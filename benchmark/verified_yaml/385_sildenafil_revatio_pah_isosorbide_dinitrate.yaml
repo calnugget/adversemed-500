@@ -1,0 +1,22 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 44-year-old woman with PAH on sildenafil (Revatio) 20 mg PO TID
+  develops stable angina. Cardiology prescribes isosorbide dinitrate
+  20 mg PO TID.
+choices:
+  A: 20 mg PO TID
+  B: 10 mg PO TID
+  C: 30 mg PO TID
+  D: 20 mg PO QID
+correct: abstain
+premise_description: |
+  FDA Revatio label §Contra with any nitrate. Nitrate + PDE-5 →
+  severe hypotension.
+reference:
+  - "FDA DailyMed: Revatio label §Contra — nitrates."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

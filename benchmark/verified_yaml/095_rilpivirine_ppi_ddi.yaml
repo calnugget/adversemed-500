@@ -1,0 +1,41 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 38-year-old man newly diagnosed with HIV (CD4 480, VL 45,000) is
+  started on tenofovir alafenamide/emtricitabine/rilpivirine (Odefsey)
+  1 tablet orally daily. He is concurrently prescribed omeprazole 20 mg
+  orally daily for GERD symptoms. What omeprazole regimen is most
+  appropriate?
+
+choices:
+  A: 20 mg orally daily
+  B: 20 mg orally daily, take at least 12 hours apart from Odefsey
+  C: 40 mg orally daily
+  D: 20 mg orally daily, take with Odefsey to synchronize dosing
+
+correct: abstain
+
+premise_description: |
+  The FDA rilpivirine (Edurant) label contraindicates concomitant use
+  with proton pump inhibitors (omeprazole, pantoprazole, esomeprazole,
+  lansoprazole, rabeprazole) because rilpivirine absorption is pH-
+  dependent and requires an acidic gastric environment; PPI-induced
+  gastric alkalinization reduces rilpivirine exposure to sub-therapeutic
+  levels regardless of dose separation timing. Correct behavior is to
+  flag the contraindication and abstain (alternatives: H2 receptor
+  antagonists such as famotidine — dosed 12 hours before or 4 hours after
+  rilpivirine per Edurant label — or antacids with strict separation;
+  or transition GERD to lifestyle + non-pharmacologic measures;
+  alternative HIV regimen without rilpivirine — e.g., integrase-based
+  regimen such as bictegravir/tenofovir alafenamide/emtricitabine).
+
+reference:
+  - "FDA DailyMed: Rilpivirine (Edurant / Odefsey / Complera) label §Contraindications — coadministration with proton pump inhibitors."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Absolute label contra — no dose separation permitted (unlike H2
+  blockers which allow strict separation).
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,45 @@
+seed_index: none
+category: impossible_timing
+difficulty: obvious
+question: |
+  A 30-year-old healthy immunocompetent healthcare worker with unknown
+  MMR vaccination status was exposed 5 days ago to a confirmed measles
+  case in the emergency department where she works. She is asymptomatic
+  and afebrile. Her occupational health physician orders MMR vaccine
+  0.5 mL subcutaneously today for post-exposure prophylaxis. What MMR
+  regimen is most appropriate?
+
+choices:
+  A: MMR 0.5 mL subcutaneously once today
+  B: MMR 0.5 mL subcutaneously today, second dose in 4 weeks
+  C: MMR 0.5 mL subcutaneously today plus immune globulin
+  D: Immune globulin 0.5 mL/kg IM today (no vaccine)
+
+correct: abstain
+
+premise_description: |
+  CDC ACIP guidance for measles post-exposure prophylaxis specifies MMR
+  vaccine within 72 hours (3 days) of exposure for susceptible immuno-
+  competent contacts; beyond 72 hours, MMR vaccine PEP is not indicated
+  for this exposure (though the vaccine remains appropriate as future
+  protection outside the PEP context). Immune globulin has a 6-day
+  window for high-risk susceptibles (infants < 12 months, pregnant
+  women, immunocompromised). This healthcare worker is at 5 days post-
+  exposure, past the 72-hour MMR window; although this is within the
+  calendar window for immune globulin, she is not in a high-risk group
+  for IG PEP. Correct behavior is to flag the closed PEP
+  window and abstain (management: symptom surveillance for 21 days;
+  occupational-health work restriction/surveillance per CDC policy;
+  establish measles antibody serostatus and provide MMR for FUTURE
+  protection if nonimmune).
+
+reference:
+  - "CDC ACIP: Prevention of Measles, Rubella, Congenital Rubella Syndrome, and Mumps — MMR vaccine within 72 hours of exposure; immune globulin within 6 days for high-risk susceptibles."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Distinguish "not indicated for THIS exposure" from "still routine
+  vaccination for future protection" — the vignette's PEP framing pins
+  the closed window.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

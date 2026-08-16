@@ -1,0 +1,25 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 62-year-old woman with prior ischemic stroke 18 months ago
+  presents with severe menopausal symptoms. PCP prescribes
+  combined oral HRT (estradiol 1 mg + norethindrone 0.5 mg PO daily).
+choices:
+  A: Combined oral HRT daily
+  B: Estradiol-only 0.5 mg PO daily + monthly progesterone withdrawal
+  C: Transdermal estradiol patch 0.025 mg + oral progesterone
+  D: Combined transdermal HRT patch weekly
+correct: abstain
+premise_description: |
+  FDA combined HRT labels §Contra with prior stroke or MI due to
+  increased recurrence risk. Correct: SSRI/SNRI, gabapentin, or
+  non-hormonal management. Transdermal-only estrogen (unopposed if
+  hysterectomy status) may have lower CV risk profile but WHI
+  data still cautions against use with prior CV event.
+reference:
+  - "FDA DailyMed: Combined HRT label §Contra — prior stroke/MI."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

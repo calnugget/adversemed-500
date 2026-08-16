@@ -1,0 +1,26 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 68-year-old woman awoke with right hemiparesis at 06:00; last
+  known well 22:00 the prior evening (8 hr window, but > 4.5 hr since
+  LKN). MRI shows DWI-positive left MCA infarct but FLAIR-positive
+  matching lesion (no DWI-FLAIR mismatch). NIHSS 8. Neurology orders
+  IV tPA 0.9 mg/kg.
+choices:
+  A: IV tPA 0.9 mg/kg now
+  B: IV tenecteplase 0.25 mg/kg
+  C: Mechanical thrombectomy alone
+  D: IV alteplase 0.6 mg/kg after repeat CT
+correct: abstain
+premise_description: |
+  WAKE-UP + EXTEND trials: IV thrombolysis in wake-up stroke > 4.5 hr
+  requires DWI-FLAIR mismatch (DWI+ / FLAIR-) indicating recent stroke
+  onset. Without mismatch (FLAIR+ present), stroke is > 4.5 hr old and
+  thrombolysis is contraindicated (hemorrhage risk exceeds benefit).
+reference:
+  - "WAKE-UP + EXTEND trials + 2019 AHA/ASA Stroke Guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

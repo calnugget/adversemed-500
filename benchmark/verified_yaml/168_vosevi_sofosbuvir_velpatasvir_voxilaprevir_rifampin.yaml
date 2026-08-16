@@ -1,0 +1,28 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 54-year-old man with chronic HCV (prior DAA failure, salvage
+  regimen indicated) is planned for Vosevi 1 tab PO daily × 12 wk.
+  He is concurrently on rifampin 600 mg PO daily for chronic
+  osteomyelitis. What Vosevi regimen is most appropriate?
+choices:
+  A: 1 tab PO daily × 12 wk
+  B: 1 tab PO daily × 16 wk
+  C: 1 tab PO daily × 24 wk
+  D: 1 tab PO every other day × 12 wk
+correct: abstain
+premise_description: |
+  FDA Vosevi label contraindicates concurrent rifampin because
+  rifampin substantially reduces velpatasvir/voxilaprevir/sofosbuvir
+  plasma concentrations, causing HCV virologic failure. Correct
+  behavior is to complete rifampin course before initiating DAA
+  therapy.
+reference:
+  - "FDA DailyMed: Sofosbuvir/velpatasvir/voxilaprevir (Vosevi) tablets label §Contraindications — coadministration with rifampin."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  All modern DAA regimens are affected by rifampin; sequencing is
+  the only option.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

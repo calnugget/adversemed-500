@@ -1,0 +1,25 @@
+seed_index: none
+category: contraindication
+difficulty: subtle
+question: |
+  A 52-year-old woman with HER2+ metastatic breast cancer has post-AC
+  MUGA showing LVEF 42%. Oncology initiates trastuzumab + pertuzumab
+  + docetaxel. What pertuzumab regimen is most appropriate?
+choices:
+  A: 840 mg IV loading, then 420 mg IV q3wk
+  B: 420 mg IV q3wk starting dose
+  C: 840 mg IV loading, then 420 mg IV q3wk with monthly MUGA
+  D: 840 mg IV loading, then 420 mg IV q3wk with cardioprotective ACEi
+correct: abstain
+premise_description: |
+  FDA pertuzumab (Perjeta) label contraindicates initiation in patients
+  with pre-treatment LVEF < institutional lower limit of normal (typically
+  50%). Combining with trastuzumab (also cardiotoxic) amplifies risk.
+  Correct behavior: cardio-oncology optimization, reassess LVEF, or
+  proceed without HER2-targeted dual blockade.
+reference:
+  - "FDA DailyMed: Pertuzumab (Perjeta) label §Contraindications and boxed warning — LV dysfunction."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

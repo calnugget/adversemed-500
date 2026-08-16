@@ -1,0 +1,21 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 51-year-old woman with hypercortisolism from ectopic ACTH is on
+  mifepristone (Korlym) 600 mg PO daily. She develops severe COPD
+  exacerbation. Pulmonology starts prednisone 40 mg PO daily × 5 d.
+choices:
+  A: Continue Korlym + prednisone 40 mg × 5 d
+  B: Continue Korlym + methylprednisolone IV 60 mg BID × 3 d
+  C: Continue Korlym + hydrocortisone 50 mg IV q6h
+  D: Continue Korlym + dexamethasone 6 mg PO daily × 5 d
+correct: abstain
+premise_description: |
+  FDA Korlym label §Contra patients receiving systemic corticosteroids for lifesaving purposes because mifepristone blocks glucocorticoid receptor activity; continuing Korlym while relying on systemic steroid treatment creates an abstain/flag-level DDI.
+reference:
+  - "FDA DailyMed: Mifepristone (Korlym) label §Contra — systemic corticosteroids for lifesaving purposes."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

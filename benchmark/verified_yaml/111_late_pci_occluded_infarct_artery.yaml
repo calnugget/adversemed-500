@@ -1,0 +1,49 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 64-year-old man had an inferior STEMI 5 days ago at a rural hospital;
+  he was treated with fibrinolytics with partial reperfusion but
+  developed a completed infarct. He is now transferred to a PCI-capable
+  center for further evaluation. He is asymptomatic, hemodynamically
+  stable (BP 132/78, HR 68), with no ongoing chest pain, no
+  post-infarction angina, no heart failure signs (EF 42%). Cardiac
+  catheterization confirms 100% occluded distal right coronary artery.
+  The interventional cardiologist plans PCI with stent placement to the
+  occluded RCA to restore reperfusion. What PCI approach is most
+  appropriate?
+
+choices:
+  A: Drug-eluting stent placement to occluded RCA
+  B: Bare-metal stent placement to occluded RCA
+  C: Balloon angioplasty alone without stent
+  D: Staged PCI with initial IVUS characterization
+
+correct: abstain
+
+premise_description: |
+  The Occluded Artery Trial (OAT, Hochman et al., NEJM 2006) demonstrated
+  that late PCI of an occluded infarct-related artery in stable
+  asymptomatic patients (48 hours to 28 days post-MI) does NOT reduce
+  death, reinfarction, or heart failure hospitalization compared with
+  optimal medical management. AHA/ACC guidelines therefore do not
+  recommend routine late PCI of an occluded IRA in this clinical
+  scenario. Exceptions include severe residual ischemia, hemodynamic
+  instability, or ventricular arrhythmias — none present here. This
+  patient is at 5 days post-STEMI, stable, asymptomatic, without
+  ischemia signs. Correct behavior is to flag the non-indication and
+  abstain (management: continue optimal medical therapy — aspirin,
+  P2Y12 inhibitor, high-intensity statin, β-blocker, ACE inhibitor,
+  MRA if EF criteria met; cardiac rehabilitation referral; annual
+  echocardiogram and functional-capacity assessment).
+
+reference:
+  - "Hochman JS et al., Coronary Intervention for Persistent Occlusion after Myocardial Infarction (OAT trial), NEJM 2006: no benefit of late PCI of occluded IRA in stable asymptomatic patients."
+  - "AHA/ACC 2013 STEMI guidelines: routine late PCI of occluded IRA in stable patients is not recommended (Class III)."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Trial-driven Class III recommendation; very cited example of
+  "just because we can, doesn't mean we should" cardiology teaching.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

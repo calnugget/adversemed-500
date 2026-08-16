@@ -1,0 +1,40 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 39-year-old woman is 6 years post-lung transplant for idiopathic
+  pulmonary arterial hypertension. She is stable on cyclosporine 200 mg
+  orally twice daily plus mycophenolate and prednisone. She develops
+  recurrent PAH-like elevated PVR on right-heart cath and her transplant
+  pulmonologist initiates bosentan 62.5 mg orally twice daily (planning
+  uptitration to 125 mg BID after 4 weeks). What bosentan regimen is
+  most appropriate?
+
+choices:
+  A: 62.5 mg orally twice daily × 4 weeks, then 125 mg twice daily
+  B: 62.5 mg orally twice daily
+  C: 125 mg orally twice daily starting dose
+  D: 31.25 mg orally twice daily × 4 weeks then uptitrate
+
+correct: abstain
+
+premise_description: |
+  The FDA bosentan (Tracleer) label contraindicates concomitant use with
+  cyclosporine A because the combination produces a bidirectional
+  interaction: cyclosporine substantially increases bosentan exposure
+  (30-fold higher trough concentrations, elevated hepatotoxicity risk),
+  and bosentan reduces cyclosporine exposure by ~50% (risking transplant
+  rejection). Correct behavior is to flag the contraindication and
+  abstain (alternative PAH agents post-lung transplant: sildenafil at
+  PAH doses, prostacyclin analogs — all with CV monitoring; do NOT use
+  endothelin receptor antagonists in this setting).
+
+reference:
+  - "FDA DailyMed: Bosentan (Tracleer) tablets label §Contraindications — coadministration with cyclosporine A."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Bidirectional interaction — both drugs' concentrations swing in
+  problematic directions. Very clean labeled contra.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

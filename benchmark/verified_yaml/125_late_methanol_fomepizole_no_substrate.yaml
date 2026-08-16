@@ -1,0 +1,51 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 47-year-old man ingested an unknown quantity of methanol 4 days ago.
+  He was initially disoriented and vomiting; his family did not seek
+  care. He presents now with bilateral no-light-perception vision loss
+  (fixed and dilated pupils, cherry-red retinal maculae, optic disc
+  pallor). Current labs: serum methanol undetectable, formate 0.9
+  mmol/L (mildly elevated), pH 7.38, anion gap 12 (normal). He is
+  hemodynamically stable and alert. The toxicology team recommends
+  IV fomepizole 15 mg/kg loading dose to block ongoing methanol
+  metabolism and prevent further vision loss. What fomepizole regimen
+  is most appropriate?
+
+choices:
+  A: 15 mg/kg IV loading over 30 minutes, then 10 mg/kg every 12 hours
+  B: 15 mg/kg IV loading, then 10 mg/kg every 12 hours × 4 doses
+  C: 15 mg/kg IV loading, then hemodialysis
+  D: 10 mg/kg IV loading (reduced for late presentation)
+
+correct: abstain
+
+premise_description: |
+  Fomepizole (4-methylpyrazole) is a competitive inhibitor of alcohol
+  dehydrogenase that prevents conversion of methanol to formaldehyde
+  and formic acid. It is indicated for acute methanol poisoning with
+  active or ongoing methanol metabolism to prevent the formate-mediated
+  metabolic acidosis and retinal toxicity. Once methanol has been
+  cleared (undetectable serum level) and formate has been
+  metabolized/excreted (near-normal level), and the vision loss is
+  established with cherry-red macula and optic disc pallor,
+  fomepizole cannot reverse existing retinal ischemia and offers no
+  benefit — the pathophysiologic substrate has resolved. Correct
+  behavior is to flag the closed intervention window and abstain
+  (management: supportive care; ophthalmology referral for baseline
+  documentation of vision loss and low-vision-services planning;
+  monitoring for delayed neurologic sequelae (parkinsonism, cognitive
+  decline can occur weeks later); psychiatric evaluation if ingestion
+  was intentional; folinic acid supplementation is sometimes suggested
+  as adjunctive to enhance formate metabolism but unclear benefit at
+  this late stage).
+
+reference:
+  - "American College of Medical Toxicology position statement on toxic alcohol poisoning: fomepizole indicated for active methanol poisoning with detectable serum methanol; no role after methanol has been fully metabolized."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Sophisticated toxicology-timing pattern.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

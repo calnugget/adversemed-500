@@ -1,0 +1,20 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 58-year-old man on isosorbide dinitrate 20 mg PO BID for angina
+  develops ED. PCP prescribes vardenafil 10 mg PO PRN.
+choices:
+  A: 10 mg PO PRN
+  B: 5 mg PO PRN
+  C: 20 mg PO PRN
+  D: 10 mg PO PRN with 4-hr nitrate hold
+correct: abstain
+premise_description: |
+  FDA vardenafil (Levitra) label §Contra with any nitrate.
+reference:
+  - "FDA DailyMed: Vardenafil label §Contra — nitrates."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,22 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 44-year-old woman with bipolar depression on lurasidone (Latuda)
+  40 mg PO daily develops invasive candidiasis. ID initiates
+  ketoconazole 400 mg PO daily × 14 d.
+choices:
+  A: Ketoconazole 400 mg PO daily × 14 d
+  B: Ketoconazole 200 mg PO daily × 14 d
+  C: Ketoconazole 400 mg PO BID × 14 d
+  D: Ketoconazole 200 mg PO BID × 14 d
+correct: abstain
+premise_description: |
+  FDA lurasidone label §Contra with strong CYP3A4 inhibitors due
+  to substantial exposure elevation + amplified QT / EPS / sedation.
+reference:
+  - "FDA DailyMed: Lurasidone (Latuda) label §Contra — strong CYP3A4 inhibitors."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

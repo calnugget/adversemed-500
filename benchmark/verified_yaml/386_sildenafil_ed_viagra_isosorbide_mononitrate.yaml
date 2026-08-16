@@ -1,0 +1,22 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 62-year-old man on isosorbide mononitrate 30 mg PO daily for
+  angina develops ED. PCP prescribes sildenafil 50 mg PO PRN.
+choices:
+  A: 50 mg PO PRN
+  B: 25 mg PO PRN (reduced)
+  C: 100 mg PO PRN
+  D: 50 mg PO PRN spaced 12 h from nitrate
+correct: abstain
+premise_description: |
+  FDA sildenafil (Viagra) label §Contra with any nitrate regardless
+  of timing separation. Correct: switch to non-nitrate anti-anginal
+  first, then sildenafil after nitrate washout.
+reference:
+  - "FDA DailyMed: Sildenafil (Viagra) label §Contra — nitrates."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

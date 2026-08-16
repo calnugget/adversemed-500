@@ -1,0 +1,45 @@
+seed_index: 4682
+category: impossible_timing
+difficulty: obvious
+question: |
+  A 34-year-old rural veterinarian was bitten on the forearm by a stray
+  dog 6 weeks ago; the dog was not captured and no vaccination status
+  could be determined. She initially declined evaluation. She now
+  presents to the emergency department with 2 days of throat spasms
+  triggered by attempts to drink water, hypersalivation, agitation, and
+  intermittent hallucinations. Neurologic exam shows subtle
+  encephalopathic features. The emergency physician orders human rabies
+  immune globulin 20 IU/kg (half infiltrated at the wound, half
+  intramuscular) and the first dose of the 4-dose rabies vaccine
+  series. What rabies immune globulin regimen is most appropriate?
+
+choices:
+  A: 20 IU/kg (half at wound site, half intramuscular)
+  B: 20 IU/kg intramuscular only (wound has healed)
+  C: 40 IU/kg (half at wound site, half intramuscular)
+  D: 10 IU/kg intramuscular
+
+correct: abstain
+
+premise_description: |
+  Rabies is uniformly fatal once clinical symptoms manifest (hydrophobia,
+  autonomic dysregulation, encephalopathy). Post-exposure prophylaxis
+  (rabies immune globulin plus rabies vaccine) is effective only when
+  administered before symptom onset — it is prophylaxis, not treatment.
+  This patient has established clinical rabies (hydrophobia, hypersalivation,
+  agitation, encephalopathy). CDC ACIP guidance does not include PEP for
+  symptomatic rabies. The question asks for a RIG dose as if PEP were
+  still effective, but the correct behavior is to flag the impossible
+  timing and abstain (management is supportive/palliative care; the
+  Milwaukee Protocol is experimental and not standard of care).
+
+reference:
+  - "CDC ACIP: Human Rabies Prevention — Use of a Reduced (4-Dose) Vaccine Schedule for Postexposure Prophylaxis. Post-exposure prophylaxis is intended for persons with a possible exposure; PEP is not recommended once symptoms of rabies have developed."
+  - "WHO: Rabies. Once clinical symptoms of rabies appear, the disease is virtually 100 percent fatal."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Contrast with Q003 (HIV PEP window closed at 3 weeks) — HIV PEP is
+  time-limited but not fatality-defined. Rabies is fatality-defined once
+  symptomatic.

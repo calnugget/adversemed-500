@@ -1,0 +1,23 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 42-year-old woman on phenelzine 45 mg PO daily is transitioned
+  to vortioxetine 10 mg PO daily 5 days after phenelzine
+  discontinuation.
+choices:
+  A: 10 mg PO daily starting 5 d after phenelzine stop
+  B: 5 mg PO daily starting 5 d after phenelzine stop
+  C: 10 mg PO daily starting immediately
+  D: 20 mg PO daily starting 5 d after phenelzine stop
+correct: abstain
+premise_description: |
+  FDA vortioxetine label §Contra within 14 days of MAOI
+  discontinuation. Correct: wait full 14 days before initiating
+  serotonergic antidepressant.
+reference:
+  - "FDA DailyMed: Vortioxetine (Trintellix) label §Contra — MAOI within 14 days."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

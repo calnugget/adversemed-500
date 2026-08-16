@@ -1,0 +1,30 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 41-year-old man with treatment-resistant schizophrenia on clozapine
+  400 mg PO daily (baseline ANC 3.8, WBC 6.2) develops new-onset
+  focal seizures. Neurology starts carbamazepine 200 mg PO BID for
+  seizure control. What carbamazepine regimen is most appropriate?
+choices:
+  A: 100 mg PO BID
+  B: 200 mg PO BID
+  C: 400 mg PO daily divided
+  D: 300 mg PO BID
+correct: abstain
+premise_description: |
+  The FDA clozapine (Clozaril) label carries a §Contraindication for
+  concurrent use with drugs that have a substantial potential to cause
+  agranulocytosis or bone marrow suppression, explicitly including
+  carbamazepine. Combining two agents each capable of causing severe
+  neutropenia is unacceptable. Correct AED alternatives include
+  levetiracetam, lacosamide, brivaracetam — none of which share the
+  bone-marrow risk profile.
+reference:
+  - "FDA DailyMed: Clozapine (Clozaril) tablets label §Contraindications — concomitant use with drugs having substantial potential to cause agranulocytosis, including carbamazepine."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  Clozapine REMS mandates weekly ANC monitoring at baseline; this
+  DDI would compound the neutropenia risk.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

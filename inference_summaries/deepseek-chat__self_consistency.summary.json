@@ -1,0 +1,15 @@
+{
+  "run_id": "20260802T004923Z",
+  "model_id": "DeepSeek-Chat",
+  "method": "self_consistency",
+  "benchmark": "adversemed_500.jsonl",
+  "rows_written_this_run": 500,
+  "rows_previously_completed": 0,
+  "rows_total": 500,
+  "n_errors": 0,
+  "n_parse_failures": 0,
+  "n_not_applicable": 0,
+  "grand_cost_usd": 0.08861271999999992,
+  "grand_wall_seconds": 2148.598,
+  "run_ended_at": "2026-08-02T01:25:14.075120+00:00"
+}

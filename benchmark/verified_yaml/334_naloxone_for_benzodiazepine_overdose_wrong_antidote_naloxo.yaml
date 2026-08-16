@@ -1,0 +1,24 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 34-year-old woman is found unresponsive; empty diazepam bottle
+  nearby; no opioid history. Vitals: BP 92/58, HR 68, RR 8, SpO2
+  88%. ED gives naloxone 0.4 mg IV push.
+choices:
+  A: Naloxone 0.4 mg IV push
+  B: Naloxone 2 mg IV push
+  C: Naloxone 0.4 mg IN
+  D: Naloxone 0.4 mg IV push × 3 doses
+correct: abstain
+premise_description: |
+  Naloxone reverses opioid receptor binding; has no effect on
+  benzodiazepines (GABA-A). Correct: supportive care + airway
+  support; flumazenil is specific benzo reversal but rarely used
+  due to seizure risk in chronic benzo users.
+reference:
+  - "AACT / American College of Medical Toxicology overdose management."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

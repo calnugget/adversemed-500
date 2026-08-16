@@ -1,0 +1,26 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 44-year-old man had pneumococcal meningitis 6 weeks ago; received
+  IV dexamethasone × 4 days concurrent with ceftriaxone; symptoms
+  fully resolved. He is off all antibiotics × 3 weeks. Neurology
+  initiates new oral prednisone taper 40 mg PO daily × 5 d, tapering
+  to zero over 4 weeks "for delayed cognitive protection."
+choices:
+  A: Prednisone 40 mg PO daily × 5 d, taper over 4 wk
+  B: Prednisone 60 mg PO daily × 5 d, taper over 4 wk
+  C: Methylprednisolone 32 mg PO daily × 5 d, taper
+  D: Prednisone 40 mg PO daily × 10 d, taper over 2 wk
+correct: abstain
+premise_description: |
+  Dexamethasone for bacterial meningitis is efficacious when given
+  before or with first antibiotic dose × 4 days. Late (weeks after
+  recovery) steroids have no evidence of cognitive-protection
+  benefit and expose patient to steroid complications.
+reference:
+  - "IDSA 2004 bacterial meningitis guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

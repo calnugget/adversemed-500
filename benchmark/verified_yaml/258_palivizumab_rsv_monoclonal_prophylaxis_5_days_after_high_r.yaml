@@ -1,0 +1,31 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 6-month-old premature infant (30-week gestation, on nocturnal
+  supplemental O2 for chronic lung disease of prematurity) was
+  exposed to RSV via household contact 8 days ago; she is
+  asymptomatic. She has not been on palivizumab prophylaxis this
+  season. Pediatrics orders palivizumab 15 mg/kg IM as
+  post-exposure prophylaxis.
+choices:
+  A: 15 mg/kg IM once
+  B: 15 mg/kg IM once, monthly through RSV season
+  C: 15 mg/kg IM once, repeat in 30 days
+  D: 30 mg/kg IM once (loading dose)
+correct: abstain
+premise_description: |
+  Palivizumab is a monthly prophylactic monoclonal indicated during
+  RSV season for high-risk infants (starting BEFORE RSV season and
+  monthly through end of season). It is NOT indicated as
+  post-exposure prophylaxis; onset of protective effect is too slow
+  relative to RSV incubation. Correct: symptom surveillance, supportive
+  care if disease develops (nasopharyngeal RSV testing, hospitalization
+  if respiratory distress), season-appropriate palivizumab start
+  independent of this exposure.
+reference:
+  - "AAP Committee on Infectious Diseases: RSV prevention recommendations."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

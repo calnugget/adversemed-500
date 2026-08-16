@@ -1,0 +1,26 @@
+seed_index: none
+category: contraindication
+difficulty: obvious
+question: |
+  A 3-month-old infant with newborn-screen-diagnosed severe combined
+  immunodeficiency (T cells <100/µL, T-B-NK+ phenotype) presents for
+  scheduled 4-month vaccines. Pediatrician orders RotaTeq oral
+  vaccine 2 mL.
+choices:
+  A: RotaTeq 2 mL PO now
+  B: RotaTeq 2 mL PO in 2 weeks
+  C: Rotarix 1 mL PO now (different rotavirus vaccine)
+  D: RotaTeq 2 mL PO, followed by dose 2 at 4 months
+correct: abstain
+premise_description: |
+  Live rotavirus vaccines (RotaTeq, Rotarix) are absolutely
+  contraindicated in SCID because vaccine-strain rotavirus can cause
+  chronic disseminated rotavirus infection. All live vaccines are
+  contraindicated in SCID; management is CDC-recommended isolation +
+  IVIG + urgent HSCT evaluation.
+reference:
+  - "FDA DailyMed: RotaTeq label §Contraindications — infants with SCID."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

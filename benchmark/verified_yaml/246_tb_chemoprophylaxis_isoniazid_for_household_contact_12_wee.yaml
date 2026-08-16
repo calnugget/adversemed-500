@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: obvious
+question: |
+  A 34-year-old woman was a household contact of a pulmonary TB
+  case 16 weeks ago. Baseline IGRA negative; repeat IGRA at 10
+  weeks negative; she is asymptomatic. PCP initiates INH 300 mg PO
+  daily × 9 months as latent TB chemoprophylaxis.
+choices:
+  A: INH 300 mg PO daily × 9 mo
+  B: INH 300 mg PO daily × 6 mo
+  C: INH 300 mg + rifapentine PO once weekly × 12 wk (3HP)
+  D: Rifampin 600 mg PO daily × 4 mo
+correct: abstain
+premise_description: |
+  CDC TB chemoprophylaxis for close contact: IGRA/TST at baseline,
+  repeat at 8-12 weeks. If both negative, no INH indicated (contact
+  window closed). This patient is at 16 weeks with 2 negative IGRAs
+  — TB infection did not occur; INH would be treating nothing.
+reference:
+  - "CDC MMWR: Guidelines for Investigating Contacts of Persons with Infectious TB."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

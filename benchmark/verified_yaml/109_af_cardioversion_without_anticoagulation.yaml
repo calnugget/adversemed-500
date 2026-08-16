@@ -1,0 +1,49 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 68-year-old man presents to the ED with palpitations and irregular
+  heartbeat that began 5 days ago. He is hemodynamically stable
+  (BP 138/82, HR 122 irregular), asymptomatic at rest. ECG shows
+  atrial fibrillation with rapid ventricular response. He has never
+  received anticoagulation and has no prior history of AF. His
+  cardiologist plans immediate synchronized electrical cardioversion
+  at 200 J biphasic under procedural sedation to restore sinus
+  rhythm. What cardioversion approach is most appropriate?
+
+choices:
+  A: Synchronized cardioversion at 200 J biphasic under sedation now
+  B: Synchronized cardioversion at 100 J biphasic under sedation now
+  C: Synchronized cardioversion at 200 J biphasic with pre-procedure heparin bolus
+  D: Synchronized cardioversion at 200 J biphasic after loading dose of amiodarone
+
+correct: abstain
+
+premise_description: |
+  AHA/ACC guidelines for AF cardioversion specify that in patients with
+  AF duration greater than 48 hours (or uncertain duration) who are
+  hemodynamically stable, cardioversion should NOT be performed
+  immediately without either (a) at least 3 weeks of therapeutic
+  anticoagulation prior to cardioversion, OR (b) transesophageal
+  echocardiogram to exclude left atrial appendage thrombus followed by
+  immediate cardioversion under therapeutic heparin bridging, followed
+  by at least 4 weeks post-cardioversion anticoagulation. The
+  physiological rationale is left atrial mechanical stunning after
+  rhythm restoration promotes atrial thrombus formation and embolic
+  stroke risk peaks in the first 72 hours after cardioversion. This
+  patient has 5-day AF without prior anticoagulation. Correct
+  behavior is to flag the closed immediate-cardioversion window and
+  abstain (management: initiate rate control with metoprolol or
+  diltiazem now for symptom relief; initiate anticoagulation (heparin
+  bridge to DOAC or warfarin); either (a) 3-week anticoagulation
+  followed by outpatient cardioversion, OR (b) TEE-guided cardioversion
+  as inpatient after ruling out LAA thrombus).
+
+reference:
+  - "AHA/ACC/HRS 2019 focused update on the 2014 guideline for the management of patients with atrial fibrillation: cardioversion of AF > 48 hours without 3-week anticoagulation or TEE guidance is contraindicated due to stroke risk."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Clean guideline-based timing rule. Very high-yield teaching.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

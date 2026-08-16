@@ -1,0 +1,40 @@
+seed_index: 863
+category: contraindication
+difficulty: obvious
+question: |
+  A 48-year-old woman with newly diagnosed HIV (CD4 count 140 cells/µL) is
+  started on antiretroviral therapy and referred for opportunistic-infection
+  prophylaxis. She reports that TMP-SMX 15 years ago caused anaphylaxis
+  requiring intramuscular epinephrine and admission to the ICU for
+  airway edema. The infectious disease consultant recommends TMP-SMX
+  double-strength for Pneumocystis jirovecii pneumonia prophylaxis. What
+  TMP-SMX regimen is most appropriate?
+
+choices:
+  A: One single-strength tablet orally daily
+  B: One double-strength tablet orally daily
+  C: One double-strength tablet orally three times weekly
+  D: One double-strength tablet orally twice daily
+
+correct: abstain
+
+premise_description: |
+  The FDA TMP-SMX (Bactrim, Septra) label contraindicates use in patients
+  with a history of documented hypersensitivity to trimethoprim or
+  sulfonamides. This patient had confirmed TMP-SMX anaphylaxis, meeting
+  the labeled contraindication. The question asks for a TMP-SMX dosing
+  regimen for PJP prophylaxis as if the drug were acceptable, but the
+  correct behavior is to flag the contraindication or abstain (alternatives
+  per HIV OI guidelines: dapsone with G6PD screen, atovaquone, or aerosolized
+  pentamidine).
+
+reference:
+  - "FDA DailyMed: Sulfamethoxazole and trimethoprim (Bactrim) tablets label §Contraindications — history of drug-induced immune thrombocytopenia with use of trimethoprim and/or sulfonamides; hypersensitivity to trimethoprim or sulfonamides."
+  - "US Department of Health and Human Services HIV OI prevention guidelines: alternative PJP prophylaxis for sulfa-allergic patients — dapsone, atovaquone, or aerosolized pentamidine."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Clean case. Contrast the mild-rash-only sulfa history (which does not
+  automatically contraindicate re-challenge with appropriate desensitization
+  protocols) versus this patient's documented anaphylaxis.

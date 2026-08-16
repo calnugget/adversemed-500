@@ -1,0 +1,23 @@
+seed_index: none
+category: contraindication
+difficulty: obvious
+question: |
+  A 44-year-old woman with myasthenia gravis (stable on pyridostigmine,
+  history of thymectomy 3 yr ago for thymoma) plans travel to Amazonian
+  Brazil. Travel medicine gives yellow fever vaccine 0.5 mL SC.
+choices:
+  A: 0.5 mL SC once
+  B: 0.5 mL SC with pre-medication
+  C: Half-dose 0.25 mL SC
+  D: 0.5 mL SC with monitoring
+correct: abstain
+premise_description: |
+  FDA YF-Vax label §Contra with thymus disorder (thymoma, myasthenia
+  gravis, thymectomy, DiGeorge) due to YEL-AVD (yellow fever vaccine-
+  associated viscerotropic disease) risk.
+reference:
+  - "FDA DailyMed: YF-Vax label §Contra — thymus disorder."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

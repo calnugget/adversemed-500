@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: obvious
+question: |
+  A 28-year-old nurse sustained needlestick exposure from patient
+  known to be HBsAg-negative (documented in chart, screened 2 mo
+  ago); she is vaccinated with documented anti-HBs > 100. Occupational
+  health orders HBIG 0.06 mL/kg IM + HBV vaccine booster.
+choices:
+  A: HBIG 0.06 mL/kg IM + HBV vaccine
+  B: HBV vaccine booster alone
+  C: HBIG 0.12 mL/kg IM
+  D: HBIG 0.06 mL/kg IM alone
+correct: abstain
+premise_description: |
+  HBIG is PEP for HBV-EXPOSED (HBsAg-positive source) contacts.
+  HBsAg-negative source + vaccinated responder = no HBV exposure
+  risk; PEP not indicated. Correct: no HBV-specific PEP; standard
+  post-needlestick counseling.
+reference:
+  - "CDC MMWR: HBV post-exposure management."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

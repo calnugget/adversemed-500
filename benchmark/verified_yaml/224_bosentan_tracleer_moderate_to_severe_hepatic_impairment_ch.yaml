@@ -1,0 +1,29 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 44-year-old woman with PAH and Child-Pugh B alcoholic cirrhosis
+  (transaminases 3× ULN, INR 1.5) is planned for endothelin receptor
+  antagonist. PH specialist initiates bosentan 62.5 mg PO BID × 4 wk
+  then 125 mg BID.
+choices:
+  A: 62.5 mg PO BID × 4 wk then 125 mg BID
+  B: 125 mg PO BID starting dose
+  C: 62.5 mg PO BID indefinitely
+  D: 31.25 mg PO BID (reduced) × 4 wk then 62.5 mg BID
+correct: abstain
+premise_description: |
+  FDA bosentan (Tracleer) label §Contraindications — moderate to
+  severe hepatic impairment (baseline AST/ALT > 3× ULN). Bosentan has
+  boxed warning for hepatotoxicity; hepatic impairment amplifies risk
+  including fatal fulminant hepatitis. Correct: prostacyclin analog
+  or macitentan (which lacks the same hepatic profile), or delay PAH
+  therapy until liver improves.
+reference:
+  - "FDA DailyMed: Bosentan (Tracleer) label §Contraindications — moderate-severe hepatic impairment, baseline AST/ALT > 3× ULN."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  Complements batch-4 C48/C49 (bosentan DDIs) — this is the hepatic
+  axis.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

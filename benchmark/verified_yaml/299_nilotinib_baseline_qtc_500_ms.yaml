@@ -1,0 +1,23 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 61-year-old man with chronic phase CML has baseline QTc 514 ms
+  (electrolytes normal). Oncology starts nilotinib 300 mg PO BID.
+choices:
+  A: 300 mg PO BID
+  B: 200 mg PO BID (reduced)
+  C: 300 mg PO BID with weekly ECG monitoring
+  D: 400 mg PO BID (higher dose)
+correct: abstain
+premise_description: |
+  FDA nilotinib (Tasigna) label boxed warning + §Contra with baseline
+  QTc > 500 ms because nilotinib causes dose-dependent QT prolongation
+  and torsades. Correct: imatinib (no significant QT effect) or
+  bosutinib as alternative TKI.
+reference:
+  - "FDA DailyMed: Nilotinib (Tasigna) label boxed warning + §Contra — baseline QTc > 500 ms."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

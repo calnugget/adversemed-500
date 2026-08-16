@@ -1,0 +1,27 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 74-year-old man on hospital day 8 develops severe C. diff colitis
+  (WBC 22,000, Cr 2.4 from baseline 1.1, lactate 4.1, T 38.6). Team
+  starts oral metronidazole 500 mg PO TID × 14 days.
+choices:
+  A: Oral metronidazole 500 mg PO TID × 14 days
+  B: Oral metronidazole 500 mg PO Q6h × 14 days
+  C: Oral metronidazole 250 mg PO QID × 14 days
+  D: Oral metronidazole 500 mg PO TID × 10 days
+correct: abstain
+premise_description: |
+  IDSA/SHEA 2018 CDI guidelines updated first-line CDI treatment
+  (both initial and severe) to oral vancomycin 125 mg PO QID × 10
+  days OR fidaxomicin 200 mg PO BID × 10 days. Metronidazole
+  (once first-line) is no longer recommended for initial or severe
+  CDI due to inferior cure and higher recurrence. For fulminant CDI:
+  oral/rectal vancomycin 500 mg + IV metronidazole 500 mg + surgical
+  consult.
+reference:
+  - "IDSA/SHEA 2018 CDI clinical practice guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

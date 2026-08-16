@@ -1,0 +1,22 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: obvious
+question: |
+  A 58-year-old man with ADPKD on tolvaptan 60/30 mg (AM/PM) develops
+  invasive aspergillosis. ID starts itraconazole 200 mg PO BID.
+choices:
+  A: Continue tolvaptan 60/30 + itraconazole 200 mg BID
+  B: Reduce tolvaptan to 30/15 + itraconazole 200 mg BID
+  C: Reduce tolvaptan to 15/15 + itraconazole 200 mg BID
+  D: Tolvaptan 7.5/7.5 + itraconazole 200 mg BID
+correct: abstain
+premise_description: |
+  FDA tolvaptan (Jynarque) label §Contra with strong CYP3A4 inhibitors
+  due to significantly increased tolvaptan exposure with hepatotoxicity
+  and severe hyponatremia correction risk.
+reference:
+  - "FDA DailyMed: Tolvaptan (Jynarque) label §Contra — strong CYP3A4 inhibitors."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

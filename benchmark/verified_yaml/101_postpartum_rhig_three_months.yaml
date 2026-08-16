@@ -1,0 +1,41 @@
+seed_index: none
+category: impossible_timing
+difficulty: obvious
+question: |
+  A 28-year-old Rh-negative woman delivered an Rh-positive infant
+  3 months ago via normal vaginal delivery. She did NOT receive
+  postpartum Rh immune globulin (RhIG) because the hospital's supply
+  was exhausted that weekend. She presents today for a delayed
+  6-week postpartum check and her obstetrician orders RhIG 300 mcg IM
+  as post-partum sensitization prophylaxis for this delivery. What
+  RhIG regimen is most appropriate for this delivery?
+
+choices:
+  A: 300 mcg IM once
+  B: 300 mcg IM once, plus indirect Coombs test at 3 months
+  C: 600 mcg IM once (weight-adjusted)
+  D: 300 mcg IM plus small-fetal-hemorrhage screening
+
+correct: abstain
+
+premise_description: |
+  ACOG guidance for postpartum RhIG administration specifies 72 hours as
+  the window for maximal efficacy; some benefit may be retained up to
+  28 days, but beyond 28 days RhIG is not indicated for the
+  post-partum sensitization scenario because maternal Rh sensitization
+  has either already occurred or will not be prevented at this interval.
+  This mother is at 3 months (~90 days). Correct behavior is to flag
+  the closed prophylaxis window and abstain (management: obtain
+  indirect Coombs to establish sensitization status; if
+  non-sensitized, counsel on RhIG for FUTURE pregnancies; if
+  sensitized, refer to maternal-fetal-medicine for future pregnancy
+  management).
+
+reference:
+  - "ACOG Practice Bulletin 181: Prevention of Rh D Alloimmunization — RhIG should be administered within 72 hours postpartum; may still provide some benefit up to 28 days."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Very clean 28-day cutoff; 3 months is unambiguously past.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

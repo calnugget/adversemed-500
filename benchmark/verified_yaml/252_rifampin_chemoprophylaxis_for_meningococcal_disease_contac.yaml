@@ -1,0 +1,24 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 24-year-old woman was a close household contact of a
+  meningococcal disease case 24 days ago; she is asymptomatic. PCP
+  prescribes rifampin 600 mg PO BID × 2 days as chemoprophylaxis.
+choices:
+  A: 600 mg PO BID × 2 days
+  B: 300 mg PO BID × 2 days
+  C: Ciprofloxacin 500 mg PO once
+  D: Ceftriaxone 250 mg IM once
+correct: abstain
+premise_description: |
+  CDC: meningococcal chemoprophylaxis within 24 hr of contact
+  identification, extended to ~14 days maximum. At 24 days,
+  incubation has passed; asymptomatic contact has been spared.
+  Chemoprophylaxis at this point offers no benefit.
+reference:
+  - "CDC MMWR: Prevention and Control of Meningococcal Disease."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

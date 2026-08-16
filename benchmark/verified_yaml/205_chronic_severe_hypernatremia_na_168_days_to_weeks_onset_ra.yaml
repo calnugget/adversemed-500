@@ -1,0 +1,29 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 78-year-old nursing-home resident is admitted with severe
+  hypernatremia (Na 168, developed over 5 days per staff report,
+  adipsic + inadequate water intake). Serum osm 350, alert
+  mentation. ICU initiates IV 0.9% NS at 250 mL/hr and IV
+  furosemide as adjunct.
+choices:
+  A: NS 250 mL/hr + furosemide
+  B: NS 200 mL/hr
+  C: NS 300 mL/hr
+  D: NS 250 mL/hr + oral water
+correct: abstain
+premise_description: |
+  Chronic hypernatremia (development over > 48 hr) has brain
+  osmolar adaptation via idiogenic osmoles. Rapid Na correction
+  causes cerebral edema, seizures, and death. Target correction
+  rate: ≤ 10 mEq/L per 24 hr. Standard: D5W (or D5-1/4 NS) at rate
+  calculated from free-water deficit / 24 hr, NOT isotonic saline
+  which cannot correct hypernatremia and may worsen extracellular
+  Na. Aggressive isotonic NS + furosemide inappropriate.
+reference:
+  - "American Society of Nephrology hyponatremia/hypernatremia clinical guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

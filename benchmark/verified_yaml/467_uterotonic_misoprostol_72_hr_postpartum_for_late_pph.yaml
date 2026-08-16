@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 32-year-old G3P3 woman is 5 d postpartum, presents with heavy
+  vaginal bleeding (soaked pad × 2 in 1 hr). Uterine tone soft on
+  bimanual, Hgb 8.2. OB gives misoprostol 800 mcg PR for late PPH.
+choices:
+  A: Misoprostol 800 mcg PR
+  B: Misoprostol 600 mcg PR
+  C: Methylergonovine 0.2 mg IM
+  D: Carboprost 250 mcg IM
+correct: abstain
+premise_description: |
+  Late postpartum hemorrhage (> 24 hr, up to 12 wk) is typically due
+  to retained products, uterine atony from infection, or coagulopathy.
+  Uterotonic monotherapy is not first-line; workup requires evaluation
+  for retained products (bedside US), possible D&C, and antibiotics.
+  Isolated misoprostol at day 5 does not address likely etiology.
+reference:
+  - "ACOG PB 183: Postpartum Hemorrhage — late PPH management."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

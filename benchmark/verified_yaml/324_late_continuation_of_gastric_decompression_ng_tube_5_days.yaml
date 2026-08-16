@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 62-year-old woman had adhesive SBO 6 days ago (NG decompression
+  + IV fluids); obstruction resolved day 3; NG tube removed day 3;
+  she has been tolerating regular diet × 3 days. Team proposes
+  reinsertion of NG tube for "delayed decompression prevention."
+choices:
+  A: 18 Fr Salem sump NG for 24 hr
+  B: 18 Fr NG connected to intermittent suction
+  C: 14 Fr Levin tube for 48 hr
+  D: 18 Fr NG on continuous suction × 24 hr
+correct: abstain
+premise_description: |
+  Nasogastric decompression for adhesive SBO is indicated during
+  active obstruction. After resolution + diet tolerance, prophylactic
+  NG re-insertion is not indicated; nasal/pharyngeal ulceration,
+  aspiration risk.
+reference:
+  - "SAGES / EAST SBO management guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

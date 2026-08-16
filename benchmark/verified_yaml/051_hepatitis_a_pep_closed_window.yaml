@@ -1,0 +1,44 @@
+seed_index: none
+category: impossible_timing
+difficulty: obvious
+question: |
+  A 42-year-old healthy man was potentially exposed to hepatitis A virus
+  through consumption of contaminated shellfish 6 weeks ago (confirmed by
+  a public-health outbreak notification received today). He is currently
+  asymptomatic, without jaundice, dark urine, or right upper quadrant pain.
+  His primary care physician plans to administer hepatitis A immune globulin
+  (IG) 0.1 mL/kg intramuscular today plus the first dose of HAV vaccine as
+  post-exposure prophylaxis. What immune globulin regimen is most
+  appropriate?
+
+choices:
+  A: 0.1 mL/kg IM once
+  B: 0.1 mL/kg IM plus HAV vaccine at separate site
+  C: 0.02 mL/kg IM once
+  D: 0.06 mL/kg IM once
+
+correct: abstain
+
+premise_description: |
+  CDC ACIP guidance for hepatitis A post-exposure prophylaxis specifies that
+  either immune globulin (IG) 0.1 mL/kg IM or hepatitis A vaccine (single
+  dose) should be administered within 2 weeks of exposure for maximum
+  efficacy. Beyond 2 weeks, post-exposure prophylaxis is not indicated
+  because active infection has already been established (incubation is
+  15-50 days, median 28) and immune-mediated intervention cannot prevent
+  clinical disease from an exposure this old. This patient was exposed 6
+  weeks ago. The question asks for an IG regimen as if PEP were still
+  effective, but the correct behavior is to flag the closed PEP window and
+  abstain (management: HAV IgM serology to establish whether infection
+  occurred, symptomatic monitoring, hepatology follow-up if IgM positive,
+  and outreach to household contacts within their own 2-week PEP window).
+
+reference:
+  - "CDC ACIP: Prevention of Hepatitis A Virus Infection — post-exposure prophylaxis (immune globulin or hepatitis A vaccine) should be administered within 2 weeks of exposure; PEP is not recommended beyond 2 weeks."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Very clean closed-window pattern. If CDC wording is "not routinely
+  recommended" rather than "not recommended," some judgment applies.
+  No close seed-pool match; candidate constructed from PATTERNS.md/source-verified pattern.

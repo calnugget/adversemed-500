@@ -1,0 +1,27 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 44-year-old woman with chronic idiopathic neutropenia (ANC 400
+  stable × 5 y, no active infection history) presents for routine
+  follow-up. Hematology orders scheduled prophylactic granulocyte
+  transfusion 1 × 10¹⁰ granulocytes IV Q1wk.
+choices:
+  A: Granulocyte transfusion Q1wk
+  B: Granulocyte transfusion Q2wk
+  C: Granulocyte transfusion Q3wk
+  D: Granulocyte transfusion + G-CSF Q1wk
+correct: abstain
+premise_description: |
+  Granulocyte transfusion is used only for refractory neutropenic
+  sepsis (short-lived cells, hours of activity). Prophylactic
+  granulocyte transfusion in chronic stable neutropenia offers no
+  benefit and exposes patient to transfusion reactions,
+  alloimmunization. Correct: G-CSF if neutropenia clinically
+  significant.
+reference:
+  - "AABB granulocyte transfusion clinical practice guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

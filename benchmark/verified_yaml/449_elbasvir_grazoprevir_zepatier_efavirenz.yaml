@@ -1,0 +1,22 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 51-year-old man with HCV + HIV on efavirenz-based ART (Atripla)
+  is starting Zepatier for HCV genotype 1a with F3 fibrosis.
+  Hepatology continues efavirenz.
+choices:
+  A: Zepatier 1 tab daily × 12 wk + continue efavirenz
+  B: Zepatier 1 tab daily × 16 wk + continue efavirenz
+  C: Zepatier 1 tab daily × 12 wk + reduce efavirenz to 400 mg
+  D: Zepatier 1 tab daily × 8 wk + continue efavirenz
+correct: abstain
+premise_description: |
+  FDA Zepatier label §Contra concurrent efavirenz (strong CYP3A4
+  inducer) due to markedly reduced elbasvir/grazoprevir exposure.
+reference:
+  - "FDA DailyMed: Zepatier label §Contra — efavirenz."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

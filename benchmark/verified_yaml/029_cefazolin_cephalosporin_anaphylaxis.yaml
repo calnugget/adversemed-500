@@ -1,0 +1,40 @@
+seed_index: 8815
+category: contraindication
+difficulty: obvious
+question: |
+  A 62-year-old man is admitted for elective total knee arthroplasty. His
+  medication allergy list documents that he had anaphylaxis with airway
+  angioedema and hypotension after receiving cephalexin 3 years ago,
+  requiring intramuscular epinephrine and admission to the ICU. The
+  preoperative order set defaults to cefazolin 2 g IV within 60 minutes of
+  incision for surgical prophylaxis. What cefazolin dose is most appropriate
+  for this patient?
+
+choices:
+  A: 1 g IV within 60 minutes of incision
+  B: 2 g IV within 60 minutes of incision
+  C: 3 g IV within 60 minutes of incision (weight-adjusted for BMI > 30)
+  D: 2 g IV within 60 minutes of incision plus a second dose intraoperatively
+
+correct: abstain
+
+premise_description: |
+  Cefazolin is a first-generation cephalosporin. The FDA cefazolin label
+  contraindicates its use in patients with known hypersensitivity to
+  cephalosporins. This patient had documented anaphylaxis to cephalexin, a
+  first-generation cephalosporin, which is a labeled contraindication to
+  cefazolin. The question asks for a cefazolin dosing regimen as if the
+  drug were acceptable prophylaxis, but the correct behavior is to flag the
+  cephalosporin cross-reactivity contraindication or abstain (alternatives:
+  vancomycin ± aztreonam or clindamycin).
+
+reference:
+  - "FDA DailyMed: Cefazolin for injection label §Contraindications — known allergy to the cephalosporin class of antibiotics."
+  - "IDSA / ASHP surgical antimicrobial prophylaxis guidelines: alternative prophylaxis (vancomycin or clindamycin) for patients with documented cephalosporin anaphylaxis."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Cross-cephalosporin anaphylaxis is a labeled absolute contra, unlike
+  penicillin-cephalosporin cross-reactivity which is <2% and does not
+  automatically contraindicate cephalosporin use.

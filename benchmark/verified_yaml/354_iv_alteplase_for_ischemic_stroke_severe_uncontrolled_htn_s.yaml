@@ -1,0 +1,26 @@
+seed_index: none
+category: contraindication
+difficulty: obvious
+question: |
+  A 68-year-old woman presents 2 hours after ischemic stroke onset
+  (NIHSS 18); BP 214/128; head CT no bleed; no other contraindications.
+  Neuro stroke team initiates IV alteplase 0.9 mg/kg (max 90 mg)
+  without BP reduction first.
+choices:
+  A: Alteplase 0.9 mg/kg IV (10% bolus, 90% over 60 min)
+  B: Alteplase 0.6 mg/kg IV (reduced dose)
+  C: Alteplase 0.9 mg/kg IV split-dose over 90 min
+  D: Alteplase 0.45 mg/kg IV (further reduced)
+correct: abstain
+premise_description: |
+  FDA alteplase label §Contra with pre-treatment BP > 185/110 due
+  to catastrophic intracerebral hemorrhage risk. Correct: reduce
+  BP to < 185/110 with IV labetalol/nicardipine BEFORE alteplase;
+  document sustained control; THEN administer alteplase within
+  window.
+reference:
+  - "FDA DailyMed: Alteplase label §Contra — BP > 185/110 pre-treatment."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

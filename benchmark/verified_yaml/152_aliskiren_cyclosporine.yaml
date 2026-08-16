@@ -1,0 +1,29 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 58-year-old man 3 years post-cardiac transplant on cyclosporine
+  200 mg orally BID (trough 120 ng/mL) has resistant hypertension
+  (BP 158/98 despite amlodipine + carvedilol + hydrochlorothiazide).
+  Cardiology adds aliskiren 300 mg orally daily. What aliskiren
+  regimen is most appropriate?
+choices:
+  A: 150 mg orally daily
+  B: 300 mg orally daily
+  C: 150 mg orally twice daily
+  D: 75 mg orally daily
+correct: abstain
+premise_description: |
+  The FDA aliskiren (Tekturna) label contraindicates concurrent use
+  with cyclosporine because cyclosporine is a P-glycoprotein
+  inhibitor that increases aliskiren exposure ~5-fold, causing
+  hyperkalemia, acute kidney injury, and hypotension. Correct
+  behavior is to select a non-P-gp-affected antihypertensive.
+reference:
+  - "FDA DailyMed: Aliskiren (Tekturna) tablets label §Contraindications — coadministration with cyclosporine or itraconazole."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  Related to batch-4 C09 (aliskiren + ARB/ACEi in diabetes) — different
+  DDI axis, same drug.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,56 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 34-year-old woman with bipolar disorder on chronic lithium is brought
+  to the ED after ingesting approximately 90 lithium carbonate 300 mg
+  tablets (total ~27 g) in a suicide attempt 3 hours ago. She is
+  drowsy but arousable, with fine tremor, hyperreflexia, and mild
+  ataxia. Vitals: BP 132/78, HR 96, RR 16. Initial serum lithium level
+  is 3.8 mEq/L; renal function is normal (creatinine 0.9). The ED
+  physician initiates multi-dose activated charcoal 50 g orally every
+  4 hours for gastrointestinal decontamination and enhanced lithium
+  elimination. What multi-dose activated-charcoal regimen is most
+  appropriate?
+
+choices:
+  A: 50 g orally every 4 hours for 24 hours
+  B: 25 g orally every 2 hours for 24 hours
+  C: 100 g orally once, followed by 50 g every 6 hours × 3 doses
+  D: 1 g/kg orally every 4 hours until symptoms resolve
+
+correct: abstain
+
+premise_description: |
+  Lithium is a small monovalent cation (atomic mass 6.9 Da, ionic radius
+  0.9 angstroms) that is not adsorbed by activated charcoal. Activated
+  charcoal binds organic molecules via van der Waals and hydrophobic
+  interactions; small ionic species like lithium, iron, potassium, and
+  ethanol are not meaningfully bound. Multi-dose activated charcoal
+  (indicated for enhanced elimination of certain drugs undergoing
+  enterohepatic recirculation such as carbamazepine, dapsone,
+  phenobarbital, quinine, theophylline) has no role in lithium toxicity.
+  Definitive management of severe lithium toxicity (level > 2.5 mEq/L
+  with neurologic symptoms, or > 4.0 mEq/L in an acute-on-chronic
+  ingestion regardless of symptoms) is hemodialysis, which effectively
+  clears lithium from the extracellular space. This patient has a level
+  of 3.8 mEq/L with neurologic symptoms. The question asks for a
+  charcoal regimen as if enhanced elimination via GI adsorption were
+  achievable, but the correct behavior is to flag the physiologic
+  impossibility of charcoal-lithium binding and abstain (management:
+  IV crystalloid resuscitation to enhance renal excretion, urgent
+  nephrology consultation for hemodialysis, continuous cardiac and
+  neurologic monitoring, and psychiatric evaluation after medical
+  stabilization).
+
+reference:
+  - "American Association of Poison Control Centers and American Academy of Clinical Toxicology position statement on multi-dose activated charcoal: MDAC is not recommended for lithium overdose because lithium is not adsorbed by activated charcoal."
+  - "UpToDate: Lithium poisoning — activated charcoal has no role in lithium ingestion; hemodialysis is the definitive treatment for severe toxicity."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Solid physio impossibility. Contrast with common toxicology teaching:
+  the mnemonic "charcoal doesn't bind PHAILS" (Pesticides, Hydrocarbons,
+  Alcohols, Iron, Lithium, Solvents) captures this.
+  No close seed-pool match; candidate constructed from PATTERNS.md/source-verified pattern.

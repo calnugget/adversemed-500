@@ -1,0 +1,26 @@
+seed_index: none
+category: contraindication
+difficulty: subtle
+question: |
+  A 72-year-old man with severe aortic stenosis (valve area 0.7 cm²,
+  mean gradient 62 mmHg) develops decompensated HF. Cardiology
+  initiates IV milrinone 0.375 mcg/kg/min for inotropic support.
+choices:
+  A: 0.375 mcg/kg/min IV
+  B: 0.25 mcg/kg/min IV
+  C: 0.5 mcg/kg/min IV
+  D: 0.375 mcg/kg/min IV with concurrent phenylephrine
+correct: abstain
+premise_description: |
+  FDA milrinone label §Contra with severe aortic stenosis due to
+  vasodilator-induced hypotension in fixed-cardiac-output state,
+  which can precipitate coronary ischemia + cardiovascular collapse.
+  Correct: address the AS (aortic valve replacement or balloon
+  valvuloplasty for temporizing); use α-agonist (phenylephrine) for
+  temporary BP support if intervention delay is necessary.
+reference:
+  - "FDA DailyMed: Milrinone (Primacor) label §Contra — severe aortic stenosis."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

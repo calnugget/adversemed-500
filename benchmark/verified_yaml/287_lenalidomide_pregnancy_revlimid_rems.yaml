@@ -1,0 +1,26 @@
+seed_index: none
+category: contraindication
+difficulty: subtle
+question: |
+  A 34-year-old woman with newly diagnosed MDS del(5q) is planned
+  for lenalidomide. She presents at 6 weeks gestation, wishes to
+  continue pregnancy. Oncology initiates lenalidomide 10 mg PO
+  daily × 21 of 28 days.
+choices:
+  A: 10 mg PO daily × 21/28 d
+  B: 5 mg PO daily × 21/28 d
+  C: 15 mg PO daily × 21/28 d
+  D: 10 mg PO daily continuous
+correct: abstain
+premise_description: |
+  FDA lenalidomide (Revlimid) label boxed warning + §Contra in
+  pregnancy — thalidomide analog with severe teratogenicity. REMS
+  (RevAssist) mandates pregnancy testing + two forms of
+  contraception. Alternative for MDS del(5q) in pregnancy:
+  supportive transfusions.
+reference:
+  - "FDA DailyMed: Lenalidomide (Revlimid) label boxed warning + §Contra — pregnancy; REMS."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

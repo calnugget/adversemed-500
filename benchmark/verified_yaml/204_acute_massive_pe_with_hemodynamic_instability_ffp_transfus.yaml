@@ -1,0 +1,29 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 62-year-old woman presents in massive PE (BP 82/54, HR 128,
+  bilateral saddle emboli, elevated troponin, RV strain). She has
+  no active bleeding. INR 1.6 (from asymptomatic mild chronic
+  hepatic disease). ED gives FFP 4 units to "normalize INR before
+  thrombolytics."
+choices:
+  A: FFP 4 units IV
+  B: FFP 6 units IV
+  C: FFP 2 units + vitamin K 10 mg
+  D: FFP 4 units + prothrombin complex concentrate
+correct: abstain
+premise_description: |
+  Systemic thrombolysis in massive PE does not require INR
+  correction pre-treatment (INR 1.6 does not confer bleeding risk
+  meaningful compared to the thrombolytic itself). FFP transfusion
+  in this scenario (a) delays life-saving thrombolysis, (b) provides
+  volume overload in RV-strain physiology, (c) has no evidence of
+  reducing thrombolysis-associated bleeding. Immediate thrombolysis
+  (alteplase 100 mg over 2 hr) is the priority.
+reference:
+  - "AHA scientific statement on massive PE; ACCP antithrombotic therapy."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

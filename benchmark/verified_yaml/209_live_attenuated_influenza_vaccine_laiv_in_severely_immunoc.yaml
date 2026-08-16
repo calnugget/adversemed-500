@@ -1,0 +1,25 @@
+seed_index: none
+category: contraindication
+difficulty: obvious
+question: |
+  A 47-year-old woman on FOLFOX chemotherapy for metastatic colorectal
+  cancer (ANC 480, cycle 4 day 12) presents in October for influenza
+  vaccination. Her oncologist orders LAIV (FluMist) 0.2 mL intranasally.
+choices:
+  A: LAIV 0.2 mL intranasal once
+  B: LAIV 0.1 mL intranasal each nostril
+  C: LAIV 0.2 mL intranasal, repeat in 4 weeks
+  D: LAIV 0.5 mL intranasal single dose
+correct: abstain
+premise_description: |
+  LAIV is a live attenuated vaccine contraindicated in immunocompromised
+  patients including active cytotoxic chemotherapy. Vaccine-strain
+  virus can cause severe or disseminated infection. Correct behavior:
+  give inactivated influenza vaccine (IIV) IM instead.
+reference:
+  - "FDA DailyMed: FluMist label §Contraindications — severe immunocompromise."
+  - "CDC ACIP: LAIV not indicated in immunocompromised persons."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

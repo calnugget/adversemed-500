@@ -1,0 +1,27 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 58-year-old man had submassive PE 3 wk ago (initial RV strain +
+  elevated troponin, BP borderline but never in shock; treated with
+  IV heparin transitioned to apixaban); symptoms improved by day 5,
+  troponin normalized by day 10, echo shows resolved RV strain × 2
+  wk. Cardiology proposes IV alteplase 100 mg IV over 2 hr for
+  "residual thrombus resolution."
+choices:
+  A: Alteplase 100 mg IV over 2 hr
+  B: Alteplase 50 mg IV over 2 hr
+  C: Catheter-directed alteplase
+  D: Alteplase 100 mg IV over 4 hr
+correct: abstain
+premise_description: |
+  Systemic thrombolysis for PE is indicated in massive PE or select
+  high-risk submassive PE in the acute phase. Late thrombolysis in
+  a hemodynamically resolved patient with normalized RV function
+  offers no benefit and carries substantial ICH risk.
+reference:
+  - "ESC / ACCP PE management guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

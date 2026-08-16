@@ -1,0 +1,26 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 51-year-old woman had acute PE 2 weeks ago (on therapeutic
+  apixaban) and severe menopausal vasomotor symptoms. Gynecology
+  starts oral estradiol 1 mg PO daily for hot flashes.
+choices:
+  A: 1 mg PO daily
+  B: 0.5 mg PO daily
+  C: 2 mg PO daily
+  D: Transdermal 0.05 mg patch weekly (lower thrombotic risk)
+correct: abstain
+premise_description: |
+  FDA estradiol label §Contra with active or history of DVT/PE
+  because estrogen substantially amplifies thromboembolic risk.
+  Even transdermal (lower first-pass hepatic effect) is not
+  indicated in active VTE. Correct: SSRI (paroxetine at low dose)
+  or SNRI (venlafaxine) for vasomotor symptoms; gabapentin;
+  oxybutynin.
+reference:
+  - "FDA DailyMed: Estradiol label §Contra — active/prior DVT/PE."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

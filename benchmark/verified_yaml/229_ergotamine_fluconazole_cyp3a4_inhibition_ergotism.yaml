@@ -1,0 +1,26 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 38-year-old woman with chronic migraine on ergotamine/caffeine
+  develops symptomatic candidal esophagitis. GI prescribes fluconazole
+  400 mg PO daily × 14 days.
+choices:
+  A: 400 mg PO daily × 14 d
+  B: 200 mg PO daily × 14 d
+  C: 100 mg PO daily × 14 d
+  D: 400 mg PO daily × 7 d
+correct: abstain
+premise_description: |
+  FDA ergotamine label §Contra with potent CYP3A4 inhibitors including
+  azole antifungals. Ergotamine accumulation causes ergotism (peripheral
+  vasospasm, limb ischemia). Correct: echinocandin (micafungin) for
+  esophageal candidiasis.
+reference:
+  - "FDA DailyMed: Ergotamine tartrate + caffeine (Cafergot) label §Contraindications — potent CYP3A4 inhibitors."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  Parallels batch-4 C12 (ergotamine + clarithromycin) — same CYP3A4
+  axis, different agent.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

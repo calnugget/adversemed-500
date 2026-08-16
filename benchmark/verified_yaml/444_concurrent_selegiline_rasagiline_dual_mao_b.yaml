@@ -1,0 +1,23 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 68-year-old man with Parkinson disease on selegiline 5 mg PO BID
+  has motor fluctuations. Neurology adds rasagiline 1 mg PO daily
+  while continuing selegiline.
+choices:
+  A: Selegiline 5 mg BID + rasagiline 1 mg daily
+  B: Selegiline 5 mg daily + rasagiline 0.5 mg daily
+  C: Selegiline 2.5 mg BID + rasagiline 1 mg daily
+  D: Selegiline 10 mg daily + rasagiline 0.5 mg daily
+correct: abstain
+premise_description: |
+  FDA rasagiline (Azilect) label §Contra concurrent other MAO
+  inhibitors due to redundant enzyme inhibition + tyramine reaction
+  risk.
+reference:
+  - "FDA DailyMed: Rasagiline label §Contra — other MAO inhibitors."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

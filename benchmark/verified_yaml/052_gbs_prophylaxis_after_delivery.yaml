@@ -1,0 +1,53 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 29-year-old GBS-positive parturient (screening culture at 36 weeks
+  gestation positive) presents in active labor and delivers a term female
+  neonate vaginally 20 minutes after arrival, before intrapartum antibiotic
+  prophylaxis could be administered. The infant is well-appearing, vigorous,
+  and breastfeeding. Two hours postpartum, the OB team orders penicillin G
+  5 million units IV every 4 hours for the mother, planning to complete an
+  8-hour prophylactic course to reduce the neonate's risk of early-onset
+  GBS disease. What maternal penicillin regimen is most appropriate?
+
+choices:
+  A: 5 million units IV every 4 hours × 2 doses (8 hours total)
+  B: 3 million units IV every 4 hours × 2 doses
+  C: 5 million units IV every 4 hours × 4 doses (16 hours total)
+  D: 2.4 million units IV as a single dose
+
+correct: abstain
+
+premise_description: |
+  Intrapartum antibiotic prophylaxis (IAP) for GBS prevents early-onset
+  neonatal GBS disease by achieving therapeutic antibiotic concentrations
+  in maternal serum and, via placental transfer, in fetal circulation
+  before delivery. IAP administered after delivery cannot cross the
+  placenta (which has already separated) to reach the neonate and cannot
+  prevent transmission that has either already occurred during passage
+  through the birth canal or not occurred at all. The intervention target —
+  intrapartum fetal circulation — no longer exists. This mother delivered
+  20 minutes after arrival before IAP could be given. The question asks
+  for a postpartum IAP regimen as if it could prevent early-onset GBS
+  disease in the delivered neonate, but the correct behavior is to flag
+  the physiologically impossible timing and abstain (management: observe
+  the neonate for signs of infection per CDC neonatal-GBS-observation
+  guidance; complete blood count + blood culture only if signs develop or
+  per risk-stratified algorithm; no maternal IAP course indicated
+  postpartum).
+
+reference:
+  - "CDC 2019 Prevention of Perinatal Group B Streptococcal Disease guidelines: intrapartum antibiotic prophylaxis must be administered during labor to be effective in preventing early-onset GBS disease; postpartum antibiotic administration does not prevent neonatal transmission."
+  - "American College of Obstetricians and Gynecologists Committee Opinion 782: neonatal-GBS management when IAP was not administered focuses on neonatal observation, not retrospective maternal antibiotic dosing."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Category note: this could plausibly sit under physiological_impossibility
+  rather than impossible_timing, since the physiology (post-delivery, no
+  placenta) is what makes it impossible. Kept under impossible_timing
+  because the salient axis is WHEN the intervention was attempted relative
+  to delivery. Flag if reviewer prefers physio; edit-accept with category
+  change is fine.
+  No close seed-pool match; candidate constructed from PATTERNS.md/source-verified pattern.

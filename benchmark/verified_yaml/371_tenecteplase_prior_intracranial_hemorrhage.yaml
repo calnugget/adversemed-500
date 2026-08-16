@@ -1,0 +1,27 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 68-year-old man had prior spontaneous ICH 4 years ago (resolved,
+  no residual deficit). He now presents with acute anterior STEMI,
+  75 min from onset, no PCI within 2 hours. ED plans IV tenecteplase
+  40 mg IV bolus.
+choices:
+  A: 40 mg IV bolus (weight 70-80 kg)
+  B: 30 mg IV bolus (< 60 kg)
+  C: 45 mg IV bolus (80-90 kg)
+  D: 50 mg IV bolus (≥ 90 kg)
+correct: abstain
+premise_description: |
+  FDA tenecteplase label §Contra with any prior intracranial
+  hemorrhage due to unacceptable recurrence risk. Same class-wide
+  contra for all fibrinolytics. Correct: transfer to PCI-capable
+  center or accept non-reperfusion management (aspirin + P2Y12
+  inhibitor + heparin + optimal medical management); do not
+  administer fibrinolytic.
+reference:
+  - "FDA DailyMed: Tenecteplase (TNKase) label §Contra — prior intracranial hemorrhage."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

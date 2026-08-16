@@ -1,0 +1,24 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 28-year-old Rh-negative woman delivered an Rh-positive infant
+  6 months ago. She did not receive postpartum RhIG. She presents
+  now for routine follow-up asymptomatic. OB orders anti-D IG
+  300 mcg IM as delayed prophylaxis.
+choices:
+  A: 300 mcg IM once
+  B: 300 mcg IM + Coombs at 3 mo
+  C: 600 mcg IM (double dose)
+  D: 150 mcg IM once
+correct: abstain
+premise_description: |
+  ACOG postpartum RhIG within 72 hr; some benefit up to 28 days;
+  beyond 28 days no indication. At 6 months (180 days), RhIG is
+  not indicated.
+reference:
+  - "ACOG PB 181."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,30 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 71-year-old man with AFib presents with acute severe abdominal
+  pain, lactate 6.8; CT angiography shows SMA occlusion with no
+  bowel infarction yet (early ischemia). ED initiates apixaban 10 mg
+  PO BID × 7 d, then 5 mg BID as sole management, awaiting vascular
+  surgery follow-up next week.
+choices:
+  A: Apixaban 10 mg PO BID × 7 d, then 5 mg BID
+  B: Rivaroxaban 15 mg PO BID × 21 d, then 20 mg daily
+  C: Dabigatran 150 mg PO BID
+  D: Apixaban 5 mg PO BID starting
+correct: abstain
+premise_description: |
+  Acute mesenteric ischemia is a surgical emergency requiring
+  immediate IV heparin (unfractionated preferred for rapid
+  reversibility if surgery needed) + emergent vascular surgery
+  consultation for revascularization (endovascular embolectomy or
+  open thrombectomy). Oral DOAC is inappropriate for acute
+  mesenteric ischemia: (a) too slow onset, (b) surgical team
+  needs anticoagulation controllable/reversible, (c) delaying
+  revascularization loses bowel viability.
+reference:
+  - "American College of Gastroenterology / American Vascular Surgery clinical practice on acute mesenteric ischemia."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

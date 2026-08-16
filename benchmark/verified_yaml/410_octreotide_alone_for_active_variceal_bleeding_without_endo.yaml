@@ -1,0 +1,25 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 58-year-old man with cirrhosis presents with hematemesis (Hgb
+  6.8 from 11); EGD reveals actively bleeding esophageal varices.
+  GI initiates IV octreotide 50 mcg bolus + 50 mcg/hr infusion; no
+  endoscopic band ligation planned.
+choices:
+  A: Octreotide alone, no EBL
+  B: Octreotide + PPI, no EBL
+  C: Octreotide + terlipressin, no EBL
+  D: Vasopressin alone, no EBL
+correct: abstain
+premise_description: |
+  AASLD variceal bleeding: endoscopic variceal band ligation is
+  first-line + octreotide/terlipressin as adjunct + IV antibiotic
+  prophylaxis (ceftriaxone). Octreotide alone does not achieve
+  definitive hemostasis; rebleeding risk high.
+reference:
+  - "AASLD variceal bleeding practice guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

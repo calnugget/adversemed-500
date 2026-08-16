@@ -1,0 +1,24 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 34-year-old Rh-negative woman with known anti-D alloimmunization
+  (prior pregnancy affected fetus with hemolytic anemia) delivered
+  Rh-positive infant today. OB orders postpartum anti-D IG 300 mcg IM.
+choices:
+  A: 300 mcg IM within 72 hr
+  B: 600 mcg IM within 72 hr
+  C: 300 mcg IM + repeat in 28 d
+  D: 150 mcg IM within 72 hr
+correct: abstain
+premise_description: |
+  Anti-D IG prevents alloimmunization; in an already-immunized
+  patient, IG cannot reverse existing anti-D. Correct: MFM
+  counseling for future pregnancies (fetal surveillance, IUT
+  planning).
+reference:
+  - "ACOG PB 181."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

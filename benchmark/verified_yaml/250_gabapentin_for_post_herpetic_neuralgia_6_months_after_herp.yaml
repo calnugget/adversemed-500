@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 68-year-old man had herpes zoster 8 months ago with self-
+  limited PHN that resolved 3 months ago. He is now asymptomatic
+  with no pain. PCP prescribes gabapentin 300 mg PO TID as
+  "prophylaxis against PHN recurrence."
+choices:
+  A: 300 mg PO TID
+  B: 100 mg PO TID starting dose
+  C: 600 mg PO TID
+  D: 900 mg PO TID
+correct: abstain
+premise_description: |
+  Gabapentin for PHN is a symptom-management intervention. In a
+  patient with resolved PHN and no current pain, prophylactic
+  gabapentin serves no purpose and exposes patient to sedation,
+  edema, weight gain. If pain recurs, treat then.
+reference:
+  - "AAN practice parameter for PHN treatment."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

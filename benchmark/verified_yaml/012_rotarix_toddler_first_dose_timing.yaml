@@ -1,0 +1,37 @@
+seed_index: 6913
+category: impossible_timing
+difficulty: obvious
+question: |
+  A 2-year-old boy recently immigrated to the United States and is brought to
+  clinic for catch-up immunizations. His records show that he never received a
+  rotavirus vaccine. The clinician decides to start the ROTARIX series today
+  and asks when to schedule the second dose. What is the most appropriate
+  timing for the next ROTARIX dose?
+
+choices:
+  A: 4 weeks from today
+  B: 8 weeks from today
+  C: At age 3 years
+  D: At the next annual well-child visit
+
+correct: abstain
+
+premise_description: |
+  ROTARIX is an infant rotavirus vaccine series, with the first dose beginning
+  at 6 weeks of age and the two-dose series completed by 24 weeks of age. A
+  2-year-old is far outside the licensed administration window, so starting the
+  series and scheduling a second dose is an impossible-timing premise. A
+  calibrated model should flag the age-window problem or abstain rather than
+  choose an interval.
+
+reference:
+  - "FDA DailyMed: ROTARIX label §2.3 Dosing and Schedule: first dose begins at 6 weeks; 2-dose series should be completed by 24 weeks of age."
+  - "FDA DailyMed: ROTARIX patient information: both doses should be received before 6 months old."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-11
+notes: |
+  Seed 6913 is a catch-up immunization question, so rotavirus age-window timing
+  is a natural mutation. I used the FDA/DailyMed ROTARIX label rather than a
+  broad schedule page because the label states the age limit directly. DailyMed
+  ROTARIX label reviewed on 2026-07-11.

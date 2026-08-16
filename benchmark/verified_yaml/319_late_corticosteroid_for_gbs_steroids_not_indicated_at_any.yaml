@@ -1,0 +1,23 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 46-year-old man with GBS had symptom onset 3 weeks ago; received
+  IVIG × 5 days; plateaued neurologic recovery at moderate weakness.
+  Neurology initiates IV methylprednisolone 1 g × 5 days.
+choices:
+  A: Methylprednisolone 1 g IV daily × 5 d
+  B: Methylprednisolone 500 mg IV daily × 5 d
+  C: Prednisone 60 mg PO daily × 30 d
+  D: Methylprednisolone 1 g IV daily × 3 d
+correct: abstain
+premise_description: |
+  Cochrane meta-analyses: corticosteroids in GBS have NO benefit and
+  may worsen outcome (delayed motor recovery). Not indicated at any
+  time in GBS. IVIG or plasma exchange are established treatments.
+reference:
+  - "Cochrane review: Corticosteroids for Guillain-Barré syndrome."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

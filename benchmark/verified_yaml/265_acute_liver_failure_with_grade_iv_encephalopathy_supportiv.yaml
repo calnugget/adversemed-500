@@ -1,0 +1,27 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: obvious
+question: |
+  A 34-year-old woman with acetaminophen-induced ALF (INR 6.8, ALT
+  9200, encephalopathy grade IV, lactate 5.4, pH 7.28). ICU
+  initiates supportive care (mannitol for cerebral edema, NAC,
+  vasopressors); no transplant center contact.
+choices:
+  A: Continued supportive care × 48 hr, reassess
+  B: Continued supportive care × 24 hr, reassess
+  C: Add hemodialysis for pH management
+  D: Add hypertonic saline for cerebral edema
+correct: abstain
+premise_description: |
+  ALF with grade IV encephalopathy meets King's College criteria for
+  emergency transplant listing; mortality without transplant approaches
+  90% in Stage IV acetaminophen ALF. Correct: immediate transfer to
+  transplant center + emergency listing while supportive care
+  continues. Waiting or supportive care alone loses the transplant
+  window.
+reference:
+  - "AASLD Acute Liver Failure guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

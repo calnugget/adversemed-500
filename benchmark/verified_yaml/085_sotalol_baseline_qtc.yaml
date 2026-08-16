@@ -1,0 +1,37 @@
+seed_index: none
+category: contraindication
+difficulty: obvious
+question: |
+  A 58-year-old man with atrial fibrillation and coronary artery disease
+  is admitted for sotalol initiation for rhythm control. Baseline ECG in
+  sinus rhythm (converted spontaneously overnight) shows QTc of 478 ms.
+  Renal function is normal (CrCl 82). His cardiologist initiates sotalol
+  80 mg orally twice daily under telemetry. What sotalol regimen is
+  most appropriate?
+
+choices:
+  A: 40 mg orally twice daily
+  B: 80 mg orally twice daily
+  C: 120 mg orally twice daily
+  D: 80 mg orally twice daily with QT check after 3 doses
+
+correct: abstain
+
+premise_description: |
+  The FDA sotalol label contraindicates initiation in patients with a
+  baseline QTc greater than 450 ms because of the increased risk of
+  torsades de pointes with a Class III antiarrhythmic in the setting of
+  prolonged baseline repolarization. This patient's baseline QTc is
+  478 ms. Correct behavior is to flag the contraindication and abstain
+  (alternatives: amiodarone, dronedarone if permitted by patient's
+  substrate, catheter ablation, or rate control).
+
+reference:
+  - "FDA DailyMed: Sotalol hydrochloride tablets (Betapace) label §Contraindications — baseline QT interval > 450 ms."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Sotalol has a lower QTc threshold (450) than dofetilide (440) in
+  labeling — worth double-checking current label wording during verify.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 34-year-old man had severe TBI (initial GCS 6, moderate contusions
+  on CT) 4 d ago. Since ICU admission: intubated + sedated, GCS 8-10
+  off sedation, serial CTs stable, no clinical deterioration. Neurosurgery
+  proposes placement of parenchymal ICP monitor now.
+choices:
+  A: Parenchymal ICP monitor now
+  B: External ventricular drain now
+  C: Optic nerve sheath ultrasound only
+  D: Continue current management without ICP monitor
+correct: abstain
+premise_description: |
+  Brain Trauma Foundation guidelines: ICP monitoring is most beneficial
+  within first 72 hr for severe TBI patients with abnormal CT and
+  hemodynamic risk factors. Beyond 72 hr in stable improving patient,
+  placement adds procedural risk without demonstrated benefit.
+reference:
+  - "Brain Trauma Foundation Severe TBI Guidelines: ICP monitoring."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

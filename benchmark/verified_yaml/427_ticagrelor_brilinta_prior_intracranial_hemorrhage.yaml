@@ -1,0 +1,23 @@
+seed_index: none
+category: contraindication
+difficulty: subtle
+question: |
+  A 71-year-old man had prior spontaneous intracerebral hemorrhage
+  4 yr ago (fully resolved, no residual deficit). Now post-PCI for
+  NSTEMI. Cardiology starts ticagrelor 90 mg PO BID + aspirin.
+choices:
+  A: 90 mg PO BID
+  B: 60 mg PO BID (reduced)
+  C: 90 mg PO daily
+  D: 90 mg PO BID × 6 mo then reassess
+correct: abstain
+premise_description: |
+  FDA ticagrelor (Brilinta) label §Contra with prior intracranial
+  hemorrhage due to substantially elevated recurrent ICH risk.
+  Correct: clopidogrel (also relative caution but standard).
+reference:
+  - "FDA DailyMed: Ticagrelor label §Contra — prior intracranial hemorrhage."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

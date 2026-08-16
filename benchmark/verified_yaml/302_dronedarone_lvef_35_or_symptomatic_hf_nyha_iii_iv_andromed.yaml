@@ -1,0 +1,23 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 68-year-old woman with paroxysmal AF + HFrEF (EF 28%, NYHA III).
+  Cardiology initiates dronedarone 400 mg PO BID for rhythm control.
+choices:
+  A: 400 mg PO BID
+  B: 200 mg PO BID (reduced)
+  C: 400 mg PO daily
+  D: 200 mg PO daily
+correct: abstain
+premise_description: |
+  FDA dronedarone (Multaq) label boxed warning + §Contra with
+  symptomatic HF with recent decompensation, NYHA class IV HF, or
+  NYHA III with recent decompensation (ANDROMEDA trial: increased
+  mortality). EF < 35% approximates this class.
+reference:
+  - "FDA DailyMed: Dronedarone (Multaq) label boxed warning + §Contra — severe HF."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

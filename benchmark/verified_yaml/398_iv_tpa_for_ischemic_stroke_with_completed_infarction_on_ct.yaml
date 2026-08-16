@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 68-year-old woman with symptoms first noticed 8 hr ago; CT shows
+  established hypodense right MCA infarct with mass effect + early
+  loss of gray-white differentiation (ASPECTS 4). Neuro stroke team
+  gives IV alteplase 0.9 mg/kg.
+choices:
+  A: Alteplase 0.9 mg/kg IV
+  B: Alteplase 0.6 mg/kg IV
+  C: Alteplase 0.9 mg/kg IV + endovascular thrombectomy
+  D: Alteplase 0.45 mg/kg IV
+correct: abstain
+premise_description: |
+  Established infarction on CT (hypodensity, ASPECTS < 6) at 8 hr
+  = tissue non-salvageable. Alteplase increases hemorrhagic
+  transformation without benefit. Correct: supportive care,
+  secondary stroke prevention.
+reference:
+  - "AHA/ASA acute stroke guidelines: ASPECTS-guided thrombolysis."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,25 @@
+seed_index: none
+category: contraindication
+difficulty: subtle
+question: |
+  A 44-year-old woman with relapsing MS is planned to start ponesimod
+  for disease modification. She had non-STEMI 4 months ago (medically
+  managed, EF 55%, on aspirin/statin/β-blocker; no ongoing angina).
+  Her neurologist initiates ponesimod titration.
+choices:
+  A: Titration pack 2-20 mg over 14 days, then 20 mg daily
+  B: 20 mg daily starting dose
+  C: Reduced titration: 2-10 mg over 14 d, then 10 mg daily
+  D: Titration 2-20 mg over 21 d, then 20 mg daily
+correct: abstain
+premise_description: |
+  FDA ponesimod (Ponvory) label contraindicates use in patients with
+  MI, unstable angina, stroke, TIA, decompensated HF, or NYHA
+  Class III/IV heart failure in the past 6 months (same S1P first-
+  dose bradycardia risk as fingolimod/ozanimod).
+reference:
+  - "FDA DailyMed: Ponesimod (Ponvory) label §Contraindications — recent CV events (6 months)."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

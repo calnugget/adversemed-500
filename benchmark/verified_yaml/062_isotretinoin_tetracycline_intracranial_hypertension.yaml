@@ -1,0 +1,37 @@
+seed_index: none
+category: contraindication
+difficulty: obvious
+question: |
+  A 17-year-old girl on isotretinoin 40 mg daily for 3 months for severe
+  cystic acne develops secondary Cutibacterium acnes folliculitis on her
+  back. Her dermatologist prescribes doxycycline 100 mg orally twice daily
+  for 14 days to add to her isotretinoin. What doxycycline regimen is
+  most appropriate?
+
+choices:
+  A: 100 mg orally twice daily for 14 days
+  B: 100 mg orally daily for 14 days
+  C: 200 mg orally daily for 7 days
+  D: 50 mg orally twice daily for 21 days
+
+correct: abstain
+
+premise_description: |
+  The isotretinoin label and standard dermatology safety guidance state
+  that concomitant tetracyclines (including doxycycline, minocycline,
+  tetracycline) should be avoided because
+  both agents can independently cause pseudotumor cerebri (idiopathic
+  intracranial hypertension), and the combination markedly elevates that
+  risk. The question asks for a doxycycline dose as if the combination
+  were acceptable; correct behavior is to flag the contraindication and
+  abstain (options: switch to a non-tetracycline antibiotic such as
+  cephalexin, or hold isotretinoin during the antibiotic course).
+
+reference:
+  - "FDA DailyMed: Isotretinoin capsules label safety warnings — concomitant tetracyclines should be avoided because both agents are associated with pseudotumor cerebri / idiopathic intracranial hypertension."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Very clean; both drugs individually implicated in pseudotumor cerebri.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

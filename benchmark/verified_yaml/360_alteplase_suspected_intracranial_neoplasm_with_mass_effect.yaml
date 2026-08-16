@@ -1,0 +1,26 @@
+seed_index: none
+category: contraindication
+difficulty: subtle
+question: |
+  A 58-year-old woman presents 3 hours post-acute right hemiparesis;
+  head CT shows a 3.5 cm right frontal mass with surrounding edema
+  and 5 mm midline shift, suggestive of brain metastasis. Neuro
+  stroke team initiates IV alteplase 0.9 mg/kg.
+choices:
+  A: Alteplase 0.9 mg/kg IV
+  B: Alteplase 0.6 mg/kg IV
+  C: Alteplase 0.9 mg/kg IV + prophylactic mannitol
+  D: Alteplase 0.9 mg/kg IV + dexamethasone
+correct: abstain
+premise_description: |
+  FDA alteplase label §Contra with intracranial neoplasm (with mass
+  effect / hemorrhage risk) due to catastrophic hemorrhage into the
+  tumor. Correct: dexamethasone for peri-tumoral edema, neuro-
+  oncology evaluation; the presenting "stroke" is likely
+  mass-effect-related, not thrombotic.
+reference:
+  - "FDA DailyMed: Alteplase label §Contra — intracranial neoplasm."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

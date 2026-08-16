@@ -1,0 +1,24 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 34-year-old woman is scheduled for renal transplantation in 3 wk
+  (deceased donor kidney available). Transplant clinic gives MMR
+  vaccine 0.5 mL SC as pre-transplant catch-up.
+choices:
+  A: MMR 0.5 mL SC now
+  B: MMR 0.5 mL SC 1 wk pre-transplant
+  C: Varivax 0.5 mL SC 2 wk pre-transplant
+  D: Zostavax 0.65 mL SC 3 wk pre-transplant
+correct: abstain
+premise_description: |
+  IDSA/AST transplant vaccination guidelines: live vaccines
+  contraindicated within 4 wk of solid organ transplant due to
+  vaccine-strain viremia risk in imminent immunosuppression setting.
+  Must be given ≥ 4 wk pre-transplant OR ≥ 6-12 mo post-transplant.
+reference:
+  - "CDC/IDSA transplant immunization guidance — live vaccines should be completed at least 4 weeks before solid organ transplant/immunosuppression."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

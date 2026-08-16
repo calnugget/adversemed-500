@@ -1,0 +1,27 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 62-year-old man had STEMI 3 months ago (received IV streptokinase
+  as fibrinolytic; successful reperfusion). He now presents with
+  acute anterior STEMI, 45 min from onset, in a rural hospital
+  without PCI capability. ED plans IV streptokinase 1.5 million U
+  IV over 60 min.
+choices:
+  A: 1.5 million U IV over 60 min
+  B: 750,000 U IV over 30 min (reduced)
+  C: 1.5 million U IV over 90 min (slower)
+  D: 3 million U IV over 90 min (higher)
+correct: abstain
+premise_description: |
+  FDA streptokinase label §Contra with prior streptokinase use
+  within 6 months due to neutralizing antibody development that
+  precipitates severe allergic reaction (anaphylaxis) + reduced
+  fibrinolytic efficacy. Correct: use alteplase or tenecteplase
+  (fibrin-specific, non-immunogenic) for fibrinolysis.
+reference:
+  - "FDA DailyMed: Streptokinase label §Contra — prior streptokinase within 6 months."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

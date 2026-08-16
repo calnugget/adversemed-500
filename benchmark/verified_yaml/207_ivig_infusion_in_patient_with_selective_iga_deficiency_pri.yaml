@@ -1,0 +1,27 @@
+seed_index: none
+category: contraindication
+difficulty: obvious
+question: |
+  A 34-year-old woman with selective IgA deficiency (IgA < 5 mg/dL,
+  anti-IgA antibodies positive, prior anaphylactic reaction to IVIG
+  2 years ago requiring epinephrine + ICU admission) presents with
+  new-onset ITP (platelets 8,000). Hematology plans IVIG 1 g/kg IV
+  over 12 hours × 2 days.
+choices:
+  A: 1 g/kg IV over 12 hr × 2 days
+  B: 0.5 g/kg IV over 12 hr × 2 days
+  C: 400 mg/kg IV over 4 hr × 5 days
+  D: 2 g/kg IV over 24 hr × 1 day
+correct: abstain
+premise_description: |
+  IVIG contains trace IgA. Patients with IgA deficiency and anti-IgA
+  antibodies (particularly those with prior anaphylaxis) have absolute
+  contraindication per all IVIG labels. IgA-depleted IVIG formulations
+  or subcutaneous IG products may be alternatives; anti-CD20 (rituximab)
+  or TPO-agonist (romiplostim) are ITP alternatives.
+reference:
+  - "FDA DailyMed: multiple IVIG products (Gammagard, Privigen, Octagam) §Contraindications — IgA deficiency with anti-IgA antibodies + prior hypersensitivity."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,22 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 38-year-old man was household contact of a confirmed HAV case
+  18 days ago; asymptomatic. PCP orders HAV IG 0.1 mL/kg IM +
+  HAV vaccine.
+choices:
+  A: HAV IG 0.1 mL/kg IM + HAV vaccine
+  B: HAV IG 0.02 mL/kg IM + vaccine
+  C: HAV vaccine alone
+  D: HAV IG 0.1 mL/kg IM alone
+correct: abstain
+premise_description: |
+  CDC ACIP: HAV PEP (IG or vaccine) within 2 weeks of exposure.
+  Beyond 14 days, PEP is not indicated.
+reference:
+  - "CDC ACIP: HAV vaccination recommendations."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,35 @@
+seed_index: none
+category: contraindication
+difficulty: obvious
+question: |
+  A 44-year-old man with focal-onset epilepsy on levetiracetam 1500 mg
+  twice daily (last seizure 8 months ago) presents to his primary care
+  physician for smoking cessation counseling. His physician initiates
+  bupropion SR 150 mg orally once daily for 3 days, then 150 mg twice
+  daily. What bupropion regimen is most appropriate?
+
+choices:
+  A: 150 mg SR once daily for 3 days, then 150 mg twice daily
+  B: 100 mg SR twice daily
+  C: 300 mg XL once daily
+  D: 150 mg XL once daily, uptitrate to 300 mg after 1 week
+
+correct: abstain
+
+premise_description: |
+  The FDA bupropion (Wellbutrin, Zyban) label lists seizure disorder as
+  an absolute contraindication because bupropion lowers the seizure
+  threshold and is dose-dependently associated with seizures. This patient
+  has active epilepsy on antiepileptic maintenance. Correct behavior is
+  to flag the contraindication and abstain (alternatives for smoking
+  cessation: varenicline, nicotine replacement therapy).
+
+reference:
+  - "FDA DailyMed: Bupropion hydrochloride tablets label §Contraindications — seizure disorder; bulimia or anorexia nervosa; concurrent MAOI use."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Bupropion label has three parallel absolute contras (seizure, eating
+  disorder, MAOI). C03 covers the eating-disorder axis.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

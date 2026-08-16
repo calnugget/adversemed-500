@@ -1,0 +1,23 @@
+seed_index: none
+category: contraindication
+difficulty: obvious
+question: |
+  A 42-year-old man with AIDS (CD4 108, viral load 84,000, not on
+  ART yet) plans travel to Amazonian Brazil. Travel medicine gives
+  yellow fever vaccine 0.5 mL SC.
+choices:
+  A: 0.5 mL SC once
+  B: 0.5 mL SC with pre-medication
+  C: Half-dose 0.25 mL SC
+  D: 0.5 mL SC in monitored setting
+correct: abstain
+premise_description: |
+  FDA YF-Vax label §Contra with severe immunocompromise (CD4 < 200
+  in HIV). Vaccine-strain virus can cause disseminated infection
+  including yellow-fever viscerotropic disease.
+reference:
+  - "FDA DailyMed: YF-Vax label §Contra — severe immunocompromise."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

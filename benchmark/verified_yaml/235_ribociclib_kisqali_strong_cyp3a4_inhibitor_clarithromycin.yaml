@@ -1,0 +1,26 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 61-year-old woman with HR+/HER2- metastatic breast cancer on
+  ribociclib 600 mg PO daily × 3 wk on / 1 wk off + letrozole develops
+  community-acquired pneumonia. PCP prescribes clarithromycin 500 mg
+  PO BID × 7 days.
+choices:
+  A: 500 mg PO BID × 7 d
+  B: 250 mg PO BID × 7 d
+  C: 1000 mg XR PO daily × 7 d
+  D: 500 mg PO BID × 5 d
+correct: abstain
+premise_description: |
+  FDA ribociclib (Kisqali) label §Contra with strong CYP3A4 inhibitors
+  because inhibitor-mediated ribociclib elevation amplifies QT
+  prolongation, hepatotoxicity, neutropenia. Correct: non-CYP3A4
+  antibiotic (doxycycline, respiratory fluoroquinolone) — though
+  fluoroquinolones also carry QT risk that stacks with ribociclib.
+reference:
+  - "FDA DailyMed: Ribociclib (Kisqali) label §Drug Interactions — avoid strong CYP3A4 inhibitors."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

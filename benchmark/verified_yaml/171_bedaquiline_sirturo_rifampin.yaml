@@ -1,0 +1,29 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 34-year-old man with MDR-TB is planned for bedaquiline-containing
+  regimen. He was recently switched from rifampin to rifabutin per
+  protocol; however, the resident inadvertently orders rifampin
+  600 mg PO daily. Bedaquiline is initiated at 400 mg PO daily × 2 wk
+  then 200 mg PO 3×/wk. What rifampin regimen is most appropriate?
+choices:
+  A: 450 mg PO daily
+  B: 600 mg PO daily
+  C: 10 mg/kg PO daily (max 600 mg)
+  D: 600 mg PO three times weekly
+correct: abstain
+premise_description: |
+  FDA bedaquiline (Sirturo) label contraindicates concurrent
+  rifampin because rifampin substantially reduces bedaquiline
+  concentrations, precipitating MDR-TB treatment failure and
+  resistance amplification. Correct behavior is to substitute
+  rifabutin in the regimen (which has less bedaquiline interaction).
+reference:
+  - "FDA DailyMed: Bedaquiline (Sirturo) tablets label §Contraindications — coadministration with strong CYP3A4 inducers including rifampin."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  MDR-TB scenarios require specialized regimen design; rifamycin
+  choice is critical.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

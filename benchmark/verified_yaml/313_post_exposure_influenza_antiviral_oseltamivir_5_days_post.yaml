@@ -1,0 +1,23 @@
+seed_index: none
+category: impossible_timing
+difficulty: obvious
+question: |
+  A 44-year-old woman was household contact of confirmed influenza
+  A 7 days ago. She remains asymptomatic. PCP prescribes oseltamivir
+  75 mg PO daily × 10 d as post-exposure prophylaxis.
+choices:
+  A: 75 mg PO daily × 10 d
+  B: 75 mg PO BID × 10 d
+  C: 75 mg PO daily × 5 d
+  D: 45 mg PO daily × 10 d
+correct: abstain
+premise_description: |
+  CDC ACIP: oseltamivir chemoprophylaxis within 48 hours of exposure
+  in high-risk contacts. At 7 days asymptomatic, incubation has
+  passed (~2 days); no benefit to prophylaxis at this point.
+reference:
+  - "CDC ACIP: Prevention and Control of Influenza."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

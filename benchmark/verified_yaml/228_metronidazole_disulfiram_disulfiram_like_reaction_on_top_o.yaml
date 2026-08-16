@@ -1,0 +1,27 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: obvious
+question: |
+  A 46-year-old man in alcohol use disorder treatment is on disulfiram
+  250 mg PO daily. He develops symptomatic giardiasis. His PCP
+  prescribes oral metronidazole 500 mg PO TID × 7 days, continuing
+  disulfiram.
+choices:
+  A: 500 mg PO TID × 7 days
+  B: 250 mg PO TID × 7 days
+  C: 2 g PO single dose
+  D: 500 mg PO BID × 5 days
+correct: abstain
+premise_description: |
+  FDA metronidazole label §Contra with disulfiram — the combination
+  produces acute psychotic reactions and confusion. Correct:
+  tinidazole (also disulfiram-contraindicated) or nitazoxanide (no
+  disulfiram interaction) for giardiasis; alternatively hold
+  disulfiram, complete metronidazole course, resume disulfiram after
+  washout.
+reference:
+  - "FDA DailyMed: Metronidazole label §Contraindications — disulfiram (within last 2 weeks)."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,25 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 62-year-old woman s/p exploratory laparotomy for SBO with
+  Grade III bowel wall edema, planned to leave abdomen open for
+  second-look laparotomy in 24 hr. Anesthesia gives neostigmine
+  0.05 mg/kg IV + glycopyrrolate to reverse rocuronium.
+choices:
+  A: Neostigmine 0.05 mg/kg + glycopyrrolate
+  B: Neostigmine 0.03 mg/kg + glycopyrrolate
+  C: Neostigmine 0.07 mg/kg + glycopyrrolate
+  D: Sugammadex 4 mg/kg
+correct: abstain
+premise_description: |
+  Neostigmine (cholinesterase inhibitor) increases GI motility;
+  contraindicated in mechanical bowel obstruction (worsens perforation)
+  and in patients with fragile bowel post-op. Sugammadex is preferred
+  reversal.
+reference:
+  - "FDA DailyMed: Neostigmine label §Contra — mechanical bowel obstruction."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

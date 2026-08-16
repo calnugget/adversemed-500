@@ -1,0 +1,24 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 44-year-old man exposed to cyanide via industrial accident
+  (obtundation, hypotension, lactic acidosis > 15, cherry-red skin).
+  ED gives activated charcoal 50 g NG as decontamination.
+choices:
+  A: Activated charcoal 50 g NG
+  B: Activated charcoal 25 g NG
+  C: Activated charcoal 100 g NG
+  D: Activated charcoal 50 g NG + sorbitol
+correct: abstain
+premise_description: |
+  Activated charcoal has poor adsorption of cyanide (small molecule,
+  high volume of distribution). Cyanide antidote is hydroxocobalamin
+  (Cyanokit) 5 g IV or sodium thiosulfate + sodium nitrite. Charcoal
+  is wrong intervention.
+reference:
+  - "American Association of Poison Control Centers: Cyanide antidote hydroxocobalamin."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

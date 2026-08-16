@@ -1,0 +1,25 @@
+seed_index: none
+category: contraindication
+difficulty: obvious
+question: |
+  A 28-year-old man with severe G6PD deficiency returned from
+  Papua New Guinea with P. vivax malaria. ID initiates primaquine
+  30 mg PO daily × 14 d for radical cure.
+choices:
+  A: 30 mg PO daily × 14 d
+  B: 15 mg PO daily × 14 d
+  C: 30 mg PO daily × 7 d
+  D: 45 mg PO weekly × 8 wk
+correct: abstain
+premise_description: |
+  FDA primaquine label §Contra with severe G6PD deficiency —
+  primaquine causes severe hemolytic anemia; may be fatal in G6PD-
+  deficient. Correct: tafenoquine alternative also requires G6PD
+  testing; hospitalization with observation on lower-dose
+  chloroquine may be considered.
+reference:
+  - "FDA DailyMed: Primaquine phosphate label §Contra — severe G6PD deficiency."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

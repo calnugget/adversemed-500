@@ -1,0 +1,27 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 44-year-old man had biopsy-proven anti-GBM disease 5 wk ago;
+  received 14 sessions of plasma exchange + cyclophosphamide +
+  steroid; developed anuric AKI requiring dialysis × 3 wk; ANCA/anti-
+  GBM titers negative × 2 wk. Nephrology plans 5 more sessions of
+  plasma exchange for "renal recovery attempt."
+choices:
+  A: 5 sessions over 10 d
+  B: 5 sessions over 14 d
+  C: 3 sessions over 7 d
+  D: 7 sessions over 14 d
+correct: abstain
+premise_description: |
+  Plasma exchange for anti-GBM is efficacious when antibody titers
+  are still positive + renal recovery still possible. At 5 wk with
+  fixed anuric AKI × 3 wk + negative antibody titers, renal
+  recovery window is closed. Correct: continue dialysis, transplant
+  evaluation.
+reference:
+  - "KDIGO Glomerulonephritis Clinical Practice Guideline."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

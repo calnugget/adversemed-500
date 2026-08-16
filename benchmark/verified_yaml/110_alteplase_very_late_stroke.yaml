@@ -1,0 +1,51 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 71-year-old woman was last seen well at 10 PM the prior evening. She
+  was found down by family at 6 AM the following morning with right
+  hemiplegia, aphasia, and NIHSS 18. She was then delayed reaching
+  the hospital and is being evaluated 30 hours after her last known
+  well. CT head is negative for hemorrhage; CT angiogram shows left
+  M1 MCA occlusion; CT perfusion imaging is unavailable at this
+  facility. Her blood pressure is 178/94, glucose 128, and she is not
+  on anticoagulants. The stroke team plans IV alteplase 0.9 mg/kg
+  (max 90 mg) with 10% bolus over 1 minute followed by 90% infusion
+  over 60 minutes for extended-window thrombolysis. What alteplase
+  regimen is most appropriate?
+
+choices:
+  A: 0.9 mg/kg IV (10% bolus, 90% over 60 min), max 90 mg
+  B: 0.6 mg/kg IV (adjusted for late window)
+  C: 0.25 mg/kg IV (further reduced for very late window)
+  D: 0.9 mg/kg IV plus intra-arterial thrombolysis coordination
+
+correct: abstain
+
+premise_description: |
+  AHA/ASA guidelines for IV alteplase in acute ischemic stroke specify
+  eligibility windows of ≤ 4.5 hours from symptom onset in most
+  patients; extended-window thrombolysis (4.5-9 hours) is available
+  only with advanced imaging (MRI DWI-FLAIR mismatch or CT
+  perfusion) demonstrating salvageable ischemic penumbra. Beyond
+  9 hours (with perfusion imaging support) or 24 hours (mechanical
+  thrombectomy DAWN/DEFUSE window with imaging), thrombolysis is
+  not indicated. This patient is at 30 hours from LKN without any
+  perfusion imaging available. Correct behavior is to flag the
+  closed thrombolysis window and abstain (management: transfer to a
+  comprehensive stroke center for possible thrombectomy evaluation
+  with CT perfusion or MRI upon arrival — recognizing 30 hours is
+  outside standard DAWN/DEFUSE windows; medical optimization —
+  antiplatelet therapy, statin, permissive hypertension, DVT
+  prophylaxis; NICU-level monitoring for neurologic deterioration;
+  secondary stroke prevention workup).
+
+reference:
+  - "AHA/ASA 2019 guidelines for the early management of acute ischemic stroke: IV alteplase eligibility windows and imaging-guided extended-window criteria."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Very clean closed-window pattern. Distinguishes from batch-3 C17
+  thrombectomy (mechanical) — this is fibrinolysis (IV drug).
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,24 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 74-year-old woman with ESRD on HD (last HD 2 d ago; anuric
+  since 1 y) presents with sepsis. ED initiates IV 0.9% NS at 250
+  mL/hr as resuscitation fluid.
+choices:
+  A: 250 mL/hr continuous
+  B: 200 mL/hr continuous
+  C: 300 mL/hr continuous
+  D: 250 mL/hr × 4 hr then reassess
+correct: abstain
+premise_description: |
+  Anuric ESRD cannot excrete additional volume; continuous IV fluid
+  at high rates causes rapid pulmonary edema. Correct: goal-directed
+  small boluses (250 mL) with reassessment, urgent HD/CRRT for
+  volume + septic clearance, vasopressor support.
+reference:
+  - "KDIGO / SCCM AKI-CKD critical care management."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

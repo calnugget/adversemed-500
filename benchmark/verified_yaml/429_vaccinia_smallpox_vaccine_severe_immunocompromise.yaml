@@ -1,0 +1,23 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 41-year-old man post-allo-HSCT × 6 mo (on chronic immunosuppression
+  for GVHD) is offered vaccinia vaccine as part of laboratory pre-
+  exposure program. Occupational health gives ACAM2000.
+choices:
+  A: ACAM2000 15 punctures
+  B: ACAM2000 10 punctures
+  C: ACAM2000 5 punctures with isolation precautions
+  D: ACAM2000 15 punctures with monitoring
+correct: abstain
+premise_description: |
+  FDA ACAM2000 vaccinia label §Contra with immunocompromise due to
+  disseminated fatal vaccinia infection. Non-replicating MVA-BN
+  (Jynneos) is safer alternative in immunocompromised.
+reference:
+  - "FDA DailyMed: ACAM2000 label §Contra — immunocompromise."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

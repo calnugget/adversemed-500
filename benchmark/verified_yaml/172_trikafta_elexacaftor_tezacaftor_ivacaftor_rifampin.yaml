@@ -1,0 +1,30 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 22-year-old woman with cystic fibrosis (F508del homozygous) on
+  Trikafta 2 tabs PO morning + 1 tab PO evening (elexacaftor/
+  tezacaftor/ivacaftor 100/50/75 mg AM + ivacaftor 150 mg PM) develops
+  active pulmonary TB. ID initiates rifampin. What rifampin regimen
+  is most appropriate?
+choices:
+  A: 450 mg PO daily
+  B: 600 mg PO daily
+  C: 10 mg/kg PO daily (max 600 mg)
+  D: 600 mg PO three times weekly
+correct: abstain
+premise_description: |
+  FDA Trikafta label contraindicates concurrent strong CYP3A4
+  inducers including rifampin because inducer-mediated reduction of
+  elexacaftor and ivacaftor concentrations effectively eliminates
+  CFTR-modulator efficacy. Correct behavior is to substitute
+  rifabutin (weaker inducer) with careful CFTR-modulator dose
+  monitoring per CF Foundation guidance.
+reference:
+  - "FDA DailyMed: Elexacaftor/tezacaftor/ivacaftor (Trikafta) tablets label §Contraindications — strong CYP3A4 inducers."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  Parallels batch-4 C43 (ivacaftor + rifampin) — Trikafta is the
+  triple-combination replacement for ivacaftor monotherapy.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

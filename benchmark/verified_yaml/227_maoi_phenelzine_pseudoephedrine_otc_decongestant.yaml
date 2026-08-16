@@ -1,0 +1,25 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: obvious
+question: |
+  A 54-year-old woman on phenelzine 60 mg PO daily for treatment-
+  resistant depression develops nasal congestion. Her PCP recommends
+  OTC pseudoephedrine 60 mg PO Q6h.
+choices:
+  A: 60 mg PO Q6h PRN
+  B: 30 mg PO Q6h PRN
+  C: 60 mg PO Q8h PRN
+  D: 120 mg extended-release PO daily
+correct: abstain
+premise_description: |
+  Pseudoephedrine is a sympathomimetic; combined with MAOI, produces
+  massive catecholamine release with malignant hypertensive crisis.
+  FDA phenelzine label §Contra with sympathomimetic decongestants.
+  Correct: oxymetazoline nasal spray (topical, minimal systemic), saline
+  irrigation.
+reference:
+  - "FDA DailyMed: Phenelzine sulfate label §Contraindications — sympathomimetic decongestants."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

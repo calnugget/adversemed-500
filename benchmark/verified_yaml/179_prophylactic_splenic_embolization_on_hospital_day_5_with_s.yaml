@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 34-year-old man is hospital day 5 post-blunt abdominal trauma
+  with grade III splenic laceration managed non-operatively. Hgb
+  stable 10.8-11.2 × 72 hr; hemodynamics normal; no active bleeding
+  on serial imaging. IR plans splenic artery embolization for
+  "prophylactic bleed prevention."
+choices:
+  A: Splenic artery embolization now
+  B: Selective splenic artery embolization + coil
+  C: Combined proximal + distal splenic embolization
+  D: Splenic artery embolization + partial splenectomy plan
+correct: abstain
+premise_description: |
+  AAST: splenic embolization indicated for grade III-V with contrast
+  blush or evidence of active bleeding. Prophylactic embolization
+  in a stable non-bleeding patient at day 5 is not indicated.
+reference:
+  - "AAST blunt splenic injury guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

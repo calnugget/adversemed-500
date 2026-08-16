@@ -1,0 +1,36 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: obvious
+question: |
+  A 52-year-old woman with treatment-resistant depression on phenelzine
+  60 mg daily develops a self-limited upper respiratory infection with
+  troublesome dry nocturnal cough. Her primary care physician recommends
+  over-the-counter dextromethorphan 30 mg orally every 6-8 hours as
+  needed for cough. What dextromethorphan regimen is most appropriate?
+
+choices:
+  A: 10 mg orally every 6 hours PRN
+  B: 20 mg orally every 6 hours PRN
+  C: 30 mg orally every 6-8 hours PRN
+  D: 60 mg extended-release orally daily
+
+correct: abstain
+
+premise_description: |
+  Dextromethorphan is a serotonergic antitussive; combined with a
+  monoamine oxidase inhibitor it can precipitate serotonin syndrome
+  (hyperthermia, autonomic instability, seizures, death). The FDA
+  phenelzine label contraindicates concurrent serotonergic agents and
+  requires 14-day washout before starting. Correct behavior is abstain
+  (alternatives: benzonatate for cough suppression — no serotonergic
+  activity; or expectorants such as guaifenesin).
+
+reference:
+  - "FDA DailyMed: Phenelzine sulfate label §Contraindications — concurrent serotonergic agents including dextromethorphan."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Parallels Q033 (MAOI + meperidine) and Q047 (MAOI + tramadol) — same
+  serotonin-syndrome axis.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

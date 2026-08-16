@@ -1,0 +1,46 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 72-year-old man on chronic warfarin for atrial fibrillation presents
+  with epistaxis and INR of 12.4 (baseline 2.5, no known missed doses
+  but with recent oral antibiotics for a dental infection). He is
+  hemodynamically stable, alert; no other bleeding sites. The
+  admitting hospitalist orders protamine sulfate 25 mg IV over 10
+  minutes for warfarin reversal. What protamine regimen is most
+  appropriate?
+
+choices:
+  A: 25 mg IV over 10 minutes
+  B: 50 mg IV over 10 minutes
+  C: 1 mg per 100 units of estimated warfarin equivalent
+  D: 25 mg IV over 10 minutes, may repeat once
+
+correct: abstain
+
+premise_description: |
+  Protamine sulfate reverses unfractionated heparin (and partially
+  reverses LMWH) via ionic binding to the sulfated glycosaminoglycan
+  structure of heparin. Warfarin is a coumarin anticoagulant that
+  inhibits vitamin-K-dependent clotting factor synthesis; its
+  pharmacologic mechanism has no interaction with protamine, and
+  protamine administration cannot restore synthesized clotting factors
+  or reverse the vitamin K epoxide reductase inhibition. Correct
+  behavior is to flag the physiologic impossibility of the reversal
+  strategy and abstain (management: withhold warfarin; vitamin K
+  10 mg IV over 30 minutes for supratherapeutic INR with bleeding;
+  4-factor prothrombin complex concentrate (Kcentra) 25-50 units/kg
+  based on INR for immediate factor replacement in serious bleeding;
+  FFP if PCC unavailable; anticipate INR normalization over 24-48
+  hours from vitamin K; rebridge with LMWH once bleeding controlled
+  and INR corrected).
+
+reference:
+  - "American College of Chest Physicians (CHEST) Antithrombotic Therapy Guidelines: warfarin reversal — vitamin K + PCC (or FFP); protamine has no role."
+  - "FDA DailyMed: Protamine sulfate label §Indications — heparin overdose only."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Classic reversal-agent confusion. Very high-yield teaching.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

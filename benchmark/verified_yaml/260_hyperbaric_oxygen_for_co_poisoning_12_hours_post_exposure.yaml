@@ -1,0 +1,29 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 34-year-old man had CO poisoning (garage-running-car incident)
+  15 hours ago; peak COHb 34%; treated with 100% NRB × 6 hr, LOC
+  resolved 8 hr ago; current COHb 1.4%, cognitive exam normal.
+  Emergency medicine now consults hyperbaric medicine for HBO 100%
+  at 2.5 ATA × 90 min.
+choices:
+  A: HBO 100% at 2.5 ATA × 90 min
+  B: HBO 100% at 3 ATA × 90 min
+  C: HBO 100% at 2.4 ATA × 90 min × 3 sessions
+  D: HBO 100% at 2.5 ATA × 90 min × 2 sessions
+correct: abstain
+premise_description: |
+  HBO for CO poisoning is beneficial when administered early (< 6-
+  12 hours) in patients with LOC, altered mental status, severe COHb,
+  pregnancy, or ischemic cardiac injury. At 15 hr with normalized
+  COHb + resolved neurologic symptoms, HBO does not reduce delayed
+  neuropsychiatric sequelae risk and exposes patient to barotrauma,
+  seizures, transportation risks. Correct: discharge with
+  outpatient follow-up for DNS surveillance.
+reference:
+  - "Undersea and Hyperbaric Medical Society position statement on HBO for CO poisoning."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,15 @@
+{
+  "run_id": "20260801T234357Z",
+  "model_id": "Gemini Pro (latest)",
+  "method": "verbal_probability",
+  "benchmark": "adversemed_500.jsonl",
+  "rows_written_this_run": 500,
+  "rows_previously_completed": 0,
+  "rows_total": 500,
+  "n_errors": 0,
+  "n_parse_failures": 0,
+  "n_not_applicable": 0,
+  "grand_cost_usd": 0.1749600000000001,
+  "grand_wall_seconds": 2624.234,
+  "run_ended_at": "2026-08-02T00:27:42.209866+00:00"
+}

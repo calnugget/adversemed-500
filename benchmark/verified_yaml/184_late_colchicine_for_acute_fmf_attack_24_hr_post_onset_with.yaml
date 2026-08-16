@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 32-year-old man with FMF on daily colchicine 0.6 mg BID had an
+  FMF attack (fever, serositis) 36 hr ago that fully resolved
+  within 24 hr. Rheumatology prescribes acute-attack colchicine
+  1.2 mg PO stat then 0.6 mg 1 hr later.
+choices:
+  A: 1.2 mg PO stat then 0.6 mg 1 hr later
+  B: 0.6 mg PO stat then 0.6 mg 1 hr later
+  C: 1.2 mg PO stat only
+  D: 0.6 mg PO Q1h × 4 doses
+correct: abstain
+premise_description: |
+  Acute-attack colchicine aborts progression when given at first
+  sign of an attack; after resolution, additional colchicine
+  provides no benefit and increases toxicity risk. Chronic dose
+  alone continues.
+reference:
+  - "EULAR recommendations for the management of FMF."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

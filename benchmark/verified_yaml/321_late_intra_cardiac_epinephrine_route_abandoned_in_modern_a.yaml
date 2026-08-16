@@ -1,0 +1,23 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 68-year-old man in refractory PEA arrest × 20 min despite ACLS.
+  Team proposes intra-cardiac epinephrine 1 mg IC injection.
+choices:
+  A: Epinephrine 1 mg IC once
+  B: Epinephrine 2 mg IC once
+  C: Epinephrine 0.5 mg IC once
+  D: Epinephrine 1 mg IC + IV push
+correct: abstain
+premise_description: |
+  Intra-cardiac epinephrine injection was abandoned in ACLS decades
+  ago due to procedural complications (pneumothorax, tamponade,
+  coronary laceration) and lack of superiority over IV/IO
+  administration. Not recommended in any current ACLS algorithm.
+reference:
+  - "AHA 2020 ACLS: routes of drug administration."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,22 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: obvious
+question: |
+  A 44-year-old man on phenelzine 60 mg PO daily for depression is
+  newly diagnosed with adult ADHD. Psychiatry adds methylphenidate
+  20 mg PO BID.
+choices:
+  A: 20 mg PO BID
+  B: 10 mg PO BID
+  C: 20 mg PO TID
+  D: 40 mg XR PO daily
+correct: abstain
+premise_description: |
+  Sympathomimetic + MAOI → hypertensive crisis. FDA phenelzine label
+  §Contra with sympathomimetic stimulants including methylphenidate.
+reference:
+  - "FDA DailyMed: Phenelzine label §Contra — sympathomimetics."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

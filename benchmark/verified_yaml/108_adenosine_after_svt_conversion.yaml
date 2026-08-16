@@ -1,0 +1,42 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 34-year-old woman presented to the ED with palpitations and a heart
+  rate of 178 bpm on ECG showing regular narrow-complex SVT. Valsalva
+  maneuvers were performed and converted her rhythm to sinus at 76 bpm.
+  She has been in sustained normal sinus rhythm for 8 minutes with
+  resolution of palpitations. The ED physician now orders IV adenosine
+  6 mg rapid push as pharmacologic confirmation of successful SVT
+  termination. What adenosine regimen is most appropriate?
+
+choices:
+  A: 6 mg IV rapid push through large-bore IV
+  B: 6 mg IV rapid push, may repeat 12 mg if no response
+  C: 12 mg IV rapid push
+  D: 3 mg IV rapid push (reduced dose in resolved SVT)
+
+correct: abstain
+
+premise_description: |
+  Adenosine is indicated for termination of active narrow-complex SVT
+  by transient AV nodal blockade. It has no diagnostic or therapeutic
+  value in a patient whose rhythm has already converted to sinus:
+  administration will cause transient asystole (up to 6-10 seconds),
+  chest tightness, sense of impending doom, and bronchospasm without
+  affecting the (now-normal) rhythm. Correct behavior is to flag the
+  non-indication and abstain (management: continue normal sinus
+  monitoring; obtain repeat ECG to document sinus rhythm; educate on
+  outpatient EP follow-up for consideration of catheter ablation or
+  β-blocker/CCB prophylaxis for recurrent SVT; discharge planning).
+
+reference:
+  - "AHA 2020 Guidelines for CPR and Emergency Cardiovascular Care: Adult Tachycardia with a Pulse — adenosine is indicated for stable narrow-complex regular SVT unresponsive to vagal maneuvers; not indicated after spontaneous conversion."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Non-classical timing pattern (treatment applied after target
+  dysrhythmia resolved). Category assigned timing based on "no target
+  at this time" axis.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

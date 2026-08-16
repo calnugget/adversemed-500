@@ -1,0 +1,27 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 72-year-old man had acute right leg pain 3 weeks ago (later
+  diagnosed as embolic popliteal artery occlusion). Rest pain
+  resolved 10 days ago as collaterals developed; he now has moderate
+  claudication at 300 m but is otherwise stable. Vascular surgery
+  plans urgent surgical embolectomy now.
+choices:
+  A: Open embolectomy now
+  B: Endovascular thrombolysis now
+  C: Combined endovascular + open
+  D: Open embolectomy + fasciotomy
+correct: abstain
+premise_description: |
+  Acute limb ischemia embolectomy is time-sensitive (best within
+  hours). Beyond 2 weeks with resolved rest pain and stable
+  collateral-supported claudication, embolectomy is not indicated;
+  medical management (statin, antiplatelet, supervised exercise
+  therapy) + elective revascularization if claudication progresses.
+reference:
+  - "ACC/AHA / SVS Peripheral Artery Disease guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,24 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 78-year-old woman with chronic constipation presents with fecal
+  impaction (large hard mass on rectal exam, no BM × 8 d). PCP
+  prescribes bisacodyl 10 mg PR nightly × 5 d.
+choices:
+  A: Bisacodyl 10 mg PR nightly × 5 d
+  B: Bisacodyl 5 mg PO daily × 5 d
+  C: Senna 8.6 mg PO BID × 5 d
+  D: Bisacodyl 10 mg PR + PO daily × 5 d
+correct: abstain
+premise_description: |
+  Stimulant laxatives in fecal impaction can worsen abdominal pain,
+  cause bowel perforation. Correct: manual disimpaction first, then
+  osmotic laxative (PEG) for maintenance; stimulant only if
+  osmotic fails.
+reference:
+  - "AGA constipation clinical practice guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

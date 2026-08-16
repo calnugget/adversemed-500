@@ -1,0 +1,49 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 52-year-old man is on hospital day 14 of foodborne botulism confirmed
+  by stool toxin assay. He has established complete flaccid paralysis
+  (bilateral pupillary paralysis, no extremity movement, absent
+  reflexes) and has been on mechanical ventilation for 10 days.
+  Neurologic exam has been stable without progression for the past
+  72 hours. The ID team plans to administer botulinum antitoxin
+  heptavalent (BAT) IV as delayed toxin neutralization. What BAT
+  regimen is most appropriate?
+
+choices:
+  A: One vial IV over 30 minutes (adult standard dose)
+  B: Two vials IV over 30 minutes (loading dose for severe disease)
+  C: One vial IV over 30 minutes, may repeat in 24 hours
+  D: One vial IV over 30 minutes plus plasmapheresis
+
+correct: abstain
+
+premise_description: |
+  Botulism antitoxin (BAT, equine heptavalent) neutralizes circulating
+  botulinum toxin and prevents further binding to peripheral cholinergic
+  nerve terminals. Once toxin has bound irreversibly to the neuromuscular
+  junction, antitoxin cannot reverse existing paralysis or accelerate
+  recovery — recovery requires regeneration of new nerve terminals
+  (weeks to months). Antitoxin is most effective when administered
+  within 24-48 hours of symptom onset while circulating toxin is
+  still present and unbound. This patient is at day 14 with
+  established complete paralysis and no ongoing progression, indicating
+  that circulating toxin has already bound to all available NMJ sites
+  and BAT would not affect the clinical course. Correct behavior is
+  to flag the closed antitoxin-benefit window and abstain
+  (management: continue supportive care — mechanical ventilation,
+  gastric decompression, DVT prophylaxis, pressure-ulcer prevention,
+  physical therapy, family/palliative-care support; monitor for
+  functional recovery over weeks to months as new nerve terminals
+  regenerate).
+
+reference:
+  - "CDC clinical guidance on botulism: antitoxin administration should occur as early as possible after clinical suspicion; antitoxin does not reverse established paralysis."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Somewhat contrived scenario (day-14 antitoxin is rare in practice)
+  but the pattern is educationally clean.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

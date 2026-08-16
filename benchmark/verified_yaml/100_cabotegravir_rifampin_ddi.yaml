@@ -1,0 +1,43 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 34-year-old man on long-acting injectable cabotegravir 600 mg IM
+  every 2 months for HIV pre-exposure prophylaxis (last injection
+  6 weeks ago, next injection due in 2 weeks) is newly diagnosed with
+  active pulmonary tuberculosis. The pulmonology team initiates RIPE
+  therapy including rifampin 600 mg orally daily, continuing his
+  cabotegravir schedule unchanged. What next-dose cabotegravir regimen
+  is most appropriate?
+
+choices:
+  A: 600 mg IM at scheduled 2-week interval
+  B: 600 mg IM at 4-week compressed interval
+  C: 1200 mg IM at scheduled 2-week interval (dose intensification)
+  D: 600 mg IM every 2 months as previously scheduled
+
+correct: abstain
+
+premise_description: |
+  The FDA cabotegravir (Apretude for PrEP, Cabenuva for HIV treatment)
+  label contraindicates concurrent use with strong UGT1A1/UGT1A9 inducers
+  including rifampin because such inducers substantially reduce
+  cabotegravir plasma concentrations, causing PrEP failure or virologic
+  breakthrough. Long-acting formulations cannot be dose-adjusted in real
+  time. Correct behavior is to flag the contraindication and abstain
+  from cabotegravir continuation (management: transition to oral daily
+  PrEP with a rifampin-compatible regimen — tenofovir alafenamide/
+  emtricitabine as PrEP does have some interaction, but daily oral
+  regimens allow adjustment; consult ID for TB-HIV co-management; use
+  rifabutin substitution in the TB regimen if oral cabotegravir
+  compatibility can be established).
+
+reference:
+  - "FDA DailyMed: Cabotegravir extended-release injectable suspension (Apretude / Cabenuva) label §Contraindications — coadministration with strong UGT1A1/UGT1A9 inducers including rifampin, rifapentine, carbamazepine, phenobarbital, phenytoin."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Long-acting formulation makes this DDI particularly problematic — no
+  real-time dose intensification possible.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

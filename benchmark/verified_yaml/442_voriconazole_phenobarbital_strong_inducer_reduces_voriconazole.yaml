@@ -1,0 +1,23 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 58-year-old man with invasive aspergillosis on voriconazole
+  200 mg PO BID has poorly-controlled epilepsy on phenobarbital
+  120 mg PO daily.
+choices:
+  A: Voriconazole 200 mg BID + phenobarbital 120 mg daily
+  B: Voriconazole 400 mg BID + phenobarbital 120 mg daily
+  C: Voriconazole 600 mg BID + phenobarbital 120 mg daily
+  D: Voriconazole 800 mg loading dose + phenobarbital 120 mg daily
+correct: abstain
+premise_description: |
+  FDA voriconazole (Vfend) label §Contra concurrent long-acting
+  barbiturates (phenobarbital, mephobarbital) due to markedly
+  reduced voriconazole exposure with treatment failure.
+reference:
+  - "FDA DailyMed: Voriconazole (Vfend) label §Contra — long-acting barbiturates."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

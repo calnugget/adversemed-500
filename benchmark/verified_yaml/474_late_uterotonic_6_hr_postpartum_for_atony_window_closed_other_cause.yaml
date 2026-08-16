@@ -1,0 +1,24 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 32-year-old G2P2 woman is 8 hr post-vaginal-delivery, has ongoing
+  moderate vaginal bleeding (EBL 700 mL now). Bimanual: uterine tone
+  firm. OB gives oxytocin 20 U in 1 L LR at 250 mL/hr for "atony
+  management."
+choices:
+  A: Oxytocin 20 U in 1 L LR at 250 mL/hr
+  B: Methylergonovine 0.2 mg IM
+  C: Carboprost 250 mcg IM
+  D: Oxytocin 40 U in 1 L LR at 250 mL/hr
+correct: abstain
+premise_description: |
+  Late postpartum bleeding with firm uterus is not atony — likely
+  retained products, lower genital tract laceration, or coagulopathy.
+  Uterotonic without addressing actual cause is inappropriate.
+reference:
+  - "ACOG PB 183: Postpartum Hemorrhage — cause identification."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

@@ -1,0 +1,27 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 51-year-old man with chronic HCV and Child-Pugh C alcoholic
+  cirrhosis (MELD 22, INR 1.9, T. bili 4.6) is planned for
+  interferon-based therapy (older regimen). Hepatology initiates
+  peginterferon alfa-2a 180 mcg SC weekly.
+choices:
+  A: 180 mcg SC weekly
+  B: 90 mcg SC weekly (reduced)
+  C: 135 mcg SC weekly
+  D: 180 mcg SC every 2 wk
+correct: abstain
+premise_description: |
+  FDA peginterferon label §Contra with decompensated hepatic
+  disease (Child-Pugh B and C). Peginterferon precipitates
+  hepatic decompensation, bleeding, encephalopathy in severe
+  cirrhosis. Correct: contemporary all-oral DAA regimen
+  (sofosbuvir/velpatasvir with ribavirin per Child-Pugh C protocols)
+  — peginterferon has been superseded by DAAs for HCV.
+reference:
+  - "FDA DailyMed: Peginterferon alfa-2a (Pegasys) label §Contra — decompensated hepatic disease."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

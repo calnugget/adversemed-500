@@ -1,0 +1,23 @@
+seed_index: none
+category: impossible_timing
+difficulty: obvious
+question: |
+  A 21-year-old woman was a close household contact of an invasive
+  meningococcal case 18 days ago. She is asymptomatic. Her PCP
+  prescribes ciprofloxacin 500 mg PO once for chemoprophylaxis.
+choices:
+  A: Ciprofloxacin 500 mg PO once
+  B: Ciprofloxacin 250 mg PO BID × 3 days
+  C: Rifampin 600 mg PO BID × 2 days
+  D: Ceftriaxone 250 mg IM once
+correct: abstain
+premise_description: |
+  CDC ACIP: meningococcal chemoprophylaxis within 24 hr of contact
+  identification (up to ~14 days maximum). At 18 days,
+  incubation has passed; if asymptomatic, disease has been avoided.
+reference:
+  - "CDC MMWR: Prevention and Control of Meningococcal Disease."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

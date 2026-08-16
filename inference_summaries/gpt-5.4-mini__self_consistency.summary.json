@@ -1,0 +1,15 @@
+{
+  "run_id": "20260801T231531Z",
+  "model_id": "GPT-5.4-mini",
+  "method": "self_consistency",
+  "benchmark": "adversemed_500.jsonl",
+  "rows_written_this_run": 500,
+  "rows_previously_completed": 0,
+  "rows_total": 500,
+  "n_errors": 0,
+  "n_parse_failures": 0,
+  "n_not_applicable": 0,
+  "grand_cost_usd": 0.11515815000000001,
+  "grand_wall_seconds": 1343.549,
+  "run_ended_at": "2026-08-01T23:37:56.791538+00:00"
+}

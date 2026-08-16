@@ -1,0 +1,23 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 42-year-old woman with NTRK-fusion solid tumor on larotrectinib
+  100 mg PO BID develops active pulmonary TB. ID initiates rifampin.
+choices:
+  A: Rifampin 450 mg PO daily
+  B: Rifampin 600 mg PO daily
+  C: Rifampin 10 mg/kg PO daily
+  D: Rifampin 600 mg PO three times weekly
+correct: abstain
+premise_description: |
+  FDA larotrectinib (Vitrakvi) label §Contra with strong CYP3A4
+  inducers because inducer substantially reduces larotrectinib and
+  precipitates cancer progression. Correct: rifabutin substitution
+  with larotrectinib dose adjustment per label.
+reference:
+  - "FDA DailyMed: Larotrectinib (Vitrakvi) label §Contraindications — strong CYP3A4 inducers."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

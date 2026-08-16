@@ -1,0 +1,27 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 34-year-old woman had postpartum hemorrhage 30 hours ago (uterine
+  atony, received oxytocin + methylergonovine + carboprost + 2 U
+  pRBC; bleeding stopped 26 hr ago; fundus firm × 24 hr; stable
+  vitals). IR plans uterine artery embolization for "prophylactic
+  prevention of delayed rebleeding."
+choices:
+  A: Bilateral uterine artery embolization now
+  B: Selective uterine artery embolization
+  C: Bilateral internal iliac embolization
+  D: Bilateral uterine artery + gel foam pledgets
+correct: abstain
+premise_description: |
+  Uterine artery embolization for PPH is indicated for ongoing or
+  imminent recurrent bleeding refractory to medical management. In
+  a resolved patient with stable hemodynamics and firm uterus, UAE
+  is not indicated; carries pelvic pain, infection, and rare
+  ovarian failure risks.
+reference:
+  - "ACOG Practice Bulletin 183: Postpartum Hemorrhage."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

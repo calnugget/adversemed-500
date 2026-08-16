@@ -1,0 +1,24 @@
+seed_index: none
+category: impossible_timing
+difficulty: obvious
+question: |
+  A 44-year-old man with T1DM had severe hypoglycemia (BG 32) at home
+  60 min ago; wife gave IM glucagon 1 mg and BG rose to 145. Currently
+  BG 128, asymptomatic. On EMS arrival, paramedics administer IM
+  glucagon 1 mg additional dose.
+choices:
+  A: Glucagon 1 mg IM
+  B: Glucagon 0.5 mg IM
+  C: Glucagon 3 mg intranasal
+  D: Glucagon 1 mg IV push
+correct: abstain
+premise_description: |
+  Glucagon is reserved for active severe hypoglycemia. Patient with
+  normalized BG × 60 min does not benefit from further glucagon.
+  Focus should be on identifying cause + counterregulation.
+reference:
+  - "ADA Standards of Care: Glucagon for active severe hypoglycemia."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

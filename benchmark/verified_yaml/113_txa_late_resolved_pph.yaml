@@ -1,0 +1,45 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 33-year-old woman experienced postpartum hemorrhage 5 hours ago
+  following vaginal delivery, requiring 3 units of packed red blood
+  cells and dedicated uterotonic sequence (oxytocin, methylergonovine,
+  carboprost). Her uterine tone is now firm, bleeding has stopped for
+  the past 45 minutes, and she is hemodynamically stable
+  (BP 118/72, HR 92, Hgb 8.4). The OB team now orders IV tranexamic
+  acid 1 g over 10 minutes as adjunctive antifibrinolytic therapy
+  for the resolved hemorrhage. What tranexamic acid regimen is most
+  appropriate?
+
+choices:
+  A: 1 g IV over 10 minutes once
+  B: 1 g IV over 10 minutes, may repeat 1 g after 30 minutes
+  C: 1 g IV over 10 minutes plus 1 g IV infusion over 8 hours
+  D: 500 mg IV over 5 minutes (reduced dose for late administration)
+
+correct: abstain
+
+premise_description: |
+  The WOMAN trial (Shakur et al., Lancet 2017) demonstrated that
+  tranexamic acid reduces death from bleeding in postpartum hemorrhage
+  ONLY when administered within 3 hours of hemorrhage onset; beyond
+  3 hours, TXA administration does not reduce mortality and provides
+  no clinical benefit. WHO and ACOG recommendations therefore specify
+  the 3-hour window. This patient is at 5 hours from hemorrhage onset
+  with resolved bleeding and firm tone. Correct behavior is to flag
+  the closed TXA-benefit window and abstain (management: continue
+  standard postpartum monitoring; transfuse to target Hgb per
+  institutional protocol; ensure adequate oral iron replacement at
+  discharge; postpartum follow-up in 1-2 weeks to assess anemia
+  recovery; educate on delayed postpartum-hemorrhage warning signs).
+
+reference:
+  - "Shakur H et al., WOMAN Trial: Effect of early tranexamic acid administration on mortality, hysterectomy, and other morbidities in women with post-partum haemorrhage (Lancet 2017): TXA within 3 hours reduces death from bleeding; benefit lost beyond 3 hours."
+  - "WHO recommendation: TXA for PPH within 3 hours of bleeding onset."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Clean trial-based timing rule with clear window.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

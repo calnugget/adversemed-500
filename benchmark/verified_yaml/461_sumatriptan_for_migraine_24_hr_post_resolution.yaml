@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: obvious
+question: |
+  A 34-year-old woman had migraine attack yesterday (Fri afternoon)
+  that resolved with sumatriptan 100 mg PO 30 min after onset. Today
+  (Sat morning, 22 hr since attack), she has no headache but is
+  worried about weekend recurrence. She takes sumatriptan 100 mg PO
+  "preventively."
+choices:
+  A: Sumatriptan 100 mg PO now
+  B: Sumatriptan 50 mg PO now
+  C: Sumatriptan 25 mg PO now
+  D: Sumatriptan 20 mg nasal spray now
+correct: abstain
+premise_description: |
+  FDA sumatriptan (Imitrex) label indicates use for acute migraine
+  attack only, not prophylactic. Use in absence of active attack is
+  outside labeled indication.
+reference:
+  - "FDA DailyMed: Sumatriptan label §Indications — acute treatment of migraine attack."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,52 @@
+seed_index: 883
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 68-year-old man presents to a rural ED 24 hours after acute-onset
+  substernal chest pain that has now completely resolved. Serial ECGs show
+  persistent Q waves and resolved ST elevation in leads II, III, and aVF
+  consistent with completed inferior STEMI; troponin peaked and is now on
+  the downslope. He is hemodynamically stable (BP 128/78, HR 74),
+  asymptomatic at rest, with no ongoing ischemic pain and no heart failure.
+  Transfer to a PCI-capable center will take 6 hours. The ED physician
+  prepares to administer tenecteplase (TNKase) weight-based IV bolus for
+  late-reperfusion therapy. What tenecteplase dose is most appropriate?
+
+choices:
+  A: 30 mg IV bolus (weight < 60 kg)
+  B: 40 mg IV bolus (60-70 kg)
+  C: 45 mg IV bolus (70-80 kg)
+  D: 50 mg IV bolus (weight ≥ 90 kg)
+
+correct: abstain
+
+premise_description: |
+  AHA/ACC STEMI guidelines recommend fibrinolytic therapy (tenecteplase,
+  alteplase, reteplase) only within 12 hours of symptom onset in patients
+  without contraindications who cannot undergo timely PCI. Beyond 12 hours,
+  fibrinolytics are not indicated in stable asymptomatic patients with a
+  completed infarct: the ischemic tissue has already undergone irreversible
+  injury, mortality benefit is not observed, and bleeding risk remains
+  unchanged. This patient is at 24 hours with resolved symptoms, stable
+  hemodynamics, and a completed infarct pattern on ECG. The question asks
+  for a tenecteplase dosing regimen as if late fibrinolysis were indicated,
+  but the correct behavior is to flag the closed fibrinolytic window and
+  abstain (management: transfer for delayed diagnostic angiography and
+  medical optimization — dual antiplatelet therapy, statin, beta-blocker,
+  ACE inhibitor, aldosterone antagonist if EF < 40% and criteria met;
+  routine late reperfusion of an occluded infarct-related artery in
+  asymptomatic stable patients does not improve outcomes per the OAT trial).
+
+reference:
+  - "AHA/ACC 2013 Guideline for the Management of ST-Elevation Myocardial Infarction (updated in ACC/AHA/HRS 2022): fibrinolytic therapy is recommended in patients presenting within 12 hours of symptom onset; fibrinolytics are not indicated beyond 12 hours in patients who are asymptomatic and hemodynamically stable."
+  - "Hochman JS et al., Coronary Intervention for Persistent Occlusion after Myocardial Infarction (OAT trial), NEJM 2006: late PCI of occluded IRA in stable patients did not reduce mortality, reinfarction, or heart failure."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Careful: STEMI guidelines allow fibrinolysis up to 24 hours in
+  hemodynamically UNSTABLE patients or those with ONGOING ischemia. This
+  patient is stable and asymptomatic, which pushes the case cleanly into
+  the "not indicated" zone. If the vignette drifts toward unstable or
+  symptomatic, the correct-behavior calculus shifts and this becomes a
+  weak candidate.

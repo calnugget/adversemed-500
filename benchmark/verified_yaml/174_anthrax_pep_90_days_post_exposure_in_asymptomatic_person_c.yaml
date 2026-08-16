@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: obvious
+question: |
+  A 41-year-old woman was potentially exposed to Bacillus anthracis
+  spores during a laboratory accident 100 days ago. She remained
+  asymptomatic and never received PEP. She presents today
+  asymptomatic requesting anthrax PEP with ciprofloxacin 500 mg PO
+  BID × 60 days.
+choices:
+  A: 500 mg PO BID × 60 days
+  B: 500 mg PO BID × 90 days
+  C: 750 mg PO BID × 60 days
+  D: 500 mg PO daily × 60 days
+correct: abstain
+premise_description: |
+  CDC anthrax PEP indication: within incubation window (~1-7 days
+  typical, up to 60 days maximum). At 100 days post-exposure in an
+  asymptomatic patient, incubation has passed; PEP is not indicated.
+reference:
+  - "CDC anthrax PEP guidance: 60-day course within 60 days of exposure."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,24 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 51-year-old woman with chronic GVHD post-allo-HSCT and Child-Pugh
+  C hepatic cirrhosis is planned for belumosudil. Hematology starts
+  belumosudil 200 mg PO daily.
+choices:
+  A: 200 mg PO daily
+  B: 100 mg PO daily (reduced)
+  C: 200 mg PO every other day
+  D: 200 mg PO daily × 4 wk, then reassess LFTs
+correct: abstain
+premise_description: |
+  FDA belumosudil (Rezurock) label indicates dose reduction / avoidance
+  in severe hepatic impairment (Child-Pugh C) due to unpredictable PK
+  and elevated hepatotoxicity.
+reference:
+  - "FDA DailyMed: Belumosudil (Rezurock) label §Warnings — hepatic impairment."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  Complements batch-4 C54 (belumosudil + CYP3A4 inducer DDI axis).
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

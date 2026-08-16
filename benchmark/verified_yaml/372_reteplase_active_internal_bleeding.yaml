@@ -1,0 +1,26 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 58-year-old woman with acute STEMI 2 hours from onset also has
+  active GI bleeding (melena × 2 days, Hgb dropped 9.4 → 6.8 today,
+  pending EGD). ED plans IV reteplase 10 U × 2 doses 30 min apart.
+choices:
+  A: Reteplase 10 U × 2 doses 30 min apart
+  B: Reteplase 5 U × 2 doses 30 min apart (reduced)
+  C: Reteplase 10 U once
+  D: Reteplase 10 U × 2 doses + PPI + PRBC transfusion
+correct: abstain
+premise_description: |
+  FDA reteplase label §Contra with active internal bleeding —
+  fibrinolytic will exacerbate hemorrhage. Class-wide contra.
+  Correct: address bleeding (EGD, transfusion, PPI); STEMI
+  management with dual antiplatelet + heparin only (no fibrinolytic,
+  no PCI unless GI bleeding controlled); accept that reperfusion
+  therapy is not deliverable in this scenario.
+reference:
+  - "FDA DailyMed: Reteplase (Retavase) label §Contra — active internal bleeding."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

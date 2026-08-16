@@ -1,0 +1,26 @@
+seed_index: none
+category: contraindication
+difficulty: obvious
+question: |
+  A 32-year-old woman post-kidney transplant on mycophenolate mofetil
+  1 g PO BID + tacrolimus + prednisone presents at 8 weeks gestation
+  (confirmed intrauterine). She wishes to continue pregnancy. Transplant
+  team continues MMF unchanged.
+choices:
+  A: MMF 1 g PO BID
+  B: MMF 500 mg PO BID (reduced)
+  C: MMF 750 mg PO BID
+  D: MMF 1.5 g PO BID
+correct: abstain
+premise_description: |
+  FDA mycophenolate label boxed warning + §Contra in pregnancy —
+  first-trimester embryotoxicity + fetal malformation (facial
+  clefts, cardiac, esophageal). MMF REMS mandates pregnancy testing
+  + two forms of contraception. Correct: switch to azathioprine
+  (compatible in pregnancy per transplant guidelines).
+reference:
+  - "FDA DailyMed: Mycophenolate mofetil label boxed warning + §Contra — pregnancy."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

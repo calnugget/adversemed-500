@@ -1,0 +1,22 @@
+seed_index: none
+category: contraindication
+difficulty: subtle
+question: |
+  A 51-year-old man with cirrhosis-related hepatic encephalopathy has
+  documented severe hypersensitivity to rifampin (SJS 4 y ago). GI
+  starts rifaximin 550 mg PO BID for HE prophylaxis.
+choices:
+  A: 550 mg PO BID
+  B: 400 mg PO TID
+  C: 200 mg PO TID
+  D: 550 mg PO daily
+correct: abstain
+premise_description: |
+  FDA rifaximin (Xifaxan) label §Contra with rifamycin-class
+  hypersensitivity. Class cross-reactivity.
+reference:
+  - "FDA DailyMed: Rifaximin label §Contra — rifamycin hypersensitivity."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

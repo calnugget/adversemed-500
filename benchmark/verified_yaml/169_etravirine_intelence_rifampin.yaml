@@ -1,0 +1,25 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 48-year-old woman with HIV on etravirine 200 mg PO BID +
+  boosted darunavir has active TB. ID initiates rifampin. What
+  rifampin regimen is most appropriate?
+choices:
+  A: 450 mg PO daily
+  B: 600 mg PO daily
+  C: 10 mg/kg PO daily
+  D: 600 mg PO three times weekly
+correct: abstain
+premise_description: |
+  FDA etravirine (Intelence) label contraindicates concurrent
+  rifampin because rifampin substantially reduces etravirine
+  concentrations to sub-therapeutic, causing HIV virologic failure.
+  Correct behavior is to substitute rifabutin in the TB regimen.
+reference:
+  - "FDA DailyMed: Etravirine (Intelence) tablets label §Contraindications — coadministration with rifampin, rifapentine, carbamazepine, phenobarbital, phenytoin, St John's wort."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  Similar to C47 (doravirine + rifampin).
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

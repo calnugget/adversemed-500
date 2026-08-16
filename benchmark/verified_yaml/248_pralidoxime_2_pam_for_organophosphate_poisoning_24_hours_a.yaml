@@ -1,0 +1,28 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 42-year-old farm worker was exposed to malathion 30 hours ago.
+  He received atropine at initial presentation and has partially
+  recovered (respirations improved, secretions less profuse).
+  Toxicology now initiates IV pralidoxime 30 mg/kg loading dose.
+choices:
+  A: 30 mg/kg IV load
+  B: 25 mg/kg IV load
+  C: 40 mg/kg IV load
+  D: 30 mg/kg IV load, then 8 mg/kg/hr infusion
+correct: abstain
+premise_description: |
+  Pralidoxime regenerates acetylcholinesterase BEFORE it becomes
+  irreversibly "aged" by the organophosphate. Aging half-life is
+  organophosphate-specific but typically 24-48 hr; malathion aging
+  is relatively fast. At 30 hr, most enzyme has aged; 2-PAM cannot
+  regenerate an aged enzyme and offers minimal benefit. Correct:
+  continue atropine titrated to secretions, supportive care;
+  spontaneous enzyme resynthesis will restore function over weeks.
+reference:
+  - "AACT / American College of Medical Toxicology position on organophosphate poisoning."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

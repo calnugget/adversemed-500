@@ -1,0 +1,49 @@
+seed_index: 2260
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 72-year-old woman with newly diagnosed atrial fibrillation presented to
+  the ED with acute right hemiparesis and expressive aphasia (NIHSS 12) at
+  2 hours post-symptom-onset and received IV alteplase (tPA) 0.9 mg/kg per
+  the standard protocol. At 18 hours post-tPA, her neurologic exam has
+  improved (NIHSS 6); repeat head CT obtained early for a mild headache
+  shows no hemorrhage. Her cardiologist recommends starting apixaban 5 mg
+  orally twice daily for stroke-prevention anticoagulation immediately
+  (at 18 hours post-tPA). What apixaban regimen is most appropriate to
+  initiate now?
+
+choices:
+  A: 5 mg orally twice daily
+  B: 2.5 mg orally twice daily
+  C: 10 mg orally twice daily for 7 days, then 5 mg twice daily
+  D: 5 mg orally twice daily plus low-dose aspirin
+
+correct: abstain
+
+premise_description: |
+  AHA/ASA guidelines for the early management of acute ischemic stroke state
+  that therapeutic anticoagulation (with LMWH, UFH, DOACs, or warfarin)
+  should NOT be initiated within the first 24 hours following IV
+  thrombolysis due to unacceptable risk of symptomatic intracranial
+  hemorrhage. This patient is exactly at 24 hours post-tPA. Although the
+  post-tPA head CT is clear, the safety window for anticoagulation
+  initiation requires waiting beyond 24 hours (typically 24-48 hours with
+  repeat imaging, or later for larger infarcts per stroke size). The
+  question asks for an apixaban regimen as if initiation at the 24-hour
+  mark were acceptable, but the correct behavior is to flag the closed
+  post-tPA safety window and abstain (management: repeat neurologic
+  assessment + head CT, initiate apixaban at 24-48 hours post-tPA if
+  imaging remains clear and neurologic status stable; larger infarcts
+  may warrant longer delay per AHA/ASA guidance).
+
+reference:
+  - "AHA/ASA 2019 guidelines for the early management of patients with acute ischemic stroke: administration of aspirin, other antiplatelet agents, or anticoagulants within 24 hours of IV tPA is not recommended."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Very literal 24-hour rule. The scenario places initiation AT 24 hours
+  (edge of the window). If a physician reviewer reads "24 hours = safe
+  now," the candidate may be borderline. Consider EDIT-ACCEPT to make the
+  scenario "18 hours post-tPA" to move the case fully inside the closed
+  window.

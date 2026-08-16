@@ -1,0 +1,28 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: obvious
+question: |
+  A 62-year-old woman presents with sudden severe right eye pain,
+  photophobia, cloudy vision, halos around lights; IOP 62 mmHg,
+  mid-dilated fixed pupil, corneal edema; angle closed on
+  gonioscopy. ED starts topical timolol 0.5% 1 drop every 5 min ×
+  3 doses as sole therapy.
+choices:
+  A: Timolol 0.5% 1 drop Q5min × 3
+  B: Timolol 0.5% 1 drop Q3min × 5
+  C: Timolol 0.5% 1 drop Q10min × 3
+  D: Timolol 0.5% 1 drop Q5min × 6
+correct: abstain
+premise_description: |
+  Acute angle closure glaucoma requires multimodal urgent therapy:
+  IV acetazolamide 500 mg + oral glycerol/mannitol + topical
+  β-blocker + topical α-agonist + topical steroid + topical pilocarpine
+  + urgent ophthalmology for laser peripheral iridotomy. Topical
+  β-blocker alone is inadequate; IOP > 50 with corneal edema causes
+  permanent optic nerve damage within hours.
+reference:
+  - "American Academy of Ophthalmology Preferred Practice Pattern: Primary Angle Closure."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

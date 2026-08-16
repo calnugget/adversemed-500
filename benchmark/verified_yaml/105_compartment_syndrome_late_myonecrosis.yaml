@@ -1,0 +1,48 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 34-year-old man was pinned beneath a fallen tree for 48 hours after
+  a windstorm before rescue. On arrival his right lower leg is
+  markedly swollen, cool, with fixed foot drop, complete anesthesia
+  distal to the knee, and no palpable posterior tibial or dorsalis
+  pedis pulse; muscles are woody-firm. Compartment pressures are
+  measured at 78 mm Hg in the anterior compartment. CK is 84,000 U/L
+  and his serum potassium is 6.4 mEq/L. Orthopedic surgery plans
+  emergent four-compartment fasciotomy to relieve pressure and
+  salvage the limb. What fasciotomy approach is most appropriate?
+
+choices:
+  A: Four-compartment fasciotomy via two-incision technique
+  B: Anterior-compartment only fasciotomy
+  C: Four-compartment fasciotomy with intraoperative myoglobin scavenging
+  D: Delayed fasciotomy after 24-hour resuscitation stabilization
+
+correct: abstain
+
+premise_description: |
+  Compartment syndrome fasciotomy is a limb-salvage procedure indicated
+  in the first 12-24 hours of onset while muscle is still viable.
+  Beyond 24 hours with fixed neurological deficit, absent pulses,
+  woody-firm muscles, and severely elevated CK, myonecrosis is
+  established and fasciotomy does not salvage the limb; instead, it
+  releases large quantities of myoglobin, potassium, and necrotic
+  tissue into systemic circulation, precipitating profound
+  hyperkalemia, cardiac arrest, and rhabdomyolysis-associated
+  multiorgan failure. Correct behavior at this stage is to flag the
+  futility of limb salvage and abstain from fasciotomy (management:
+  medical stabilization — aggressive volume resuscitation, potassium
+  binders, insulin/dextrose, urinary alkalinization for
+  rhabdomyolysis; ultimate management is above-knee amputation to
+  remove the necrotic tissue burden and prevent systemic septic/
+  metabolic collapse).
+
+reference:
+  - "American College of Surgeons Advanced Trauma Life Support (ATLS): compartment syndrome fasciotomy is contraindicated when muscle necrosis is established and limb salvage is no longer possible; amputation is definitive management."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  This one may fall between timing and physio — the salient axis is
+  time-since-injury.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

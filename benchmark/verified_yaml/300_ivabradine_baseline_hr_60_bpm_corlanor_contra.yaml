@@ -1,0 +1,24 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 66-year-old woman with HFrEF (EF 32%) has resting HR 52 bpm
+  (sinus rhythm) on carvedilol 25 mg BID. Cardiology adds
+  ivabradine 5 mg PO BID.
+choices:
+  A: 5 mg PO BID
+  B: 2.5 mg PO BID (reduced)
+  C: 5 mg PO daily
+  D: 7.5 mg PO BID
+correct: abstain
+premise_description: |
+  FDA ivabradine (Corlanor) label §Contra with baseline HR < 60 bpm
+  because ivabradine specifically lowers HR via If current inhibition;
+  further decrease from 52 → below 50 risks profound bradycardia,
+  arrest.
+reference:
+  - "FDA DailyMed: Ivabradine (Corlanor) label §Contraindications — resting HR < 60 bpm before treatment."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

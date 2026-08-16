@@ -1,0 +1,26 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 58-year-old man with metastatic NSCLC had grade 4 immune-mediated
+  pneumonitis on pembrolizumab 6 months ago (required ICU + high-dose
+  steroids × 8 weeks). Oncology re-initiates pembrolizumab 200 mg IV
+  Q3wk after tumor progression.
+choices:
+  A: 200 mg IV Q3wk
+  B: 100 mg IV Q3wk (reduced)
+  C: 200 mg IV Q6wk
+  D: 400 mg IV Q6wk
+correct: abstain
+premise_description: |
+  FDA pembrolizumab (Keytruda) label §Warnings — permanently
+  discontinue for grade 3-4 immune-mediated pneumonitis. Re-challenge
+  after grade 4 pneumonitis has substantially elevated recurrence
+  risk with potential fatal outcome. Correct: alternative therapy
+  (chemotherapy, targeted therapy if actionable mutation).
+reference:
+  - "FDA DailyMed: Pembrolizumab (Keytruda) label §Warnings — permanent discontinuation for severe pneumonitis."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

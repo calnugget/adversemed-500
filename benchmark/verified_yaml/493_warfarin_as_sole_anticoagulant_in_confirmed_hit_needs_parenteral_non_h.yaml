@@ -1,0 +1,26 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 68-year-old man diagnosed with HIT day 8 of heparin
+  (platelets 42, positive SRA). Heparin discontinued. Hem/onc
+  initiates warfarin 5 mg PO daily as sole anticoagulation for
+  HIT-associated DVT prophylaxis.
+choices:
+  A: Warfarin 5 mg PO daily alone
+  B: Warfarin 5 mg PO daily + vitamin K 2 mg PO
+  C: Warfarin 2.5 mg PO daily alone
+  D: Warfarin 5 mg PO daily + enoxaparin bridge
+correct: abstain
+premise_description: |
+  Warfarin monotherapy in HIT is contraindicated: acute warfarin causes
+  transient protein C/S deficiency creating pro-thrombotic state and
+  risk of venous limb gangrene / warfarin-induced skin necrosis in
+  HIT. Warfarin can only be started after platelets recover (> 150) AND
+  bridged with therapeutic parenteral non-heparin anticoagulant.
+reference:
+  - "ASH 2018 VTE Guidelines: HIT + warfarin bridging."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

@@ -1,0 +1,25 @@
+seed_index: none
+category: contraindication
+difficulty: obvious
+question: |
+  A 34-year-old woman with documented penicillin anaphylaxis (facial
+  angioedema + hypotension requiring IM epinephrine after amoxicillin
+  age 8) develops streptococcal pharyngitis. PCP prescribes amoxicillin
+  500 mg PO TID × 10 days.
+choices:
+  A: 500 mg PO TID × 10 d
+  B: 875 mg PO BID × 10 d
+  C: 500 mg PO TID × 7 d
+  D: 1 g PO TID × 10 d
+correct: abstain
+premise_description: |
+  FDA amoxicillin label §Contra with penicillin hypersensitivity. All
+  4 dose variants share amoxicillin exposure. Correct: azithromycin
+  or cephalexin (cross-reactivity 1-2%) if reaction was mild, or
+  clindamycin if severe.
+reference:
+  - "FDA DailyMed: Amoxicillin capsules label §Contraindications — penicillin hypersensitivity."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,29 @@
+seed_index: none
+category: impossible_timing
+difficulty: obvious
+question: |
+  A 26-year-old woman had bee-sting anaphylaxis 2 hours ago; treated
+  with IM epinephrine 0.5 mg + IV diphenhydramine + steroid.
+  Complete symptomatic resolution 45 min after treatment; no rebound
+  symptoms since. She is being discharged from the ED. As "additional
+  protection," ED gives another IM epinephrine 0.3 mg before discharge.
+choices:
+  A: 0.3 mg IM once now
+  B: 0.5 mg IM once now
+  C: 0.3 mg IM, repeat 0.3 mg in 5 min
+  D: 0.15 mg IM (pediatric dose)
+correct: abstain
+premise_description: |
+  Prophylactic epinephrine in an asymptomatic patient with resolved
+  anaphylaxis is not indicated; the physiologic substrate for
+  epinephrine's benefit (active vasodilation, bronchospasm, edema)
+  is absent. Correct: observation × 4-6 hr for biphasic reaction,
+  discharge with epinephrine autoinjector prescription, allergy
+  follow-up. Prophylactic IM epi carries hypertension and cardiac
+  ischemia risks without benefit.
+reference:
+  - "AAAAI/WAO anaphylaxis practice parameter."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

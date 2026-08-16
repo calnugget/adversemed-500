@@ -1,0 +1,30 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 47-year-old man on Delstrigo (doravirine/lamivudine/tenofovir DF)
+  1 tab PO daily for HIV develops active pulmonary tuberculosis.
+  ID initiates rifampin. What rifampin regimen is most appropriate?
+choices:
+  A: 450 mg PO daily
+  B: 600 mg PO daily
+  C: 10 mg/kg PO daily (max 600 mg)
+  D: 600 mg PO three times weekly
+correct: abstain
+premise_description: |
+  FDA doravirine (Pifeltro / Delstrigo) label contraindicates
+  concurrent use with rifampin (and other strong CYP3A4 inducers:
+  rifapentine, carbamazepine, phenytoin, phenobarbital, St John's
+  wort) because doravirine plasma concentrations are substantially
+  reduced, precipitating HIV virologic failure. Correct behavior is
+  to transition ART to a rifampin-compatible regimen before initiating
+  RIPE (or use rifabutin in TB regimen with doravirine dose
+  intensification per label instructions).
+reference:
+  - "FDA DailyMed: Doravirine (Pifeltro) label §Contraindications — coadministration with strong CYP3A4 inducers."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  Same family as batch-4 C55 (cabotegravir + rifampin) — different
+  agent, same rifampin axis.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

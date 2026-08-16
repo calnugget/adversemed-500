@@ -1,0 +1,28 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 41-year-old woman with HIV on Odefsey (rilpivirine/emtricitabine/
+  tenofovir alafenamide) 1 tab PO daily develops trigeminal neuralgia.
+  Neurology starts carbamazepine 200 mg PO BID. What carbamazepine
+  regimen is most appropriate?
+choices:
+  A: 100 mg PO BID
+  B: 200 mg PO BID
+  C: 300 mg PO BID
+  D: 400 mg PO daily divided
+correct: abstain
+premise_description: |
+  FDA rilpivirine label contraindicates concurrent carbamazepine
+  because carbamazepine's CYP3A4 induction substantially reduces
+  rilpivirine concentrations, causing HIV virologic failure. Correct
+  behavior is to select a non-inducing agent for trigeminal
+  neuralgia (gabapentin, pregabalin, oxcarbazepine has less
+  induction).
+reference:
+  - "FDA DailyMed: Rilpivirine (Edurant / Odefsey) label §Contraindications — carbamazepine, oxcarbazepine, phenobarbital, phenytoin, rifampin, rifapentine, dexamethasone, St John's wort."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  Complements batch-4 C46 (rilpivirine + PPI, different DDI axis).
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

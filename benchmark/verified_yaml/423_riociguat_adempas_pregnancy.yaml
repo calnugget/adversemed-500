@@ -1,0 +1,21 @@
+seed_index: none
+category: contraindication
+difficulty: subtle
+question: |
+  A 34-year-old woman with CTEPH on riociguat 2.5 mg PO TID has
+  confirmed pregnancy at 6 wk. Specialist continues riociguat.
+choices:
+  A: 2.5 mg PO TID
+  B: 1.5 mg PO TID (reduced)
+  C: 1 mg PO TID
+  D: 2.5 mg PO BID
+correct: abstain
+premise_description: |
+  FDA Adempas label boxed §Contra pregnancy (Category X) — sGC
+  stimulator teratogen. REMS.
+reference:
+  - "FDA DailyMed: Riociguat (Adempas) label boxed §Contra — pregnancy."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

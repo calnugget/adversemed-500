@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 58-year-old man is hospital day 2 of ceftriaxone + vancomycin for
+  pneumococcal meningitis; symptoms improving. Neurology now gives
+  IV dexamethasone 10 mg IV Q6h × 4 d as delayed adjunct.
+choices:
+  A: Dexamethasone 10 mg IV Q6h × 4 d
+  B: Dexamethasone 8 mg IV Q6h × 4 d
+  C: Dexamethasone 12 mg IV Q6h × 4 d
+  D: Dexamethasone 10 mg IV Q8h × 4 d
+correct: abstain
+premise_description: |
+  Dexamethasone for bacterial meningitis benefits when given BEFORE
+  or WITH first antibiotic dose (reduces cytokine surge from
+  bacteriolysis). Delayed dexamethasone > 24 hr post-antibiotic has
+  no proven benefit. Correct: continue antibiotics; steroid not
+  indicated at this time.
+reference:
+  - "IDSA 2004 bacterial meningitis guidelines: dexamethasone timing."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,23 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 72-year-old man with advanced PD on apomorphine SC develops
+  cyclic vomiting. Neurology prescribes palonosetron 0.5 mg PO 30
+  min before each apomorphine dose.
+choices:
+  A: 0.5 mg PO 30 min pre-apomorphine
+  B: 0.25 mg PO 30 min pre-apomorphine
+  C: 0.5 mg IV 30 min pre-apomorphine
+  D: 0.25 mg IV 30 min pre-apomorphine
+correct: abstain
+premise_description: |
+  FDA apomorphine label §Contra with 5-HT3 antagonists including
+  palonosetron. Same profound hypotension + LOC class effect as
+  ondansetron. Correct: trimethobenzamide.
+reference:
+  - "FDA DailyMed: Apomorphine label §Contra — 5-HT3 antagonists."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,27 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 58-year-old man post-CABG is on IV heparin infusion 18 U/kg/hr
+  for LV thrombus prophylaxis. Day 7: platelets dropped from 220
+  to 45 (78% decrease); anti-PF4 antibody positive; serotonin release
+  assay positive. Cardiology reduces heparin to 12 U/kg/hr for
+  continued anticoagulation.
+choices:
+  A: Heparin 12 U/kg/hr
+  B: Heparin 8 U/kg/hr
+  C: LMWH 1 mg/kg SC BID
+  D: Heparin 4 U/kg/hr + warfarin bridge
+correct: abstain
+premise_description: |
+  Confirmed HIT (positive antibody + positive functional assay + 4T
+  score high) requires IMMEDIATE discontinuation of all heparin
+  including LMWH + fondaparinux. Continuing heparin at reduced dose
+  perpetuates immune reaction + thrombosis risk (30%). Non-heparin
+  anticoagulant (argatroban, bivalirudin, fondaparinux) required.
+reference:
+  - "ASH 2018 VTE Guidelines: HIT management."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

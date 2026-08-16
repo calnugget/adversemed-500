@@ -1,0 +1,49 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 4-year-old boy is brought to the ED 2 hours after ingesting an
+  unknown number of adult ferrous sulfate tablets; the parents estimate
+  20-40 tablets (approximately 800-1600 mg elemental iron ingested;
+  weight-based dose 40-80 mg/kg). He is asymptomatic on arrival with
+  normal vital signs and a bland exam. Serum iron drawn on arrival is
+  620 μg/dL (severe). Anion gap is 18 (mild acidosis). The ED
+  attending administers activated charcoal 1 g/kg orally via
+  nasogastric tube to bind ingested iron. What charcoal regimen is
+  most appropriate?
+
+choices:
+  A: 1 g/kg via NGT once
+  B: 2 g/kg via NGT once
+  C: 1 g/kg via NGT, repeated every 4 hours for multi-dose regimen
+  D: 50 g via NGT (adult standard dose)
+
+correct: abstain
+
+premise_description: |
+  Iron is a small divalent metal cation that is NOT adsorbed by
+  activated charcoal — charcoal binds organic compounds via
+  hydrophobic and van der Waals interactions, and inorganic cations
+  such as iron, lithium, potassium, and heavy metals are minimally
+  bound. Administering activated charcoal in iron poisoning provides
+  no gastrointestinal decontamination benefit and can obscure
+  subsequent evaluation via delayed gastric emptying and radiographic
+  interpretation. The definitive treatment for severe acute iron
+  toxicity (serum iron > 500 μg/dL, or clinical toxicity, or
+  metabolic acidosis) is IV deferoxamine chelation. Correct behavior
+  is to flag the physiologic impossibility of charcoal-iron binding
+  and abstain (management: IV deferoxamine 15 mg/kg/hour infusion
+  titrated to clinical response and urine color change (vin rosé
+  urine); whole-bowel irrigation with polyethylene glycol solution
+  for radiopaque iron tablets seen on KUB; supportive care —
+  IV fluids, monitoring for hepatic failure and multiorgan
+  dysfunction; ICU admission).
+
+reference:
+  - "American Academy of Clinical Toxicology / European Association of Poisons Centres and Clinical Toxicologists position statement on activated charcoal: charcoal is NOT indicated in iron, lithium, or heavy metal ingestions."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  PHAILS mnemonic parallels Q060 (charcoal + lithium).
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

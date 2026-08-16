@@ -1,0 +1,23 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 44-year-old woman with treatment-resistant depression on phenelzine
+  60 mg PO daily × 6 mo has partial response. Psychiatry cross-titrates
+  by adding tranylcypromine 20 mg PO daily while continuing phenelzine.
+choices:
+  A: Phenelzine 60 mg + tranylcypromine 20 mg daily
+  B: Phenelzine 45 mg + tranylcypromine 20 mg daily
+  C: Phenelzine 45 mg + tranylcypromine 10 mg daily
+  D: Phenelzine 30 mg + tranylcypromine 10 mg daily
+correct: abstain
+premise_description: |
+  FDA phenelzine (Nardil) + tranylcypromine (Parnate) labels §Contra
+  concurrent use — dual MAO enzyme inhibition causes fatal hypertensive
+  crisis + serotonin syndrome. Requires 14-day washout between agents.
+reference:
+  - "FDA DailyMed: Phenelzine label §Contra — concurrent MAOI."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

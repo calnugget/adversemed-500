@@ -1,0 +1,20 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 44-year-old man on etravirine 200 mg PO BID has poorly-controlled
+  epilepsy on phenobarbital 120 mg PO daily.
+choices:
+  A: Etravirine 200 BID + phenobarbital 120 daily
+  B: Etravirine 300 BID + phenobarbital 120 daily
+  C: Etravirine 200 BID + phenobarbital 60 daily
+  D: Etravirine 300 mg BID + phenobarbital 60 mg daily
+correct: abstain
+premise_description: |
+  FDA etravirine label §Contra concurrent phenobarbital.
+reference:
+  - "FDA DailyMed: Etravirine label §Contra — phenobarbital."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

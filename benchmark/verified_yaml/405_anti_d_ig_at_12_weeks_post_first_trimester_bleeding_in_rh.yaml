@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 26-year-old Rh-negative woman had first-trimester threatened
+  miscarriage with bleeding 12 wk ago; she did not receive RhIG at
+  that time. Pregnancy continued; now at 22 wk. OB orders delayed
+  anti-D IG 300 mcg IM as "post-bleed catchup."
+choices:
+  A: 300 mcg IM once
+  B: 300 mcg IM + Coombs at 24 wk
+  C: 600 mcg IM (double dose)
+  D: 150 mcg IM once
+correct: abstain
+premise_description: |
+  Anti-D IG for antepartum sensitizing event (bleeding) within 72 hr
+  of event. At 12 wk post-event, sensitization has either occurred
+  or been avoided; IG not indicated for the past event. Correct:
+  give routine 28-wk antenatal RhIG per protocol.
+reference:
+  - "ACOG PB 181."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

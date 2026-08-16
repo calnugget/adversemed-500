@@ -1,0 +1,24 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 34-year-old healthcare worker whose household includes his wife who
+  is undergoing chemotherapy for lymphoma (currently ANC 400) is offered
+  vaccinia vaccine as first-responder pre-exposure. Occupational health
+  gives ACAM2000.
+choices:
+  A: ACAM2000 15 punctures
+  B: ACAM2000 with home isolation × 21 d
+  C: ACAM2000 10 punctures with household masking
+  D: ACAM2000 15 punctures with barrier precautions
+correct: abstain
+premise_description: |
+  FDA ACAM2000 label §Contra with household contact of
+  immunocompromised individual due to secondary vaccinia transmission
+  risk (contact vaccinia). MVA-BN (non-replicating) safer.
+reference:
+  - "FDA DailyMed: ACAM2000 label §Contra — household immunocompromise contact."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

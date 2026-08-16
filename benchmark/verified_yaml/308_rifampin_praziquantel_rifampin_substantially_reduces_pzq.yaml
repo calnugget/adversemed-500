@@ -1,0 +1,23 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: subtle
+question: |
+  A 34-year-old man from schistosomiasis-endemic area with active
+  pulmonary TB (on rifampin) is diagnosed with schistosomiasis. ID
+  adds praziquantel 40 mg/kg PO in 2 divided doses.
+choices:
+  A: 40 mg/kg PO in 2 divided doses × 1 day
+  B: 60 mg/kg PO in 3 divided doses × 1 day (higher)
+  C: 40 mg/kg PO in 2 divided doses × 3 days
+  D: 20 mg/kg PO in 2 divided doses × 1 day
+correct: abstain
+premise_description: |
+  Rifampin as strong CYP inducer substantially reduces praziquantel
+  concentrations, causing schistosomiasis treatment failure. FDA/WHO
+  guidance: avoid concurrent rifampin with praziquantel.
+reference:
+  - "WHO Guidelines: Preventive Chemotherapy in Human Helminthiasis."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

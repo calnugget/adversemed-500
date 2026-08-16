@@ -1,0 +1,27 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 34-year-old woman with RRMS had an acute relapse (right optic
+  neuritis + right leg weakness) 6 weeks ago; symptoms fully
+  resolved within 2 weeks. She is now asymptomatic with normal
+  exam. Neurology prescribes IV methylprednisolone 1 g daily × 3
+  days as "retrospective relapse treatment."
+choices:
+  A: 1 g IV daily × 3 days
+  B: 500 mg IV daily × 3 days
+  C: 1 g IV daily × 5 days
+  D: 1 g IV once, then oral taper
+correct: abstain
+premise_description: |
+  High-dose IV methylprednisolone for MS relapse accelerates
+  recovery in the acute phase; after full recovery it offers no
+  benefit and exposes patient to steroid complications. Correct:
+  optimize disease-modifying therapy if breakthrough disease
+  activity indicates need to escalate.
+reference:
+  - "AAN practice parameter for MS relapse treatment."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,25 @@
+seed_index: none
+category: impossible_timing
+difficulty: obvious
+question: |
+  A 24-year-old woman presents 7 days after unprotected intercourse
+  requesting emergency contraception. PCP prescribes levonorgestrel
+  1.5 mg PO once (Plan B).
+choices:
+  A: 1.5 mg PO once
+  B: 0.75 mg PO twice 12 hr apart
+  C: 3 mg PO once (double dose for late presentation)
+  D: 1.5 mg PO once, repeat in 24 hr
+correct: abstain
+premise_description: |
+  FDA levonorgestrel EC label: within 72 hours (some benefit up to
+  120 hours = 5 days). At 7 days, EC is not indicated. Ulipristal
+  acetate (ella) may be effective up to 5 days; copper IUD up to 5-7
+  days. Beyond these windows, no EC option exists and management
+  shifts to pregnancy testing at 2-3 weeks.
+reference:
+  - "FDA DailyMed: Levonorgestrel (Plan B) label — within 72 hours; some benefit up to 120 hours."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

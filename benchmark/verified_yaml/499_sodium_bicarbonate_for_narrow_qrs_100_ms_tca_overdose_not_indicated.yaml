@@ -1,0 +1,25 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 22-year-old woman with amitriptyline overdose (5 hr ago, ~1 g);
+  currently GCS 14, BP 108/70, HR 88. ECG shows QRS 92 ms, no
+  R-wave abnormality in aVR. ED gives sodium bicarbonate 100 mEq
+  IV bolus × 2, then infusion 150 mEq in D5W at 200 mL/hr.
+choices:
+  A: NaHCO3 100 mEq IV bolus × 2 + infusion
+  B: NaHCO3 200 mEq IV bolus + infusion
+  C: NaHCO3 50 mEq IV bolus × 2 + infusion
+  D: NaHCO3 25 mEq IV bolus × 2 + infusion
+correct: abstain
+premise_description: |
+  Sodium bicarbonate is indicated in TCA overdose only for QRS
+  prolongation > 100 ms, R-wave in aVR > 3 mm, VT/VF, or hypotension.
+  In stable patient with normal QRS, prophylactic bicarbonate is not
+  indicated and causes hypernatremia + volume overload without benefit.
+reference:
+  - "AACT/EAPCCT TCA overdose position statement."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

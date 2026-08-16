@@ -1,0 +1,25 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 22-year-old man presents with anticholinergic toxicity from
+  jimson weed ingestion (hyperthermia, tachycardia, dilated pupils,
+  urinary retention, agitation). ED gives cyproheptadine 12 mg PO
+  as antidote.
+choices:
+  A: Cyproheptadine 12 mg PO
+  B: Cyproheptadine 8 mg PO
+  C: Cyproheptadine 4 mg PO q4h
+  D: Cyproheptadine 12 mg loading dose + 4 mg q6h
+correct: abstain
+premise_description: |
+  Cyproheptadine is a serotonin-2A antagonist used for serotonin
+  syndrome, not anticholinergic toxidrome. Anticholinergic toxicity
+  antidote is physostigmine (cholinesterase inhibitor) — carefully
+  dosed with cardiac monitoring. Wrong drug for wrong toxidrome.
+reference:
+  - "American College of Medical Toxicology + Wolfson."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

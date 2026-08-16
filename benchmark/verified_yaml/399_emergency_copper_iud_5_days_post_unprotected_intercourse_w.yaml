@@ -1,0 +1,22 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 24-year-old woman requests emergency contraception 7 days after
+  unprotected intercourse. Gynecology offers copper IUD insertion.
+choices:
+  A: Copper IUD today
+  B: Copper IUD in 24 hr with pre-medication
+  C: Ulipristal 30 mg PO + copper IUD in 5 d
+  D: Levonorgestrel 1.5 mg PO + copper IUD
+correct: abstain
+premise_description: |
+  Copper IUD is emergency contraception within 5 days of intercourse
+  (or up to 5 d post-earliest ovulation). At 7 days, window closed.
+  Correct: pregnancy testing at 2-3 wk; discuss ongoing contraception.
+reference:
+  - "ACOG Committee Opinion 707: Access to EC."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

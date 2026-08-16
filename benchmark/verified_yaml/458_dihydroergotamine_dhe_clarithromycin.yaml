@@ -1,0 +1,24 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 34-year-old woman with cluster headache on IV dihydroergotamine
+  1 mg TID for acute exacerbation is treated for community-acquired
+  pneumonia. ID prescribes clarithromycin 500 mg PO BID.
+choices:
+  A: DHE 1 mg TID + clarithromycin 500 mg BID
+  B: DHE 0.5 mg TID + clarithromycin 500 mg BID
+  C: DHE 1 mg BID + clarithromycin 500 mg BID
+  D: DHE 0.5 mg BID + clarithromycin 250 mg BID
+correct: abstain
+premise_description: |
+  FDA dihydroergotamine (Migranal, D.H.E. 45) label §Contra
+  concurrent strong CYP3A4 inhibitors (macrolides other than
+  azithromycin, azole antifungals, protease inhibitors) due to
+  ergotism (peripheral ischemia, gangrene, MI).
+reference:
+  - "FDA DailyMed: Dihydroergotamine label §Contra — CYP3A4 inhibitors."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

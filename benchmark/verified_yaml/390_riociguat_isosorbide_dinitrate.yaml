@@ -1,0 +1,20 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 58-year-old man with PAH on riociguat develops stable angina.
+  Cardiology prescribes isosorbide dinitrate 20 mg PO BID.
+choices:
+  A: 20 mg PO BID
+  B: 10 mg PO BID
+  C: 30 mg PO BID
+  D: 20 mg PO TID
+correct: abstain
+premise_description: |
+  Same riociguat + nitrate class contra.
+reference:
+  - "FDA DailyMed: Riociguat label §Contra — nitrates."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

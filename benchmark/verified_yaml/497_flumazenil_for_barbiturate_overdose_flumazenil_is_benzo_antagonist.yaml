@@ -1,0 +1,25 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 51-year-old man with phenobarbital overdose (level 85 mg/L,
+  obtunded, GCS 8, RR 8, hypotensive). ED gives flumazenil 0.2 mg
+  IV as reversal agent.
+choices:
+  A: Flumazenil 0.2 mg IV
+  B: Flumazenil 0.5 mg IV
+  C: Flumazenil 1 mg IV
+  D: Flumazenil infusion 0.1 mg/hr
+correct: abstain
+premise_description: |
+  Flumazenil is a specific antagonist at the benzodiazepine binding
+  site on GABA-A. Barbiturates bind a different GABA-A site;
+  flumazenil has no reversal effect. Wrong drug for wrong toxicity.
+  Management is supportive; phenobarbital overdose may benefit from
+  urinary alkalinization.
+reference:
+  - "ACMT + Wolfson Clinical Toxicology."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

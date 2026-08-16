@@ -1,0 +1,26 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 32-year-old woman at 36+2 weeks with anti-D alloimmunization has
+  fetal middle cerebral artery peak systolic velocity > 1.5 MoM
+  indicating fetal anemia (Hct estimated 22%). MFM plans intrauterine
+  transfusion via umbilical vein of 60 mL PRBCs today.
+choices:
+  A: IUT of 60 mL PRBCs via umbilical vein
+  B: IUT of 80 mL PRBCs via umbilical vein
+  C: IUT of 40 mL PRBCs via umbilical vein
+  D: IUT of 60 mL PRBCs via intraperitoneal route
+correct: abstain
+premise_description: |
+  Intrauterine transfusion is indicated for fetal anemia < 34-35
+  weeks when preterm delivery has meaningful morbidity. Beyond
+  34-35 weeks, delivery + neonatal exchange transfusion is safer
+  than continued IUT with its ~1% procedure-related fetal loss
+  risk. At 36+2 weeks, delivery is the intervention of choice.
+reference:
+  - "ACOG Committee Opinion 828: Management of Alloimmunization During Pregnancy."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

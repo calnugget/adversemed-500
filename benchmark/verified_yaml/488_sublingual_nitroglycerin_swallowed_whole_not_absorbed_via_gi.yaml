@@ -1,0 +1,25 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 62-year-old man in ED for chest pain (typical angina, BP 150/90).
+  Physician orders sublingual nitroglycerin 0.4 mg. Nurse hands
+  tablet with cup of water and patient swallows whole.
+choices:
+  A: Swallow whole with water
+  B: Chew and swallow with water
+  C: Crush + swallow with water
+  D: Repeat swallowed tablet every 5 min × 3
+correct: abstain
+premise_description: |
+  Sublingual nitroglycerin is formulated for buccal/sublingual
+  absorption bypassing hepatic first-pass metabolism. Swallowing
+  results in extensive first-pass metabolism and near-zero systemic
+  bioavailability. Nitroglycerin has no antianginal effect if
+  swallowed — must dissolve under tongue.
+reference:
+  - "FDA DailyMed: Nitroglycerin sublingual — administration instructions."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern. Batch 9 reviewer edit removed answer-choice leakage where needed.

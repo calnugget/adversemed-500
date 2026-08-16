@@ -1,0 +1,26 @@
+seed_index: none
+category: contraindication
+difficulty: subtle
+question: |
+  A 68-year-old woman with EGFR T790M-positive metastatic NSCLC has
+  baseline QTc 512 ms (electrolytes normal). Oncology initiates
+  osimertinib 80 mg PO daily.
+choices:
+  A: 80 mg PO daily
+  B: 40 mg PO daily (reduced)
+  C: 80 mg PO daily with weekly ECG monitoring
+  D: 80 mg PO daily with concurrent K/Mg supplementation
+correct: abstain
+premise_description: |
+  FDA osimertinib (Tagrisso) label contraindicates initiation in
+  patients with baseline QTc > 500 ms because osimertinib prolongs QT
+  and increases torsades risk. Correct behavior: correct any modifiable
+  QT causes, if QTc remains > 500 select alternative EGFR TKI or
+  chemotherapy per NCCN.
+reference:
+  - "FDA DailyMed: Osimertinib (Tagrisso) label §Warnings — QT prolongation; not recommended if baseline QTc > 500 ms."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  ⚠️ Some editions frame as §Warnings not §Contra.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,22 @@
+seed_index: none
+category: contraindication
+difficulty: expert
+question: |
+  A 44-year-old man with HIV + Child-Pugh C alcoholic cirrhosis is
+  planned for NNRTI-based ART. ID initiates nevirapine 200 mg PO
+  daily × 14 d then BID.
+choices:
+  A: 200 mg PO daily × 14 d → BID
+  B: 200 mg PO daily indefinitely (no dose escalation)
+  C: 100 mg PO daily × 14 d → 200 mg BID
+  D: 400 mg XR PO daily
+correct: abstain
+premise_description: |
+  FDA nevirapine label §Contra with severe hepatic impairment
+  (Child-Pugh C) due to markedly elevated fatal hepatotoxicity.
+reference:
+  - "FDA DailyMed: Nevirapine label §Contra — severe hepatic impairment."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

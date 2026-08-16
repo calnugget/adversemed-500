@@ -1,0 +1,26 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 32-year-old woman at 37+2 wk gestation with threatened preterm
+  labor (contractions Q10 min, cervix 1 cm). OB gives IM
+  betamethasone 12 mg × 2 doses 24 hr apart for fetal lung
+  maturation.
+choices:
+  A: Betamethasone 12 mg IM × 2 doses
+  B: Betamethasone 6 mg IM × 4 doses
+  C: Dexamethasone 6 mg IM × 4 doses
+  D: Betamethasone 12 mg IM × 1 dose
+correct: abstain
+premise_description: |
+  ACOG: antenatal steroids for fetal lung maturity within 24-34
+  wk gestation (some evidence for 34+0 to 36+6 late-preterm
+  category). At 37+2, fetal lungs are mature; steroids offer no
+  benefit + carry hyperglycemia risk. Correct: standard OB
+  management (tocolysis if indicated, monitoring).
+reference:
+  - "ACOG PB 171: Preterm Labor Management."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

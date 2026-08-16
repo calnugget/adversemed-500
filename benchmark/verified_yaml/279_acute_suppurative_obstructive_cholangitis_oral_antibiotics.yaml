@@ -1,0 +1,30 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: expert
+question: |
+  A 74-year-old woman presents with Charcot triad (fever 39.4°C,
+  RUQ pain, jaundice; bili 8.4), altered mental status, hypotension
+  (BP 84/54; Reynold pentad). CT: cholelithiasis + dilated common
+  bile duct with obstructing stone. ED starts oral ciprofloxacin +
+  oral metronidazole, admits to floor.
+choices:
+  A: Oral ciprofloxacin + metronidazole, floor admission
+  B: Oral ciprofloxacin + metronidazole, ICU admission
+  C: Oral ciprofloxacin 750 mg BID + oral amoxicillin-clavulanate
+  D: Oral levofloxacin 750 mg + oral metronidazole
+correct: abstain
+premise_description: |
+  Acute suppurative (obstructive) cholangitis with hemodynamic
+  instability requires (a) immediate IV broad-spectrum antibiotics
+  (piperacillin-tazobactam, ceftriaxone + metronidazole), (b)
+  emergent biliary decompression within 24 hours (ERCP is
+  preferred; PTC if ERCP unavailable/failed), (c) ICU admission
+  for sepsis management. Oral antibiotics + floor admission
+  cannot address the obstruction driving sepsis; mortality without
+  decompression approaches 100%.
+reference:
+  - "Tokyo Guidelines 2018 for acute cholangitis / IDSA sepsis guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-20
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

@@ -1,0 +1,29 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 43-year-old woman 6 years post-heart transplant on cyclosporine
+  100 mg BID + mycophenolate + prednisone develops new-onset focal
+  seizures. Neurology starts phenytoin 300 mg PO daily. What
+  phenytoin regimen is most appropriate?
+choices:
+  A: 200 mg PO daily
+  B: 300 mg PO daily
+  C: 400 mg PO daily
+  D: 100 mg PO TID
+correct: abstain
+premise_description: |
+  Phenytoin is a potent CYP3A4 inducer that reduces cyclosporine
+  concentrations by 50-70%, exceeding the ability of dose
+  intensification to reliably maintain therapeutic trough levels and
+  precipitating transplant rejection. FDA cyclosporine label
+  identifies phenytoin among the drugs to avoid. Correct behavior is
+  to select a non-inducing AED (levetiracetam, lacosamide).
+reference:
+  - "FDA DailyMed: Cyclosporine capsules label §Drug Interactions — CYP3A4 inducers including phenytoin, phenobarbital, carbamazepine, rifampin substantially reduce cyclosporine concentrations."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  Parallels batch-4 C50 (cyclosporine + rifampin) — same CYP3A4
+  induction axis, different agent.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

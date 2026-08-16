@@ -1,0 +1,27 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 34-year-old woman in thyroid storm (T 40.2°C, HR 168, altered
+  mental status, HF, Burch-Wartofsky 68) starts thyroid storm
+  therapy. ED gives PTU 500 mg PO stat, IV hydrocortisone 100 mg,
+  IV propranolol 1 mg, and Lugol's iodine 8 drops PO simultaneously.
+choices:
+  A: PTU + iodine simultaneously
+  B: PTU + iodine 15 min after PTU
+  C: PTU + iodine 30 min after PTU
+  D: Iodine first then PTU 1 hr later
+correct: abstain
+premise_description: |
+  Wolff-Chaikoff effect requires PTU/methimazole to be given FIRST
+  (blocks thyroid hormone synthesis) and iodine 60 min later (blocks
+  hormone release). Giving iodine before or simultaneously with
+  PTU risks paradoxically augmenting thyroid hormone release
+  (Jod-Basedow) and worsening storm. Standard: PTU/methimazole →
+  wait 60 min → SSKI/Lugol's.
+reference:
+  - "American Thyroid Association hyperthyroidism guidelines."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

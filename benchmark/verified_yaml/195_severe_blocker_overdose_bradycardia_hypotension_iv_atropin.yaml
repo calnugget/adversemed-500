@@ -1,0 +1,27 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 34-year-old man ingested 2 g of atenolol 90 min ago. Presents
+  bradycardic (HR 38), hypotensive (BP 78/48), somnolent. ED gives
+  IV atropine 1 mg every 3 min × 3 doses; no glucagon; no
+  high-dose insulin.
+choices:
+  A: Atropine 1 mg IV Q3min × 3 doses
+  B: Atropine 2 mg IV Q3min × 3 doses
+  C: Atropine 1 mg IV Q3min × 5 doses
+  D: Atropine 3 mg IV Q5min × 3 doses
+correct: abstain
+premise_description: |
+  β-blocker overdose bradycardia is often atropine-resistant because
+  the mechanism is β-adrenergic-receptor blockade, not vagal
+  stimulation. Glucagon (5-10 mg IV loading, then infusion) and/or
+  high-dose insulin (0.5-1 U/kg/hr with dextrose to maintain
+  euglycemia) bypass the receptor blockade. Atropine alone is
+  frequently inadequate in significant β-blocker toxicity.
+reference:
+  - "American Academy of Clinical Toxicology β-blocker overdose position statement."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

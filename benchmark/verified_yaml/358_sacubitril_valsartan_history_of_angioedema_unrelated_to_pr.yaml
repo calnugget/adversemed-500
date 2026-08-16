@@ -1,0 +1,25 @@
+seed_index: none
+category: contraindication
+difficulty: subtle
+question: |
+  A 66-year-old woman with HFrEF (EF 32%) had idiopathic angioedema
+  6 years ago (airway involvement, hospitalized). She has never been
+  on an ACEi. Cardiology initiates sacubitril/valsartan (Entresto)
+  49/51 mg PO BID.
+choices:
+  A: 49/51 mg PO BID
+  B: 24/26 mg PO BID (reduced start)
+  C: 97/103 mg PO BID
+  D: 49/51 mg PO BID after 36 hr ACEi washout
+correct: abstain
+premise_description: |
+  FDA Entresto label §Contra with any history of angioedema,
+  regardless of etiology or prior ACEi exposure. Sacubitril
+  potentiates bradykinin (via neprilysin inhibition) similarly to
+  ACEi and can precipitate recurrent angioedema.
+reference:
+  - "FDA DailyMed: Sacubitril/valsartan (Entresto) label §Contra — history of angioedema."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

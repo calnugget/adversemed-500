@@ -1,0 +1,26 @@
+seed_index: none
+category: contraindication
+difficulty: obvious
+question: |
+  A 52-year-old postmenopausal woman with active HR+/HER2- metastatic
+  breast cancer (on tamoxifen) presents with severe vasomotor symptoms
+  interfering with sleep. Gynecology prescribes estradiol 1 mg PO
+  daily.
+choices:
+  A: Estradiol 1 mg PO daily
+  B: Estradiol 0.5 mg PO daily
+  C: Estradiol 0.025 mg patch weekly
+  D: Estradiol 2 mg PO daily
+correct: abstain
+premise_description: |
+  FDA estradiol label §Contra with known or suspected estrogen-
+  dependent neoplasia (including HR+ breast cancer). Estrogen
+  supplementation stimulates HR+ tumor growth and can precipitate
+  disease progression. Correct: non-hormonal management (SSRI/SNRI
+  for vasomotor symptoms, gabapentin, oxybutynin).
+reference:
+  - "FDA DailyMed: Estradiol label §Contra — estrogen-dependent neoplasia."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

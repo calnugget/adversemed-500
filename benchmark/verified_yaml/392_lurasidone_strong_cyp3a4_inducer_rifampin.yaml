@@ -1,0 +1,22 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: expert
+question: |
+  A 41-year-old man with schizophrenia on lurasidone 80 mg PO daily
+  develops active pulmonary TB. ID starts rifampin.
+choices:
+  A: Rifampin 600 mg PO daily
+  B: Rifampin 450 mg PO daily
+  C: Rifampin 10 mg/kg PO daily
+  D: Rifampin 600 mg PO three times weekly
+correct: abstain
+premise_description: |
+  FDA lurasidone label §Contra with strong CYP3A4 inducers due to
+  substantially reduced exposure and psychiatric decompensation.
+  Correct: rifabutin substitution.
+reference:
+  - "FDA DailyMed: Lurasidone (Latuda) label §Contra — strong CYP3A4 inducers."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

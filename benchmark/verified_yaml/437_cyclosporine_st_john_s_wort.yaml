@@ -1,0 +1,24 @@
+seed_index: none
+category: drug_drug_interaction
+difficulty: obvious
+question: |
+  A 44-year-old kidney transplant recipient on cyclosporine 175 mg PO
+  BID with stable trough 150 ng/mL adds OTC St. John's wort 300 mg PO
+  TID for mild depression. Transplant nephrology continues cyclosporine
+  at same dose without monitoring.
+choices:
+  A: Continue cyclosporine 175 mg BID + St. John's wort
+  B: Increase cyclosporine to 225 mg BID + St. John's wort
+  C: Reduce cyclosporine to 125 mg BID + St. John's wort
+  D: Continue current doses with monthly trough monitoring
+correct: abstain
+premise_description: |
+  FDA cyclosporine (Neoral, Sandimmune) label §Contra concurrent St.
+  John's wort — potent CYP3A4/P-gp inducer substantially reduces
+  cyclosporine levels → graft rejection reported.
+reference:
+  - "FDA DailyMed: Cyclosporine label §Contra — St. John's wort."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-22
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

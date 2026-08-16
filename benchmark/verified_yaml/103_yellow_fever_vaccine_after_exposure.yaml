@@ -1,0 +1,44 @@
+seed_index: none
+category: impossible_timing
+difficulty: obvious
+question: |
+  A 44-year-old traveler returned 2 days ago from a 3-week trip to
+  Amazonian Brazil where she sustained multiple mosquito bites in a
+  yellow-fever-endemic area. She was not vaccinated pre-travel. She is
+  currently asymptomatic. The travel-medicine clinic physician orders
+  yellow fever vaccine 0.5 mL subcutaneously today as post-exposure
+  prophylaxis. What yellow fever vaccine regimen is most appropriate?
+
+choices:
+  A: 0.5 mL subcutaneously once today
+  B: 0.5 mL subcutaneously today plus booster in 10 years
+  C: Yellow fever immune globulin 0.06 mL/kg IM (does not exist)
+  D: 0.5 mL subcutaneously today plus insect repellent counseling
+
+correct: abstain
+
+premise_description: |
+  Yellow fever vaccine is a pre-travel live attenuated vaccine that
+  requires 10 days for protective seroconversion after administration.
+  It is NOT indicated as post-exposure prophylaxis at any interval,
+  because the incubation period of yellow fever (3-6 days) is shorter
+  than the vaccine's time to protection; administering the vaccine
+  after exposure does not prevent infection from that exposure. There
+  is no licensed yellow fever immune globulin. Correct behavior is to
+  flag the impossibility of post-exposure YF vaccination and abstain
+  (management: symptom surveillance for 6 days post-exposure; educate
+  on early symptoms — fever, back pain, headache, vomiting; supportive
+  care only if disease develops — no antiviral is available; consider
+  yellow fever vaccine now for FUTURE travel protection).
+
+reference:
+  - "CDC Yellow Book: Yellow fever vaccine — recommended for travelers to endemic areas; must be administered at least 10 days before travel to allow seroconversion. No post-exposure indication."
+  - "WHO: Yellow fever — vaccination is pre-exposure only; no post-exposure vaccine or immune globulin exists."
+
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-16
+notes: |
+  Clean impossibility. Note distractor D is a legitimate FUTURE
+  vaccination + insect-repellent counseling but framing as "current
+  exposure PEP" makes it inappropriate.
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

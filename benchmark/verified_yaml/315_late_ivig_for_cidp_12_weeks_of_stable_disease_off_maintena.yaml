@@ -1,0 +1,24 @@
+seed_index: none
+category: impossible_timing
+difficulty: subtle
+question: |
+  A 51-year-old woman with CIDP was on IVIG maintenance for 3 years;
+  she stopped 4 months ago and remains stable (MRC 5/5 throughout,
+  normal ambulation, no relapse). Neurology proposes IVIG 2 g/kg IV
+  induction × 5 days now.
+choices:
+  A: 2 g/kg IV over 5 days
+  B: 1 g/kg IV over 2 days
+  C: 0.4 g/kg IV × 5 days
+  D: 2 g/kg IV over 3 days
+correct: abstain
+premise_description: |
+  IVIG for CIDP is indicated for active relapse or symptomatic
+  disease. Stable disease off maintenance × 12+ weeks with normal
+  exam does not require induction; monitor for relapse.
+reference:
+  - "AAN CIDP practice parameter."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-21
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

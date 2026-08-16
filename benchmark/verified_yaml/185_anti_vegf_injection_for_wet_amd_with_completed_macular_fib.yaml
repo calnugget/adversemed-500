@@ -1,0 +1,26 @@
+seed_index: none
+category: impossible_timing
+difficulty: expert
+question: |
+  A 78-year-old woman with wet AMD diagnosed 8 mo ago (declined
+  treatment) has visual acuity of count fingers at 3 ft in affected
+  eye; OCT shows established fibrotic macular scar, no active CNV,
+  no intraretinal fluid. Ophthalmology plans intravitreal
+  ranibizumab 0.5 mg monthly × 3.
+choices:
+  A: Ranibizumab 0.5 mg monthly × 3
+  B: Bevacizumab 1.25 mg monthly × 3
+  C: Aflibercept 2 mg Q8wk × 3
+  D: Ranibizumab 0.5 mg Q8wk × 4
+correct: abstain
+premise_description: |
+  Anti-VEGF targets active neovascularization + intraretinal fluid.
+  Completed fibrotic scar without active disease: no visual benefit
+  possible; injection-related complications (endophthalmitis)
+  outweigh. Focus: low-vision rehab + fellow-eye protection.
+reference:
+  - "AAO PPP: Age-Related Macular Degeneration."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.

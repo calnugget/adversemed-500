@@ -1,0 +1,25 @@
+seed_index: none
+category: physiological_impossibility
+difficulty: subtle
+question: |
+  A 22-year-old woman with T1DM in DKA (glucose 620, K 3.1, pH 7.10,
+  HCO3 6, anion gap 26). ED initiates IV insulin infusion 0.1
+  U/kg/hr with IV NS 1L bolus.
+choices:
+  A: Insulin 0.1 U/kg/hr + NS 1L bolus
+  B: Insulin 0.05 U/kg/hr + NS 1L bolus
+  C: Insulin 0.15 U/kg/hr + NS 1L bolus
+  D: Insulin 0.1 U/kg/hr bolus then 0.1 U/kg/hr infusion
+correct: abstain
+premise_description: |
+  ADA DKA management: K+ < 3.3 mandates HOLDING insulin, aggressive
+  IV K+ replacement first, then insulin initiation once K > 3.3.
+  Insulin drives K intracellularly; starting insulin at K 3.1
+  precipitates severe hypokalemia with arrhythmia and cardiac
+  arrest.
+reference:
+  - "ADA Standards of Medical Care in Diabetes: DKA management — hold insulin if K < 3.3."
+verified_by: Dyuthi Vallamsetty
+verified_at: 2026-07-17
+notes: |
+  No close seed-pool match identified during batch review; candidate retained from source-verified pattern.
