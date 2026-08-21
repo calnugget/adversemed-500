@@ -1,5 +1,13 @@
 # AdverseMed-500
 
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21961771-blue)](https://doi.org/10.5281/zenodo.21961771)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![PyPI: adversemed-gen](https://img.shields.io/badge/pypi-adversemed--gen-orange)](https://pypi.org/project/adversemed-gen/)
+[![HF Datasets](https://img.shields.io/badge/%F0%9F%A4%97%20datasets-AdverseMed--500-yellow)](https://huggingface.co/datasets/calnugget/adversemed-500)
+[![OSF Preregistered](https://img.shields.io/badge/OSF-preregistered-green)](https://osf.io/mehu4)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/calnugget/adversemed-500/blob/main/notebooks/quickstart.ipynb)
+
 An adversarial medical-QA benchmark of **500 physician-verified false-premise
 questions** designed to stress-test large-language-model calibration on
 clinical-safety edge cases.
@@ -41,6 +49,23 @@ SHA-256(adversemed_500.jsonl) =
 ```
 
 See `benchmark/SHA256SUMS`.
+
+## Quickstart
+
+```bash
+# 1. Clone
+git clone https://github.com/calnugget/adversemed-500.git && cd adversemed-500
+
+# 2. Load the 500-item benchmark
+python -c "import json; \
+  items = [json.loads(l) for l in open('benchmark/adversemed_500.jsonl')]; \
+  print(f'{len(items)} items | first stem:', items[0]['stem'][:80])"
+
+# 3. (Optional) install the generator to mine new adversarial items
+pip install -e generator/   # or: pip install adversemed-gen  (once published)
+```
+
+Colab: click the "Open in Colab" badge above for a runnable demo notebook.
 
 ## Repo layout
 
@@ -108,7 +133,7 @@ adversemed-500/
 The full replication package (raw model responses for all 5 models × 4
 elicitation methods = 20 JSONL files, ~5.9 MB) is on Zenodo:
 
-- **Zenodo DOI**: *(will be filled in after upload)*
+- **Zenodo DOI**: [10.5281/zenodo.21961771](https://doi.org/10.5281/zenodo.21961771)
 
 Raw per-response JSONL is included on Zenodo for full reproducibility of
 the calibration analysis; the per-model summary JSONs and analysis JSONs
@@ -168,6 +193,31 @@ If you use this benchmark or code, please cite both the paper (once posted)
 and this repository via the `CITATION.cff` file. Please also cite the
 seed-benchmark sources (MedQA, MMLU-med, PubMedQA) as documented in
 `benchmark/SOURCES.md`.
+
+### BibTeX
+
+```bibtex
+@software{vallamsetty2026adversemed500,
+  author       = {Vallamsetty, Dyuthi},
+  title        = {{AdverseMed-500: A Physician-Verified False-Premise
+                   Benchmark for Measuring Miscalibration in Medical
+                   Language Models}},
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {1.0.0},
+  doi          = {10.5281/zenodo.21961771},
+  url          = {https://doi.org/10.5281/zenodo.21961771}
+}
+```
+
+### APA
+
+Vallamsetty, D. (2026). *AdverseMed-500: A Physician-Verified False-Premise Benchmark for Measuring Miscalibration in Medical Language Models* (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21961771
+
+## Contributing
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for how to add adversarial patterns,
+improve the scoring pipeline, or report issues with a specific benchmark item.
 
 ## License
 
