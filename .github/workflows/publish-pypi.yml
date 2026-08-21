@@ -1,0 +1,55 @@
+name: Publish adversemed-gen to PyPI
+
+# Triggered on any git tag matching `pypi-v*`, e.g. `pypi-v0.1.0`.
+# Does NOT publish on regular pushes or on Zenodo-mint tags (`v*`).
+#
+# Setup required BEFORE this workflow can succeed (Dyuthi does once):
+#   1. Create a PyPI account at https://pypi.org/account/register/
+#   2. On PyPI, go to Account Settings -> API Tokens -> Add API Token,
+#      scope it to the `adversemed-gen` project (create the project first
+#      by uploading v0.1.0 manually — see PYPI_PUBLISH_INSTRUCTIONS.md).
+#   3. In this GitHub repo: Settings -> Secrets and variables -> Actions
+#      -> New repository secret named `PYPI_API_TOKEN`, paste the token.
+#
+# After setup, publishing is: `git tag pypi-v0.1.1 && git push --tags`.
+
+on:
+  push:
+    tags:
+      - "pypi-v*"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-publish:
+    name: Build sdist + wheel and upload to PyPI
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/project/adversemed-gen/
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install build tooling
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install build twine
+
+      - name: Build sdist + wheel
+        run: python -m build
+
+      - name: Check built distributions
+        run: twine check dist/*
+
+      - name: Publish to PyPI
+        env:
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
+        run: twine upload --non-interactive dist/*
