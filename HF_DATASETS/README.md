@@ -44,7 +44,7 @@ dataset_info:
     - name: benchmark_source
       dtype: string
     - name: source_seed_index
-      dtype: int64
+      dtype: string
     - name: false_premise_category
       dtype: string
     - name: difficulty
@@ -118,7 +118,7 @@ English (en).
 | --------------------------- | --------- | ---------------------------------------------------------------------------- |
 | `question_id`               | string    | Stable ID (`adversemed_001` … `adversemed_500`).                             |
 | `benchmark_source`          | string    | Always `AdverseMed_500`.                                                     |
-| `source_seed_index`         | int       | Index into the seed pool (MedQA / MMLU-med / PubMedQA) that was mutated.     |
+| `source_seed_index`         | string    | Index into the seed pool (MedQA / MMLU-med / PubMedQA) that was mutated; `"none"` for questions that were not derived from a seed. Stored as string because the "none" sentinel is present alongside integer indices in the locked corpus (SHA-256 `26cae9e19...c586a9`). |
 | `false_premise_category`    | string    | One of `contraindication`, `drug_drug_interaction`, `impossible_timing`, `physiological_impossibility`. |
 | `difficulty`                | string    | One of `obvious`, `subtle`, `expert`.                                        |
 | `question`                  | string    | Clinical vignette + MCQ stem.                                                |
