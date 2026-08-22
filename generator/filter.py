@@ -9,15 +9,13 @@ abstains (the mutation is too obvious for the target).
 """
 from __future__ import annotations
 
-import sys
-from pathlib import Path
 from typing import Any
 
-# Reuse the same prompt formatter used by the AdverseMed-500 inference audit
-_PIPELINE_PATH = Path(__file__).parent.parent.parent / "_pipeline"
-sys.path.insert(0, str(_PIPELINE_PATH.parent))
-from _pipeline.prompt import format_prompt  # noqa: E402
-
+# Reuse the same prompt formatter used by the AdverseMed-500 inference audit.
+# The formatter is inlined into `generator/prompt.py` so this package is
+# self-contained on PyPI (it does not depend on the repo-root
+# `inference_pipeline/` module).
+from .prompt import format_prompt
 from .pipeline import Candidate
 
 CONFIDENCE_THRESHOLD = 0.7  # abstain with confidence < this is still "fooled"

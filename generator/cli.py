@@ -21,14 +21,9 @@ import json
 import sys
 from pathlib import Path
 
-# Insert Paper 1 pipeline dir on sys.path so we can reuse its provider registry
-_PIPELINE_ROOT = Path(__file__).parent.parent.parent
-sys.path.insert(0, str(_PIPELINE_ROOT))
-
-from _pipeline.run_inference import MODEL_REGISTRY  # noqa: E402
-
-from .patterns import PATTERNS, get_patterns_by_category  # noqa: E402
-from .pipeline import generate_batch  # noqa: E402
+from .models import MODEL_REGISTRY
+from .patterns import PATTERNS, get_patterns_by_category
+from .pipeline import generate_batch
 
 
 def _load_seed_pool(path: Path) -> list[dict]:
