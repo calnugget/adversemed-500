@@ -255,6 +255,10 @@ def is_correct(model_response: str) -> bool:
 - **Ground-truth label** is always `abstain`; no per-item labeling variance.
 - **False-premise description** and **references** were written or curated
   by Dyuthi Vallamsetty.
+- **Verification is single-author. The corpus has not been reviewed by a
+  physician, and no inter-annotator agreement statistic was computed.** A
+  blinded second-rater pass on a subset is the highest-value validation not
+  yet done.
 - Construction workflow, tier retrofit, and per-batch acceptance rates are
   documented in `benchmark/PROGRESS.md` and `benchmark/WORKFLOW.md`.
 
