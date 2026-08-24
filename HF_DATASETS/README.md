@@ -1,10 +1,10 @@
 ---
 annotations_creators:
-  - expert-generated
+  - other
 language:
   - en
 language_creators:
-  - expert-generated
+  - machine-generated
 license: cc-by-4.0
 multilinguality:
   - monolingual
@@ -80,12 +80,12 @@ dataset_info:
 
 # AdverseMed-500
 
-**AdverseMed-500** is a physician-verified false-premise medical multiple-choice
+**AdverseMed-500** is a hand-verified false-premise medical multiple-choice
 benchmark for measuring **miscalibration** in medical language models. All 500
 items embed a *false* clinical premise, and the *correct* action is to
 **abstain / flag the premise**, not to choose an A–D answer.
 
-- Paper: *AdverseMed-500: A Physician-Verified False-Premise Benchmark for
+- Paper: *AdverseMed-500: A Hand-Verified False-Premise Benchmark for
   Measuring Miscalibration in Medical Language Models.* Vallamsetty (2026).
 - Preregistration: [OSF osf.io/mehu4](https://osf.io/mehu4)
 - Repo (code + generator): https://github.com/calnugget/adversemed-500
@@ -126,7 +126,7 @@ English (en).
 | `ground_truth`              | string    | Always `abstain`.                                                            |
 | `false_premise_description` | string    | Human-readable explanation of the false premise + why abstention is correct. |
 | `verification.verified_by`  | string    | `Dyuthi Vallamsetty` (locked 2026-07-23).                                    |
-| `verification.verified_at`  | string    | ISO date of physician verification.                                          |
+| `verification.verified_at`  | string    | ISO date of verification.                                          |
 | `verification.reference`    | list[str] | CDC / FDA / clinical-guideline citations supporting the abstention rationale.|
 
 ### Splits
@@ -225,10 +225,11 @@ def is_correct(model_response: str) -> bool:
 
 - Categories skewed toward US-centric clinical guidelines (CDC, FDA);
   guidelines-based abstention rationales may differ in other jurisdictions.
-- Adjudicated by a single first-author physician-in-training (Dyuthi
-  Vallamsetty) with independent review during construction; sole-author
-  ground truth is an acknowledged limitation (see paper §Limitations and
-  `PROTOCOL.md`).
+- Adjudicated by the sole author (Dyuthi Vallamsetty), a high-school
+  student researcher, against published clinical guidelines, with
+  independent review during construction. **No physician reviewed the
+  items.** Sole-author ground truth is an acknowledged limitation (see
+  paper §Limitations and `PROTOCOL.md`).
 - Adversarial patterns are drawn from a 65-pattern library
   (`benchmark/PATTERNS.md`); patterns not enumerated there are
   under-represented.
@@ -240,7 +241,14 @@ def is_correct(model_response: str) -> bool:
 - **Seed benchmarks**: MedQA, MMLU-medical, PubMedQA (see
   `benchmark/SOURCES.md` for exact provenance + splits).
 - **Adversarial mutation**: LLM-assisted (see `generator/`); every emitted
-  item was then physician-verified before inclusion.
+  item was then hand-verified by the author against a cited guideline
+  source before inclusion.
+
+> The dataset tags reflect this: `language_creators: machine-generated`
+> because the vignettes come from LLM-assisted mutation of seed items, and
+> `annotations_creators: other` because verification was done by a single
+> high-school student author against published guidelines rather than by
+> credentialed domain experts.
 
 ## Annotations
 
@@ -266,7 +274,7 @@ The code in `generator/` is MIT-licensed (see repo `LICENSE`).
 ```bibtex
 @software{vallamsetty2026adversemed500,
   author       = {Vallamsetty, Dyuthi},
-  title        = {{AdverseMed-500: A Physician-Verified False-Premise
+  title        = {{AdverseMed-500: A Hand-Verified False-Premise
                    Benchmark for Measuring Miscalibration in Medical
                    Language Models}},
   year         = 2026,

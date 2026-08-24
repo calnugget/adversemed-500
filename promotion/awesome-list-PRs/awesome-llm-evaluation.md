@@ -12,13 +12,13 @@
 ## Markdown to add
 
 ```markdown
-- **AdverseMed-500** — 500 physician-verified false-premise medical MCQs where the correct action is *abstention*. Includes 5-model × 4-elicitation-method calibration results (ECE, AURC, abstention-rate) and a reusable generator (`adversemed-gen`) for constructing more items. MIT + CC-BY-4.0. · [repo](https://github.com/calnugget/adversemed-500) · [DOI](https://doi.org/10.5281/zenodo.21961771) · [HF](https://huggingface.co/datasets/calnugget/adversemed-500) · [OSF](https://osf.io/mehu4).
+- **AdverseMed-500** — 500 hand-verified false-premise medical MCQs where the correct action is *abstention*. Includes 5-model × 4-elicitation-method calibration results (ECE, AURC, abstention-rate) and a reusable generator (`adversemed-gen`) for constructing more items. MIT + CC-BY-4.0. · [repo](https://github.com/calnugget/adversemed-500) · [DOI](https://doi.org/10.5281/zenodo.21961771) · [HF](https://huggingface.co/datasets/calnugget/adversemed-500) · [OSF](https://osf.io/mehu4).
 ```
 
 ## PR title
 
 ```
-Add: AdverseMed-500 — physician-verified calibration/abstention benchmark for medical LLMs
+Add: AdverseMed-500 — hand-verified calibration/abstention benchmark for medical LLMs
 ```
 
 ## PR body
@@ -31,7 +31,7 @@ section.
 - Directly measures **calibration** (ECE, AURC) and **abstention
   behavior** — both under-served in the current benchmark landscape,
   especially in a high-consequence domain (medical).
-- Physician-verified ground truth with CDC / FDA / clinical-guideline
+- Hand-verified ground truth with CDC / FDA / clinical-guideline
   citations per item.
 - Ships companion inference pipeline that already reports results for
   5 frontier LLMs across 4 elicitation methods (temperature-0,

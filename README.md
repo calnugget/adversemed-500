@@ -8,13 +8,13 @@
 [![OSF Preregistered](https://img.shields.io/badge/OSF-preregistered-green)](https://osf.io/mehu4)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/calnugget/adversemed-500/blob/main/notebooks/quickstart.ipynb)
 
-An adversarial medical-QA benchmark of **500 physician-verified false-premise
+An adversarial medical-QA benchmark of **500 hand-verified false-premise
 questions** designed to stress-test large-language-model calibration on
 clinical-safety edge cases.
 
 Companion release for:
 
-> Vallamsetty, D. (2026). *AdverseMed-500: A Physician-Verified False-Premise
+> Vallamsetty, D. (2026). *AdverseMed-500: A Hand-Verified False-Premise
 > Benchmark for Measuring Miscalibration in Medical Language Models.*
 > The Harker School, San Jose, CA, USA.
 > Pre-registered at OSF: https://osf.io/mehu4
@@ -83,7 +83,7 @@ adversemed-500/
 │   ├── SHA256SUMS
 │   ├── PATTERNS.md                        # 65-pattern failure library
 │   ├── CATEGORIES.md                      # category definitions
-│   ├── RUBRIC.md                          # rubric for physician verification
+│   ├── RUBRIC.md                          # rubric for item verification
 │   ├── SOURCES.md                         # seed benchmarks and citation policy
 │   ├── WORKFLOW.md                        # construction workflow
 │   ├── PROGRESS.md                        # construction log
@@ -199,7 +199,7 @@ seed-benchmark sources (MedQA, MMLU-med, PubMedQA) as documented in
 ```bibtex
 @software{vallamsetty2026adversemed500,
   author       = {Vallamsetty, Dyuthi},
-  title        = {{AdverseMed-500: A Physician-Verified False-Premise
+  title        = {{AdverseMed-500: A Hand-Verified False-Premise
                    Benchmark for Measuring Miscalibration in Medical
                    Language Models}},
   year         = 2026,
@@ -212,7 +212,7 @@ seed-benchmark sources (MedQA, MMLU-med, PubMedQA) as documented in
 
 ### APA
 
-Vallamsetty, D. (2026). *AdverseMed-500: A Physician-Verified False-Premise Benchmark for Measuring Miscalibration in Medical Language Models* (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21961771
+Vallamsetty, D. (2026). *AdverseMed-500: A Hand-Verified False-Premise Benchmark for Measuring Miscalibration in Medical Language Models* (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21961771
 
 ## Contributing
 

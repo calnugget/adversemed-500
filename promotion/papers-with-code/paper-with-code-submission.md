@@ -12,7 +12,7 @@ paper entry and a dataset entry.
 ## Paper submission
 
 - **Title**
-  AdverseMed-500: A Physician-Verified False-Premise Benchmark for
+  AdverseMed-500: A Hand-Verified False-Premise Benchmark for
   Measuring Miscalibration in Medical Language Models
 
 - **Authors**
@@ -35,7 +35,7 @@ paper entry and a dataset entry.
 
 ## Abstract (paste)
 
-> We introduce AdverseMed-500, a physician-verified benchmark of 500
+> We introduce AdverseMed-500, a hand-verified benchmark of 500
 > false-premise multiple-choice medical questions where the correct
 > action is abstention. Each item embeds an invalid clinical premise
 > (contraindication, drug–drug interaction, impossible timing, or
@@ -63,7 +63,7 @@ accepted.
 
 - **Dataset name**: AdverseMed-500
 - **Description** (paste):
-  > 500 physician-verified false-premise medical multiple-choice
+  > 500 hand-verified false-premise medical multiple-choice
   > questions across four failure categories (contraindication,
   > drug–drug interaction, impossible timing, physiological
   > impossibility). Correct behavior is abstention. Ground-truth
@@ -132,7 +132,7 @@ Set the "official" split = `test` (only split exists).
 
 `medical LLM`, `benchmark`, `calibration`, `false premise`,
 `clinical safety`, `hallucination`, `abstention`, `adversarial`,
-`physician-verified`.
+`hand-verified`.
 
 ## Notes for the reviewer
 
@@ -141,6 +141,7 @@ Set the "official" split = `test` (only split exists).
 - Pre-registered on OSF before benchmark construction started
   (osf.io/mehu4) with Amendment #1 on file.
 - No PHI; all vignettes synthetic.
-- Physician-verified by first author (Dyuthi Vallamsetty) with
-  independent per-batch review; sole-author verification is documented as
-  a limitation.
+- Hand-verified by the sole author (Dyuthi Vallamsetty), a high-school student
+  researcher, against published clinical guidelines, with independent
+  per-batch review. **No physician reviewed the items.** Sole-author
+  verification is documented as a limitation.

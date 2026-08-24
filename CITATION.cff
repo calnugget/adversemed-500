@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use AdverseMed-500 or the generator code, please cite both the paper and this repository."
-title: "AdverseMed-500: A Physician-Verified False-Premise Benchmark for Measuring Miscalibration in Medical Language Models"
+title: "AdverseMed-500: A Hand-Verified False-Premise Benchmark for Measuring Miscalibration in Medical Language Models"
 authors:
   - family-names: Vallamsetty
     given-names: Dyuthi
@@ -22,7 +22,7 @@ keywords:
   - abstention
 preferred-citation:
   type: article
-  title: "AdverseMed-500: A Physician-Verified False-Premise Benchmark for Measuring Miscalibration in Medical Language Models"
+  title: "AdverseMed-500: A Hand-Verified False-Premise Benchmark for Measuring Miscalibration in Medical Language Models"
   authors:
     - family-names: Vallamsetty
       given-names: Dyuthi

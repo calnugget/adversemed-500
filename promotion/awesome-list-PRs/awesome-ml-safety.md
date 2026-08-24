@@ -13,7 +13,7 @@
 ## Markdown to add
 
 ```markdown
-- [AdverseMed-500](https://github.com/calnugget/adversemed-500) — 500 physician-verified false-premise medical MCQs where the correct behavior is **abstention / refusal**. Directly probes LLM behavior on adversarial inputs in a high-consequence (medical) domain. Companion calibration analysis for 5 frontier LLMs × 4 elicitation methods. MIT + CC-BY-4.0. [DOI](https://doi.org/10.5281/zenodo.21961771) · [HF Datasets](https://huggingface.co/datasets/calnugget/adversemed-500) · [OSF](https://osf.io/mehu4).
+- [AdverseMed-500](https://github.com/calnugget/adversemed-500) — 500 hand-verified false-premise medical MCQs where the correct behavior is **abstention / refusal**. Directly probes LLM behavior on adversarial inputs in a high-consequence (medical) domain. Companion calibration analysis for 5 frontier LLMs × 4 elicitation methods. MIT + CC-BY-4.0. [DOI](https://doi.org/10.5281/zenodo.21961771) · [HF Datasets](https://huggingface.co/datasets/calnugget/adversemed-500) · [OSF](https://osf.io/mehu4).
 ```
 
 ## PR title

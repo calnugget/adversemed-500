@@ -23,7 +23,7 @@ Each file in this directory is a **draft PR body** for a curated
    markdown line from the draft.
 5. **Alphabetize** within the section (or follow the list's own
    ordering rule).
-6. Commit with `Add: AdverseMed-500 (physician-verified false-premise medical benchmark)`.
+6. Commit with `Add: AdverseMed-500 (hand-verified false-premise medical benchmark)`.
 7. Push to your fork.
 8. Open the PR using the title + body from the draft file.
 

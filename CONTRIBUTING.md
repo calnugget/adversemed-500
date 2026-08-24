@@ -59,7 +59,7 @@ We welcome PRs for:
   v1.0 — same reason.
 - New questions added to the 500 (would break `manifest.json` SHA
   checksum). Additional questions land in future
-  `adversemed_v1.1_delta.jsonl` after physician re-verification.
+  `adversemed_v1.1_delta.jsonl` after verification.
 - PRs that change any reported result in the manuscript before the
   paper is published (would violate the OSF preregistration
   osf.io/mehu4).
