@@ -1,4 +1,4 @@
-# AdverseMed-500 analysis summary — inference_outputs/adversemed_500
+# AdverseMed-500 analysis summary — inference_outputs/adversemed_500_final
 
 **Runs:** 20 across 5 models × 4 methods
 
@@ -8,29 +8,29 @@
 |---|---|---|---|---|---|---|---|---|---|
 | claude-haiku-4-5 | log_probability | 0/500 | 0.000 | 0.000 | — | — | — | — | 0.0000 |
 | claude-haiku-4-5 | self_consistency | 500/500 | 0.802 | 0.802 | 0.176 | 0.173 | 0.147 | 0.160 | 0.8540 |
-| claude-haiku-4-5 | temperature_0 | 500/500 | 0.810 | 0.810 | 0.190 | 0.190 | 0.176 | 0.187 | 0.1708 |
+| claude-haiku-4-5 | temperature_0 | 500/500 | 0.810 | 0.810 | 0.159 | 0.121 | 0.027 | 0.100 | 0.1708 |
 | claude-haiku-4-5 | verbal_probability | 500/500 | 0.806 | 0.806 | 0.161 | 0.122 | 0.028 | 0.104 | 0.1708 |
 | claude-opus-4-7 | log_probability | 0/500 | 0.000 | 0.000 | — | — | — | — | 0.0000 |
 | claude-opus-4-7 | self_consistency | 499/500 | 0.930 | 0.930 | 0.068 | 0.067 | 0.049 | 0.060 | 18.7259 |
-| claude-opus-4-7 | temperature_0 | 499/500 | 0.932 | 0.932 | 0.066 | 0.066 | 0.051 | 0.062 | 3.7529 |
+| claude-opus-4-7 | temperature_0 | 499/500 | 0.932 | 0.932 | 0.089 | 0.068 | 0.032 | 0.051 | 3.7529 |
 | claude-opus-4-7 | verbal_probability | 499/500 | 0.930 | 0.930 | 0.089 | 0.069 | 0.032 | 0.049 | 3.7452 |
 | deepseek-chat | log_probability | 135/500 | 0.730 | 0.730 | 1.000 | 1.000 | 0.993 | 1.000 | 0.0177 |
 | deepseek-chat | self_consistency | 500/500 | 0.716 | 0.716 | 0.211 | 0.218 | 0.202 | 0.240 | 0.0886 |
-| deepseek-chat | temperature_0 | 500/500 | 0.728 | 0.728 | 0.272 | 0.272 | 0.254 | 0.260 | 0.0177 |
-| deepseek-chat | verbal_probability | 423/500 | 0.724 | 0.724 | 0.273 | 0.251 | 0.085 | 0.228 | 0.0177 |
+| deepseek-chat | temperature_0 | 500/500 | 0.728 | 0.728 | 0.243 | 0.224 | 0.067 | 0.191 | 0.0177 |
+| deepseek-chat | verbal_probability | 500/500 | 0.724 | 0.724 | 0.247 | 0.227 | 0.071 | 0.196 | 0.0177 |
 | gemini-2.5-pro | log_probability | 0/500 | 0.000 | 0.000 | — | — | — | — | 0.0000 |
 | gemini-2.5-pro | self_consistency | 500/500 | 0.954 | 0.954 | 0.044 | 0.044 | 0.022 | 0.031 | 0.8747 |
-| gemini-2.5-pro | temperature_0 | 500/500 | 0.946 | 0.946 | 0.054 | 0.054 | 0.030 | 0.051 | 0.1749 |
+| gemini-2.5-pro | temperature_0 | 500/500 | 0.946 | 0.946 | 0.045 | 0.046 | 0.003 | 0.016 | 0.1749 |
 | gemini-2.5-pro | verbal_probability | 500/500 | 0.946 | 0.946 | 0.045 | 0.047 | 0.006 | 0.016 | 0.1750 |
-| gpt-5.4-mini | log_probability | 474/500 | 0.786 | 0.786 | 0.148 | 0.170 | 0.302 | 0.171 | 0.0230 |
+| gpt-5.4-mini | log_probability | 500/500 | 0.786 | 0.786 | 0.171 | 0.192 | 0.328 | 0.191 | 0.0230 |
 | gpt-5.4-mini | self_consistency | 500/500 | 0.802 | 0.802 | 0.130 | 0.161 | 0.138 | 0.162 | 0.1152 |
-| gpt-5.4-mini | temperature_0 | 500/500 | 0.784 | 0.784 | 0.216 | 0.216 | 0.205 | 0.218 | 0.0230 |
+| gpt-5.4-mini | temperature_0 | 500/500 | 0.784 | 0.784 | 0.176 | 0.184 | 0.093 | 0.162 | 0.0230 |
 | gpt-5.4-mini | verbal_probability | 500/500 | 0.782 | 0.782 | 0.173 | 0.183 | 0.093 | 0.167 | 0.0230 |
 
 ## Model ranking per method (by ECE, lower = better)
 
 ### log_probability
-1. gpt-5.4-mini — ECE 0.148
+1. gpt-5.4-mini — ECE 0.171
 2. deepseek-chat — ECE 1.000
 
 ### self_consistency
@@ -41,18 +41,18 @@
 5. deepseek-chat — ECE 0.211
 
 ### temperature_0
-1. gemini-2.5-pro — ECE 0.054
-2. claude-opus-4-7 — ECE 0.066
-3. claude-haiku-4-5 — ECE 0.190
-4. gpt-5.4-mini — ECE 0.216
-5. deepseek-chat — ECE 0.272
+1. gemini-2.5-pro — ECE 0.045
+2. claude-opus-4-7 — ECE 0.089
+3. claude-haiku-4-5 — ECE 0.159
+4. gpt-5.4-mini — ECE 0.176
+5. deepseek-chat — ECE 0.243
 
 ### verbal_probability
 1. gemini-2.5-pro — ECE 0.045
 2. claude-opus-4-7 — ECE 0.089
 3. claude-haiku-4-5 — ECE 0.161
 4. gpt-5.4-mini — ECE 0.173
-5. deepseek-chat — ECE 0.273
+5. deepseek-chat — ECE 0.247
 
 ## Ranking stability (Kendall's τ across methods, PROTOCOL §8.2)
 
@@ -90,14 +90,14 @@ _High τ (> 0.7) = elicitation-invariant ranking. Low τ (< 0.3) = leaderboard i
 
 ### claude-haiku-4-5 / temperature_0
 **By category:**
-- contraindication: acc=0.847 abst=0.847 ECE=0.153 n=150
-- drug_drug_interaction: acc=0.744 abst=0.744 ECE=0.256 n=125
-- impossible_timing: acc=0.730 abst=0.730 ECE=0.270 n=100
-- physiological_impossibility: acc=0.896 abst=0.896 ECE=0.104 n=125
+- contraindication: acc=0.847 abst=0.847 ECE=0.157 n=150
+- drug_drug_interaction: acc=0.744 abst=0.744 ECE=0.224 n=125
+- impossible_timing: acc=0.730 abst=0.730 ECE=0.152 n=100
+- physiological_impossibility: acc=0.896 abst=0.896 ECE=0.107 n=125
 **By difficulty:**
-- expert: acc=0.823 abst=0.823 ECE=0.177 n=209
-- obvious: acc=0.889 abst=0.889 ECE=0.111 n=108
-- subtle: acc=0.749 abst=0.749 ECE=0.251 n=183
+- expert: acc=0.823 abst=0.823 ECE=0.152 n=209
+- obvious: acc=0.889 abst=0.889 ECE=0.109 n=108
+- subtle: acc=0.749 abst=0.749 ECE=0.195 n=183
 
 ### claude-haiku-4-5 / verbal_probability
 **By category:**
@@ -134,14 +134,14 @@ _High τ (> 0.7) = elicitation-invariant ranking. Low τ (< 0.3) = leaderboard i
 
 ### claude-opus-4-7 / temperature_0
 **By category:**
-- contraindication: acc=0.973 abst=0.973 ECE=0.027 n=150
-- drug_drug_interaction: acc=0.904 abst=0.904 ECE=0.096 n=125
-- impossible_timing: acc=0.880 abst=0.880 ECE=0.111 n=100
-- physiological_impossibility: acc=0.952 abst=0.952 ECE=0.048 n=125
+- contraindication: acc=0.973 abst=0.973 ECE=0.105 n=150
+- drug_drug_interaction: acc=0.904 abst=0.904 ECE=0.082 n=125
+- impossible_timing: acc=0.880 abst=0.880 ECE=0.100 n=100
+- physiological_impossibility: acc=0.952 abst=0.952 ECE=0.088 n=125
 **By difficulty:**
-- expert: acc=0.957 abst=0.957 ECE=0.043 n=209
-- obvious: acc=0.944 abst=0.944 ECE=0.047 n=108
-- subtle: acc=0.896 abst=0.896 ECE=0.104 n=183
+- expert: acc=0.957 abst=0.957 ECE=0.119 n=209
+- obvious: acc=0.944 abst=0.944 ECE=0.071 n=108
+- subtle: acc=0.896 abst=0.896 ECE=0.086 n=183
 
 ### claude-opus-4-7 / verbal_probability
 **By category:**
@@ -178,25 +178,25 @@ _High τ (> 0.7) = elicitation-invariant ranking. Low τ (< 0.3) = leaderboard i
 
 ### deepseek-chat / temperature_0
 **By category:**
-- contraindication: acc=0.800 abst=0.800 ECE=0.200 n=150
-- drug_drug_interaction: acc=0.696 abst=0.696 ECE=0.304 n=125
-- impossible_timing: acc=0.530 abst=0.530 ECE=0.470 n=100
-- physiological_impossibility: acc=0.832 abst=0.832 ECE=0.168 n=125
+- contraindication: acc=0.800 abst=0.800 ECE=0.178 n=150
+- drug_drug_interaction: acc=0.696 abst=0.696 ECE=0.269 n=125
+- impossible_timing: acc=0.530 abst=0.530 ECE=0.423 n=100
+- physiological_impossibility: acc=0.832 abst=0.832 ECE=0.150 n=125
 **By difficulty:**
-- expert: acc=0.742 abst=0.742 ECE=0.258 n=209
-- obvious: acc=0.778 abst=0.778 ECE=0.222 n=108
-- subtle: acc=0.683 abst=0.683 ECE=0.317 n=183
+- expert: acc=0.742 abst=0.742 ECE=0.228 n=209
+- obvious: acc=0.778 abst=0.778 ECE=0.205 n=108
+- subtle: acc=0.683 abst=0.683 ECE=0.282 n=183
 
 ### deepseek-chat / verbal_probability
 **By category:**
-- contraindication: acc=0.793 abst=0.793 ECE=0.211 n=150
-- drug_drug_interaction: acc=0.688 abst=0.688 ECE=0.292 n=125
-- impossible_timing: acc=0.530 abst=0.530 ECE=0.461 n=100
-- physiological_impossibility: acc=0.832 abst=0.832 ECE=0.179 n=125
+- contraindication: acc=0.793 abst=0.793 ECE=0.184 n=150
+- drug_drug_interaction: acc=0.688 abst=0.688 ECE=0.278 n=125
+- impossible_timing: acc=0.530 abst=0.530 ECE=0.422 n=100
+- physiological_impossibility: acc=0.832 abst=0.832 ECE=0.151 n=125
 **By difficulty:**
-- expert: acc=0.742 abst=0.742 ECE=0.259 n=209
-- obvious: acc=0.769 abst=0.769 ECE=0.241 n=108
-- subtle: acc=0.678 abst=0.678 ECE=0.307 n=183
+- expert: acc=0.742 abst=0.742 ECE=0.228 n=209
+- obvious: acc=0.769 abst=0.769 ECE=0.213 n=108
+- subtle: acc=0.678 abst=0.678 ECE=0.288 n=183
 
 ### gemini-2.5-pro / log_probability
 **By category:**
@@ -222,14 +222,14 @@ _High τ (> 0.7) = elicitation-invariant ranking. Low τ (< 0.3) = leaderboard i
 
 ### gemini-2.5-pro / temperature_0
 **By category:**
-- contraindication: acc=0.993 abst=0.993 ECE=0.007 n=150
-- drug_drug_interaction: acc=0.920 abst=0.920 ECE=0.080 n=125
-- impossible_timing: acc=0.930 abst=0.930 ECE=0.070 n=100
-- physiological_impossibility: acc=0.928 abst=0.928 ECE=0.072 n=125
+- contraindication: acc=0.993 abst=0.993 ECE=0.003 n=150
+- drug_drug_interaction: acc=0.920 abst=0.920 ECE=0.070 n=125
+- impossible_timing: acc=0.930 abst=0.930 ECE=0.054 n=100
+- physiological_impossibility: acc=0.928 abst=0.928 ECE=0.063 n=125
 **By difficulty:**
-- expert: acc=0.962 abst=0.962 ECE=0.038 n=209
-- obvious: acc=0.972 abst=0.972 ECE=0.028 n=108
-- subtle: acc=0.913 abst=0.913 ECE=0.087 n=183
+- expert: acc=0.962 abst=0.962 ECE=0.028 n=209
+- obvious: acc=0.972 abst=0.972 ECE=0.022 n=108
+- subtle: acc=0.913 abst=0.913 ECE=0.079 n=183
 
 ### gemini-2.5-pro / verbal_probability
 **By category:**
@@ -244,14 +244,14 @@ _High τ (> 0.7) = elicitation-invariant ranking. Low τ (< 0.3) = leaderboard i
 
 ### gpt-5.4-mini / log_probability
 **By category:**
-- contraindication: acc=0.933 abst=0.933 ECE=0.056 n=150
-- drug_drug_interaction: acc=0.792 abst=0.792 ECE=0.150 n=125
-- impossible_timing: acc=0.600 abst=0.600 ECE=0.337 n=100
-- physiological_impossibility: acc=0.752 abst=0.752 ECE=0.197 n=125
+- contraindication: acc=0.933 abst=0.933 ECE=0.060 n=150
+- drug_drug_interaction: acc=0.792 abst=0.792 ECE=0.177 n=125
+- impossible_timing: acc=0.600 abst=0.600 ECE=0.373 n=100
+- physiological_impossibility: acc=0.752 abst=0.752 ECE=0.215 n=125
 **By difficulty:**
-- expert: acc=0.785 abst=0.785 ECE=0.159 n=209
-- obvious: acc=0.852 abst=0.852 ECE=0.150 n=108
-- subtle: acc=0.749 abst=0.749 ECE=0.181 n=183
+- expert: acc=0.785 abst=0.785 ECE=0.186 n=209
+- obvious: acc=0.852 abst=0.852 ECE=0.170 n=108
+- subtle: acc=0.749 abst=0.749 ECE=0.197 n=183
 
 ### gpt-5.4-mini / self_consistency
 **By category:**
@@ -266,14 +266,14 @@ _High τ (> 0.7) = elicitation-invariant ranking. Low τ (< 0.3) = leaderboard i
 
 ### gpt-5.4-mini / temperature_0
 **By category:**
-- contraindication: acc=0.913 abst=0.913 ECE=0.087 n=150
-- drug_drug_interaction: acc=0.768 abst=0.768 ECE=0.232 n=125
-- impossible_timing: acc=0.630 abst=0.630 ECE=0.370 n=100
-- physiological_impossibility: acc=0.768 abst=0.768 ECE=0.232 n=125
+- contraindication: acc=0.913 abst=0.913 ECE=0.055 n=150
+- drug_drug_interaction: acc=0.768 abst=0.768 ECE=0.190 n=125
+- impossible_timing: acc=0.630 abst=0.630 ECE=0.316 n=100
+- physiological_impossibility: acc=0.768 abst=0.768 ECE=0.195 n=125
 **By difficulty:**
-- expert: acc=0.794 abst=0.794 ECE=0.206 n=209
-- obvious: acc=0.843 abst=0.843 ECE=0.157 n=108
-- subtle: acc=0.738 abst=0.738 ECE=0.262 n=183
+- expert: acc=0.794 abst=0.794 ECE=0.167 n=209
+- obvious: acc=0.843 abst=0.843 ECE=0.131 n=108
+- subtle: acc=0.738 abst=0.738 ECE=0.213 n=183
 
 ### gpt-5.4-mini / verbal_probability
 **By category:**

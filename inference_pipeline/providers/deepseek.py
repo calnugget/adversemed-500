@@ -84,7 +84,10 @@ class DeepSeekProvider(Provider):
 # --- Response parsing helpers ---------------------------------------------
 
 _ANSWER_RE = re.compile(r"ANSWER:\s*([A-E]|FLAG)\b", re.IGNORECASE)
-_CONF_RE = re.compile(r"CONFIDENCE:\s*(0\.\d+|1\.0|1|0)")
+# DeepSeek-Chat misspells the keyword as "CONFIDANCE" on ~16% of temperature_0 rows
+# (and 77 verbal_probability rows). The spelling variants are accepted so a stated
+# confidence is never silently dropped. Fixed 2026-08-24.
+_CONF_RE = re.compile(r"CONFID[AE]NC[EY]:\s*(0\.\d+|1\.0|1|0)", re.IGNORECASE)
 
 
 def _parse_answer_and_confidence(text: str) -> tuple[str, Optional[float], str]:
@@ -113,12 +116,58 @@ def _parse_answer_and_confidence(text: str) -> tuple[str, Optional[float], str]:
 
 
 def _extract_answer_logprob(content_logprobs: list, raw_token: str) -> Optional[float]:
-    """Find the token in the logprobs stream that matches the raw ANSWER token
-    (letter A/B/C/D/E or "FLAG") and return its log-probability."""
-    if not raw_token:
+    """Find the token in the logprobs stream that carries the model's ANSWER and
+    return its log-probability.
+
+    DEFECT FIXED 2026-09-28. The previous implementation accepted any token
+    satisfying `tok.startswith(raw_token)`. For `raw_token == "A"` the very first
+    token of every response — the format keyword ``ANSWER`` — satisfies that test,
+    because ``"ANSWER".startswith("A")``. Every row whose answer was "A" therefore
+    recorded the log-probability of the *prompt-forced format keyword*, which is
+    essentially certain, instead of the log-probability of the answer. The signature
+    is unmistakable in the logged runs: on GPT-5.4-mini all 59 rows answering "A"
+    have derived confidence >= 0.99994, while rows answering B/C/D range down to
+    0.017. No other letter is a prefix of "ANSWER", so only "A" was corrupted.
+
+    The fix walks the stream to the ``ANSWER`` keyword first and only considers
+    tokens *after* it, then requires an exact match on the stripped token. Multi-token
+    answers (e.g. ``FLAG`` tokenized as ``FL`` + ``AG``) are reassembled by
+    accumulating following tokens until the raw token is matched, and the
+    log-probability of the whole answer is the sum of its tokens' log-probabilities
+    (the joint probability of emitting that answer).
+
+    Returns None when the answer token cannot be located, which the analysis stage
+    already treats as a structural N/A.
+    """
+    if not raw_token or not content_logprobs:
         return None
-    for token_info in content_logprobs:
-        tok = token_info.token.strip().upper()
-        if tok == raw_token or tok.startswith(raw_token):
-            return token_info.logprob
+
+    toks = [(t.token, t.token.strip().upper(), t.logprob) for t in content_logprobs]
+
+    # Skip past the "ANSWER" format keyword (it may itself be split across tokens)
+    start = 0
+    acc = ""
+    for i, (_, up, _lp) in enumerate(toks):
+        acc += up
+        if "ANSWER" in acc:
+            start = i + 1
+            break
+
+    # Exact single-token match after the keyword
+    for _, up, lp in toks[start:]:
+        if up == raw_token:
+            return lp
+
+    # Multi-token answer: accumulate consecutive non-empty tokens until they spell it
+    buf = ""
+    total = 0.0
+    for _, up, lp in toks[start:]:
+        if not up:
+            continue
+        buf += up
+        total += lp
+        if buf == raw_token:
+            return total
+        if not raw_token.startswith(buf):
+            buf, total = "", 0.0
     return None

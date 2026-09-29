@@ -131,14 +131,21 @@ adversemed-500/
 ## What is on Zenodo (not in this repo)
 
 The full replication package (raw model responses for all 5 models × 4
-elicitation methods = 20 JSONL files, ~5.9 MB) is on Zenodo:
+elicitation methods = 20 JSONL files) is on Zenodo. **Cite the concept DOI**,
+which always resolves to the newest version:
 
-- **Zenodo DOI**: [10.5281/zenodo.21961771](https://doi.org/10.5281/zenodo.21961771)
+- **Concept DOI**: [10.5281/zenodo.21961770](https://doi.org/10.5281/zenodo.21961770)
 
-Raw per-response JSONL is included on Zenodo for full reproducibility of
-the calibration analysis; the per-model summary JSONs and analysis JSONs
-checked into this repo are sufficient to regenerate the paper's numeric
-results without touching the raw responses.
+Earlier version DOIs point at specific snapshots. `10.5281/zenodo.21961771`
+is v1.0.0 and contains **no** inference outputs; `10.5281/zenodo.22088174`
+is v1.1.0 and carries the raw and re-parsed logs.
+
+The analysis JSONs in `scoring/analysis_outputs/` regenerate the paper's
+Table 6 from the **re-parsed** inference logs. To reproduce them from the raw
+responses you need the Zenodo archive plus `inference_pipeline/reparse_confidence.py`;
+see `REPRODUCING.md`. A correction was applied to these outputs on 2026-08-24
+and is documented in [`CORRECTIONS.md`](CORRECTIONS.md) — the numbers published
+here before 2026-09-28 disagreed with the paper in six of twenty cells.
 
 ## Models evaluated
 

@@ -1,0 +1,748 @@
+{
+  "n_total_rows": 500,
+  "n_usable_rows": 0,
+  "n_parse_failures": 0,
+  "n_confidence_none": 500,
+  "n_abstain": 0,
+  "accuracy": 0.0,
+  "abstention_rate": 0.0,
+  "ece_10bin": NaN,
+  "brier_score": NaN,
+  "reliability_bins": [
+    {
+      "bin_low": 0.0,
+      "bin_high": 0.1,
+      "count": 0,
+      "mean_confidence": null,
+      "mean_accuracy": null
+    },
+    {
+      "bin_low": 0.1,
+      "bin_high": 0.2,
+      "count": 0,
+      "mean_confidence": null,
+      "mean_accuracy": null
+    },
+    {
+      "bin_low": 0.2,
+      "bin_high": 0.3,
+      "count": 0,
+      "mean_confidence": null,
+      "mean_accuracy": null
+    },
+    {
+      "bin_low": 0.3,
+      "bin_high": 0.4,
+      "count": 0,
+      "mean_confidence": null,
+      "mean_accuracy": null
+    },
+    {
+      "bin_low": 0.4,
+      "bin_high": 0.5,
+      "count": 0,
+      "mean_confidence": null,
+      "mean_accuracy": null
+    },
+    {
+      "bin_low": 0.5,
+      "bin_high": 0.6,
+      "count": 0,
+      "mean_confidence": null,
+      "mean_accuracy": null
+    },
+    {
+      "bin_low": 0.6,
+      "bin_high": 0.7,
+      "count": 0,
+      "mean_confidence": null,
+      "mean_accuracy": null
+    },
+    {
+      "bin_low": 0.7,
+      "bin_high": 0.8,
+      "count": 0,
+      "mean_confidence": null,
+      "mean_accuracy": null
+    },
+    {
+      "bin_low": 0.8,
+      "bin_high": 0.9,
+      "count": 0,
+      "mean_confidence": null,
+      "mean_accuracy": null
+    },
+    {
+      "bin_low": 0.9,
+      "bin_high": 1.0,
+      "count": 0,
+      "mean_confidence": null,
+      "mean_accuracy": null
+    }
+  ],
+  "coverage_risk": {
+    "coverages": [],
+    "risks": []
+  },
+  "aurc": NaN,
+  "risk_at_coverage_90": null,
+  "risk_at_coverage_50": null,
+  "total_cost_usd": 0.0,
+  "total_wall_ms": 0,
+  "total_api_calls": 0,
+  "by_category": {
+    "contraindication": {
+      "n_total_rows": 150,
+      "n_usable_rows": 0,
+      "n_parse_failures": 0,
+      "n_confidence_none": 150,
+      "n_abstain": 0,
+      "accuracy": 0.0,
+      "abstention_rate": 0.0,
+      "ece_10bin": NaN,
+      "brier_score": NaN,
+      "reliability_bins": [
+        {
+          "bin_low": 0.0,
+          "bin_high": 0.1,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.1,
+          "bin_high": 0.2,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.2,
+          "bin_high": 0.3,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.3,
+          "bin_high": 0.4,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.4,
+          "bin_high": 0.5,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.5,
+          "bin_high": 0.6,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.6,
+          "bin_high": 0.7,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.7,
+          "bin_high": 0.8,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.8,
+          "bin_high": 0.9,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.9,
+          "bin_high": 1.0,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        }
+      ],
+      "coverage_risk": {
+        "coverages": [],
+        "risks": []
+      },
+      "aurc": NaN,
+      "risk_at_coverage_90": null,
+      "risk_at_coverage_50": null,
+      "total_cost_usd": 0.0,
+      "total_wall_ms": 0,
+      "total_api_calls": 0
+    },
+    "drug_drug_interaction": {
+      "n_total_rows": 125,
+      "n_usable_rows": 0,
+      "n_parse_failures": 0,
+      "n_confidence_none": 125,
+      "n_abstain": 0,
+      "accuracy": 0.0,
+      "abstention_rate": 0.0,
+      "ece_10bin": NaN,
+      "brier_score": NaN,
+      "reliability_bins": [
+        {
+          "bin_low": 0.0,
+          "bin_high": 0.1,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.1,
+          "bin_high": 0.2,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.2,
+          "bin_high": 0.3,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.3,
+          "bin_high": 0.4,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.4,
+          "bin_high": 0.5,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.5,
+          "bin_high": 0.6,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.6,
+          "bin_high": 0.7,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.7,
+          "bin_high": 0.8,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.8,
+          "bin_high": 0.9,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.9,
+          "bin_high": 1.0,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        }
+      ],
+      "coverage_risk": {
+        "coverages": [],
+        "risks": []
+      },
+      "aurc": NaN,
+      "risk_at_coverage_90": null,
+      "risk_at_coverage_50": null,
+      "total_cost_usd": 0.0,
+      "total_wall_ms": 0,
+      "total_api_calls": 0
+    },
+    "impossible_timing": {
+      "n_total_rows": 100,
+      "n_usable_rows": 0,
+      "n_parse_failures": 0,
+      "n_confidence_none": 100,
+      "n_abstain": 0,
+      "accuracy": 0.0,
+      "abstention_rate": 0.0,
+      "ece_10bin": NaN,
+      "brier_score": NaN,
+      "reliability_bins": [
+        {
+          "bin_low": 0.0,
+          "bin_high": 0.1,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.1,
+          "bin_high": 0.2,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.2,
+          "bin_high": 0.3,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.3,
+          "bin_high": 0.4,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.4,
+          "bin_high": 0.5,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.5,
+          "bin_high": 0.6,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.6,
+          "bin_high": 0.7,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.7,
+          "bin_high": 0.8,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.8,
+          "bin_high": 0.9,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.9,
+          "bin_high": 1.0,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        }
+      ],
+      "coverage_risk": {
+        "coverages": [],
+        "risks": []
+      },
+      "aurc": NaN,
+      "risk_at_coverage_90": null,
+      "risk_at_coverage_50": null,
+      "total_cost_usd": 0.0,
+      "total_wall_ms": 0,
+      "total_api_calls": 0
+    },
+    "physiological_impossibility": {
+      "n_total_rows": 125,
+      "n_usable_rows": 0,
+      "n_parse_failures": 0,
+      "n_confidence_none": 125,
+      "n_abstain": 0,
+      "accuracy": 0.0,
+      "abstention_rate": 0.0,
+      "ece_10bin": NaN,
+      "brier_score": NaN,
+      "reliability_bins": [
+        {
+          "bin_low": 0.0,
+          "bin_high": 0.1,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.1,
+          "bin_high": 0.2,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.2,
+          "bin_high": 0.3,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.3,
+          "bin_high": 0.4,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.4,
+          "bin_high": 0.5,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.5,
+          "bin_high": 0.6,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.6,
+          "bin_high": 0.7,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.7,
+          "bin_high": 0.8,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.8,
+          "bin_high": 0.9,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.9,
+          "bin_high": 1.0,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        }
+      ],
+      "coverage_risk": {
+        "coverages": [],
+        "risks": []
+      },
+      "aurc": NaN,
+      "risk_at_coverage_90": null,
+      "risk_at_coverage_50": null,
+      "total_cost_usd": 0.0,
+      "total_wall_ms": 0,
+      "total_api_calls": 0
+    }
+  },
+  "by_difficulty": {
+    "expert": {
+      "n_total_rows": 209,
+      "n_usable_rows": 0,
+      "n_parse_failures": 0,
+      "n_confidence_none": 209,
+      "n_abstain": 0,
+      "accuracy": 0.0,
+      "abstention_rate": 0.0,
+      "ece_10bin": NaN,
+      "brier_score": NaN,
+      "reliability_bins": [
+        {
+          "bin_low": 0.0,
+          "bin_high": 0.1,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.1,
+          "bin_high": 0.2,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.2,
+          "bin_high": 0.3,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.3,
+          "bin_high": 0.4,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.4,
+          "bin_high": 0.5,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.5,
+          "bin_high": 0.6,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.6,
+          "bin_high": 0.7,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.7,
+          "bin_high": 0.8,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.8,
+          "bin_high": 0.9,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.9,
+          "bin_high": 1.0,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        }
+      ],
+      "coverage_risk": {
+        "coverages": [],
+        "risks": []
+      },
+      "aurc": NaN,
+      "risk_at_coverage_90": null,
+      "risk_at_coverage_50": null,
+      "total_cost_usd": 0.0,
+      "total_wall_ms": 0,
+      "total_api_calls": 0
+    },
+    "obvious": {
+      "n_total_rows": 108,
+      "n_usable_rows": 0,
+      "n_parse_failures": 0,
+      "n_confidence_none": 108,
+      "n_abstain": 0,
+      "accuracy": 0.0,
+      "abstention_rate": 0.0,
+      "ece_10bin": NaN,
+      "brier_score": NaN,
+      "reliability_bins": [
+        {
+          "bin_low": 0.0,
+          "bin_high": 0.1,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.1,
+          "bin_high": 0.2,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.2,
+          "bin_high": 0.3,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.3,
+          "bin_high": 0.4,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.4,
+          "bin_high": 0.5,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.5,
+          "bin_high": 0.6,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.6,
+          "bin_high": 0.7,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.7,
+          "bin_high": 0.8,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.8,
+          "bin_high": 0.9,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.9,
+          "bin_high": 1.0,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        }
+      ],
+      "coverage_risk": {
+        "coverages": [],
+        "risks": []
+      },
+      "aurc": NaN,
+      "risk_at_coverage_90": null,
+      "risk_at_coverage_50": null,
+      "total_cost_usd": 0.0,
+      "total_wall_ms": 0,
+      "total_api_calls": 0
+    },
+    "subtle": {
+      "n_total_rows": 183,
+      "n_usable_rows": 0,
+      "n_parse_failures": 0,
+      "n_confidence_none": 183,
+      "n_abstain": 0,
+      "accuracy": 0.0,
+      "abstention_rate": 0.0,
+      "ece_10bin": NaN,
+      "brier_score": NaN,
+      "reliability_bins": [
+        {
+          "bin_low": 0.0,
+          "bin_high": 0.1,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.1,
+          "bin_high": 0.2,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.2,
+          "bin_high": 0.3,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.3,
+          "bin_high": 0.4,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.4,
+          "bin_high": 0.5,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.5,
+          "bin_high": 0.6,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.6,
+          "bin_high": 0.7,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.7,
+          "bin_high": 0.8,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.8,
+          "bin_high": 0.9,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        },
+        {
+          "bin_low": 0.9,
+          "bin_high": 1.0,
+          "count": 0,
+          "mean_confidence": null,
+          "mean_accuracy": null
+        }
+      ],
+      "coverage_risk": {
+        "coverages": [],
+        "risks": []
+      },
+      "aurc": NaN,
+      "risk_at_coverage_90": null,
+      "risk_at_coverage_50": null,
+      "total_cost_usd": 0.0,
+      "total_wall_ms": 0,
+      "total_api_calls": 0
+    }
+  }
+}

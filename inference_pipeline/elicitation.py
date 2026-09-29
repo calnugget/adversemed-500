@@ -52,7 +52,7 @@ def elicit_log_probability(provider: Provider, prompt: str) -> ElicitationOutput
             total_wall_ms=0,
         )
     resp = provider.infer(prompt, temperature=0.0, return_logprobs=True)
-    confidence = math.exp(resp.log_probability) if resp.log_probability is not None else None
+    confidence = _logprob_to_confidence(resp.log_probability)
     return ElicitationOutput(
         method="log_probability",
         chosen_answer=resp.chosen_answer,
@@ -93,9 +93,16 @@ def elicit_self_consistency(provider: Provider, prompt: str, n_samples: int = 5)
 
 
 def elicit_temperature_0(provider: Provider, prompt: str) -> ElicitationOutput:
-    """Single temp=0 baseline. Confidence = 1.0 if answered, 0.0 if parse failure."""
+    """Single temp=0 decode; uses the CONFIDENCE the model states in-band.
+
+    DEVIATION from PROTOCOL Sec.6, which specified a constant 1.0. The constant made
+    ECE = Brier = 1 - accuracy identically, so three of the four reported statistics
+    were restatements of accuracy. Disclosed in the deviations appendix. Note this
+    method shares its API call with verbal_probability, so it is reported as a
+    reproducibility replicate rather than an independent elicitation method.
+    """
     resp = provider.infer(prompt, temperature=0.0)
-    confidence = 1.0 if resp.chosen_answer not in ("parse_failure", "") else 0.0
+    confidence = resp.verbal_confidence
     return ElicitationOutput(
         method="temperature_0",
         chosen_answer=resp.chosen_answer,
@@ -108,6 +115,41 @@ def elicit_temperature_0(provider: Provider, prompt: str) -> ElicitationOutput:
 
 
 # --- Helpers --------------------------------------------------------------
+
+# Largest positive log-probability we treat as floating-point noise rather than a
+# malformed response. Empirically every out-of-range value observed in the OpenAI
+# log-probability runs was an exact integer multiple of 2**-18 (the serialization
+# grid), the largest being 7 * 2**-18 = 2.67e-05. A tolerance of 2**-10 is ~39x
+# the largest observed excess and still ~3 orders of magnitude below the width of
+# the narrowest ECE bin (0.1), so it cannot move a row between bins.
+_LOGPROB_POSITIVE_TOLERANCE = 2.0 ** -10
+
+
+def _logprob_to_confidence(log_probability: Optional[float]) -> Optional[float]:
+    """Derive a confidence in [0,1] from a token log-probability.
+
+    A log-probability is mathematically non-positive, so exp() of it is at most 1.
+    In practice provider APIs return log-probabilities quantized onto a binary grid,
+    and a token whose true probability is 1.0 can serialize as a *small positive*
+    number: exp() then yields e.g. 1.0000267, which is not a valid probability.
+
+    The earlier pipeline computed a bare exp() and left such values in the row; the
+    analysis stage then discarded them with a `0.0 <= conf <= 1.0` range filter.
+    That silently dropped the most-confident rows, which is exactly the wrong
+    direction for a calibration metric. We instead repair the derivation: a positive
+    log-probability within the quantization tolerance is clamped to 0.0 (confidence
+    exactly 1.0), which is the value the provider was trying to express. A positive
+    log-probability *beyond* the tolerance is not noise and is rejected as None, so a
+    genuinely malformed response still cannot masquerade as certainty.
+    """
+    if log_probability is None:
+        return None
+    if math.isnan(log_probability):
+        return None
+    if log_probability > _LOGPROB_POSITIVE_TOLERANCE:
+        return None
+    return math.exp(min(log_probability, 0.0))
+
 
 def _response_snapshot(resp: InferenceResponse) -> dict:
     """A JSON-safe snapshot of the response for audit trails."""

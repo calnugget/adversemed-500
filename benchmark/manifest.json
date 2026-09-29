@@ -27,10 +27,59 @@
         "physiological_impossibility": 125
       },
       "difficulties": {
+        "expert": 209,
         "obvious": 108,
-        "subtle": 183,
-        "expert": 209
+        "subtle": 183
       }
+    },
+    "adversemed_500_v1.2.jsonl": {
+      "rows": 500,
+      "sha256": "6ea91511913f80fc3e9c0afde97814bd5c2ca2660805e5ad84cc529283d2edeb",
+      "categories": {
+        "contraindication": 150,
+        "drug_drug_interaction": 125,
+        "impossible_timing": 100,
+        "physiological_impossibility": 125
+      },
+      "difficulties": {
+        "expert": 209,
+        "obvious": 108,
+        "subtle": 183
+      }
+    },
+    "adversemed_500_control_v1.jsonl": {
+      "rows": 285,
+      "sha256": "8edbd2c1a7e76babd75210402553a2f028a0937186f37d0be8c65c07c040d9c5",
+      "categories": {
+        "contraindication": 101,
+        "drug_drug_interaction": 68,
+        "impossible_timing": 59,
+        "physiological_impossibility": 57
+      },
+      "difficulties": {
+        "expert": 87,
+        "obvious": 74,
+        "subtle": 124
+      }
+    },
+    "adversemed_500_control_v1.preshuffle.jsonl": {
+      "rows": 188,
+      "sha256": "5b9bf455371d07d558ce1869a5680bc3c7e6e79ec34d0dbf6787d796203db335",
+      "categories": {
+        "contraindication": 69,
+        "drug_drug_interaction": 48,
+        "impossible_timing": 38,
+        "physiological_impossibility": 33
+      },
+      "difficulties": {
+        "expert": 55,
+        "obvious": 48,
+        "subtle": 85
+      }
+    },
+    "twin_review_log.jsonl": {
+      "rows": 740,
+      "sha256": "be37dd7a305ef25a0710f1aab701f2cc05e1c3701260dfae9cda45d1564dfc8d"
     }
   }
 }
