@@ -62,7 +62,7 @@ python -c "import json; \
   print(f'{len(items)} items | first stem:', items[0]['stem'][:80])"
 
 # 3. (Optional) install the generator to mine new adversarial items
-pip install -e generator/   # or: pip install adversemed-gen  (once published)
+pip install -e .   # or: pip install adversemed-gen  (once published)
 ```
 
 Colab: click the "Open in Colab" badge above for a runnable demo notebook.
@@ -101,7 +101,7 @@ adversemed-500/
 │       ├── 001_mmr_pregnancy_contraindication.yaml
 │       ├── ...
 │       └── 500_*.yaml
-├── generator/                             # adversemed-gen: mutate → filter → verify
+├── adversemed_gen/                        # adversemed-gen: mutate → filter → verify
 │   ├── README.md
 │   ├── DESIGN.md
 │   ├── V0_1_LIMITATIONS.md

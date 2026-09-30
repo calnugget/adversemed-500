@@ -132,8 +132,7 @@ def emit_yaml(
 
 def _hash_of(rel_path: str) -> str:
     """SHA-256 of a file relative to the adversemed-gen root, for reproducibility."""
-    root = Path(__file__).parent.parent
-    path = root / rel_path
+    path = Path(__file__).parent / rel_path
     if not path.exists():
         return f"missing:{rel_path}"
     return hashlib.sha256(path.read_bytes()).hexdigest()[:16]

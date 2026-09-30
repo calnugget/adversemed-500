@@ -240,7 +240,7 @@ def is_correct(model_response: str) -> bool:
 
 - **Seed benchmarks**: MedQA, MMLU-medical, PubMedQA (see
   `benchmark/SOURCES.md` for exact provenance + splits).
-- **Adversarial mutation**: LLM-assisted (see `generator/`); every emitted
+- **Adversarial mutation**: LLM-assisted (see `adversemed_gen/`); every emitted
   item was then hand-verified by the author against a cited guideline
   source before inclusion.
 
@@ -271,7 +271,7 @@ None. All vignettes are synthetic; no PHI.
 **CC-BY-4.0** for the dataset. Please cite the paper and the seed sources
 (MedQA / MMLU-med / PubMedQA) per their respective terms.
 
-The code in `generator/` is MIT-licensed (see repo `LICENSE`).
+The code in `adversemed_gen/` is MIT-licensed (see repo `LICENSE`); the dataset files are CC BY 4.0 (see repo `LICENSE-DATA`).
 
 ## Citation
 

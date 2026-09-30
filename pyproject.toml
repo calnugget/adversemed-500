@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "adversemed-gen"
-version = "0.1.1"
+version = "0.2.0"
 description = "LLM-assisted generator for adversarial medical multiple-choice questions where the correct behavior is abstention."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -54,16 +54,20 @@ Homepage      = "https://github.com/calnugget/adversemed-500"
 Repository    = "https://github.com/calnugget/adversemed-500"
 "Bug Tracker" = "https://github.com/calnugget/adversemed-500/issues"
 "OSF Project" = "https://osf.io/mehu4"
-Dataset       = "https://doi.org/10.5281/zenodo.21961771"
+# Concept DOI: always resolves to the newest archived version. 0.1.x pointed at the
+# v1.0.0 version DOI (21961771), which contains no inference outputs.
+Dataset       = "https://doi.org/10.5281/zenodo.21961770"
 
 [project.scripts]
-adversemed-gen = "generator.cli:main"
+adversemed-gen = "adversemed_gen.cli:main"
 
 [tool.setuptools]
-# The importable Python package is `generator/` at the repo root.
-# We ship it verbatim; the `adversemed-gen` distribution name is the PyPI-visible name.
-packages = ["generator"]
+# The importable Python package is `adversemed_gen/` at the repo root, matching the
+# `adversemed-gen` distribution name. Through 0.1.1 this directory was called `generator`,
+# so the wheel installed a top-level module of that dangerously generic name while
+# `import adversemed_gen` raised ModuleNotFoundError.
+packages = ["adversemed_gen"]
 include-package-data = true
 
 [tool.setuptools.package-data]
-generator = ["prompts/*.md"]
+adversemed_gen = ["prompts/*.md"]

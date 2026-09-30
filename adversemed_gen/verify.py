@@ -13,7 +13,7 @@ from typing import Any
 
 from .pipeline import Candidate
 
-PROMPT_PATH = Path(__file__).parent.parent / "prompts" / "verify_prompt.md"
+PROMPT_PATH = Path(__file__).parent / "prompts" / "verify_prompt.md"
 
 VERDICT_RE = re.compile(r"^\s*VERDICT:\s*(YES|NO)\b", re.MULTILINE | re.IGNORECASE)
 CONF_RE = re.compile(r"^\s*CONFIDENCE:\s*(0\.\d+|1\.0|1|0)", re.MULTILINE)

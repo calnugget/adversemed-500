@@ -2,7 +2,7 @@
 
 Thank you for your interest in AdverseMed-500. This repo ships both a
 **frozen benchmark** (the 500 verified questions used in the paper) and
-an **active generator** (`generator/`, the `adversemed-gen` PyPI
+an **active generator** (`adversemed_gen/`, the `adversemed-gen` PyPI
 package). Contribution rules differ between the two.
 
 ## What we welcome
@@ -23,17 +23,17 @@ package). Contribution rules differ between the two.
 - **Reference-link drift**: if a URL in `verification.reference` is
   dead, open an issue with the archived (wayback) URL as a replacement.
 
-### Generator improvements (`generator/`)
+### Generator improvements (`adversemed_gen/`)
 
 We welcome PRs for:
 
-- **New adversarial patterns** — add to `generator/patterns.py` and
+- **New adversarial patterns** — add to `adversemed_gen/patterns.py` and
   `benchmark/PATTERNS.md`. Every new pattern needs:
   - Category (`contraindication` | `drug_drug_interaction` |
     `impossible_timing` | `physiological_impossibility`).
   - Justification (why is this a distinct adversarial mode?).
   - At least one example question stem that exhibits the pattern.
-- **Prompt improvements** for `generator/prompts/*.md` (mutator,
+- **Prompt improvements** for `adversemed_gen/prompts/*.md` (mutator,
   verifier, self-test).
 - **Provider additions** for `inference_pipeline/providers/*.py`.
 - **New elicitation methods** in `inference_pipeline/elicitation.py`.
@@ -94,7 +94,7 @@ https://github.com/calnugget/adversemed-500/issues with:
 ## Adding a new adversarial pattern (worked example)
 
 ```python
-# 1. Add to generator/patterns.py
+# 1. Add to adversemed_gen/patterns.py
 {
     "name": "qt_prolongation_stacking",
     "category": "drug_drug_interaction",
@@ -122,7 +122,7 @@ https://github.com/calnugget/adversemed-500/issues with:
 
 ```bash
 # 3. Verify the pipeline still parses PATTERNS.md
-python -c "from generator.patterns import PATTERNS; print(len(PATTERNS), 'patterns loaded')"
+python -c "from adversemed_gen.patterns import PATTERNS; print(len(PATTERNS), 'patterns loaded')"
 ```
 
 ## Physician verification

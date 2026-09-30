@@ -15,7 +15,7 @@ import yaml
 
 from .pipeline import Candidate
 
-PROMPT_PATH = Path(__file__).parent.parent / "prompts" / "mutate_prompt.md"
+PROMPT_PATH = Path(__file__).parent / "prompts" / "mutate_prompt.md"
 
 
 def _load_prompt() -> str:

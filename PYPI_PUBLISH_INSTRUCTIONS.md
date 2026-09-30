@@ -74,10 +74,10 @@ after the initial upload.
 Once setup is done, every new release is one command:
 
 ```bash
-# 1. Bump the version in pyproject.toml AND generator/__init__.py
+# 1. Bump the version in pyproject.toml AND adversemed_gen/__init__.py
 #    (both list "0.1.0"; keep them in sync).
 # 2. Commit the version bump.
-git add pyproject.toml generator/__init__.py
+git add pyproject.toml adversemed_gen/__init__.py
 git commit -m "Bump adversemed-gen to 0.1.1"
 
 # 3. Tag with the pypi-v prefix and push.
@@ -129,5 +129,5 @@ If a release turns out to be broken:
 - `0.y.0` — beta; API changes announced in CHANGELOG.
 - `1.0.0` — first stable release; semver applies from here.
 
-Keep `pyproject.toml` `version` and `generator/__init__.py` `__version__` in
+Keep `pyproject.toml` `version` and `adversemed_gen/__init__.py` `__version__` in
 sync — mismatches will trip up downstream tooling.
