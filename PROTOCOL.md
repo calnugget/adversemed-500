@@ -254,11 +254,18 @@ Any deviation logged as manuscript amendment.
 |---|---|---|---|---|---|
 | 1 | 2026-07-21 | 2026-07-21 | Timeline-only: extend AdverseMed-500 construction window from 2026-07-26 to 2026-08-30 (§9 W3). No change to sample size, benchmark composition, hypotheses, metrics, or analysis plan. | Original W2–W3 window was set when paper was scoped as AdverseMed-200 pilot; scope was strengthened to AdverseMed-500 on 2026-07-05 without corresponding timeline extension. Realized pace across batches 1-7 confirmed 500 required more calendar time than the original window allowed. Filed prior to any AdverseMed-500 inference; extension derived from realized construction pace, not from any partial-result peeks. | `osf.io/mehu4` update dated 2026-07-21; full text in `protocol/osf_amendment_v1_draft.md`. Amendment served its purpose — construction actually completed 2026-07-23, 38 days ahead of the amended deadline. |
 
-*(No further amendments to date. A Bedrock-substitution amendment was drafted on 2026-08-01 in response to a briefly-anticipated Anthropic credit shortfall, then reversed the same day when the first author funded the account. The Bedrock proxy code remains in the pipeline as documented backup infrastructure — see §4 backup access path note — but the pre-registered 5-model set is unchanged.)*
+| 2 | 2026-08-25 | 2026-08-25 | Metadata-only release of the registered corpus (AdverseMed-500 v1.1): adds resolvable source URLs for 338 of 577 reference strings across 310 of 500 items. No registered hypothesis, analysis or benchmark item affected; v1.0 is byte-identical and remains the basis of all reported results. | Filed so the registration reflects the artifact's state at release. | `6a8cdcb84e08e170ee3fa465` |
+| 3 | 2026-08-25 | 2026-08-25 | Removes the archival DOI printed in Amendment #2's release paragraph, which resolved to a record naming the author while this registration is cited from double-blind manuscripts via an anonymized view-only link. No substantive claim in #2 changed or withdrawn. | Anonymity protection; the view-only link hides contributor metadata but cannot redact free text. | `6a8cddb34dd57755198d8a1a` |
+
+*(Three amendments, all filed and approved. The registration carries four schema responses: the
+original plus these three, verified against the OSF API on 2026-09-29. A Bedrock-substitution
+amendment was drafted on 2026-08-01 in response to a briefly-anticipated Anthropic credit
+shortfall, then reversed the same day when the first author funded the account; it was never
+filed.)*
 
 ---
 
-## 14. Dyuthi's role (first author, sole executor)
+## 15. Dyuthi's role (first author, sole executor)
 
 Dyuthi decides:
 - Model set (drop Meditron? swap for BioMistral?)
