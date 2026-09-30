@@ -1,0 +1,60 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Dyuthi Vallamsetty
+
+WHAT THIS COVERS
+
+The AdverseMed-500 dataset and its derived data files, namely:
+
+  benchmark/adversemed_500.jsonl
+  benchmark/adversemed_500_v1.2.jsonl
+  benchmark/adversemed_500_control_v1.jsonl
+  benchmark/adversemed_500_control_v1.preshuffle.jsonl
+  benchmark/contraindication_subtypes.json
+  benchmark/twin_review_log.jsonl
+  benchmark/manifest.json
+  the 500 per-item YAML verification records
+  scoring/analysis_outputs/
+
+are licensed under the Creative Commons Attribution 4.0 International
+License. The full legal text is at:
+
+  https://creativecommons.org/licenses/by/4.0/legalcode
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, link to the license,
+and indicate if changes were made.
+
+WHAT THIS DOES NOT COVER
+
+The software in this repository -- the generator, the inference pipeline,
+the scoring and analysis code -- remains under the MIT License. See LICENSE.
+This split (MIT for code, CC BY 4.0 for data) is the conventional one for a
+release that is both a dataset and a toolchain.
+
+A NOTE ON THE EARLIER MIT GRANT
+
+Before 2026-09-29 this repository stated MIT for the data files as well as
+the code, while the Hugging Face dataset card stated CC BY 4.0. This file
+resolves that inconsistency in favour of the split described above.
+
+Nothing here revokes anything. Any MIT grant already received for these data
+files stands; a permission once given under an irrevocable license cannot be
+withdrawn, and no attempt to withdraw it is made or implied. If you obtained
+these files under MIT, you may continue to rely on MIT. Going forward the
+data files are offered under CC BY 4.0, whose attribution requirement is
+substantially the same obligation.
+
+HOW TO ATTRIBUTE
+
+  Vallamsetty, D. (2026). AdverseMed-500: A Benchmark to Help Researchers
+  Vet LLMs for Medical Use. https://doi.org/10.5281/zenodo.21961770
+
+SEED SOURCES
+
+AdverseMed-500 items are newly written. They were drafted from public
+MedQA-style seeds and each item is anchored to a publicly accessible
+reference document (an FDA label section, a CDC/ACIP guideline, or a US
+specialty-society statement); three items also cite UpToDate, which is
+subscription-only. If you reuse material derived from the MedQA, MMLU-Med or
+PubMedQA seed corpora, cite those sources under their own terms as well.

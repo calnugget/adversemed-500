@@ -1,0 +1,470 @@
+{
+  "benchmark": "adversemed_500",
+  "source": "derived from adversemed_500_final by _pipeline/build_difficulty_breakdown.py",
+  "note": "Accuracy is chosen_answer == ground_truth and does not depend on stated confidence, so these values are unaffected by the confidence re-parse and the log-probability correction recorded in CORRECTIONS.md.",
+  "strata": [
+    "obvious",
+    "subtle",
+    "expert"
+  ],
+  "corpus_totals": {
+    "obvious": {
+      "n": 2160,
+      "n_correct": 1606,
+      "accuracy": 0.7435
+    },
+    "subtle": {
+      "n": 3660,
+      "n_correct": 2444,
+      "accuracy": 0.6678
+    },
+    "expert": {
+      "n": 4180,
+      "n_correct": 3004,
+      "accuracy": 0.7187
+    }
+  },
+  "n_cells": 20,
+  "cells": {
+    "Claude Haiku 4.5__log_probability": {
+      "obvious": {
+        "n": 108,
+        "n_correct": 0,
+        "accuracy": 0.0
+      },
+      "subtle": {
+        "n": 183,
+        "n_correct": 0,
+        "accuracy": 0.0
+      },
+      "expert": {
+        "n": 209,
+        "n_correct": 0,
+        "accuracy": 0.0
+      },
+      "all": {
+        "n": 500,
+        "n_correct": 0,
+        "accuracy": 0.0
+      }
+    },
+    "Claude Haiku 4.5__self_consistency": {
+      "obvious": {
+        "n": 108,
+        "n_correct": 95,
+        "accuracy": 0.8796
+      },
+      "subtle": {
+        "n": 183,
+        "n_correct": 135,
+        "accuracy": 0.7377
+      },
+      "expert": {
+        "n": 209,
+        "n_correct": 171,
+        "accuracy": 0.8182
+      },
+      "all": {
+        "n": 500,
+        "n_correct": 401,
+        "accuracy": 0.802
+      }
+    },
+    "Claude Haiku 4.5__temperature_0": {
+      "obvious": {
+        "n": 108,
+        "n_correct": 96,
+        "accuracy": 0.8889
+      },
+      "subtle": {
+        "n": 183,
+        "n_correct": 137,
+        "accuracy": 0.7486
+      },
+      "expert": {
+        "n": 209,
+        "n_correct": 172,
+        "accuracy": 0.823
+      },
+      "all": {
+        "n": 500,
+        "n_correct": 405,
+        "accuracy": 0.81
+      }
+    },
+    "Claude Haiku 4.5__verbal_probability": {
+      "obvious": {
+        "n": 108,
+        "n_correct": 96,
+        "accuracy": 0.8889
+      },
+      "subtle": {
+        "n": 183,
+        "n_correct": 136,
+        "accuracy": 0.7432
+      },
+      "expert": {
+        "n": 209,
+        "n_correct": 171,
+        "accuracy": 0.8182
+      },
+      "all": {
+        "n": 500,
+        "n_correct": 403,
+        "accuracy": 0.806
+      }
+    },
+    "Claude Opus 4.7__log_probability": {
+      "obvious": {
+        "n": 108,
+        "n_correct": 0,
+        "accuracy": 0.0
+      },
+      "subtle": {
+        "n": 183,
+        "n_correct": 0,
+        "accuracy": 0.0
+      },
+      "expert": {
+        "n": 209,
+        "n_correct": 0,
+        "accuracy": 0.0
+      },
+      "all": {
+        "n": 500,
+        "n_correct": 0,
+        "accuracy": 0.0
+      }
+    },
+    "Claude Opus 4.7__self_consistency": {
+      "obvious": {
+        "n": 108,
+        "n_correct": 102,
+        "accuracy": 0.9444
+      },
+      "subtle": {
+        "n": 183,
+        "n_correct": 164,
+        "accuracy": 0.8962
+      },
+      "expert": {
+        "n": 209,
+        "n_correct": 199,
+        "accuracy": 0.9522
+      },
+      "all": {
+        "n": 500,
+        "n_correct": 465,
+        "accuracy": 0.93
+      }
+    },
+    "Claude Opus 4.7__temperature_0": {
+      "obvious": {
+        "n": 108,
+        "n_correct": 102,
+        "accuracy": 0.9444
+      },
+      "subtle": {
+        "n": 183,
+        "n_correct": 164,
+        "accuracy": 0.8962
+      },
+      "expert": {
+        "n": 209,
+        "n_correct": 200,
+        "accuracy": 0.9569
+      },
+      "all": {
+        "n": 500,
+        "n_correct": 466,
+        "accuracy": 0.932
+      }
+    },
+    "Claude Opus 4.7__verbal_probability": {
+      "obvious": {
+        "n": 108,
+        "n_correct": 102,
+        "accuracy": 0.9444
+      },
+      "subtle": {
+        "n": 183,
+        "n_correct": 164,
+        "accuracy": 0.8962
+      },
+      "expert": {
+        "n": 209,
+        "n_correct": 199,
+        "accuracy": 0.9522
+      },
+      "all": {
+        "n": 500,
+        "n_correct": 465,
+        "accuracy": 0.93
+      }
+    },
+    "DeepSeek-Chat__log_probability": {
+      "obvious": {
+        "n": 108,
+        "n_correct": 84,
+        "accuracy": 0.7778
+      },
+      "subtle": {
+        "n": 183,
+        "n_correct": 125,
+        "accuracy": 0.6831
+      },
+      "expert": {
+        "n": 209,
+        "n_correct": 156,
+        "accuracy": 0.7464
+      },
+      "all": {
+        "n": 500,
+        "n_correct": 365,
+        "accuracy": 0.73
+      }
+    },
+    "DeepSeek-Chat__self_consistency": {
+      "obvious": {
+        "n": 108,
+        "n_correct": 82,
+        "accuracy": 0.7593
+      },
+      "subtle": {
+        "n": 183,
+        "n_correct": 122,
+        "accuracy": 0.6667
+      },
+      "expert": {
+        "n": 209,
+        "n_correct": 154,
+        "accuracy": 0.7368
+      },
+      "all": {
+        "n": 500,
+        "n_correct": 358,
+        "accuracy": 0.716
+      }
+    },
+    "DeepSeek-Chat__temperature_0": {
+      "obvious": {
+        "n": 108,
+        "n_correct": 84,
+        "accuracy": 0.7778
+      },
+      "subtle": {
+        "n": 183,
+        "n_correct": 125,
+        "accuracy": 0.6831
+      },
+      "expert": {
+        "n": 209,
+        "n_correct": 155,
+        "accuracy": 0.7416
+      },
+      "all": {
+        "n": 500,
+        "n_correct": 364,
+        "accuracy": 0.728
+      }
+    },
+    "DeepSeek-Chat__verbal_probability": {
+      "obvious": {
+        "n": 108,
+        "n_correct": 83,
+        "accuracy": 0.7685
+      },
+      "subtle": {
+        "n": 183,
+        "n_correct": 124,
+        "accuracy": 0.6776
+      },
+      "expert": {
+        "n": 209,
+        "n_correct": 155,
+        "accuracy": 0.7416
+      },
+      "all": {
+        "n": 500,
+        "n_correct": 362,
+        "accuracy": 0.724
+      }
+    },
+    "GPT-5.4-mini__log_probability": {
+      "obvious": {
+        "n": 108,
+        "n_correct": 92,
+        "accuracy": 0.8519
+      },
+      "subtle": {
+        "n": 183,
+        "n_correct": 137,
+        "accuracy": 0.7486
+      },
+      "expert": {
+        "n": 209,
+        "n_correct": 164,
+        "accuracy": 0.7847
+      },
+      "all": {
+        "n": 500,
+        "n_correct": 393,
+        "accuracy": 0.786
+      }
+    },
+    "GPT-5.4-mini__self_consistency": {
+      "obvious": {
+        "n": 108,
+        "n_correct": 90,
+        "accuracy": 0.8333
+      },
+      "subtle": {
+        "n": 183,
+        "n_correct": 141,
+        "accuracy": 0.7705
+      },
+      "expert": {
+        "n": 209,
+        "n_correct": 170,
+        "accuracy": 0.8134
+      },
+      "all": {
+        "n": 500,
+        "n_correct": 401,
+        "accuracy": 0.802
+      }
+    },
+    "GPT-5.4-mini__temperature_0": {
+      "obvious": {
+        "n": 108,
+        "n_correct": 91,
+        "accuracy": 0.8426
+      },
+      "subtle": {
+        "n": 183,
+        "n_correct": 135,
+        "accuracy": 0.7377
+      },
+      "expert": {
+        "n": 209,
+        "n_correct": 166,
+        "accuracy": 0.7943
+      },
+      "all": {
+        "n": 500,
+        "n_correct": 392,
+        "accuracy": 0.784
+      }
+    },
+    "GPT-5.4-mini__verbal_probability": {
+      "obvious": {
+        "n": 108,
+        "n_correct": 91,
+        "accuracy": 0.8426
+      },
+      "subtle": {
+        "n": 183,
+        "n_correct": 133,
+        "accuracy": 0.7268
+      },
+      "expert": {
+        "n": 209,
+        "n_correct": 167,
+        "accuracy": 0.799
+      },
+      "all": {
+        "n": 500,
+        "n_correct": 391,
+        "accuracy": 0.782
+      }
+    },
+    "Gemini Pro (latest)__log_probability": {
+      "obvious": {
+        "n": 108,
+        "n_correct": 0,
+        "accuracy": 0.0
+      },
+      "subtle": {
+        "n": 183,
+        "n_correct": 0,
+        "accuracy": 0.0
+      },
+      "expert": {
+        "n": 209,
+        "n_correct": 0,
+        "accuracy": 0.0
+      },
+      "all": {
+        "n": 500,
+        "n_correct": 0,
+        "accuracy": 0.0
+      }
+    },
+    "Gemini Pro (latest)__self_consistency": {
+      "obvious": {
+        "n": 108,
+        "n_correct": 106,
+        "accuracy": 0.9815
+      },
+      "subtle": {
+        "n": 183,
+        "n_correct": 168,
+        "accuracy": 0.918
+      },
+      "expert": {
+        "n": 209,
+        "n_correct": 203,
+        "accuracy": 0.9713
+      },
+      "all": {
+        "n": 500,
+        "n_correct": 477,
+        "accuracy": 0.954
+      }
+    },
+    "Gemini Pro (latest)__temperature_0": {
+      "obvious": {
+        "n": 108,
+        "n_correct": 105,
+        "accuracy": 0.9722
+      },
+      "subtle": {
+        "n": 183,
+        "n_correct": 167,
+        "accuracy": 0.9126
+      },
+      "expert": {
+        "n": 209,
+        "n_correct": 201,
+        "accuracy": 0.9617
+      },
+      "all": {
+        "n": 500,
+        "n_correct": 473,
+        "accuracy": 0.946
+      }
+    },
+    "Gemini Pro (latest)__verbal_probability": {
+      "obvious": {
+        "n": 108,
+        "n_correct": 105,
+        "accuracy": 0.9722
+      },
+      "subtle": {
+        "n": 183,
+        "n_correct": 167,
+        "accuracy": 0.9126
+      },
+      "expert": {
+        "n": 209,
+        "n_correct": 201,
+        "accuracy": 0.9617
+      },
+      "all": {
+        "n": 500,
+        "n_correct": 473,
+        "accuracy": 0.946
+      }
+    }
+  }
+}

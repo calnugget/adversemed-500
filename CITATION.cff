@@ -10,6 +10,8 @@ authors:
 version: "1.0.0"
 date-released: "2026-08-15"
 license: MIT
+license-url: "https://github.com/calnugget/adversemed-500/blob/main/LICENSE"
+# Code is MIT; the dataset files are CC-BY-4.0 (see LICENSE-DATA).
 repository-code: "https://github.com/calnugget/adversemed-500"
 url: "https://osf.io/mehu4"
 keywords:

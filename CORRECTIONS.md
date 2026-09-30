@@ -1,6 +1,6 @@
 # Corrections to the released analysis outputs
 
-**Staged 2026-09-28. Not yet pushed to the public repository.**
+**Published 2026-09-29** in commit `567b4bb` of `github.com/calnugget/adversemed-500`.
 
 This file records a correction applied to the AdverseMed-500 analysis on **2026-08-24**, after the
 inference runs had been logged and after the first public release. The public GitHub repository
@@ -83,11 +83,14 @@ and that no conclusion depends on it.
 
 ## How to reproduce this
 
-From the repository root, with the raw inference logs in place:
+From the repository root. **The raw inference logs are not in this repository** — fetch them from
+the Zenodo archive first (concept DOI `10.5281/zenodo.21961770`, which resolves to the newest
+version; v1.0.0 carries no inference logs). Unpack them somewhere and point the first command at
+that directory:
 
 ```
-python3 reparse_confidence.py inference_outputs/adversemed_500 inference_outputs/adversemed_500_reparsed
-python3 analyze.py summarize --input-dir inference_outputs/adversemed_500_reparsed --output analysis_outputs/summary.md
+python3 inference_pipeline/reparse_confidence.py <raw-logs-dir> <reparsed-dir>
+python3 inference_pipeline/analyze.py summarize --input-dir <reparsed-dir> --output scoring/analysis_outputs/summary.md
 ```
 
 The raw logs are left untouched; corrected copies are written to a separate directory so the archive
@@ -108,7 +111,7 @@ usable rows and are not printed as table rows in the paper.
 (SHA `6ea91511…`) was a *different* corpus from the published `adversemed_500_v1.1.jsonl`
 (SHA `ab0ce969…`): it added the `contestable` flag on 150 items and softened 25 premise
 descriptions. It has been renamed **`adversemed_500_v1.2.jsonl`** so that the published identifier
-keeps its meaning. `datasets/RELEASE_NOTES_v1.1.md` continues to describe the published file and its
+keeps its meaning. `benchmark/RELEASE_NOTES_v1.1.md` continues to describe the published file and its
 hash, which is correct.
 
 **A miscount in the paper.** §3.3 states that a filter matching only the full word returns **77**

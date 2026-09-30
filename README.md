@@ -1,6 +1,6 @@
 # AdverseMed-500
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21961771-blue)](https://doi.org/10.5281/zenodo.21961771)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21961770-blue)](https://doi.org/10.5281/zenodo.21961770)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![PyPI: adversemed-gen](https://img.shields.io/badge/pypi-adversemed--gen-orange)](https://pypi.org/project/adversemed-gen/)
@@ -72,14 +72,22 @@ Colab: click the "Open in Colab" badge above for a runnable demo notebook.
 ```
 adversemed-500/
 ├── README.md                              # you are here
-├── LICENSE                                # MIT
+├── LICENSE                                # MIT (code)
+├── LICENSE-DATA                           # CC BY 4.0 (dataset + analysis outputs)
+├── CORRECTIONS.md                         # what changed in the published numbers, and when
+├── REPRODUCING.md                         # how to regenerate the papers' tables
 ├── CITATION.cff                           # for citation-manager tools
 ├── .gitignore
 ├── PROTOCOL.md                            # full study protocol
 ├── THESIS.md                              # thesis statement + design rationale
 ├── benchmark/
-│   ├── adversemed_500.jsonl               # the 500 questions
-│   ├── manifest.json                      # SHA + row counts + category splits
+│   ├── adversemed_500.jsonl               # the 500 questions (v1.1, the published corpus)
+│   ├── adversemed_500_v1.2.jsonl          # v1.2: adds `contestable`, softens 25 premises
+│   ├── adversemed_500_control_v1.jsonl    # 285-item control set (§5.2, Table 7)
+│   ├── adversemed_500_control_v1.preshuffle.jsonl
+│   ├── contraindication_subtypes.json     # sub-type classification of the 150 items
+│   ├── twin_review_log.jsonl              # twin-review adjudication log
+│   ├── manifest.json                      # SHA + row counts + category splits (generated)
 │   ├── SHA256SUMS
 │   ├── PATTERNS.md                        # 65-pattern failure library
 │   ├── CATEGORIES.md                      # category definitions
@@ -124,6 +132,8 @@ adversemed-500/
 │   └── gpt-5.4-mini__self_consistency.summary.json
 └── scoring/
     └── analysis_outputs/                  # calibration-analysis JSONs used in the paper
+        ├── summary.md                     # the 20-row table; Cost differs from the paper (see REPRODUCING.md)
+        └── difficulty_breakdown.json      # obvious/subtle/expert accuracy per (model x method)
         ├── summary.md
         └── <model>__<method>.analysis.json
 ```
@@ -211,15 +221,15 @@ seed-benchmark sources (MedQA, MMLU-med, PubMedQA) as documented in
                    Language Models}},
   year         = 2026,
   publisher    = {Zenodo},
-  version      = {1.0.0},
-  doi          = {10.5281/zenodo.21961771},
-  url          = {https://doi.org/10.5281/zenodo.21961771}
+  doi          = {10.5281/zenodo.21961770},
+  url          = {https://doi.org/10.5281/zenodo.21961770},
+  note         = {Concept DOI; always resolves to the newest archived version}
 }
 ```
 
 ### APA
 
-Vallamsetty, D. (2026). *AdverseMed-500: A Hand-Verified False-Premise Benchmark for Measuring Miscalibration in Medical Language Models* (Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21961771
+Vallamsetty, D. (2026). *AdverseMed-500: A Hand-Verified False-Premise Benchmark for Measuring Miscalibration in Medical Language Models* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21961770
 
 ## Contributing
 
@@ -228,6 +238,15 @@ improve the scoring pipeline, or report issues with a specific benchmark item.
 
 ## License
 
-MIT — see `LICENSE`. The benchmark data itself is released under the same
-MIT license; please cite the seed sources per their terms if you reuse
-material derived from MedQA / MMLU-med / PubMedQA.
+**Code is MIT, data is CC BY 4.0.** The generator, inference pipeline and
+scoring/analysis code are under the MIT License (`LICENSE`). The benchmark
+corpus, the per-item YAML verification records and the analysis outputs are
+under Creative Commons Attribution 4.0 International (`LICENSE-DATA`).
+
+This split is the conventional one for a release that is both a dataset and a
+toolchain, and it matches the Hugging Face dataset card. Before 2026-09-29
+this file said MIT for the data too; `LICENSE-DATA` records that correction
+and confirms that no MIT grant already received is revoked.
+
+If you reuse material derived from the MedQA / MMLU-Med / PubMedQA seed
+corpora, cite those sources under their own terms as well.
