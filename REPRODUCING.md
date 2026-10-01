@@ -22,19 +22,30 @@ diff /tmp/summary.md scoring/analysis_outputs/summary.md
 
 `scoring/analysis_outputs/summary.md` is the output of exactly that command.
 
-### One column does not match the papers: Cost
+### The Cost column: two price tables, and how to get the paper's
 
-`analyze.py` sums the `cost_usd` recorded on each row at run time, using the provider price
-constants that were in the code when the run executed. The papers instead re-price the same token
-counts at provider list prices retrieved 2026-08-24, because several of the run-time constants had
-gone stale. **So the Cost column here and the Cost column in the papers are different numbers
-computed from the same tokens, and neither is a typo.** Every other column matches.
+`analyze.py` sums the `cost_usd` recorded on each row at run time, from price constants that were
+in the code when the run executed. Those constants went stale -- notably Opus, which carried legacy
+Claude-3-era pricing at three times the published rate. The papers instead reprice the same token
+counts at published list prices retrieved 2026-08-24.
 
-The 2026-08-24 price table is not yet published here, which means the papers' Cost figures are
-currently not reproducible from this repository. That is a real gap and it is being fixed; until
-then, treat the Cost column in this repo as run-time pricing and the papers' as list pricing. The
-token counts both rest on (`prompt_tokens`, `completion_tokens`) are in the raw logs and are not in
-dispute.
+**Both numbers are now reproducible here.** The price table is printed in the paper and implemented
+in `inference_pipeline/reprice.py`:
+
+```bash
+python3 inference_pipeline/reprice.py <reparsed-dir> --expect-total 12.63
+```
+
+It prints repriced and logged cost side by side per model, and refuses to run on a model it has no
+price for rather than letting it contribute a silent zero. The token counts both figures rest on
+(`prompt_tokens`, `completion_tokens`) are in the raw logs and are not in dispute.
+
+Three caveats ship with the table. `deepseek-chat` is absent from DeepSeek's price list and uses the
+nearest successor rate; DeepSeek has since renamed and repriced again, so that row is no longer
+obtainable from a current vendor page. Gemini's logged completion count excludes billed thinking
+tokens, so its cost cells are lower bounds rather than estimates. And the table is dated
+2026-08-24 while the runs executed 2026-08-02, so a vendor reprice between those dates is
+unmodelled.
 
 ## Why there is a re-parse step
 
