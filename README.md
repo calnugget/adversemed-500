@@ -163,7 +163,7 @@ here before 2026-09-28 disagreed with the paper in six of twenty cells.
 - Claude Haiku 4.5 (Anthropic)
 - Claude Opus 4.7 (Anthropic)
 - DeepSeek-Chat
-- Gemini 2.5 Pro (Google)
+- `gemini-pro-latest` (Google; a rolling alias; result files are named `gemini-2.5-pro__*` for historical reasons)
 - GPT-5.4-mini (OpenAI)
 
 Each model was run with four elicitation methods: `temperature_0`,
