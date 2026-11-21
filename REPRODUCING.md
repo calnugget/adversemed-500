@@ -10,17 +10,32 @@ carries the corpus, the pipeline and the analysis outputs. Get the logs first:
 #    https://doi.org/10.5281/zenodo.21961770
 #    Unpack it; the raw logs are the per-run *.jsonl files.
 
-# 2. Re-parse confidence out of the raw responses, then summarize.
-python3 inference_pipeline/reparse_confidence.py <raw-logs-dir> <reparsed-dir>
-python3 inference_pipeline/analyze.py summarize --input-dir <reparsed-dir> --output /tmp/summary.md
+#    In v1.2.1 the pristine logs are inference_outputs/adversemed_500_raw/.
 
-# 3. Compare against the published summary.
-diff /tmp/summary.md scoring/analysis_outputs/summary.md
-# The only expected difference is the first line, which records your local input path.
-# Every table row should match exactly, EXCEPT the Cost column -- see the note below.
+# 2. Re-parse confidence out of the raw responses   (expect: 1,813 rows changed)
+python3 inference_pipeline/reparse_confidence.py <raw-logs-dir> <reparsed-dir>
+
+# 3. Repair the out-of-range log-probability confidences   (expect: 26 repaired, 0 rejected)
+#    Not optional: skip it and gpt-5.4-mini log-probability comes out 474/500, ECE 0.148.
+python3 inference_pipeline/fix_logprob_confidences.py <reparsed-dir> <lpfix-dir>
+
+# 4. Lay the repaired runs over the re-parsed ones, then summarize.
+cp -R <reparsed-dir> <final-dir>
+cp <lpfix-dir>/*.jsonl <final-dir>/
+python3 inference_pipeline/analyze.py summarize --input-dir <final-dir> --output /tmp/summary.md
+
+# 5. Compare against the published summary. This should print nothing.
+diff <(tail -n +2 /tmp/summary.md) <(tail -n +2 scoring/analysis_outputs/summary.md)
+# Line 1 is skipped because it records your local input path.
 ```
 
-`scoring/analysis_outputs/summary.md` is the output of exactly that command.
+`scoring/analysis_outputs/summary.md` is the output of exactly those commands; this was checked on
+2026-11-21. Every column matches the paper except Cost (see the note below).
+
+To check that AURC and Risk@90 do not depend on row order, unpack the archive's
+`inference_outputs/adversemed_500_final/` at the repository root and run
+`python3 inference_pipeline/test_coverage_risk_ties.py`. It should report 17 real runs
+shuffle-invariant; without the logs it runs only the synthetic check.
 
 ### The Cost column: two price tables, and how to get the paper's
 
@@ -44,8 +59,8 @@ Three caveats ship with the table. `deepseek-chat` is absent from DeepSeek's pri
 nearest successor rate; DeepSeek has since renamed and repriced again, so that row is no longer
 obtainable from a current vendor page. Gemini's logged completion count excludes billed thinking
 tokens, so its cost cells are lower bounds rather than estimates. And the table is dated
-2026-08-24 while the runs executed 2026-08-02, so a vendor reprice between those dates is
-unmodelled.
+2026-08-24 while the runs executed on 1-2 August 2026 (UTC), so a vendor reprice between those
+dates is unmodelled.
 
 ## Why there is a re-parse step
 
@@ -66,8 +81,11 @@ confidence value from them was wrong.
    analysis plan, not a bug fix**, and it is disclosed as such in each paper's deviations
    appendix.
 
-`inference_outputs_raw/` is the untouched log. `inference_outputs_reparsed/` is what the
-analysis consumes. Both ship so the correction is auditable rather than assumed.
+In the Zenodo archive, `inference_outputs/adversemed_500_raw/` is the untouched log and
+`inference_outputs/adversemed_500_final/` is what the analysis consumes. Both ship so the
+correction is auditable rather than assumed. Two later corrections, to the log-probability
+derivation (2026-09-28) and to ties in the coverage-risk curve (2026-10-01), are described in
+`CORRECTIONS.md`.
 
 **Accuracy is unaffected.** `correct` is `chosen_answer == ground_truth` and does not depend on
 confidence. `reparse_confidence.py` asserts this and exits non-zero if any row's `correct`
@@ -78,10 +96,11 @@ changes.
 - `benchmark/adversemed_500.jsonl` — **v1.0**, SHA-256
   `26cae9e190bc96a96814241ef4e0c779f2ff7de51dd811dcdb425a8af1c586a9`.
   **Every published result was computed on this file.**
-- `benchmark/adversemed_500_v1.1.jsonl` — a **metadata-only** enrichment adding resolvable
-  source URLs to 310 of the 500 items. Item content is byte-identical to v1.0. It is provided
-  for readers who want to follow the citations, and is **not** the analysis basis.
-  See `benchmark/RELEASE_NOTES_v1.1.md`, including the limits of what a resolving URL shows.
+- `benchmark/adversemed_500_v1.2.jsonl` — an **annotated** copy. Questions, choices, ground
+  truth, category and tier are byte-identical to v1.0. It adds source URLs to all 500
+  items, a `contestable` flag on the 150 contraindication items (25 marked contestable), and
+  softer wording in 25 `false_premise_description` fields. It is provided for readers who want
+  to follow the citations, and is **not** the analysis basis.
 
 ## Known limitation
 

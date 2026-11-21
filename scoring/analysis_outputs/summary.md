@@ -7,25 +7,25 @@
 | Model | Method | n_use | Acc | Abst | ECE | Brier | AURC | Risk@90 | Cost |
 |---|---|---|---|---|---|---|---|---|---|
 | claude-haiku-4-5 | log_probability | 0/500 | 0.000 | 0.000 | — | — | — | — | 0.0000 |
-| claude-haiku-4-5 | self_consistency | 500/500 | 0.802 | 0.802 | 0.176 | 0.173 | 0.147 | 0.160 | 0.8540 |
-| claude-haiku-4-5 | temperature_0 | 500/500 | 0.810 | 0.810 | 0.159 | 0.121 | 0.027 | 0.100 | 0.1708 |
-| claude-haiku-4-5 | verbal_probability | 500/500 | 0.806 | 0.806 | 0.161 | 0.122 | 0.028 | 0.104 | 0.1708 |
+| claude-haiku-4-5 | self_consistency | 500/500 | 0.802 | 0.802 | 0.176 | 0.173 | 0.160 | 0.159 | 0.8540 |
+| claude-haiku-4-5 | temperature_0 | 500/500 | 0.810 | 0.810 | 0.159 | 0.121 | 0.030 | 0.100 | 0.1708 |
+| claude-haiku-4-5 | verbal_probability | 500/500 | 0.806 | 0.806 | 0.161 | 0.122 | 0.031 | 0.104 | 0.1708 |
 | claude-opus-4-7 | log_probability | 0/500 | 0.000 | 0.000 | — | — | — | — | 0.0000 |
-| claude-opus-4-7 | self_consistency | 499/500 | 0.930 | 0.930 | 0.068 | 0.067 | 0.049 | 0.060 | 18.7259 |
-| claude-opus-4-7 | temperature_0 | 499/500 | 0.932 | 0.932 | 0.089 | 0.068 | 0.032 | 0.051 | 3.7529 |
-| claude-opus-4-7 | verbal_probability | 499/500 | 0.930 | 0.930 | 0.089 | 0.069 | 0.032 | 0.049 | 3.7452 |
+| claude-opus-4-7 | self_consistency | 499/500 | 0.930 | 0.930 | 0.068 | 0.067 | 0.064 | 0.065 | 18.7259 |
+| claude-opus-4-7 | temperature_0 | 499/500 | 0.932 | 0.932 | 0.089 | 0.068 | 0.031 | 0.049 | 3.7529 |
+| claude-opus-4-7 | verbal_probability | 499/500 | 0.930 | 0.930 | 0.089 | 0.069 | 0.031 | 0.050 | 3.7452 |
 | deepseek-chat | log_probability | 135/500 | 0.730 | 0.730 | 1.000 | 1.000 | 0.993 | 1.000 | 0.0177 |
-| deepseek-chat | self_consistency | 500/500 | 0.716 | 0.716 | 0.211 | 0.218 | 0.202 | 0.240 | 0.0886 |
-| deepseek-chat | temperature_0 | 500/500 | 0.728 | 0.728 | 0.243 | 0.224 | 0.067 | 0.191 | 0.0177 |
-| deepseek-chat | verbal_probability | 500/500 | 0.724 | 0.724 | 0.247 | 0.227 | 0.071 | 0.196 | 0.0177 |
+| deepseek-chat | self_consistency | 500/500 | 0.716 | 0.716 | 0.211 | 0.218 | 0.196 | 0.239 | 0.0886 |
+| deepseek-chat | temperature_0 | 500/500 | 0.728 | 0.728 | 0.243 | 0.224 | 0.056 | 0.191 | 0.0177 |
+| deepseek-chat | verbal_probability | 500/500 | 0.724 | 0.724 | 0.247 | 0.227 | 0.059 | 0.196 | 0.0177 |
 | gemini-2.5-pro | log_probability | 0/500 | 0.000 | 0.000 | — | — | — | — | 0.0000 |
-| gemini-2.5-pro | self_consistency | 500/500 | 0.954 | 0.954 | 0.044 | 0.044 | 0.022 | 0.031 | 0.8747 |
-| gemini-2.5-pro | temperature_0 | 500/500 | 0.946 | 0.946 | 0.045 | 0.046 | 0.003 | 0.016 | 0.1749 |
-| gemini-2.5-pro | verbal_probability | 500/500 | 0.946 | 0.946 | 0.045 | 0.047 | 0.006 | 0.016 | 0.1750 |
-| gpt-5.4-mini | log_probability | 500/500 | 0.786 | 0.786 | 0.171 | 0.192 | 0.328 | 0.191 | 0.0230 |
-| gpt-5.4-mini | self_consistency | 500/500 | 0.802 | 0.802 | 0.130 | 0.161 | 0.138 | 0.162 | 0.1152 |
-| gpt-5.4-mini | temperature_0 | 500/500 | 0.784 | 0.784 | 0.176 | 0.184 | 0.093 | 0.162 | 0.0230 |
-| gpt-5.4-mini | verbal_probability | 500/500 | 0.782 | 0.782 | 0.173 | 0.183 | 0.093 | 0.167 | 0.0230 |
+| gemini-2.5-pro | self_consistency | 500/500 | 0.954 | 0.954 | 0.044 | 0.044 | 0.037 | 0.037 | 0.8747 |
+| gemini-2.5-pro | temperature_0 | 500/500 | 0.946 | 0.946 | 0.045 | 0.046 | 0.006 | 0.017 | 0.1749 |
+| gemini-2.5-pro | verbal_probability | 500/500 | 0.946 | 0.946 | 0.045 | 0.047 | 0.008 | 0.021 | 0.1750 |
+| gpt-5.4-mini | log_probability | 500/500 | 0.786 | 0.786 | 0.171 | 0.192 | 0.338 | 0.191 | 0.0230 |
+| gpt-5.4-mini | self_consistency | 500/500 | 0.802 | 0.802 | 0.130 | 0.161 | 0.141 | 0.166 | 0.1152 |
+| gpt-5.4-mini | temperature_0 | 500/500 | 0.784 | 0.784 | 0.176 | 0.184 | 0.092 | 0.163 | 0.0230 |
+| gpt-5.4-mini | verbal_probability | 500/500 | 0.782 | 0.782 | 0.173 | 0.183 | 0.098 | 0.165 | 0.0230 |
 
 ## Model ranking per method (by ECE, lower = better)
 

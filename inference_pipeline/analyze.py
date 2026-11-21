@@ -7,8 +7,11 @@ Metric definitions (PROTOCOL §7):
 - Expected Calibration Error (ECE): 10-bin, weighted average of |acc − conf| per bin
 - Brier score: mean of (confidence − correct)²
 - Reliability diagram: per-bin (mean_conf, mean_acc, count)
-- Coverage-risk curve: sort desc by confidence, cumulative error vs coverage%
-- AURC: area under risk-coverage curve (trapezoid)
+- Coverage-risk curve: sort desc by confidence, cumulative error vs coverage%.
+  Ties are resolved by averaging risk across each equal-confidence group, so the
+  curve does not depend on input row order (see `coverage_risk_curve`).
+- AURC: area under risk-coverage curve (trapezoid), reported under the averaging
+  tie convention with an optimistic/pessimistic envelope alongside it
 - Adversarial abstention rate: fraction of AdverseMed-500 questions where model
   chose "abstain"
 
@@ -136,22 +139,75 @@ def reliability_diagram_bins(
 
 
 def coverage_risk_curve(
-    confidences: list[float], correct: list[int | bool]
+    confidences: list[float], correct: list[int | bool], tie_handling: str = "average"
 ) -> tuple[list[float], list[float]]:
     """Sort by descending confidence; at each cumulative coverage fraction return the
-    cumulative error rate. Returns (coverages, risks) parallel arrays of same length."""
+    cumulative error rate. Returns (coverages, risks) parallel arrays of same length.
+
+    **Tie convention (`tie_handling="average"`, the default and the convention this
+    project reports).** Items that share a confidence value have no defined order, so
+    the curve must not depend on one. Within each group of equal confidence we
+    distribute that group's errors *uniformly* across the group's positions: if
+    ``n0`` items with ``E0`` errors precede a group of ``g`` items carrying ``e``
+    errors, the risk at the group's ``k``-th position (``k = 1..g``) is
+
+        (E0 + k * e / g) / (n0 + k)
+
+    This is the **average risk over the group**, and because the risk at every
+    position is linear in the cumulative error count, both AURC and Risk@coverage
+    computed from this curve equal their *expectations* over a uniformly random
+    ordering within each tie group. The curve is therefore invariant to the order of
+    the input rows, which the naive stable-sort version was not: self-consistency
+    confidence takes only 3--4 distinct values over 500 items, and row-order shuffles
+    moved the resulting AURC by up to 0.05 absolute.
+
+    The two other accepted conventions are available for an envelope:
+      * ``tie_handling="optimistic"`` --- all correct items first within each tie group
+        (the best ordering an adversary could pick), a lower bound on AURC;
+      * ``tie_handling="pessimistic"`` --- all errors first within each tie group,
+        an upper bound.
+    The reported value always lies inside that envelope.
+    """
+    if tie_handling not in ("average", "optimistic", "pessimistic"):
+        raise ValueError(f"unknown tie_handling {tie_handling!r}")
     if not confidences:
         return [], []
-    pairs = sorted(zip(confidences, correct), key=lambda x: -x[0])
-    n = len(pairs)
+
+    n = len(confidences)
+    ys = [1 if y else 0 for y in correct]
+
+    # Group by confidence, descending. Grouping (rather than sorting rows) is what
+    # removes the input-order dependence.
+    groups: dict[float, list[int]] = {}
+    for c, y in zip(confidences, ys):
+        groups.setdefault(float(c), []).append(y)
+
     coverages: list[float] = []
     risks: list[float] = []
-    cum_errors = 0
-    for i, (_, y) in enumerate(pairs, start=1):
-        if not y:
-            cum_errors += 1
-        coverages.append(i / n)
-        risks.append(cum_errors / i)
+    cum_errors = 0.0
+    seen = 0
+    for c in sorted(groups, reverse=True):
+        members = groups[c]
+        g = len(members)
+        e = sum(1 for y in members if not y)
+        if tie_handling == "average":
+            per_step = e / g
+            for k in range(1, g + 1):
+                seen += 1
+                cum_errors += per_step
+                coverages.append(seen / n)
+                risks.append(cum_errors / seen)
+        else:
+            # Materialise the extreme ordering, then walk it.
+            order = [0] * e + [1] * (g - e)          # errors first
+            if tie_handling == "optimistic":
+                order = [1] * (g - e) + [0] * e      # correct first
+            for y in order:
+                seen += 1
+                if not y:
+                    cum_errors += 1
+                coverages.append(seen / n)
+                risks.append(cum_errors / seen)
     return coverages, risks
 
 
@@ -203,6 +259,11 @@ def analyze_run(rows: list[dict]) -> dict:
     correct = [bool(r.get("correct")) for r in valid]
 
     covs, risks = coverage_risk_curve(confidences, correct)
+    # Tie envelope: the widest AURC / Risk@90 any ordering of the equal-confidence
+    # groups could produce. The reported "average"-convention value sits inside it.
+    covs_lo, risks_lo = coverage_risk_curve(confidences, correct, "optimistic")
+    covs_hi, risks_hi = coverage_risk_curve(confidences, correct, "pessimistic")
+    n_distinct_conf = len(set(confidences))
     return {
         "n_total_rows": len(rows),
         "n_usable_rows": len(valid),
@@ -215,8 +276,14 @@ def analyze_run(rows: list[dict]) -> dict:
         "brier_score": brier_score(confidences, correct),
         "reliability_bins": reliability_diagram_bins(confidences, correct, n_bins=10),
         "coverage_risk": {"coverages": covs, "risks": risks},
+        "tie_handling": "average",
+        "n_distinct_confidence_values": n_distinct_conf,
         "aurc": aurc(covs, risks),
+        "aurc_tie_optimistic": aurc(covs_lo, risks_lo),
+        "aurc_tie_pessimistic": aurc(covs_hi, risks_hi),
         "risk_at_coverage_90": risk_at_coverage(covs, risks, 0.90),
+        "risk_at_coverage_90_tie_optimistic": risk_at_coverage(covs_lo, risks_lo, 0.90),
+        "risk_at_coverage_90_tie_pessimistic": risk_at_coverage(covs_hi, risks_hi, 0.90),
         "risk_at_coverage_50": risk_at_coverage(covs, risks, 0.50),
         "total_cost_usd": sum(r.get("cost_usd", 0.0) for r in rows),
         "total_wall_ms": sum(r.get("wall_ms", 0) for r in rows),

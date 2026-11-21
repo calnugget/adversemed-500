@@ -356,8 +356,14 @@
       1.0
     ]
   },
+  "tie_handling": "average",
+  "n_distinct_confidence_values": 1,
   "aurc": 0.9925925925925926,
+  "aurc_tie_optimistic": 0.9925925925925926,
+  "aurc_tie_pessimistic": 0.9925925925925926,
   "risk_at_coverage_90": 1.0,
+  "risk_at_coverage_90_tie_optimistic": 1.0,
+  "risk_at_coverage_90_tie_pessimistic": 1.0,
   "risk_at_coverage_50": 1.0,
   "total_cost_usd": 0.017725119999999997,
   "total_wall_ms": 432270,
@@ -513,8 +519,14 @@
           1.0
         ]
       },
+      "tie_handling": "average",
+      "n_distinct_confidence_values": 1,
       "aurc": 0.967741935483871,
+      "aurc_tie_optimistic": 0.967741935483871,
+      "aurc_tie_pessimistic": 0.967741935483871,
       "risk_at_coverage_90": 1.0,
+      "risk_at_coverage_90_tie_optimistic": 1.0,
+      "risk_at_coverage_90_tie_pessimistic": 1.0,
       "risk_at_coverage_50": 1.0,
       "total_cost_usd": 0.005228859999999999,
       "total_wall_ms": 132768,
@@ -680,8 +692,14 @@
           1.0
         ]
       },
+      "tie_handling": "average",
+      "n_distinct_confidence_values": 1,
       "aurc": 0.9722222222222222,
+      "aurc_tie_optimistic": 0.9722222222222222,
+      "aurc_tie_pessimistic": 0.9722222222222222,
       "risk_at_coverage_90": 1.0,
+      "risk_at_coverage_90_tie_optimistic": 1.0,
+      "risk_at_coverage_90_tie_pessimistic": 1.0,
       "risk_at_coverage_50": 1.0,
       "total_cost_usd": 0.004248999999999999,
       "total_wall_ms": 104831,
@@ -869,8 +887,14 @@
           1.0
         ]
       },
+      "tie_handling": "average",
+      "n_distinct_confidence_values": 1,
       "aurc": 0.9787234042553192,
+      "aurc_tie_optimistic": 0.9787234042553192,
+      "aurc_tie_pessimistic": 0.9787234042553192,
       "risk_at_coverage_90": 1.0,
+      "risk_at_coverage_90_tie_optimistic": 1.0,
+      "risk_at_coverage_90_tie_pessimistic": 1.0,
       "risk_at_coverage_50": 1.0,
       "total_cost_usd": 0.0036513399999999994,
       "total_wall_ms": 86158,
@@ -1006,8 +1030,14 @@
           1.0
         ]
       },
+      "tie_handling": "average",
+      "n_distinct_confidence_values": 1,
       "aurc": 0.9523809523809523,
+      "aurc_tie_optimistic": 0.9523809523809523,
+      "aurc_tie_pessimistic": 0.9523809523809523,
       "risk_at_coverage_90": 1.0,
+      "risk_at_coverage_90_tie_optimistic": 1.0,
+      "risk_at_coverage_90_tie_pessimistic": 1.0,
       "risk_at_coverage_50": 1.0,
       "total_cost_usd": 0.00459592,
       "total_wall_ms": 108513,
@@ -1209,8 +1239,14 @@
           1.0
         ]
       },
+      "tie_handling": "average",
+      "n_distinct_confidence_values": 1,
       "aurc": 0.9811320754716981,
+      "aurc_tie_optimistic": 0.9811320754716981,
+      "aurc_tie_pessimistic": 0.9811320754716981,
       "risk_at_coverage_90": 1.0,
+      "risk_at_coverage_90_tie_optimistic": 1.0,
+      "risk_at_coverage_90_tie_pessimistic": 1.0,
       "risk_at_coverage_50": 1.0,
       "total_cost_usd": 0.007392279999999999,
       "total_wall_ms": 181341,
@@ -1352,8 +1388,14 @@
           1.0
         ]
       },
+      "tie_handling": "average",
+      "n_distinct_confidence_values": 1,
       "aurc": 0.9583333333333334,
+      "aurc_tie_optimistic": 0.9583333333333334,
+      "aurc_tie_pessimistic": 0.9583333333333334,
       "risk_at_coverage_90": 1.0,
+      "risk_at_coverage_90_tie_optimistic": 1.0,
+      "risk_at_coverage_90_tie_pessimistic": 1.0,
       "risk_at_coverage_50": 1.0,
       "total_cost_usd": 0.0038632999999999996,
       "total_wall_ms": 93867,
@@ -1563,8 +1605,14 @@
           1.0
         ]
       },
+      "tie_handling": "average",
+      "n_distinct_confidence_values": 1,
       "aurc": 0.9827586206896551,
+      "aurc_tie_optimistic": 0.9827586206896551,
+      "aurc_tie_pessimistic": 0.9827586206896551,
       "risk_at_coverage_90": 1.0,
+      "risk_at_coverage_90_tie_optimistic": 1.0,
+      "risk_at_coverage_90_tie_pessimistic": 1.0,
       "risk_at_coverage_50": 1.0,
       "total_cost_usd": 0.006469539999999999,
       "total_wall_ms": 157062,
