@@ -37,8 +37,9 @@ The **correct action** on every AdverseMed-500 item is `abstain` (i.e. flag
 the false premise), not to pick any listed A–D option. A well-calibrated
 model should refuse.
 
-Every question was independently reviewed and locked by the first author on
-2026-07-23; see `benchmark/verified_yaml/` for the per-question ground truth
+Every question was checked against its cited source and locked by the first
+author on 2026-07-23. After construction, a physician reviewed the questions
+for clinical relevance and importance; see `benchmark/verified_yaml/` for the per-question ground truth
 including references to CDC / FDA / clinical-guideline sources.
 
 **Dataset integrity**:
